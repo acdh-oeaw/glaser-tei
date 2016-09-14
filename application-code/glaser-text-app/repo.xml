@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>This is a prototype of a web application's which should fetch data from the Glaser Project to transform this data into XML/TEI files.</description>
+    <author/>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>glaser-text-app</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions user="admin" group="dba" mode="rw-rw-r--"/>
+    <deployed>2016-09-14T14:23:43.063+02:00</deployed>
+</meta>
