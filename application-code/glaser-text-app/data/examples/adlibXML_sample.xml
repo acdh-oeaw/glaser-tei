@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adlibXML>
+    <recordList>
+        <record priref="1110000009" created="2015-10-01T00:19:11" modification="2016-05-13T19:10:40" selected="False">
+            <alternative_number>A285</alternative_number>
+            <alternative_number.date/>
+            <alternative_number.institution>ÖAW-BASIS</alternative_number.institution>
+            <alternative_number.type>A</alternative_number.type>
+            <creator/>
+            <creator.date_of_birth/>
+            <creator.date_of_death/>
+            <creator.history/>
+            <creator.lref/>
+            <creator.qualifier/>
+            <creator.role/>
+            <creator.role.lref/>
+            <description_level>
+                <value lang="neutral">ITEM</value>
+                <value lang="0">item</value>
+                <value lang="1">stuk</value>
+                <value lang="2">pièce</value>
+                <value lang="3">Einzelstück, Einheit</value>
+                <value lang="4">وعاء</value>
+                <value lang="5">pezzo</value>
+                <value lang="6">τεκμήριο</value>
+            </description_level>
+            <digital_reference>3D/AT-OeAW-BA-3-27-A-GL1310.obj</digital_reference>
+            <digital_reference.description lang="" invariant="false">3D</digital_reference.description><!--            tei:revisionDesc-->
+            <edit.date>2016-05-13</edit.date>
+            <edit.date>2016-05-11</edit.date>
+            <edit.date>2016-04-13</edit.date>
+            <edit.date>2016-04-13</edit.date>
+            <edit.date>2016-04-13</edit.date>
+            <edit.date>2016-04-04</edit.date>
+            <edit.date>2016-03-31</edit.date>
+            <edit.date>2016-03-21</edit.date>
+            <edit.date>2016-03-09</edit.date>
+            <edit.date>2015-09-30</edit.date>
+            <edit.date>2015-09-23</edit.date>
+            <edit.date>2015-09-23</edit.date>
+            <edit.name>acdhadmin</edit.name>
+            <edit.name>ghatke</edit.name>
+            <edit.name>acdhadmin</edit.name>
+            <edit.name>acdhadmin</edit.name>
+            <edit.name>acdhadmin</edit.name>
+            <edit.name>paigner</edit.name>
+            <edit.name>paigner</edit.name>
+            <edit.name>ghatke</edit.name>
+            <edit.name>acdhadmin</edit.name>
+            <edit.name>ghatke</edit.name>
+            <edit.name>ghatke</edit.name>
+            <edit.name>ghatke</edit.name>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.notes/>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>thesau</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.source>COLLECT&gt;archivecatalogue</edit.source>
+            <edit.time>19:10:40</edit.time>
+            <edit.time>12:14:13</edit.time>
+            <edit.time>17:06:14</edit.time>
+            <edit.time>17:03:43</edit.time>
+            <edit.time>17:01:27</edit.time>
+            <edit.time>17:23:58</edit.time>
+            <edit.time>16:12:39</edit.time>
+            <edit.time>11:19:16</edit.time>
+            <edit.time>18:36:46</edit.time>
+            <edit.time>10:42:51</edit.time>
+            <edit.time>13:44:45</edit.time>
+            <edit.time>12:00:27</edit.time>
+            <input.date>2015-09-23</input.date>
+            <input.name>ghatke</input.name>
+            <input.source>COLLECT&gt;archivecatalogue</input.source>
+            <input.time>09:24:40</input.time><!--            end tei:revisionDesc-->
+            <Inscription.Bustrophedon>
+                <value lang="neutral">no</value>
+                <value lang="0">No</value>
+                <value lang="3">Nein</value>
+            </Inscription.Bustrophedon>
+            <inscription.content/>
+            <inscription.creator/>
+            <inscription.creator.lref/>
+            <inscription.creator.role/>
+            <inscription.creator.role.lref/>
+            <inscription.date/>
+            <inscription.description>Construction inscription</inscription.description>
+            <Inscription.FirstLineStartsWith>
+                <value lang="neutral">right</value>
+                <value lang="0">Right</value>
+                <value lang="3">Rechts</value>
+            </Inscription.FirstLineStartsWith>
+            <inscription.interpretation/>
+            <inscription.language>Minaic</inscription.language>
+            <inscription.language.lref>29</inscription.language.lref>
+            <inscription.method>
+                <value lang="neutral">MONUMENTAL</value>
+                <value lang="0">Monumental writing</value>
+            </inscription.method>
+            <inscription.notes/>
+            <inscription.position/>
+            <Inscription.Quality>
+                <value lang="neutral">1</value>
+                <value lang="0">1</value>
+                <value lang="3">1</value>
+            </Inscription.Quality>
+            <inscription.script/>
+            <inscription.script.lref/><!-- actual text-->
+            <inscription.translation>1.[......]um has built the tower of Ḥ[....] 2.[...] the gods
+                with [....] 3.[......].</inscription.translation>
+            <inscription.transliteration>1.[..]Γt˥m | Γb˥ny | mḥfdΓs˥ | Ḥ[....] 2.ʾtmr | ʾΓl˥ʾltn |
+                b[....] 3.[......]</inscription.transliteration>
+            <inscription.type/><!-- end of text -->
+            <inscription.type.lref/><!--            tei:msIdentifier-->
+            <institution.name>Bibliothek, Archiv, Sammlungen: Information &amp; Service (BAS:IS)
+                [ÖAW]</institution.name>
+            <institution.name.lref>834</institution.name.lref>
+            <object_number>AT-OeAW-BA-3-27-A-GL1310</object_number>
+            <part_of.description_level>SUB-SERIES</part_of.description_level>
+            <part_of.notes/>
+            <part_of.title>Abklatsche</part_of.title>
+            <part_of_reference>AT-OeAW-BA-3-27-A</part_of_reference>
+            <part_of_reference.lref>1110001189</part_of_reference.lref>
+            <period_enum/>
+            <priref>1110000009</priref>
+            <production.notes/>
+            <production.place>Barāqiš</production.place>
+            <production.place.context>Barāqiš</production.place.context><!-- reference to place-ID? --><!--            reference to object in adlib -->
+            <production.place.lref>731</production.place.lref><!--            geonmaes ID-->
+            <production.place.uri>77129</production.place.uri>
+            <record_access.owner>Admin</record_access.owner>
+            <record_type>
+                <value lang="neutral">OBJECT</value>
+                <value lang="0">single object</value>
+                <value lang="1">enkelvoudig object</value>
+                <value lang="2">objet individuel</value>
+                <value lang="3">Einzelnes Objekt</value>
+                <value lang="5">oggetto singolo</value>
+            </record_type>
+            <reproduction.creator/>
+            <reproduction.creator/>
+            <reproduction.date/>
+            <reproduction.date/>
+            <reproduction.format/>
+            <reproduction.format/><!--            equals facs-->
+            <reproduction.notes lang="" invariant="false">Bild</reproduction.notes>
+            <reproduction.notes lang="" invariant="false">Analyse</reproduction.notes>
+            <reproduction.reference>AT-OeAW-BA-3-27-A-GL1310.png</reproduction.reference>
+            <reproduction.reference>AT-OeAW-BA-3-27-A-GL1310_analyse00.png</reproduction.reference>
+            <reproduction.reference/>
+            <reproduction.reference/>
+            <reproduction.reference.lref>11085</reproduction.reference.lref>
+            <reproduction.reference.lref>11086</reproduction.reference.lref>
+            <reproduction.type lang=""/>
+            <reproduction.type lang=""/>
+            <title lang="" invariant="false">GL1310</title>
+            <title.notes/>
+            <title.term_index lang=""/>
+            <title.type/>
+            <Pc>Barāqiš</Pc>
+        </record>
+    </recordList>
+    <diagnostic>
+        <hits>1</hits>
+        <xmltype>Undefined</xmltype>
+        <link_resolve_time unit="mS" culture="de-DE">0</link_resolve_time>
+        <first_item>1</first_item>
+        <search>priref Equals '1110000009'</search>
+        <sort/>
+        <limit>1</limit>
+        <hits_on_display>1</hits_on_display>
+        <response_time unit="mS" culture="de-DE">0</response_time>
+        <xml_creation_time unit="mS" culture="de-DE">15,6305</xml_creation_time>
+        <dbname>collect</dbname>
+        <dsname>archivecatalogue</dsname>
+        <cgistring>
+            <param name="database">archive</param>
+        </cgistring>
+    </diagnostic>
+</adlibXML>

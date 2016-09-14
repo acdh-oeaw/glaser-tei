@@ -11,6 +11,7 @@ declare function functx:substring-after-last
     replace ($arg,concat('^.*',$delim),'')
  };
 
+(: http://127.0.0.1:8080/exist/apps/glaser-text-app/pages/show.html?document=adlibXML_sample.xml&directory=examples&xslt=adlibXMLtoTEI.xsl :)
 
 (:~
  : This is a sample templating function. It will be called by the templating module if
@@ -115,20 +116,27 @@ declare function app:toc($node as node(), $model as map(*)) {
         </li>   
 };
 
+(:~
+ : perfoms an XSLT transformation
+ :)
 declare function app:XMLtoHTML ($node as node(), $model as map (*), $query as xs:string?) {
 let $ref := xs:string(request:get-parameter("document", ""))
-let $xml := doc(replace(concat($config:app-root,"/data/editions/",$ref), '/exist/', '/db/'))
-let $xsl := doc(concat($config:app-root, "/resources/xslt/xmlToHtml.xsl"))
+let $directory := xs:string(request:get-parameter("directory", "editions"))
+let $xml := doc(replace(concat($config:app-root,"/data/", $directory, "/",$ref), '/exist/', '/db/'))
+let $xsl := if (xs:string(request:get-parameter("xslt", "")) eq "")
+    then 
+        doc(concat($config:app-root, "/resources/xslt/xmlToHtml.xsl"))
+    else
+        doc(concat($config:app-root, "/resources/xslt/",request:get-parameter("xslt", "")))
 let $params := 
 <parameters>
    {for $p in request:get-parameter-names()
     let $val := request:get-parameter($p,())
-    where  not($p = ("document","directory","stylesheet"))
+    where  not($p = ("document","directory","xslt"))
     return
        <param name="{$p}"  value="{$val}"/>
    }
 </parameters>
-
 return 
     transform:transform($xml, $xsl, $params)
 };

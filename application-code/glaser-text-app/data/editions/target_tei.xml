@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1310</title>
+                <respStmt>
+                    <resp>Transcribed</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO transcribed THE TEXT</name>
+                    <resp>Translated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO translated THE TEXT</name>
+                    <resp>Annotated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO annotated THE TEXT</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>ÖAW BASIS ???</name>
+                    <address>
+                        <addrLine>Sonnenfelsgasse 19, 1010 Wien, Austria</addrLine>
+                    </address>
+                    <pubPlace>Vienna</pubPlace>
+                    <date when="2016">2016</date>
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>
+                            Distributed under CC BY-SA 4.0 License.
+                        </p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>
+                            <orgName key="834">Bibliothek, Archiv, Sammlungen: Information &amp; Service (BAS:IS)
+                                [ÖAW]</orgName>
+                        </institution>
+                        <repository>
+                            <orgName key="1110001189">AT-OeAW-BA-3-27-A</orgName>
+                        </repository>
+                        <idno>1110001189</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origPlace>
+                    <settlement>
+                        <placeName key="731">Barāqiš</placeName>
+                    </settlement>
+                </origPlace>
+            </creation>
+            <particDesc>
+                <listPerson xml:id="personsMentioned">
+                    <head>Persons mentioned</head>
+                </listPerson>
+                <listPlace xml:id="placesMentioned">
+                    <head>Placess mentioned</head>
+                    <place xml:id="adlib_id731">
+                        <placeName>Barāqiš</placeName>
+                        <idno type="geonames">77129</idno>
+                    </place>
+                </listPlace>
+            </particDesc>
+            <abstract xml:lang="en">
+                <p>abstract</p>
+            </abstract>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-05-13" who="acdhadmin"/>
+            <change when="2016-05-11" who="acdhadmin"/>
+            <change when="2016-04-13" who="acdhadmin"/>
+            <change when="2016-04-13" who="acdhadmin"/>
+            <change when="2016-04-13" who="acdhadmin"/>
+            <change when="2016-04-04" who="acdhadmin"/>
+            <change when="2016-03-31" who="acdhadmin"/>
+            <change when="2016-03-21" who="acdhadmin"/>
+            <change when="2016-03-09" who="acdhadmin"/>
+            <change when="2015-09-30" who="acdhadmin"/>
+            <change when="2015-09-23" who="acdhadmin"/>
+            <change when="2015-09-23" who="acdhadmin"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">1.[..]Γt˥m | Γb˥ny | mḥfdΓs˥ | Ḥ[....] 2.ʾtmr | ʾΓl˥ʾltn |
+                b[....] 3.[......]</div>
+            <div type="translation">1.[......]um has built the tower of Ḥ[....] 2.[...] the gods
+                with [....] 3.[......].</div>
+        </body>
+    </text>
+</TEI>
