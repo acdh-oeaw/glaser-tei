@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL379_02</title>
+                <respStmt>
+                    <resp>Transcribed</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO transcribed THE TEXT</name>
+                    <resp>Translated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO translated THE TEXT</name>
+                    <resp>Annotated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO annotated THE TEXT</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>ÖAW BASIS ???</name>
+                    <address>
+                        <addrLine>Sonnenfelsgasse 19, 1010 Wien, Austria</addrLine>
+                    </address>
+                    <pubPlace>Vienna</pubPlace>
+                    <date when="2016">2016</date>
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>
+                                    Distributed under CC BY-SA 4.0 License.
+                                </p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>
+                            <orgName key="834">Bibliothek, Archiv, Sammlungen: Information &amp; Service (BAS:IS) [ÖAW]</orgName>
+                        </institution>
+                        <repository>
+                            <orgName key="1110001189">AT-OeAW-BA-3-27-A</orgName>
+                        </repository>
+                        <idno>1110001189</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origPlace>
+                    <settlement>
+                        <placeName key="40">Hakir</placeName>
+                    </settlement>
+                </origPlace>
+            </creation>
+            <particDesc>
+                <listPerson xml:id="personsMentioned">
+                    <head>Persons mentioned</head>
+                </listPerson>
+                <listPlace xml:id="placesMentioned">
+                    <head>Placess mentioned</head>
+                    <place xml:id="adlib_id40">
+                        <placeName>Hakir</placeName>
+                        <idno type="geonames"/>
+                    </place>
+                </listPlace>
+            </particDesc>
+            <abstract xml:lang="en">
+                <p>abstract</p>
+            </abstract>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-19" who="ghatke"/>
+            <change when="2016-08-19" who="ghatke"/>
+            <change when="2016-08-19" who="ghatke"/>
+            <change when="2016-08-19" who="ghatke"/>
+            <change when="2016-08-19" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+            <change when="2016-01-13" who="ghatke"/>
+            <change when="2016-01-13" who="ghatke"/>
+            <change when="2016-01-13" who="ghatke"/>
+            <change when="2015-11-03" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">1.[ysrm | yhnʿm | w-bn-hw | šmr | yhrʿš | mlky | sbʾ | w-ḏ-rydn | ... ... | w-ndb | w-hqšb | ... ... | gnʾ] |  w-ṣwbt | w-mḥfdt | hgr-hm[w]
+2.[hkrm | w-hdbw-hw | w-brʾ | w-ḥẓyn | mbrʾ ... ... mbrʾm | ḥśśm | w-ʾbnm | ....m | w-wśf]w | w-rymw | kl | gnʾ-h[w] | w-ṣwbt-
+3.[hw | w-mḥfdt-hw | ḏ-ṯny | sqfyn | w-ḏ-sqfm | b-ʿ... ...gnʾ-hw | w-ṣwbt-hw | w-mḥfdt-hw | bn | mrym]-hw | ʿdy | ṯrt-hw | w-hdbw-hw | w-hʿqbn
+4.[gnʾm | qšbm | w-hmrw-hw | w-šrʿw-hw | ḫṭln | ... ...ḫdʿw | w-hʿqbw | l-ḫlf-hw | mṣrʿtm | mbrʾ | w-]mqyḥ | kl | ṣdqm | bn | mwṯrm | ʿdy | t=
+5.[frʿm | b-mlʾ | ʿšrt | ymtm | bn | wrḫn | ḏ-mbkrn | ... ...b-mqm | mrʾ-hmw | ʿṯtr-šrqn | w-ʾšms-hmw | w-]ʾlʾlt-hmw | w-b-ʾḫyl | w-mqymt | ḫmys
+6.[ḏ-rydn | w-hrṯdw | hgr-hmw | hkrm | b-tḥ... ... | b-wrḫn | ḏ-qyẓn | ḏ-b-ḫrfn | ḏ-l-sṯt | w-ṯsʿy] | w-ṯlṯ | mʾtm | bn | ḫrf | mbḥḍ | bn | ʾbḥḍ</div>
+            <div type="translation">1.[Yāsirum Yuhanʿim and his on Shammar Yuharʿish, the two kings of Sabaʾ and Dhū-Raydān … … and constructed and built ... ... the wall] and the glacis and the towers of their town
+2.[of Hakirum, and they built it and constructed and completed the construction … … a construction in mud-brick and in stone ... .... And they increas]ed and built high its wall and its glacis
+3.[and its towers with two roofs and with a roof in … ... its wall and its glacis and its towers from] its [upper part] to its foundation. And they constructed it and added
+4.[a new wall, and they ??? and they equipped it ??? ... ... they repaired and reinforced for its gate door-leaves and a construction and] a completion with all accuracy, from the foundation to the
+5.[the top—(this) in the space of ten days from the month of Dhū-Mubakkirān (i.e. May) ... ... by the power of their lord, ʿAthtar Shāriqān and their protective goddesses and] their (other) gods, and by the resources and the authority of the armies
+6.[of Raydān. And they committed their town of Hakirum … … … in the month of Dhū-Qiyāẓān (i.e. June) of the year] 3[96] of the Era of Mabḥaḍ bin ʾAbḥuḍ.</div>
+        </body>
+    </text>
+</TEI>

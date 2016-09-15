@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1623_03</title>
+                <respStmt>
+                    <resp>Transcribed</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO transcribed THE TEXT</name>
+                    <resp>Translated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO translated THE TEXT</name>
+                    <resp>Annotated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO annotated THE TEXT</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>ÖAW BASIS ???</name>
+                    <address>
+                        <addrLine>Sonnenfelsgasse 19, 1010 Wien, Austria</addrLine>
+                    </address>
+                    <pubPlace>Vienna</pubPlace>
+                    <date when="2016">2016</date>
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>
+                                    Distributed under CC BY-SA 4.0 License.
+                                </p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>
+                            <orgName key="834">Bibliothek, Archiv, Sammlungen: Information &amp; Service (BAS:IS) [ÖAW]</orgName>
+                        </institution>
+                        <repository>
+                            <orgName key="1110001189">AT-OeAW-BA-3-27-A</orgName>
+                        </repository>
+                        <idno>1110001189</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origPlace>
+                    <settlement>
+                        <placeName key="752">Šabwa</placeName>
+                    </settlement>
+                </origPlace>
+            </creation>
+            <particDesc>
+                <listPerson xml:id="personsMentioned">
+                    <head>Persons mentioned</head>
+                </listPerson>
+                <listPlace xml:id="placesMentioned">
+                    <head>Placess mentioned</head>
+                    <place xml:id="adlib_id752">
+                        <placeName>Šabwa</placeName>
+                        <idno type="geonames">70936</idno>
+                    </place>
+                </listPlace>
+            </particDesc>
+            <abstract xml:lang="en">
+                <p>abstract</p>
+            </abstract>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-11" who="ghatke"/>
+            <change when="2016-05-23" who="ghatke"/>
+            <change when="2016-05-23" who="ghatke"/>
+            <change when="2016-05-23" who="ghatke"/>
+            <change when="2016-05-23" who="ghatke"/>
+            <change when="2016-05-23" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-05-11" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">1.ydʿʾl | byn | m[lk | ḥḍrmt | bn | ydʿʾb]
+2.[ġyln |] mlk | ḥḍr[mt | bn | ʾmynm | sqny]
+3.[w-ṯl]ʾ | mrʾ-[s | syn | ḏ-ʾlm | nsr | ṣlfʿ=]
+4.[hn | nsr | ʾtw | h-s | bn | šʾmt | w-qṣʾ-s]</div>
+            <div type="translation">1.Yadaʿʾīl Bayyin, ki[ng of Ḥaḍramawt, son of Yadaʿʾab]
+2.[Ghaylān,] king of Ḥaḍra[mawt, son of ʾAmyānum, has offered] 
+3.[and consecrated] to his lord, [Siyān Dhū-ʾAlam, (this statue of) an eagle made from ṣlfʿ,]
+4.[an eagle which had come to him from the north, and he dedicated it.]</div>
+        </body>
+    </text>
+</TEI>

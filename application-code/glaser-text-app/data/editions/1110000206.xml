@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1310</title>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1137_03</title>
                 <respStmt>
                     <resp>Transcribed</resp>
                     <name>PLEASE ADD NAME OF PERSON WHO transcribed THE TEXT</name>
@@ -34,8 +34,7 @@
                 <msDesc>
                     <msIdentifier>
                         <institution>
-                            <orgName key="834">Bibliothek, Archiv, Sammlungen: Information &amp; Service (BAS:IS)
-                [ÖAW]</orgName>
+                            <orgName key="834">Bibliothek, Archiv, Sammlungen: Information &amp; Service (BAS:IS) [ÖAW]</orgName>
                         </institution>
                         <repository>
                             <orgName key="1110001189">AT-OeAW-BA-3-27-A</orgName>
@@ -49,7 +48,7 @@
             <creation>
                 <origPlace>
                     <settlement>
-                        <placeName key="731">Barāqiš</placeName>
+                        <placeName key="67">Nağīl al-Mudarrağ</placeName>
                     </settlement>
                 </origPlace>
             </creation>
@@ -59,9 +58,9 @@
                 </listPerson>
                 <listPlace xml:id="placesMentioned">
                     <head>Placess mentioned</head>
-                    <place xml:id="adlib_id731">
-                        <placeName>Barāqiš</placeName>
-                        <idno type="geonames">77129</idno>
+                    <place xml:id="adlib_id67">
+                        <placeName>Nağīl al-Mudarrağ</placeName>
+                        <idno type="geonames"/>
                     </place>
                 </listPlace>
             </particDesc>
@@ -73,26 +72,36 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-05-13" who="acdhadmin"/>
-            <change when="2016-05-11" who="acdhadmin"/>
-            <change when="2016-04-13" who="acdhadmin"/>
-            <change when="2016-04-13" who="acdhadmin"/>
-            <change when="2016-04-13" who="acdhadmin"/>
-            <change when="2016-04-04" who="acdhadmin"/>
-            <change when="2016-03-31" who="acdhadmin"/>
-            <change when="2016-03-21" who="acdhadmin"/>
-            <change when="2016-03-09" who="acdhadmin"/>
-            <change when="2015-09-30" who="acdhadmin"/>
-            <change when="2015-09-23" who="acdhadmin"/>
-            <change when="2015-09-23" who="acdhadmin"/>
+            <change when="2016-08-04" who="ghatke"/>
+            <change when="2016-08-04" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-04" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+            <change when="2015-12-11" who="ghatke"/>
+            <change when="2015-12-11" who="ghatke"/>
+            <change when="2015-12-11" who="ghatke"/>
+            <change when="2015-12-11" who="ghatke"/>
+            <change when="2015-12-11" who="ghatke"/>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="original">1.[..]Γt˥m | Γb˥ny | mḥfdΓs˥ | Ḥ[....] 2.ʾtmr | ʾΓl˥ʾltn |
-                b[....] 3.[......]</div>
-            <div type="translation">1.[......]um has built the tower of Ḥ[....] 2.[...] the gods
-                with [....] 3.[......].</div>
+            <div type="original">1.[tqṣ]w | [ʿbr-m]
+2.wṯnn | w-m&lt;n | ʿbr&gt;
+3.&lt;ybʾ-hw | w-l | yʾ&gt;=
+4.&lt;ḫḏ |&gt; [w-]&lt;hm&gt; | ʾl | t=
+5.&lt;ʾḫḏ |&gt; f-ḥlt | nf=
+6.&lt;s-h&gt;[w | l-ḏ-yhr]&lt;gn-hw&gt;</div>
+            <div type="translation">1.Abstain from crossing 
+2.(this) boundary. And whoever should cross over,
+3.entering therein, let him be appre-
+4.hended. And if he is not ap-
+5.prehended, his life is at the mercy
+6.of the one who might kill him.</div>
         </body>
     </text>
 </TEI>

@@ -11,7 +11,39 @@ declare function functx:substring-after-last
     replace ($arg,concat('^.*',$delim),'')
  };
 
-(: http://127.0.0.1:8080/exist/apps/glaser-text-app/pages/show.html?document=adlibXML_sample.xml&directory=examples&xslt=adlibXMLtoTEI.xsl :)
+(:~
+ : Returns a list of adlib ID. 
+ :
+ : @param $date expects a date in form of a string in the format YYYY-MM-DD.
+ : @param $max expects an integer in form of a string. 
+:)
+declare function app:getIDs($date as xs:string, $max as xs:string){
+let $date := $date
+let $baseUri := "http://opacbasis.w07adlib1.arz.oeaw.ac.at/wwwopac.ashx?"
+let $limit := $max
+let $otherparams := concat("&amp;limit=", $limit,"&amp;fields=priref")
+let $giberish := "database=archive&amp;search=(pointer%207)%20and%20modification%20greater%20%27"
+let $uri := concat($baseUri, $giberish, $date, $otherparams)
+let $xml := doc($uri)
+let $ids := $xml//priref 
+let $countIds := count($ids)
+return
+    <result>
+        <amount>{$countIds}</amount>
+        {for $x in $ids return 
+            <item>{$x}</item>}          
+    </result>
+};
+
+
+declare function app:getAdlibXML($id as xs:string){
+let $base := "http://opacbasis.w07adlib1.arz.oeaw.ac.at/wwwopac.ashx?action=search&amp;database=archive&amp;search=priref="
+let $uri := concat($base, $id)
+return $uri
+};
+
+
+
 
 (:~
  : This is a sample templating function. It will be called by the templating module if
