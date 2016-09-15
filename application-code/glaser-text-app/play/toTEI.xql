@@ -11,9 +11,9 @@ declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 declare option output:method "xml";
 declare option output:media-type "text/xml";
 
-let $message := 'Hello World!'
 let $xml := doc(concat($config:app-root, '/data/examples/adlibXML_sample.xml'))
 let $xsl := doc(concat($config:app-root, '/resources/xslt/adlibXMLtoTEI.xsl'))
+let $filename : = "hansi-2.xml"
 let $params := <parameters>
    {for $p in request:get-parameter-names()
     let $val := request:get-parameter($p,())
@@ -24,5 +24,6 @@ let $params := <parameters>
 </parameters>
 
 let $tei := transform:transform($xml, $xsl, $params)
+let $store := xmldb:store(concat($config:app-root, '/data/editions/'), $filename, $tei)
 return
-  $tei
+  <message>{$store}</message>
