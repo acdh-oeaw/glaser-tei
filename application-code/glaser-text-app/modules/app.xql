@@ -35,15 +35,16 @@ return
     </result>
 };
 
-
+(:~
+ : Returns a single adlibXML document
+ :
+ : @param $id takes an adlib Identifier as string 
+:)
 declare function app:getAdlibXML($id as xs:string){
 let $base := "http://opacbasis.w07adlib1.arz.oeaw.ac.at/wwwopac.ashx?action=search&amp;database=archive&amp;search=priref="
 let $uri := concat($base, $id)
 return $uri
 };
-
-
-
 
 (:~
  : This is a sample templating function. It will be called by the templating module if
@@ -171,4 +172,41 @@ let $params :=
 </parameters>
 return 
     transform:transform($xml, $xsl, $params)
+};
+
+(:~
+ : triggers a batch transformation of adlibXML to TEI-XML which will be stored in /data/editions/ and returns a list of transformed documents
+ :)
+declare function app:triggerBatchTrans($node as node(), $model as map(*)) {
+if (request:get-parameter("modified-after", "") !="" or request:get-parameter("max", "") !="" ) then
+<ul class="list-unstyled">
+{
+let $modifiedAfter := request:get-parameter('modified-after', '2019-08-01')
+let $max := xs:string(request:get-parameter('max', '10'))
+let $resultlist := app:getIDs($modifiedAfter, $max)
+for $x in $resultlist//priref/text()
+let $adlibXML := doc(app:getAdlibXML($x))
+let $params := <parameters>
+   {for $p in request:get-parameter-names()
+    let $val := request:get-parameter($p,())
+    where  not($p = ("document","directory","xslt"))
+    return
+       <param name="{$p}"  value="{$val}"/>
+   }
+</parameters>
+
+let $xsl := doc(concat($config:app-root, '/resources/xslt/adlibXMLtoTEI.xsl'))
+let $tei := transform:transform($adlibXML, $xsl, $params)
+let $time := replace(xs:string(current-time()), '[:+/.]', '-')
+let $filename := concat($x,'__', $time, '.xml')
+let $storedirectory := concat($config:app-root, '/data/editions/')
+let $store := xmldb:store(concat($config:app-root, '/data/editions/'), $filename, $tei)
+return
+    <li>
+        <a href="show.html?document={$filename}">{$filename}</a>
+    </li>
+}
+</ul>
+else
+<p>please fill out the form and hit the button</p>
 };

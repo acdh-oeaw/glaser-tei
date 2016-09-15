@@ -4,23 +4,24 @@
         <div class="panel-heading">
             <h1>Transform adlibXML to XML/TEI</h1>
             <br/>
-            <select id="chartselector" class="form-control">
-                <option value="---">---</option>
-                <option value="{% url 'charts:test_json' %}">LASK4EVER</option>
-            </select>
         </div>
         <div class="panel-body">
-            <form class="form-horizontal">
-                <div class="form-group">
+            <form class="form-horizontal"><!--<div class="form-group">
                     <label class="control-label col-sm-2" for="email">Creator:</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" name="creator" placeholder="Main person responsible for creation of edition"/>
                     </div>
+                </div>-->
+                <div class="form-group">
+                    <label class="control-label col-sm-2">last modified after:</label>
+                    <div class="col-sm-10">
+                        <input required="" type="date" class="form-control" name="modified-after" placeholder="YYYY-MM-DD"/>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="pwd">some other paramater:</label>
+                    <label class="control-label col-sm-2">max amount</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="something-else" placeholder="in case we need to pass some other information"/>
+                        <input required="" type="number" class="form-control" name="max"/>
                     </div>
                 </div>
                 <div class="form-group">
@@ -31,6 +32,7 @@
             </form>
             <hr/>
             <h3>Results?</h3>
+            <div data-template="app:triggerBatchTrans"/>
         </div>
     </div>
 </div>

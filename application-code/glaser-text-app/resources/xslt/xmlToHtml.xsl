@@ -114,51 +114,27 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <h2 align="center">
-                        Transkription
+                        Text
                     </h2>
                 </h3>
             </div>
             <div class="panel-body">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h4>
-                            Navigation
-                        </h4>
-                        <xsl:element name="ul">
-                            <xsl:for-each select="//tei:body//tei:head">
-                                <xsl:element name="li">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:text>#text_</xsl:text>
-                                            <xsl:value-of select="."/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="id">
-                                            <xsl:text>nav_</xsl:text>
-                                            <xsl:value-of select="."/>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:element>
-                            </xsl:for-each>
-                        </xsl:element>
+                    <div class="col-md-6">
+                        <h2>
+                            orig
+                        </h2>
+                        <div type="orig">
+                            <xsl:apply-templates select="//tei:div[@type='original']"/>
+                        </div>
                     </div>
-                    <div class="col-md-8">
-                        <h3>
-                            <xsl:apply-templates select="//tei:div[@type='titelblatt']"/>
-                        </h3>
-                        <p>
-                            <xsl:choose>
-                                <xsl:when test="//tei:div[@type='text']">
-                                    <xsl:apply-templates select="//tei:div[@type='text']"/>
-                                </xsl:when>
-                                <xsl:when test="//tei:div[@type='transcript']">
-                                    <xsl:apply-templates select="//tei:div[@type='transcript']"/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:apply-templates select="//tei:body"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </p>
+                    <div class="col-md-6">
+                        <h2>
+                            translation
+                        </h2>
+                        <div type="translation">
+                            <xsl:apply-templates select="//tei:div[@type='translation']"/>
+                        </div>
                     </div>
                 </div>
             </div>
