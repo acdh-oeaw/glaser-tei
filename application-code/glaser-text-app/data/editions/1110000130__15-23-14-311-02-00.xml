@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1000b_01rr</title>
+                <respStmt>
+                    <resp>Transcribed</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO transcribed THE TEXT</name>
+                    <resp>Translated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO translated THE TEXT</name>
+                    <resp>Annotated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO annotated THE TEXT</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>ÖAW BASIS ???</name>
+                    <address>
+                        <addrLine>Sonnenfelsgasse 19, 1010 Wien, Austria</addrLine>
+                    </address>
+                    <pubPlace>Vienna</pubPlace>
+                    <date when="2016">2016</date>
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>
+                                    Distributed under CC BY-SA 4.0 License.
+                                </p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>
+                            <orgName key="834">Bibliothek, Archiv, Sammlungen: Information &amp; Service (BAS:IS) [ÖAW]</orgName>
+                        </institution>
+                        <repository>
+                            <orgName key="1110001189">AT-OeAW-BA-3-27-A</orgName>
+                        </repository>
+                        <idno>1110001189</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origPlace>
+                    <settlement>
+                        <placeName key="98">Ṣirwāḥ</placeName>
+                    </settlement>
+                </origPlace>
+            </creation>
+            <particDesc>
+                <listPerson xml:id="personsMentioned">
+                    <head>Persons mentioned</head>
+                </listPerson>
+                <listPlace xml:id="placesMentioned">
+                    <head>Placess mentioned</head>
+                    <place xml:id="adlib_id98">
+                        <placeName>Ṣirwāḥ</placeName>
+                        <idno type="geonames"/>
+                    </place>
+                </listPlace>
+            </particDesc>
+            <abstract xml:lang="en">
+                <p>abstract</p>
+            </abstract>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-05" who="ghatke"/>
+            <change when="2016-07-01" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-05-11" who="ghatke"/>
+            <change when="2016-05-11" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-01" who="ghatke"/>
+            <change when="2015-11-25" who="ghatke"/>
+            <change when="2015-11-03" who="ghatke"/>
+            <change when="2015-10-13" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">1.[ʾlt | ʾhgrm | w-ʾbḍʿm | gnʾ | [w-hfṭn | krbʾl | wtr | bn | ḏmrʿly | mkrb | sbʾ | l-ʾlmqh | w-l | sbʾ | ywm  | h... ...m | t... | w-ktlm | w-yṯl | w-wnb | w-rdʿ | w-wqbm | w-ʾwwm | w-yʿrtm | w-ḥnḏfm | w-nʿwt | ḏt | fddm | w-ḥḍrʾb | w-tmsm | w-gnʾ | tlnn | w-ṣnwt | w-ṣ... ...]
+2.[dm | w-gnʾ | rdʿ | w-myfʿ | b-ḫbʾm | w-gnʾ | mḥrṯm | w-ḏhby | hgry | ḏ-tmnʿ | w-gnʾ | wʿln | w-mwṯbtm | w-kdr | w-hṯb | wld | ʿm | ʿd | ʾhgr-hmw | b-ḏt | ʾḫww | ʾlmqh | w-krbʾl | w-sbʾ | w-ʿsy |  bn | ʿmwqh | ḏ-ʾmrm | hgrn | ṭyb | gwlm | w-qny-hw | b-msqy | ngy | gwlm | w-ʾfqn | gwlm | w-ḥrtn | w-ʿr-h | w-sr-h | w-m]rʿyt-h | gwlm | w-
+3.ʾsrr | yrdnn | [bn | mrs | w-mrʿyt-hmw | gwlm | w-ʿsy | bn | ḥḍrhmw | ḏ-mfʿlm | šʿbm | w-ʾsrr-hw | w-mrʿyt-hw | ln | mśrr | ʿd | ʿtb | ... ... | ʾbyt | ʿd | ʿtk | wrḫn | w-ḍʿf | w-kl | ḏ-qny | b-bqṯt |  w-b | dnm | gwlm | w-ʿsy | ṣyḥw | gwlm | w-šʾm | ḫdnn | ʾdm | ḥḍrhmw | ḏ-mfʿlm | w-gbrm | ʾdm | yʿṯq | ḏ-ḫwln | ḏ-yrrt | w-]
+4.[yśf-mw | ḥw-hw | fyšn | w-ʿsy | bn | rʾbm | bn | ḫlʾmr | ḏ-wqbm | kl | ḏ-hṭbn | b-wqbm | w-ḏhb-h | w-sr-h | w-ʿr-h | w-mrʿyt-h | gwlm | w-ʿsy | yʿrtm | w-ḏhb-h | w-sr-h | w-ʿr-h | w-mrʿyt-h | gwlm | w-ʿsy | ʾwwm | w-ḏhb-h | gwlm | w-ʿsy | kl | ḏ-qny | ḫlkrb | ḏ-ġrn | b-mḍyqt | gwlm | w-ʿsy | ṯmdt w-ḏhb-h | w-ʿr-h |] w-mrʿyt-h | gwlm |
+5.w-ʿsy | kl | ḏ-hṭ[bn | b-mḍyqt | ln | gḏwty | ḥnḏfm | ʿd | hgrn | ṭyb | gwlm | w-ʿsy | kl | ḏ-hṭbn | b-msqy | ngy | gwlm | w-ʿsy | zwt | w-... ...-hmy | w-mrʿyt-hmy | gwlm | w-ʿsy | ʾkryy | w-ḏhb-h | gwlm | w-qny | nʿwt | bn | šdm | w-bn | ḫbʾm | l-ʾwṯn-h | w-bny | tfrʿ | byt-hw | slḥm | ln | ẓwrm | w-rymm | w-bny | b-ʾḏn=]
+6.[t | ʿsnn | tfš | w-mzf-h | mnḫy | ysrn | w-bny | mʿsn | ylṭ | w-mzf-hw | mnḫy | ʾbyn | w-bny | ẓrb | w-mlkn | l-ysrn | w-bny | w-hqm | ʾbny | ysrn | w-ʾbyn | b-wsṭ-hmy | w-bny | ... ...n | w-ʾln | nḫlm | ʿsy | b-ysrn | w-yśf-mw | qny-hw | ḏ-yqhmlk | w-ʾṯʾbn | w-mḏbn | w-mfrśm | w-ḏ-ʾnfn | w-qṭn]tn | w-sfwtm | w-
+7.[slqn |] w-ḏ | fdh[m | w-ḏ | ʾwṯnm | w-dbsw | w-mfrśm | w-ḏ | ḥbbm | w-śmrw | w-mhgwm | w-ʾln | ʿsy | b-ṭrq | ʿn.yn | w-ḥḍrw | w-šśwn | ... ...ʿ | w-ʾln | wśf | ʿsy | b-ysrn | frʿtm | w-tywsm | w-ʾṯʾbn | w-ywm | ṣd | ṣyd | krwm | w-ywm | hʿ | mhyʿ | lqẓ | ʿṯtr | ḏ-fṣd | w-bny | ʿṯtr | wrqm | w-ʿsy | mfrśtn | ʾl | mḥ=]
+8.[myn | ln | wṯn | ʿqbn | ʿd | ḏ-ʾnfn | gwlm | w-ʿsy | kl | qny | ḥḍrhmw | bn | ḫlʾmr | bkr | ḏ-mfʿlm | kl | ḏ-qny | b-bḍʿ | wnb | w-kl | bḍʿ | ftrm | w-qnt | w-kl | ʾhgr-hw | mfʿlm[ | w-ftrm | w-qnt | w-gw | w-ʾʿr-hw | w-ʾsrr-hw | w-mrʿyt | ʾhgr-h]w | gwlm | w-wśf ḥw-hw | fyšn | ʾdm | hšʾm-hw | ḥḍrhmw | ḏ-mfʿlm | b-ʾhgr-hw | mfʿlm | w-f]trm | w-qnt | w-gw</div>
+            <div type="translation">1.[These towns and territories has Karibʾīl Watar bin Dhamarʿalī, ruler of Sabaʾ, walled and taken possession of for ʾĪlmuquh and for Sabaʾ, when he … … … and Katilum and Yathill and Wanab and Rādiʿ and Wāqibum and ʾAwāwum and Yaʿīratum and Ḥandhifum and Naʿawt Dhāt-Fadādim and Ḥaḍarʾab and Tamisum. And he walled Talīnān and Ṣanawt and Ṣ… …]
+2.[... and he walled Rādiʿ and Mayfaʿ and Khabīʾum. And he walled Maḥrīthum and the two alluvial plains of the two towns of Timnaʿ. And he walled Waʿilān and Mawthabatum and Kadūr. And he gave back the Children of ʿAmm to their towns because they had made an alliance with ʾĪlmuquh and Karibʾīl and Sabaʾ. And he acquired from ʿAmmīwaqah Dhū-ʾAmīrim the town of Ṭayyib, with full property rights. And he gained possession of it with the irrigation network of Nagay, with full property rights; and ʾUfuqān, with full property rights; and Ḥāritān and its mountain and its valley and] its [gr]azing lands, with full property rights; and
+3.the valleys descending [from Maris and their grazing lands, with full property rights. And he acquired from Ḥaḍarhumū Dhū-Mafʿilim Shaʿbum and its valleys and its grazing lands from Maśrīr to ʿAtīb … … the houses facing Warikhān and Ḍaʿīf and all of that which he held in possession in Baqithāt and in Danim, with full property rights. And he acquired Ṣayyāḥū, with full property rights. And he bought (the services of) Khadīnān, the vassals of Ḥaḍarhumū Dhū-Mafʿilim; and Gabbārum, the vassals of Yaʿithaq Dhū-Khawlān of Yarīrāt; and (in this manner)]
+4.[he increased his labor force of Fayshān. And he acquired from Rāʾibum bin Khālīʾamar Dhū-Wāqibim all that he had owned in Wāqibum and its alluvial plain and its valley and its mountain, with full property rights. And he acquired Yaʿīratum and its alluvial plain and its valley and its mountain and its grazing lands, with full property rights. And he acquired ʾAwāwum and its alluvial plain, with full property rights. And he acquired all that Khālīkarib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. And he acquired Thamūdat and its alluvial plain and its mountain] and its grazing land, with full property rights.
+5.[And he acquired all that he (i.e. Khālīkarib Dhū-Ghirrān) had owned in Maḍayqat from the two hills of Ḥandhifum to the town of Ṭayyib, with full property rights.] And he acquired all that he had ow[ned with (respect to) the irrigation network of Nagay, with full property rights. And he acquired Zawit and … their … and their grazing lands, with full property rights. And he acquired ʾAkiryay and its alluvial plain, with full property rights. And he gained possession of Naʿawt from Shiddum and from Khabīʾum to its boundary-markers. And he built the upper portion of his palace of Salīḥum from bedrock upwards. And he built in ʾAdhana-]
+6.[t the water reservoir of Tafish and its canal in the direction of Yāsirān. And he built the water reservoir of Yaluṭ and its canal in the direction of ʾAbyan. And he built Ẓarīb and Milkān for Yāsirān. And he built and erected the buildings of Yāsirān and ʾAbyan within them. And he built … …. And these, the palm groves, he acquired in Yāsirān. And he increased his property (by acqiring) Dhū-Yaqahmalik and ʾAthʾabān and Madhābān and Mafriśum and Dhū-ʾUnfān and Qaṭīna]tān and Safwatum and 
+7.[Salqān] and Dhū-Fadih[im and Dhū-ʾAwthānim and Dabasū and Mafriśum and Dhū-Ḥabībim and Śamirū and Mahgwaum; and these (properties) which he acquired in Ṭaraq: ʿAn.yān and Ḥaḍarū and Shaśawān … …. And (by acquiring) these (properties) he increased his ownership in Yāsirān: Fāriʿatum and Tayawsum and ʾAthʾabān. And (these things he did) when he performed hunt for Karawum; and when he carried out the construction of Laqaẓ for ʿAthtar Dhū-Faṣad. And he built for ʿAthtar (the temple of) Waraqum. And he acquired the fields of Maḥ-]
+8.[miyyān from the boundary of ʿĀqibān up to Dhū-ʾUnfān, with full property rights. And he acquired the entire property of Ḥaḍarhumū from Khālīʾamar, the first-born of Dhū-Mafʿilim—all that he held in possession in the territory of Wanab, and all of the territory of Fatīrum and Qanat, and all of its (i.e. Wanab’s) towns: Mafʿilum and Fatīrum and Qanat and Gaww; and its mountains and its valleys and the grazing lands of its towns, with full property rights. And he increased his labor force of Fayshān with the vassals (whose services) Ḥaḍarhumū Dhū-Mafʿilim had sold him with his towns of Mafʿilim and Fa]tīrum and Qanat and Gaww.</div>
+        </body>
+    </text>
+</TEI>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL313</title>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1094_01</title>
                 <respStmt>
                     <resp>Transcribed</resp>
                     <name>PLEASE ADD NAME OF PERSON WHO transcribed THE TEXT</name>
@@ -48,7 +48,7 @@
             <creation>
                 <origPlace>
                     <settlement>
-                        <placeName key="39">Maᶜīn</placeName>
+                        <placeName key="98">Ṣirwāḥ</placeName>
                     </settlement>
                 </origPlace>
             </creation>
@@ -58,8 +58,8 @@
                 </listPerson>
                 <listPlace xml:id="placesMentioned">
                     <head>Placess mentioned</head>
-                    <place xml:id="adlib_id39">
-                        <placeName>Maᶜīn</placeName>
+                    <place xml:id="adlib_id98">
+                        <placeName>Ṣirwāḥ</placeName>
                         <idno type="geonames"/>
                     </place>
                 </listPlace>
@@ -72,27 +72,23 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-08-11" who="ghatke"/>
-            <change when="2016-08-11" who="ghatke"/>
-            <change when="2016-08-11" who="ghatke"/>
+            <change when="2016-07-15" who="ghatke"/>
             <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-05-11" who="ghatke"/>
             <change when="2016-04-13" who="ghatke"/>
             <change when="2016-04-13" who="ghatke"/>
             <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-06" who="ghatke"/>
-            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-04-04" who="ghatke"/>
             <change when="2016-03-31" who="ghatke"/>
-            <change when="2016-02-11" who="ghatke"/>
-            <change when="2015-11-18" who="ghatke"/>
+            <change when="2015-11-25" who="ghatke"/>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="original">1.[m]ʿbr | ḏn | sṭrn | mṣΓb˥[ḥ | b=]
-2.[wn | sdṯ] | ʾmΓh˥ | ʿd | śn | ḍ[rʿ]</div>
-            <div type="translation">1.Next to this inscription: the office for the tax collection,
-2.six cubits to the west.</div>
+            <div type="original">1.w-bny-hw |  bnw | ḏ-ḥbb | hn[...]
+2.n | mlk | sbʾ | w-ʾḫ-hw | ʾl[...]</div>
+            <div type="translation">1.and his lineage, the clan of Dhū-Ḥibāb [... ...]
+2.[.], king of Sabaʾ and his brother ʾĪl[...]</div>
         </body>
     </text>
 </TEI>
