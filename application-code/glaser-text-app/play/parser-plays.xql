@@ -23,7 +23,7 @@ let $text := replace($text, '\(', '<unclear>')
 let $text := replace($text, '\)', '</unclear>')
 let $text := replace($text, '\{', '<del>')
 let $text := replace($text, '\}', '</del>')
-(:let $testtext := '<hansi>is the best</hansi>':)
+let $text := replace($text, '\.\.\.\s\.\.\.', '<gap quantity="plus4" unit="chars"></gap>')
 
 let $nodes := try{
     util:parse($text)
