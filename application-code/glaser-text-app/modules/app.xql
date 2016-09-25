@@ -197,7 +197,7 @@ let $params := <parameters>
 
 let $xsl := doc(concat($config:app-root, '/resources/xslt/adlibXMLtoTEI.xsl'))
 let $tei := transform:transform($adlibXML, $xsl, $params)
-let $time := replace(xs:string(current-time()), '[:+/.]', '-')
+let $time := replace(xs:string(current-dateTime()), '[:+/.]', '-')
 let $filename := concat($x,'__', $time, '.xml')
 let $storedirectory := concat($config:app-root, '/data/editions/')
 let $store := xmldb:store(concat($config:app-root, '/data/editions/'), $filename, $tei)
