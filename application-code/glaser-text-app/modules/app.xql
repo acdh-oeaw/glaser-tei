@@ -10,6 +10,56 @@ declare function functx:substring-after-last
     $delim as xs:string )  as xs:string {
     replace ($arg,concat('^.*',$delim),'')
  };
+ 
+declare function functx:change-element-ns-deep
+  ( $nodes as node()* ,
+    $newns as xs:string ,
+    $prefix as xs:string )  as node()* {
+
+  for $node in $nodes
+  return if ($node instance of element())
+         then (element
+               {QName ($newns,
+                          concat($prefix,
+                                    if ($prefix = '')
+                                    then ''
+                                    else ':',
+                                    local-name($node)))}
+               {$node/@*,
+                functx:change-element-ns-deep($node/node(),
+                                           $newns, $prefix)})
+         else if ($node instance of document-node())
+         then functx:change-element-ns-deep($node/node(),
+                                           $newns, $prefix)
+         else $node
+ } ;
+ 
+(:~
+ : Takes a node containing a string encoded in the Dasi standard and returns a TEI encoded node 
+ :
+ : @$node a node containing a dasi-encoded string
+:)
+declare function app:DasiToTei($node as node()){
+let $node := $node
+let $text := $node/text()
+let $text := replace($text, '<', '<add>')
+let $text := replace($text, '>', '</add>')
+let $text := concat('<div type="annotated">', $text, '</div>')
+let $text := replace($text, '(\d).', '<lb n="$1"/>')
+let $text := replace($text, '\[', '<supplied>' )
+let $text := replace($text, '\]', '</supplied>' )
+let $text := replace($text, '\(', '<unclear>')
+let $text := replace($text, '\)', '</unclear>')
+let $text := replace($text, '\{', '<del>')
+let $text := replace($text, '\}', '</del>')
+let $text := replace($text, '\.\.\.\s\.\.\.', '<gap quantity="plus4" unit="chars"></gap>')
+let $tei := try{
+    util:parse($text)
+} catch * {
+        <div type="error">Caught error {$err:code}: {$err:description} in document {app:getDocName($node)}</div>
+        }
+return $tei
+}; 
 
 (:~
  : Returns a list of adlib ID. 
@@ -209,4 +259,17 @@ return
 </ul>
 else
 <p>please fill out the form and hit the button</p>
+};
+
+(:~
+ : iterates over all docs stored in 'data/editions' parses the original transcirption and stores the result in tei:div[@type='annotaed']
+ :)
+declare function app:annotateOrig($node as node(), $model as map(*)) {
+for $x in collection(concat($config:app-root, '/data/editions'))//tei:TEI
+let $dasi := $x//tei:div[@type='original']
+let $annotated := app:DasiToTei($dasi)
+let $annotated := functx:change-element-ns-deep($annotated, "http://www.tei-c.org/ns/1.0", "tei")
+let $newTEI := update insert $annotated into $x//tei:body
+
+return <li>updated {app:getDocName($x)}</li>
 };

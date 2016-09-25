@@ -137,6 +137,14 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-4"/>
+                    <div class="col-md-4">
+                        <h3>TEI_VERSION</h3>
+                        <xsl:apply-templates select="//tei:div[@type='annotated']"/>
+                    </div>
+                    <div class="col-md-4"/>
+                </div>
             </div>
             <script type="text/javascript">
                 // creates a link to the xml version of the current docuemnt available via eXist-db's REST-API
@@ -154,12 +162,39 @@
                 $( "#link_to_source" ).attr('href',source_dokument);
                 $( "#link_to_source" ).text(source_dokument);
             </script>
+            <script>
+                $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();
+                });
+            </script>
         </div>
     </xsl:template><!--
     #####################
     ###  Formatierung ###
     #####################
---><!-- opener    -->
+--><!--   supplied -->
+    <xsl:template match="tei:supplied">
+        <span style="color:red;" data-toggle="tooltip" title="supplied">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:unclear">
+        <span style="color:#F7C331;" data-toggle="tooltip" title="unclear">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:del">
+        <del style="color:#FA07EA;" data-toggle="tooltip" title="deleted">
+            <xsl:apply-templates/>
+        </del>
+    </xsl:template>
+    <xsl:template match="tei:gap">
+        <span style="color:#FFFFFF;" data-toggle="tooltip">
+            <xsl:attribute name="title">
+                <xsl:value-of select="@quantity"/>&#160;<xsl:value-of select="@unit"/> missing</xsl:attribute>
+            []
+        </span>
+    </xsl:template><!-- opener    -->
     <xsl:template match="tei:opener">
         <p>
             <xsl:apply-templates/>
@@ -300,11 +335,6 @@
     </xsl:template><!-- Absätze    -->
     <xsl:template match="tei:p">
         <xsl:element name="p">
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template><!-- Durchstreichungen -->
-    <xsl:template match="tei:del">
-        <xsl:element name="strike">
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
