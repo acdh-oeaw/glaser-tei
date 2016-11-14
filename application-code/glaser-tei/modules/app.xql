@@ -152,7 +152,8 @@ declare function app:listPers($node as node(), $model as map(*)) {
  : creates a basic table of content derived from the documents stored in '/data/editions'
  :)
 declare function app:toc($node as node(), $model as map(*)) {
-    for $doc in collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+    let $collection := request:get-parameter("collection", "editions")
+    for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
         return
         <tr>
             <td>

@@ -54,8 +54,6 @@ let $uri := concat($base, $id)
 return $uri
 };
 
-
-
 (:~
  : triggers a batch transformation of adlibXML to TEI-XML which will be stored in /data/editions/ and returns a list of transformed documents
  :)
@@ -89,4 +87,47 @@ return
 </ul>
 else
 <p>Hit the button to import texts from adlib</p>
+};
+
+(:~
+ : Takes a node containing a string encoded in the Dasi standard and returns a TEI encoded node 
+ :
+ : @$node a node containing a dasi-encoded string
+:)
+declare function totei:DasiToTei($node as node()){
+let $node := $node
+let $text := $node/text()
+let $text := replace($text, '<', '<add>')
+let $text := replace($text, '>', '</add>')
+let $text := concat('<div type="annotated">', $text, '</div>')
+let $text := replace($text, '(\d).', '<lb n="$1"/>')
+let $text := replace($text, '\[', '<supplied>' )
+let $text := replace($text, '\]', '</supplied>' )
+let $text := replace($text, '\(', '<unclear>')
+let $text := replace($text, '\)', '</unclear>')
+let $text := replace($text, '\{', '<del>')
+let $text := replace($text, '\}', '</del>')
+let $text := replace($text, '\.\.\.\s\.\.\.', '<gap quantity="plus4" unit="chars"></gap>')
+let $tei := try{
+    util:parse($text)
+} catch * {
+        <div type="error">Caught error {$err:code}: {$err:description} in document {app:getDocName($node)}</div>
+        }
+return $tei
+}; 
+
+(:~
+ : checks if imported documents could be enhanced automatically
+ :)
+declare function totei:check-valid($node as node(), $model as map(*)) {
+    let $collection := request:get-parameter("collection", "imported")
+    for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI//tei:div[@type='original']
+    let $valid := totei:DasiToTei($doc)
+        return
+        <tr>
+            <td>
+                <a href="{app:hrefToDoc($doc)}&amp;directory=imported">{app:getDocName($doc)}</a>
+            </td>
+            <td>{$valid}</td>
+        </tr>   
 };
