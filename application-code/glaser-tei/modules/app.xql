@@ -45,6 +45,19 @@ let $href := concat('show.html','?document=', app:getDocName($node))
 };
 
 (:~
+ : href to document.
+ :)
+declare function app:hrefToDoc($node as node(), $stylesheet as xs:string){
+let $name := functx:substring-after-last($node, '/')
+let $href := if ($stylesheet != "") 
+    then
+        concat('show.html','?document=', app:getDocName($node), '&amp;xslt=', $stylesheet)
+     else
+        concat('show.html','?document=', app:getDocName($node))
+    return $href
+};
+
+(:~
  : a fulltext-search function
  :)
  declare function app:ft_search($node as node(), $model as map (*)) {
