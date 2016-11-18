@@ -121,6 +121,11 @@ declare function totei:check-valid($node as node(), $model as map(*)) {
             <a href="process.html?document={app:getDocName($doc)}" onclick="return confirm('Process this document?');">process</a>
         else
             "already processed"
+    let $delete := if (not(functx:is-value-in-sequence($ID, totei:storedIDs('editions'))))
+        then 
+            <a href="remove.html?document={app:getDocName($doc)}" onclick="return confirm('Are you sure you want to delete?');">delete</a>
+        else
+            "already processed"
     let $valid := totei:DasiToTei($doc)
         return
         <tr>
@@ -128,7 +133,7 @@ declare function totei:check-valid($node as node(), $model as map(*)) {
                 <a href="{app:hrefToDoc($doc)}&amp;directory=imported">{app:getDocName($doc)}</a>
             </td>
             <td>{$valid}</td>
-            <td><a href="remove.html?document={app:getDocName($doc)}" onclick="return confirm('Are you sure you want to delete?');">delete</a></td>
+            <td>{$delete}</td>
             <td>{$inEdition}</td>
         </tr>   
 };

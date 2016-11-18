@@ -182,13 +182,17 @@ declare function app:checkProgress($node as node(), $model as map(*)) {
     let $doneIDs := totei:storedIDs('done')
     let $inEdition := if (functx:is-value-in-sequence($ID, totei:storedIDs('editions')))
         then 
-            <span class="glyphicon glyphicon-ok" aria-hidden="true"><span style="visibility:hidden">yes</span></span> 
+            <a href="{concat(app:hrefToDoc($doc),'&amp;directory=editions')}">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"><span style="visibility:hidden">yes</span></span>
+            </a>
         else
             <span class="glyphicon glyphicon-remove" aria-hidden="true"><span style="visibility:hidden">no</span></span> 
     
     let $inDone := if (functx:is-value-in-sequence($ID, totei:storedIDs('done')))
-         then 
-            <span class="glyphicon glyphicon-ok" aria-hidden="true"><span style="visibility:hidden">yes</span></span> 
+         then
+            <a href="{concat(app:hrefToDoc($doc),'&amp;directory=done')}">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"><span style="visibility:hidden">yes</span></span>
+            </a>
         else
             <span class="glyphicon glyphicon-remove" aria-hidden="true"><span style="visibility:hidden">no</span></span> 
         
@@ -197,9 +201,6 @@ declare function app:checkProgress($node as node(), $model as map(*)) {
         <tr>
             <td>
                 <a href="{concat(app:hrefToDoc($doc),'&amp;directory=',$collection)}">{app:getDocName($doc)}</a>
-            </td>
-            <td>
-                <span class="glyphicon glyphicon-ok" aria-hidden="true"><span style="visibility:hidden">yes</span></span> 
             </td>
             <td>
                 {$inEdition}
