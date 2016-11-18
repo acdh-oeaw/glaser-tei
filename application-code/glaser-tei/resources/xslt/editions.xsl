@@ -167,13 +167,14 @@
                 // creates a link to the xml version of the current docuemnt available via eXist-db's REST-API
                 var params={};
                 window.location.search
-                .replace(/[?&amp;]+([^=&amp;]+)=([^&amp;]*)/gi, function(str,key,value) {
+                .replace(/[?&amp;]+([^=&amp;;]+)=([^&amp;;]*)/gi, function(str,key,value) {
                 params[key] = value;
                 }
                 );
                 var collection;
-                if (params['directory'] = "undefined") {
-                    collection = "editions";
+                //alert(params['directory'])
+                if (params['directory'] === "undefined"  || params['directory'] === "") {
+                    collection = 'editions';
                 } else {
                     collection = params['directory']
                 }
@@ -184,7 +185,7 @@
                 // console.log(source_dokument)
                 $( "#link_to_source" ).attr('href',source_dokument);
                 $( "#link_to_source" ).text(source_dokument);
-            </script>
+                </script>
         </div>
     </xsl:template><!--
     #####################

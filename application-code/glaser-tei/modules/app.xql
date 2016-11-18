@@ -170,7 +170,7 @@ declare function app:toc($node as node(), $model as map(*)) {
         return
         <tr>
             <td>
-                <a href="{app:hrefToDoc($doc)}">{app:getDocName($doc)}</a>
+                <a href="{concat(app:hrefToDoc($doc),'&amp;directory=',$collection)}">{app:getDocName($doc)}</a>
             </td>
         </tr>   
 };

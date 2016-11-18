@@ -9,108 +9,117 @@
                         <title>Digital Edition of Glaser Abklatsch ID: <xsl:value-of select="//record/object_number"/>
                         </title>
                         <respStmt>
-                            <resp>Transcribed</resp>
-                            <name>PLEASE ADD NAME OF PERSON WHO transcribed THE TEXT</name>
-                            <resp>Translated</resp>
-                            <name>PLEASE ADD NAME OF PERSON WHO translated THE TEXT</name>
-                            <resp>Annotated</resp>
-                            <name>PLEASE ADD NAME OF PERSON WHO annotated THE TEXT</name>
+                            <persName>
+                                <forename>Dummy Forename</forename>
+                                <surname>Dummy Lastname</surname>
+                            </persName>
+                            <resp>What was this person doing?</resp>
                         </respStmt>
                     </titleStmt>
                     <publicationStmt>
-                        <publisher>
-                            <name>ÖAW BASIS ???</name>
-                            <address>
-                                <addrLine>Sonnenfelsgasse 19, 1010 Wien, Austria</addrLine>
-                            </address>
-                            <pubPlace>Vienna</pubPlace>
-                            <date when="2016">2016</date>
-                        </publisher>
+                        <authority>ÖAW BASIS</authority>
                         <availability>
-                            <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                                <p>
-                                    Distributed under CC BY-SA 4.0 License.
-                                </p>
-                            </licence>
+                            <licence target="#">Some license information</licence>
                         </availability>
+                        <idno type="idRecord">
+                            <xsl:value-of select="//record/object_number"/>
+                        </idno>
                     </publicationStmt>
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <institution>
-                                    <orgName>
-                                        <xsl:attribute name="key">
-                                            <xsl:value-of select="//institution.name.lref"/>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="//record/institution.name"/>
-                                    </orgName>
-                                </institution>
-                                <repository>
-                                    <orgName>
-                                        <xsl:attribute name="key">
-                                            <xsl:value-of select="//part_of_reference.lref"/>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="//part_of_reference"/>
-                                    </orgName>
-                                </repository>
-                                <idno>
-                                    <xsl:value-of select="//part_of_reference.lref"/>
-                                </idno>
-                            </msIdentifier><!--<physDesc>
+                                <settlement>Wien</settlement>
+                                <repository>ÖAW Basis</repository>
+                                <collection>name of the collection </collection>
+                                <idno type="invNo">Inventory nummber of the source</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="alphabet">Ancient South Arabian</rs>
+                                    <seg>Inscription commissioned by a king</seg>
+                                </summary>
+                            </msContents>
+                            <physDesc>
                                 <objectDesc>
                                     <supportDesc>
-                                        <extent>3</extent>
+                                        <support>
+                                            <objectType>Stone inscription</objectType>
+                                            <material>Stone</material>
+                                            <measureGrp unit="cm">h. 25, w. 57, th. 11.4</measureGrp>
+                                        </support>
                                     </supportDesc>
+                                    <layoutDesc>
+                                        <layout>
+                                            <rs type="scriptCursus">Right to left</rs>
+                                            <rs type="execution">Incision</rs>
+                                        </layout>
+                                    </layoutDesc>
                                 </objectDesc>
-                                <sealDesc>
-                                    <seal>
-                                        <decoNote>partial, illegible</decoNote>
-                                    </seal>
-                                </sealDesc>
-                            </physDesc>-->
+                                <handDesc>
+                                    <handNote>
+                                        <height unit="cm"/>
+                                        <rs type="scriptTypology">Monumental writing</rs>
+                                        <rs type="textualTypology">Legal text</rs>
+                                    </handNote>
+                                </handDesc>
+                                <additions>
+                                    <note/>
+                                    <note type="support"/>
+                                    <note type="deposit"/>
+                                </additions>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace/>
+                                    <origDate period="#B"/>
+                                    <note/>
+                                </origin>
+                                <provenance type="found">
+                                    <placeName type="modern" subtype="site">as-Sawdāʾ</placeName>
+                                    <placeName subtype="site" type="ancient">Ns²n</placeName>
+                                    <placeName subtype="geographicalArea" type="modern">wādī al-Jawf</placeName>
+                                    <placeName type="modern" subtype="country">Yemen</placeName>
+                                    <seg type="proximity"/>
+                                    <seg type="archaeologicalContext">
+                                        <rs type="context"/>
+                                        <rs type="structure"/>
+                                    </seg>
+                                </provenance>
+                            </history>
                         </msDesc>
                     </sourceDesc>
                 </fileDesc>
                 <profileDesc>
-                    <creation><!--<origDate>
-                            <date when="1778-08-22">22.8.1778</date>
-                        </origDate>-->
-                        <origPlace>
-                            <settlement>
-                                <placeName>
-                                    <xsl:attribute name="key">
-                                        <xsl:value-of select="//record/production.place.lref"/>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="//record/production.place"/>
-                                </placeName>
-                            </settlement>
-                        </origPlace>
-                    </creation>
-                    <particDesc>
-                        <listPerson xml:id="personsMentioned">
-                            <head>Persons mentioned</head>
-                        </listPerson>
-                        <listPlace xml:id="placesMentioned">
-                            <head>Placess mentioned</head>
-                            <place>
-                                <xsl:attribute name="xml:id">
-                                    <xsl:value-of select="concat('adlib_id', //record/production.place.lref)"/>
-                                </xsl:attribute>
-                                <placeName>
-                                    <xsl:value-of select="//record/production.place"/>
-                                </placeName>
-                                <idno type="geonames">
-                                    <xsl:value-of select="//record/production.place.uri"/>
-                                </idno>
-                            </place>
-                        </listPlace>
-                    </particDesc>
-                    <abstract xml:lang="en">
-                        <p>abstract</p>
-                    </abstract>
                     <langUsage>
-                        <language ident="fr"/>
+                        <language ident="en">English</language>
+                        <language ident="inm-Latn-x-cntmin">Central Minaic</language>
                     </langUsage>
+                    <textClass>
+                        <keywords scheme="#DASI">
+                            <list>
+                                <label>Periodization</label>
+                                <item>
+                                    <term xml:id="A">Early first millennium to the fourth century BC (predominance of Saba)</term>
+                                    <term xml:id="B">Fourth to first centuries BC (predominance of Qataban and Hadramawt, and their alliance with Main)</term>
+                                    <term xml:id="B1">Fourth to third centuries BC</term>
+                                    <term xml:id="B2">Third to first centuries BC</term>
+                                    <term xml:id="C">First century BC to early second century AD (alliances between the tribes of the high plateau and the ASA kingdoms)</term>
+                                    <term xml:id="D">Late second to late third centuries AD (wars among the Himyar, Saba and Hadramawt)</term>
+                                    <term xml:id="E">Fourth to sixth centuries AD (unification of Yemen under Himyarite rule)</term>
+                                    <term xml:id="Ry">It corresponds to the palaeographical divisions established by Jacques Ryckmans with sub-periods I-IV</term>
+                                    <term xml:id="RyI">First sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                                    <term xml:id="RyII">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                                    <term xml:id="RyIIb">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                                    <term xml:id="RyIId">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                                    <term xml:id="RyIIIa">Third sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                                    <term xml:id="RyIVa">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                                    <term xml:id="RyIVb">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                                    <term xml:id="inAncientTimes"/>
+                                    <term xml:id="inModernTimes"/>
+                                </item>
+                            </list>
+                        </keywords>
+                    </textClass>
                 </profileDesc>
                 <revisionDesc>
                     <xsl:for-each select="//edit.date">
@@ -125,13 +134,34 @@
                     </xsl:for-each>
                 </revisionDesc>
             </teiHeader>
+            <facsimile>
+                <graphic url="http://dasi.humnet.unipi.it/de/cgi-bin/wsimg.pl?recId=6938">
+                    <desc type="copyright">By kind permission of British Museum</desc>
+                </graphic>
+            </facsimile>
             <text>
                 <body>
-                    <div type="original">
-                        <xsl:value-of select="//inscription.transliteration"/>
+                    <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                        <tei:ab>
+                            <xsl:value-of select="//inscription.transliteration"/>
+                        </tei:ab>
                     </div>
-                    <div type="translation">
-                        <xsl:value-of select="//inscription.translation"/>
+                    <div xml:lang="en" type="translation">
+                        <tei:ab>
+                            <xsl:value-of select="//inscription.translation"/>
+                        </tei:ab>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                    <div type="bibliography">
+                        <listBibl>
+                            <bibl>
+                                <idno type="quotationLabel">Avanzini 1995</idno>
+                                <seg type="reference">Avanzini, Alessandra 1995. As-Sawdāʾ. Inventaire des inscriptions sudarabiques. 4. Paris: de Boccard / Rome: Herder. [Académie des Inscriptions et Belles-lettres; Istituto italiano per l'Africa e l'Oriente]</seg>
+                                <citedRange>120-122, pl. 19/a</citedRange>
+                            </bibl>
+                        </listBibl>
                     </div>
                 </body>
             </text>

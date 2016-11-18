@@ -121,7 +121,7 @@ return $tei
  :)
 declare function totei:check-valid($node as node(), $model as map(*)) {
     let $collection := request:get-parameter("collection", "imported")
-    for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI//tei:div[@type='original']
+    for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI//tei:div[@type='edition']/tei:ab
     let $valid := totei:DasiToTei($doc)
         return
         <tr>
