@@ -7,6 +7,7 @@ xquery version "3.0";
 
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace totei="http://www.digital-archiv.at/ns/glaser-tei/totei" at "totei.xql";
+import module namespace validates="http://www.digital-archiv.at/ns/glaser-tei/validates" at "validates.xql";
 
 
 (: 

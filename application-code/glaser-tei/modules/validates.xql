@@ -1,6 +1,6 @@
 xquery version "3.0";
 
-module namespace validates="http://www.digital-archiv.at/ns/de-worbench/validates";
+module namespace validates="http://www.digital-archiv.at/ns/glaser-tei/validates";
 
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace app="http://www.digital-archiv.at/ns/glaser-tei/templates" at "app.xql";
@@ -33,10 +33,10 @@ declare function validates:is-tag-used($tag as xs:string, $taglist) as node(){
 };
 
 (:~
- : returns all documents stored in 'data/schemas/' as html option list
+ : returns all documents stored in 'resources/schemas/' as html option list
 :)
 declare function validates:fetch_schemas($node as node(), $model as map(*)) {
-for $x in collection(concat($config:app-root, '/data/schemas/'))
+for $x in collection(concat($config:app-root, '/resources/schemas/'))
 return
                         <option value="{app:getDocName($x)}">{app:getDocName($x)}</option>
 };
@@ -47,8 +47,10 @@ return
 declare function validates:toc_validates($node as node(), $model as map(*)) {
 if (request:get-parameter("schema", "") != "")
 then
-let $schema := xs:anyURI(concat($config:app-root, '/data/schemas/',(request:get-parameter("schema", ""))))
-    for $doc in collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+let $schema := xs:anyURI(concat($config:app-root, '/resources/schemas/',(request:get-parameter("schema", ""))))
+let $directory := request:get-parameter("directory", "editions")
+let $collection := concat($config:app-root, '/data/', $directory, '/')
+    for $doc in collection($collection)//tei:TEI
     let $xml := root($doc)
     let $validation_report := validation:validate-report($doc, $schema)
     let $result :=              
@@ -56,7 +58,7 @@ let $schema := xs:anyURI(concat($config:app-root, '/data/schemas/',(request:get-
             then
                 <tr>
                     <td>
-                        <a href="{concat(replace(concat($config:app-root, '/pages/'), '/db/', '/exist/'),app:hrefToDoc($doc, "statistics.xsl"))}">{app:getDocName($doc)}</a>
+                        <a href="{concat(app:hrefToDoc($doc),'&amp;directory=',$directory)}">{app:getDocName($doc)}</a>
                     </td>
                     <td bgcolor="#FF0000">failed</td>
                     <td><strong><abbr title="only the first three errors are displayed">Oh no!</abbr></strong><br />{for $x in validation:validate-report($doc, $schema)//message[position() lt 4]
@@ -70,7 +72,7 @@ let $schema := xs:anyURI(concat($config:app-root, '/data/schemas/',(request:get-
             else 
                 <tr>
                     <td>
-                        <a href="{concat(replace(concat($config:app-root, '/pages/'), '/db/', '/exist/'),app:hrefToDoc($doc, "statistics.xsl"))}">{app:getDocName($doc)}</a>
+                        <a href="{concat(app:hrefToDoc($doc),'&amp;directory=',$directory)}">{app:getDocName($doc)}</a>
                     </td>
                     <td bgcolor="#00FF00">passed</td>
                     <td>no problem, well done!</td>
