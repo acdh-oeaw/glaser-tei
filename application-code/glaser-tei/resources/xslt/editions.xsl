@@ -120,46 +120,18 @@
                 </h3>
             </div>
             <div class="panel-body">
+                <div id="annotated_text">
+                    <h3>annotated</h3>
+                    <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[2]"/>
+                </div>
                 <div class="row">
-                    <div class="col-md-4">
-                        <h4>
-                            Navigation
-                        </h4>
-                        <xsl:element name="ul">
-                            <xsl:for-each select="//tei:body//tei:head">
-                                <xsl:element name="li">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:text>#text_</xsl:text>
-                                            <xsl:value-of select="."/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="id">
-                                            <xsl:text>nav_</xsl:text>
-                                            <xsl:value-of select="."/>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:element>
-                            </xsl:for-each>
-                        </xsl:element>
+                    <div class="col-md-6" id="annotated_text">
+                        <h3>original</h3>
+                        <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[1]"/>
                     </div>
-                    <div class="col-md-8" id="transcribed_text">
-                        <h3>
-                            <xsl:apply-templates select="//tei:div[@type='titelblatt']"/>
-                        </h3>
-                        <p>
-                            <xsl:choose>
-                                <xsl:when test="//tei:div[@type='text']">
-                                    <xsl:apply-templates select="//tei:div[@type='text']"/>
-                                </xsl:when>
-                                <xsl:when test="//tei:div[@type='transcript']">
-                                    <xsl:apply-templates select="//tei:div[@type='transcript']"/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:apply-templates select="//tei:body"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </p>
+                    <div class="col-md-6" id="annotated_text">
+                        <h3>translation</h3>
+                        <xsl:apply-templates select="//tei:div[@type='translation']"/>
                     </div>
                 </div>
             </div>
@@ -191,7 +163,29 @@
     #####################
     ###  Formatierung ###
     #####################
---><!-- resp -->
+-->
+    <xsl:template match="tei:supplied">
+        <span style="color:red;" data-toggle="tooltip" title="supplied">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:unclear">
+        <span style="color:#F7C331;" data-toggle="tooltip" title="unclear">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:del">
+        <del style="color:#FA07EA;" data-toggle="tooltip" title="deleted">
+            <xsl:apply-templates/>
+        </del>
+    </xsl:template>
+    <xsl:template match="tei:gap">
+        <span style="color:#FFFFFF;" data-toggle="tooltip">
+            <xsl:attribute name="title">
+                <xsl:value-of select="@quantity"/>&#160;<xsl:value-of select="@unit"/> missing</xsl:attribute>
+            []
+        </span>
+    </xsl:template><!-- resp -->
     <xsl:template match="tei:respStmt/tei:resp">
         <xsl:apply-templates/>&#160;
     </xsl:template>

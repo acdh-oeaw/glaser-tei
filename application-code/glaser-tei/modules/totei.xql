@@ -91,9 +91,9 @@ let $node := $node
 let $text := $node/text()
 let $text := replace($text, '<', '<add>')
 let $text := replace($text, '>', '</add>')
-let $text := concat('<div type="annotated">', $text, '</div>')
+let $text := concat('<ab>', $text, '</ab>')
 let $text := replace($text, '(\d).', '<lb n="$1"/>')
-let $text := replace($text, '\[', '<supplied>' )
+let $text := replace($text, '\[', '<supplied reason="lost">' )
 let $text := replace($text, '\]', '</supplied>' )
 let $text := replace($text, '\(', '<unclear>')
 let $text := replace($text, '\)', '</unclear>')
@@ -114,6 +114,13 @@ return $tei
 declare function totei:check-valid($node as node(), $model as map(*)) {
     let $collection := request:get-parameter("collection", "imported")
     for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI//tei:div[@type='edition']/tei:ab
+    let $ID := substring-before(app:getDocName($doc), '__')
+    let $editionIDs := totei:storedIDs('editions')
+    let $inEdition := if (not(functx:is-value-in-sequence($ID, totei:storedIDs('editions'))))
+        then 
+            <a href="process.html?document={app:getDocName($doc)}" onclick="return confirm('Process this document?');">process</a>
+        else
+            "already processed"
     let $valid := totei:DasiToTei($doc)
         return
         <tr>
@@ -122,7 +129,7 @@ declare function totei:check-valid($node as node(), $model as map(*)) {
             </td>
             <td>{$valid}</td>
             <td><a href="remove.html?document={app:getDocName($doc)}" onclick="return confirm('Are you sure you want to delete?');">delete</a></td>
-            <td><a href="www.derstandard.at" onclick="return confirm('Are you sure you want to delete?');">upgrade</a></td>
+            <td>{$inEdition}</td>
         </tr>   
 };
 
@@ -135,5 +142,22 @@ if (request:get-parameter("document", "") != "") then
     let $collection := concat($config:app-root, '/data/imported/')
     let $removed :=xmldb:remove($collection, $doc)
     return $doc
+else()
+};
+
+(:~
+ : moves and process (DasiToTei) a document
+ :)
+declare function totei:processDoc($node as node(), $model as map(*)) {
+if (request:get-parameter("document", "") != "") then
+    let $doc := request:get-parameter("document", "")
+    let $collection := concat($config:app-root, '/data/imported/')
+    let $targetcollection :=concat($config:app-root, '/data/editions')
+    let $movedxml := xmldb:store($targetcollection, $doc, doc(concat($collection, $doc)))
+    let $node := doc(concat($collection, $doc))//tei:div[@type='edition']
+    let $newnode := functx:change-element-ns-deep(totei:DasiToTei($node/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $newTEI := update insert $newnode into doc($movedxml)//tei:div[@type='edition']
+(:    let $newTEI := update replace $newnode with doc($movedxml)//tei:div[@type='edition']/tei:ab:)
+    return $movedxml
 else()
 };

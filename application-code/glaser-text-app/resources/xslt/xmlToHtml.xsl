@@ -194,7 +194,10 @@
                 <xsl:value-of select="@quantity"/>&#160;<xsl:value-of select="@unit"/> missing</xsl:attribute>
             []
         </span>
-    </xsl:template><!-- opener    -->
+    </xsl:template>
+    
+    
+    <!-- opener    -->
     <xsl:template match="tei:opener">
         <p>
             <xsl:apply-templates/>

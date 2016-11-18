@@ -262,7 +262,7 @@ else
 };
 
 (:~
- : iterates over all docs stored in 'data/editions' parses the original transcirption and stores the result in tei:div[@type='annotaed']
+ : iterates over all docs stored in 'data/editions' parses the original transcription and stores the result in tei:div[@type='annotaed']
  :)
 declare function app:annotateOrig($node as node(), $model as map(*)) {
 for $x in collection(concat($config:app-root, '/data/editions'))//tei:TEI

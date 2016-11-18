@@ -5,21 +5,12 @@ module namespace validates="http://www.digital-archiv.at/ns/glaser-tei/validates
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace app="http://www.digital-archiv.at/ns/glaser-tei/templates" at "app.xql";
 import module namespace config="http://www.digital-archiv.at/ns/glaser-tei/config" at "config.xqm";
-
+import module namespace functx="http://www.functx.com" at "functx.xql";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
-declare namespace functx = "http://www.functx.com";
 declare namespace repo="http://exist-db.org/xquery/repo";
 
-(:~
- : The functx:is-value-in-sequence function returns a boolean value indicating whether or not an atomic value is equal (based on typed values) to a value in the sequence. If $value or $seq is the empty sequence, it returns false.
-:)
-declare function functx:is-value-in-sequence
-  ( $value as xs:anyAtomicType? ,
-    $seq as xs:anyAtomicType* )  as xs:boolean {
-   $value = $seq
- } ;
- 
+
 (:~
 : The validates:is-tag-used returns a HTML td element containing TRUE or FALSE if an element is used in an xml document. 
 :)
