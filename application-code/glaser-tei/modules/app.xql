@@ -188,7 +188,7 @@ let $params :=
 <parameters>
    {for $p in request:get-parameter-names()
     let $val := request:get-parameter($p,())
-    where  not($p = ("document","directory","stylesheet"))
+    (:where  not($p = ("document","directory","stylesheet")):)
     return
        <param name="{$p}"  value="{$val}"/>
    }

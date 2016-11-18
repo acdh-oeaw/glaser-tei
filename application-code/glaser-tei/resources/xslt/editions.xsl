@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
-    <xsl:param name="ref"/><!--
+    <xsl:param name="ref"/>
+    <xsl:param name="directory"/><!--
 ##################################
 ### Seitenlayout und -struktur ###
 ##################################
@@ -170,10 +171,16 @@
                 params[key] = value;
                 }
                 );
+                var collection;
+                if (params['directory'] = "undefined") {
+                    collection = "editions";
+                } else {
+                    collection = params['directory']
+                }
                 var path = window.location.origin+window.location.pathname;
                 var replaced = path.replace("exist/apps/", "exist/rest/db/apps/");
                 current_html = window.location.pathname.substring(window.location.pathname.lastIndexOf("/") + 1)
-                var source_dokument = replaced.replace("pages/"+current_html, "data/editions/"+params['document']);
+                var source_dokument = replaced.replace("pages/"+current_html, "data/"+collection+"/"+params['document']);
                 // console.log(source_dokument)
                 $( "#link_to_source" ).attr('href',source_dokument);
                 $( "#link_to_source" ).text(source_dokument);
