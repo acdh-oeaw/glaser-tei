@@ -121,7 +121,19 @@ declare function totei:check-valid($node as node(), $model as map(*)) {
                 <a href="{app:hrefToDoc($doc)}&amp;directory=imported">{app:getDocName($doc)}</a>
             </td>
             <td>{$valid}</td>
-            <td><a href="#" onclick="return confirm('Are you sure you want to delete?');">delete</a></td>
+            <td><a href="remove.html?document={app:getDocName($doc)}" onclick="return confirm('Are you sure you want to delete?');">delete</a></td>
             <td><a href="www.derstandard.at" onclick="return confirm('Are you sure you want to delete?');">upgrade</a></td>
         </tr>   
+};
+
+(:~
+ : removes a document
+ :)
+declare function totei:removeDoc($node as node(), $model as map(*)) {
+if (request:get-parameter("document", "") != "") then
+    let $doc := request:get-parameter("document", "")
+    let $collection := concat($config:app-root, '/data/imported/')
+    let $removed :=xmldb:remove($collection, $doc)
+    return $doc
+else()
 };
