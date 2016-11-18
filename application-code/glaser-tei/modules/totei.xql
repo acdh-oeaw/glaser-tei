@@ -1,19 +1,11 @@
 xquery version "3.0";
 module namespace totei="http://www.digital-archiv.at/ns/glaser-tei/totei";
+declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 import module namespace templates="http://exist-db.org/xquery/templates";
 import module namespace app="http://www.digital-archiv.at/ns/glaser-tei/templates" at "app.xql";
 import module namespace config="http://www.digital-archiv.at/ns/glaser-tei/config" at "config.xqm";
-
-declare namespace tei="http://www.tei-c.org/ns/1.0";
-declare namespace functx = 'http://www.functx.com';
-
-declare function functx:is-value-in-sequence
-  ( $value as xs:anyAtomicType? ,
-    $seq as xs:anyAtomicType* )  as xs:boolean {
-
-   $value = $seq
- } ;
+import module namespace functx="http://www.functx.com" at "functx.xql";
 
 (:~
  : Returns a list of adlib ID of documents stored in the passed in collection. 
@@ -129,5 +121,7 @@ declare function totei:check-valid($node as node(), $model as map(*)) {
                 <a href="{app:hrefToDoc($doc)}&amp;directory=imported">{app:getDocName($doc)}</a>
             </td>
             <td>{$valid}</td>
+            <td><a href="#" onclick="return confirm('Are you sure you want to delete?');">delete</a></td>
+            <td><a href="www.derstandard.at" onclick="return confirm('Are you sure you want to delete?');">upgrade</a></td>
         </tr>   
 };

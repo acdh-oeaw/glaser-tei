@@ -1,16 +1,12 @@
 xquery version "3.0";
 module namespace app="http://www.digital-archiv.at/ns/glaser-tei/templates";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
-declare namespace functx = 'http://www.functx.com';
+import module namespace functx="http://www.functx.com" at "functx.xql";
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace config="http://www.digital-archiv.at/ns/glaser-tei/config" at "config.xqm";
+import module namespace totei="http://www.digital-archiv.at/ns/glaser-tei/totei" at "totei.xql";
 import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
 
-declare function functx:substring-after-last
-  ( $arg as xs:string? ,
-    $delim as xs:string )  as xs:string {
-    replace ($arg,concat('^.*',$delim),'')
- };
 
 
 (:~
@@ -171,6 +167,45 @@ declare function app:toc($node as node(), $model as map(*)) {
         <tr>
             <td>
                 <a href="{concat(app:hrefToDoc($doc),'&amp;directory=',$collection)}">{app:getDocName($doc)}</a>
+            </td>
+        </tr>   
+};
+
+(:~
+ : creates a basic table of content and checks the progress of each document
+ :)
+declare function app:checkProgress($node as node(), $model as map(*)) {
+    let $collection := request:get-parameter("collection", "editions")
+    for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+    let $ID := substring-before(app:getDocName($doc), '__')
+    let $editionIDs := totei:storedIDs('editions')
+    let $doneIDs := totei:storedIDs('done')
+    let $inEdition := if (functx:is-value-in-sequence($ID, totei:storedIDs('editions')))
+        then 
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"><span style="visibility:hidden">yes</span></span> 
+        else
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"><span style="visibility:hidden">no</span></span> 
+    
+    let $inDone := if (functx:is-value-in-sequence($ID, totei:storedIDs('done')))
+         then 
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"><span style="visibility:hidden">yes</span></span> 
+        else
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"><span style="visibility:hidden">no</span></span> 
+        
+    
+        return
+        <tr>
+            <td>
+                <a href="{concat(app:hrefToDoc($doc),'&amp;directory=',$collection)}">{app:getDocName($doc)}</a>
+            </td>
+            <td>
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"><span style="visibility:hidden">yes</span></span> 
+            </td>
+            <td>
+                {$inEdition}
+            </td>
+            <td>
+                {$inDone}
             </td>
         </tr>   
 };
