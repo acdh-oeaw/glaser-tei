@@ -104,8 +104,17 @@
                         </tbody>
                     </table>
                     <div class="panel-footer">
-                        <p style="text-align:center;">
+                        <p style="text-align:center;">XML<br/>
                             <a id="link_to_source"/>
+                        </p>
+                        <p style="text-align:center;">Glaser-App entry<br/>
+                            <xsl:element name="a">
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="concat('http://glaser.acdh.oeaw.ac.at/#/gl/rec/', //tei:title[@type='alt'][1])"/>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">_blank</xsl:attribute>
+                                <xsl:value-of select="concat('http://glaser.acdh.oeaw.ac.at/#/gl/rec/', //tei:title[@type='alt'][1])"/>
+                            </xsl:element>
                         </p>
                     </div>
                 </div>
@@ -302,7 +311,9 @@
         </xsl:element>
     </xsl:template><!-- Zeilenumbürche   -->
     <xsl:template match="tei:lb">
-        <br/>
+        <hr/>
+        <small>
+            <xsl:value-of select="@n"/>: </small>
     </xsl:template><!-- Absätze    -->
     <xsl:template match="tei:p">
         <xsl:element name="p">

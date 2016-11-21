@@ -8,6 +8,12 @@
                     <titleStmt>
                         <title>Digital Edition of Glaser Abklatsch ID: <xsl:value-of select="//record/object_number"/>
                         </title>
+                        <title type="alt">
+                            <xsl:value-of select="//priref"/>
+                        </title>
+                        <title type="alt">
+                            <xsl:value-of select="//record/object_number"/>
+                        </title>
                         <respStmt>
                             <persName>
                                 <forename>Dummy Forename</forename>
