@@ -47,7 +47,7 @@ return $uri
 };
 
 (:~
- : triggers a batch transformation of adlibXML to TEI-XML which will be stored in /data/editions/ and returns a list of transformed documents
+ : triggers a batch transformation of adlibXML to TEI-XML which will be stored in /data/imported/ and returns a list of transformed documents
  :)
 declare function totei:triggerBatchTrans($node as node(), $model as map(*)) {
 if (request:get-parameter("update", "") = "yes") then
