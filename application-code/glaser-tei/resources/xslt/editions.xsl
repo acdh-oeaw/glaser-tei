@@ -129,9 +129,19 @@
                 </h3>
             </div>
             <div class="panel-body">
-                <div id="annotated_text">
-                    <h3>annotated</h3>
-                    <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[2]"/>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="annotated_text">
+                            <h3>annotated</h3>
+                            <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[2]"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="annotated_text">
+                            <h3>annotated</h3>
+                            <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[2]"/>
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6" id="annotated_text">
