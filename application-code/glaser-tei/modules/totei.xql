@@ -161,9 +161,12 @@ if (request:get-parameter("document", "") != "") then
     let $collection := concat($config:app-root, '/data/imported/')
     let $targetcollection :=concat($config:app-root, '/data/editions')
     let $movedxml := xmldb:store($targetcollection, $doc, doc(concat($collection, $doc)))
-    let $node := doc(concat($collection, $doc))//tei:div[@type='edition']
-    let $newnode := functx:change-element-ns-deep(totei:DasiToTei($node/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
-    let $newTEI := update insert $newnode into doc($movedxml)//tei:div[@type='edition']
+    let $transliteration := doc(concat($collection, $doc))//tei:div[@type='edition']
+    let $newTransliteration  := functx:change-element-ns-deep(totei:DasiToTei($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $translation := doc(concat($collection, $doc))//tei:div[@type='translation']
+    let $newTranslation  := functx:change-element-ns-deep(totei:DasiToTei($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $newTEI := update insert $newTransliteration into doc($movedxml)//tei:div[@type='edition']
+    let $newerTEI := update insert $newTranslation into doc($movedxml)//tei:div[@type='translation']
 (:    let $newTEI := update replace $newnode with doc($movedxml)//tei:div[@type='edition']/tei:ab:)
     return $movedxml
 else()
