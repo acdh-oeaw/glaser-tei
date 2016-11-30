@@ -91,7 +91,7 @@ let $node := $node
 let $text := $node/text()
 let $text := replace($text, '<', '<add>')
 let $text := replace($text, '>', '</add>')
-let $text := concat('<ab>', $text, '</ab>')
+let $text := concat('<ab type="formal-markup">', $text, '</ab>')
 let $text := replace($text, '(\d+).', '<lb n="$1"/>')
 let $text := replace($text, '\[', '<supplied reason="lost">' )
 let $text := replace($text, '\]', '</supplied>' )
@@ -100,6 +100,33 @@ let $text := replace($text, '\)', '</unclear>')
 let $text := replace($text, '\{', '<del>')
 let $text := replace($text, '\}', '</del>')
 let $text := replace($text, '\.\.\.\s\.\.\.', '<gap quantity="plus4" unit="chars"></gap>')
+let $tei := try{
+    util:parse($text)
+} catch * {
+        <div type="error">Caught error {$err:code}: {$err:description} in document {app:getDocName($node)}</div>
+        }
+return $tei
+}; 
+
+(:~
+ : Takes a node containing a string encoded in the Dasi standard and removes any markup except line breaks 
+ :
+ : @$node a node containing a dasi-encoded string
+:)
+declare function totei:ToPlainText($node as node()){
+let $node := $node
+let $text := $node/text()
+let $text := replace($text, '<', '')
+let $text := replace($text, '>', '')
+let $text := concat('<ab type="semantic-markup">', $text, '</ab>')
+let $text := replace($text, '(\d+).', '<lb n="$1"/>')
+let $text := replace($text, '\[', '' )
+let $text := replace($text, '\]', '' )
+let $text := replace($text, '\(', '')
+let $text := replace($text, '\)', '')
+let $text := replace($text, '\{', '')
+let $text := replace($text, '\}', '')
+let $text := replace($text, '\.\.\.\s\.\.\.', '')
 let $tei := try{
     util:parse($text)
 } catch * {
@@ -153,7 +180,7 @@ else()
 };
 
 (:~
- : moves and process (DasiToTei) a document
+ : moves and process (totei:DasiToTei and totei:ToPlainText) a document
  :)
 declare function totei:processDoc($node as node(), $model as map(*)) {
 if (request:get-parameter("document", "") != "") then
@@ -163,10 +190,14 @@ if (request:get-parameter("document", "") != "") then
     let $movedxml := xmldb:store($targetcollection, $doc, doc(concat($collection, $doc)))
     let $transliteration := doc(concat($collection, $doc))//tei:div[@type='edition']
     let $newTransliteration  := functx:change-element-ns-deep(totei:DasiToTei($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $plainTransliteration := functx:change-element-ns-deep(totei:ToPlainText($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
     let $translation := doc(concat($collection, $doc))//tei:div[@type='translation']
     let $newTranslation  := functx:change-element-ns-deep(totei:DasiToTei($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $plainTranslation  := functx:change-element-ns-deep(totei:ToPlainText($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
     let $newTEI := update insert $newTransliteration into doc($movedxml)//tei:div[@type='edition']
+    let $plainTEI := update insert $plainTransliteration into doc($movedxml)//tei:div[@type='edition']
     let $newerTEI := update insert $newTranslation into doc($movedxml)//tei:div[@type='translation']
+    let $newerPlainTEI := update insert $plainTranslation into doc($movedxml)//tei:div[@type='translation']
 (:    let $newTEI := update replace $newnode with doc($movedxml)//tei:div[@type='edition']/tei:ab:)
     return $movedxml
 else()

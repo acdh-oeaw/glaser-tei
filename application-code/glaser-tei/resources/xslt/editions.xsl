@@ -124,7 +124,7 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <h2 align="center">
-                        Transkription
+                        formal markup
                     </h2>
                 </h3>
             </div>
@@ -132,29 +132,47 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div id="annotated_text">
-                            <h3>annotated</h3>
-                            <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[2]"/>
+                            <h3>transliteration</h3>
+                            <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[@type='formal-markup']"/>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div id="annotated_text">
-                            <h3>annotated</h3>
-                            <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[2]"/>
+                            <h3>translation</h3>
+                            <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[@type='formal-markup']"/>
                         </div>
                     </div>
                 </div>
+                <hr/>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <h2 align="center">
+                        semantic markup
+                    </h2>
+                </h3>
+            </div>
+            <div class="panel-body">
                 <div class="row">
-                    <div class="col-md-6" id="annotated_text">
-                        <h3>original</h3>
-                        <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[1]"/>
+                    <div class="col-md-6">
+                        <div id="annotated_text">
+                            <h3>transliteration</h3>
+                            <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[@type='semantic-markup']"/>
+                        </div>
                     </div>
-                    <div class="col-md-6" id="annotated_text">
-                        <h3>translation</h3>
-                        <xsl:apply-templates select="//tei:div[@type='translation']"/>
+                    <div class="col-md-6">
+                        <div id="annotated_text">
+                            <h3>translation</h3>
+                            <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[@type='semantic-markup']"/>
+                        </div>
                     </div>
                 </div>
+                <hr/>
             </div>
-            <script type="text/javascript">
+        </div>
+        <script type="text/javascript">
                 // creates a link to the xml version of the current docuemnt available via eXist-db's REST-API
                 var params={};
                 window.location.search
@@ -177,7 +195,6 @@
                 $( "#link_to_source" ).attr('href',source_dokument);
                 $( "#link_to_source" ).text(source_dokument);
                 </script>
-        </div>
     </xsl:template><!--
     #####################
     ###  Formatierung ###

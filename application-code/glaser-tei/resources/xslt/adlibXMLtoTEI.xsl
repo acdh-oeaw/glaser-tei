@@ -148,12 +148,12 @@
             <text>
                 <body>
                     <div xml:lang="inm-Latn-x-cntmin" type="edition">
-                        <tei:ab>
+                        <tei:ab type="adlib-orig">
                             <xsl:value-of select="//inscription.transliteration"/>
                         </tei:ab>
                     </div>
                     <div xml:lang="en" type="translation">
-                        <tei:ab>
+                        <tei:ab type="adlib-orig">
                             <xsl:value-of select="//inscription.translation"/>
                         </tei:ab>
                     </div>
