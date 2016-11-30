@@ -113,7 +113,7 @@ return $tei
  :)
 declare function totei:check-valid($node as node(), $model as map(*)) {
     let $collection := request:get-parameter("collection", "imported")
-    for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI//tei:div[@type='edition']/tei:ab
+    for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI//tei:body
     let $ID := substring-before(app:getDocName($doc), '__')
     let $editionIDs := totei:storedIDs('editions')
     let $inEdition := if (not(functx:is-value-in-sequence($ID, totei:storedIDs('editions'))))
@@ -126,13 +126,15 @@ declare function totei:check-valid($node as node(), $model as map(*)) {
             <a href="remove.html?document={app:getDocName($doc)}" onclick="return confirm('Are you sure you want to delete?');">delete</a>
         else
             "already processed"
-    let $valid := totei:DasiToTei($doc)
+    let $validTranslation := totei:DasiToTei($doc//tei:div[@type="edition"]/tei:ab)
+    let $validTransliteration := totei:DasiToTei($doc//tei:div[@type="translation"]/tei:ab)
         return
         <tr>
             <td>
                 <a href="{app:hrefToDoc($doc)}&amp;directory=imported">{app:getDocName($doc)}</a>
             </td>
-            <td>{$valid}</td>
+            <td>{$validTranslation}</td>
+            <td>{$validTransliteration}</td>
             <td>{$delete}</td>
             <td>{$inEdition}</td>
         </tr>   
