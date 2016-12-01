@@ -29,6 +29,9 @@
                         <a href="#tab-semantic">semantic markup</a>
                     </li>
                     <li>
+                        <a href="#tab-syntactic">syntactic markup</a>
+                    </li>
+                    <li>
                         <a href="#tab-adlib-import">adlib-import</a>
                     </li>
                 </ul>
@@ -199,6 +202,32 @@
                         <hr/>
                     </div>
                 </div>
+                <div class="panel panel-default" id="tab-syntactic">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <h2 align="center">
+                                syntactic markup
+                            </h2>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="annotated_text">
+                                    <h3 align="center">transliteration</h3>
+                                    <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[@type='syntactic-markup']"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="annotated_text">
+                                    <h3 align="center">translation</h3>
+                                    <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[@type='syntactic-markup']"/>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
                 <div class="panel panel-default" id="tab-adlib-import">
                     <div class="panel-heading">
                         <h3 class="panel-title">
@@ -315,6 +344,7 @@
         <strong style="color:purple" data-toggle="tooltip">
             <xsl:attribute name="title">
                 <xsl:value-of select="@type"/>
+                <text/>
                 <xsl:value-of select="@subtype"/>
                 <xsl:value-of select="@role"/>
             </xsl:attribute>

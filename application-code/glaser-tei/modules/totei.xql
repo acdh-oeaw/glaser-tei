@@ -116,9 +116,38 @@ return $tei
 declare function totei:ToPlainText($node as node()){
 let $node := $node
 let $text := $node/text()
+let $text := replace($text, '\|', '')
 let $text := replace($text, '<', '')
 let $text := replace($text, '>', '')
 let $text := concat('<ab type="semantic-markup">', $text, '</ab>')
+let $text := replace($text, '(\d+).', '<lb n="$1"/>')
+let $text := replace($text, '\[', '' )
+let $text := replace($text, '\]', '' )
+let $text := replace($text, '\(', '')
+let $text := replace($text, '\)', '')
+let $text := replace($text, '\{', '')
+let $text := replace($text, '\}', '')
+let $text := replace($text, '\.\.\.\s\.\.\.', '')
+let $tei := try{
+    util:parse($text)
+} catch * {
+        <div type="error">Caught error {$err:code}: {$err:description} in document {app:getDocName($node)}</div>
+        }
+return $tei
+}; 
+
+(:~
+ : Takes a node containing a string encoded in the Dasi standard and removes any markup except line breaks 
+ :
+ : @$node a node containing a dasi-encoded string
+:)
+declare function totei:ToPlainTextSyntax($node as node()){
+let $node := $node
+let $text := $node/text()
+let $text := replace($text, '\|', '')
+let $text := replace($text, '<', '')
+let $text := replace($text, '>', '')
+let $text := concat('<ab type="syntactic-markup">', $text, '</ab>')
 let $text := replace($text, '(\d+).', '<lb n="$1"/>')
 let $text := replace($text, '\[', '' )
 let $text := replace($text, '\]', '' )
@@ -191,13 +220,17 @@ if (request:get-parameter("document", "") != "") then
     let $transliteration := doc(concat($collection, $doc))//tei:div[@type='edition']
     let $newTransliteration  := functx:change-element-ns-deep(totei:DasiToTei($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
     let $plainTransliteration := functx:change-element-ns-deep(totei:ToPlainText($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $syntaxTransliteration := functx:change-element-ns-deep(totei:ToPlainTextSyntax($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
     let $translation := doc(concat($collection, $doc))//tei:div[@type='translation']
     let $newTranslation  := functx:change-element-ns-deep(totei:DasiToTei($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
     let $plainTranslation  := functx:change-element-ns-deep(totei:ToPlainText($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $syntaxTranslation  := functx:change-element-ns-deep(totei:ToPlainTextSyntax($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
     let $newTEI := update insert $newTransliteration into doc($movedxml)//tei:div[@type='edition']
     let $plainTEI := update insert $plainTransliteration into doc($movedxml)//tei:div[@type='edition']
+    let $syntaxplainTEI := update insert $syntaxTransliteration into doc($movedxml)//tei:div[@type='edition']
     let $newerTEI := update insert $newTranslation into doc($movedxml)//tei:div[@type='translation']
     let $newerPlainTEI := update insert $plainTranslation into doc($movedxml)//tei:div[@type='translation']
+    let $syntaxnewerPlainTEI := update insert $syntaxTranslation into doc($movedxml)//tei:div[@type='translation']
 (:    let $newTEI := update replace $newnode with doc($movedxml)//tei:div[@type='edition']/tei:ab:)
     return $movedxml
 else()
