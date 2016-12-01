@@ -7,169 +7,224 @@
 ##################################
 -->
     <xsl:template match="/">
-        <div class="page-header">
-            <h2 align="center">
-                <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
-                    <xsl:value-of select="."/>
-                    <br/>
-                </xsl:for-each>
-            </h2>
-        </div>
-        <div class="regest">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">
-                        <h2 align="center">Info</h2>
-                    </h3>
+        <style>
+            @media screen and (max-width: 810px) {
+            #tab-top, #tab-info, #tab-formal, #tab-semantic, #tab-adlib-import  {
+            margin-left: 150px;
+            }
+        </style>
+        <div class="row">
+            <nav class="col-sm-2" id="myScrollspy">
+                <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="">
+                    <li>
+                        <a href="#tab-top">top</a>
+                    </li>
+                    <li>
+                        <a href="#tab-info">metadata</a>
+                    </li>
+                    <li>
+                        <a href="#tab-formal">formal markup</a>
+                    </li>
+                    <li>
+                        <a href="#tab-semantic">semantic markup</a>
+                    </li>
+                    <li>
+                        <a href="#tab-adlib-import">adlib-import</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col-sm-10">
+                <div class="page-header" id="tab-top">
+                    <h2 align="center">
+                        <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
+                            <xsl:value-of select="."/>
+                            <br/>
+                        </xsl:for-each>
+                    </h2>
                 </div>
-                <div class="panel-body">
-                    <table class="table table-striped">
-                        <tbody>
-                            <tr>
-                                <th>
-                                    <abbr title="tei:titleStmt/tei:title">Title</abbr>
-                                </th>
-                                <td>
-                                    <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
-                                        <xsl:apply-templates/>
-                                        <br/>
-                                    </xsl:for-each>
-                                </td>
-                            </tr>
-                            <xsl:if test="//tei:msIdentifier">
-                                <tr>
-                                    <th>
-                                        <abbr title="//tei:msIdentifie">Identifier</abbr>
-                                    </th>
-                                    <td>
-                                        <xsl:for-each select="//tei:msIdentifier/child::*">
-                                            <abbr>
-                                                <xsl:attribute name="title">
-                                                    <xsl:value-of select="name()"/>
-                                                </xsl:attribute>
-                                                <xsl:value-of select="."/>
-                                            </abbr>
-                                            <br/>
-                                        </xsl:for-each><!--<xsl:apply-templates select="//tei:msIdentifier"/>-->
-                                    </td>
-                                </tr>
-                            </xsl:if>
-                            <xsl:if test="//tei:msContents">
-                                <tr>
-                                    <th>
-                                        <abbr title="//tei:msContents">Description</abbr>
-                                    </th>
-                                    <td>
-                                        <xsl:apply-templates select="//tei:msContents"/>
-                                    </td>
-                                </tr>
-                            </xsl:if>
-                            <xsl:if test="//tei:supportDesc/tei:extent">
-                                <tr>
-                                    <th>
-                                        <abbr title="//tei:supportDesc/tei:extent">Extent</abbr>
-                                    </th>
-                                    <td>
-                                        <xsl:apply-templates select="//tei:supportDesc/tei:extent"/>
-                                    </td>
-                                </tr>
-                            </xsl:if>
-                            <xsl:if test="//tei:titleStmt/tei:respStmt">
-                                <tr>
-                                    <th>
-                                        <abbr title="//tei:titleStmt/tei:respStmt">responsible</abbr>
-                                    </th>
-                                    <td>
-                                        <xsl:for-each select="//tei:titleStmt/tei:respStmt">
-                                            <p>
+                <div class="regest" id="tab-info">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <h2 align="center">Info</h2>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <abbr title="tei:titleStmt/tei:title">Title</abbr>
+                                        </th>
+                                        <td>
+                                            <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
                                                 <xsl:apply-templates/>
-                                            </p>
-                                        </xsl:for-each>
-                                    </td>
-                                </tr>
-                            </xsl:if>
-                            <tr>
-                                <th>
-                                    <abbr title="//tei:availability//tei:p[1]">License</abbr>
-                                </th>
-                                <td>
+                                                <br/>
+                                            </xsl:for-each>
+                                        </td>
+                                    </tr>
+                                    <xsl:if test="//tei:msIdentifier">
+                                        <tr>
+                                            <th>
+                                                <abbr title="//tei:msIdentifie">Identifier</abbr>
+                                            </th>
+                                            <td>
+                                                <xsl:for-each select="//tei:msIdentifier/child::*">
+                                                    <abbr>
+                                                        <xsl:attribute name="title">
+                                                            <xsl:value-of select="name()"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="."/>
+                                                    </abbr>
+                                                    <br/>
+                                                </xsl:for-each><!--<xsl:apply-templates select="//tei:msIdentifier"/>-->
+                                            </td>
+                                        </tr>
+                                    </xsl:if>
+                                    <xsl:if test="//tei:msContents">
+                                        <tr>
+                                            <th>
+                                                <abbr title="//tei:msContents">Description</abbr>
+                                            </th>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:msContents"/>
+                                            </td>
+                                        </tr>
+                                    </xsl:if>
+                                    <xsl:if test="//tei:supportDesc/tei:extent">
+                                        <tr>
+                                            <th>
+                                                <abbr title="//tei:supportDesc/tei:extent">Extent</abbr>
+                                            </th>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:supportDesc/tei:extent"/>
+                                            </td>
+                                        </tr>
+                                    </xsl:if>
+                                    <xsl:if test="//tei:titleStmt/tei:respStmt">
+                                        <tr>
+                                            <th>
+                                                <abbr title="//tei:titleStmt/tei:respStmt">responsible</abbr>
+                                            </th>
+                                            <td>
+                                                <xsl:for-each select="//tei:titleStmt/tei:respStmt">
+                                                    <p>
+                                                        <xsl:apply-templates/>
+                                                    </p>
+                                                </xsl:for-each>
+                                            </td>
+                                        </tr>
+                                    </xsl:if>
+                                    <tr>
+                                        <th>
+                                            <abbr title="//tei:availability//tei:p[1]">License</abbr>
+                                        </th>
+                                        <td>
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">
+                                                    <xsl:apply-templates select="//tei:licence/@target"/>
+                                                </xsl:attribute>
+                                                <xsl:apply-templates select="//tei:availability//tei:p[1]"/>
+                                            </xsl:element>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="panel-footer">
+                                <p style="text-align:center;">XML<br/>
+                                    <a id="link_to_source"/>
+                                </p>
+                                <p style="text-align:center;">Glaser-App entry<br/>
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
-                                            <xsl:apply-templates select="//tei:licence/@target"/>
+                                            <xsl:value-of select="concat('http://glaser.acdh.oeaw.ac.at/#/gl/rec/', //tei:title[@type='alt'][1])"/>
                                         </xsl:attribute>
-                                        <xsl:apply-templates select="//tei:availability//tei:p[1]"/>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
+                                        <xsl:value-of select="concat('http://glaser.acdh.oeaw.ac.at/#/gl/rec/', //tei:title[@type='alt'][1])"/>
                                     </xsl:element>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="panel-footer">
-                        <p style="text-align:center;">XML<br/>
-                            <a id="link_to_source"/>
-                        </p>
-                        <p style="text-align:center;">Glaser-App entry<br/>
-                            <xsl:element name="a">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of select="concat('http://glaser.acdh.oeaw.ac.at/#/gl/rec/', //tei:title[@type='alt'][1])"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="target">_blank</xsl:attribute>
-                                <xsl:value-of select="concat('http://glaser.acdh.oeaw.ac.at/#/gl/rec/', //tei:title[@type='alt'][1])"/>
-                            </xsl:element>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <h2 align="center">
-                        formal markup
-                    </h2>
-                </h3>
-            </div>
-            <div class="panel-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div id="annotated_text">
-                            <h3>transliteration</h3>
-                            <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[@type='formal-markup']"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="annotated_text">
-                            <h3>translation</h3>
-                            <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[@type='formal-markup']"/>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <hr/>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <h2 align="center">
-                        semantic markup
-                    </h2>
-                </h3>
-            </div>
-            <div class="panel-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div id="annotated_text">
-                            <h3>transliteration</h3>
-                            <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[@type='semantic-markup']"/>
-                        </div>
+                <div class="panel panel-default" id="tab-formal">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <h2 align="center">
+                                    formal markup
+                                </h2>
+                        </h3>
                     </div>
-                    <div class="col-md-6">
-                        <div id="annotated_text">
-                            <h3>translation</h3>
-                            <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[@type='semantic-markup']"/>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="annotated_text">
+                                    <h3 align="center">transliteration</h3>
+                                    <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[@type='formal-markup']"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="annotated_text">
+                                    <h3 align="center">translation</h3>
+                                    <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[@type='formal-markup']"/>
+                                </div>
+                            </div>
                         </div>
+                        <hr/>
                     </div>
                 </div>
-                <hr/>
+                <div class="panel panel-default" id="tab-semantic">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <h2 align="center">
+                                    semantic markup
+                                </h2>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="annotated_text">
+                                    <h3 align="center">transliteration</h3>
+                                    <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[@type='semantic-markup']"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="annotated_text">
+                                    <h3 align="center">translation</h3>
+                                    <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[@type='semantic-markup']"/>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
+                <div class="panel panel-default" id="tab-adlib-import">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <h2 align="center">
+                            original (imported) markup
+                        </h2>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="annotated_text">
+                                    <h3 align="center">transliteration</h3>
+                                    <xsl:apply-templates select="//tei:div[@type='edition']/tei:ab[@type='adlib-orig']"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="annotated_text">
+                                    <h3 align="center">translation</h3>
+                                    <xsl:apply-templates select="//tei:div[@type='translation']/tei:ab[@type='adlib-orig']"/>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
             </div>
         </div>
         <script type="text/javascript">
