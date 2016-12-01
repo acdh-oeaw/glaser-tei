@@ -279,6 +279,14 @@
                 $( "#link_to_source" ).attr('href',source_dokument);
                 $( "#link_to_source" ).text(source_dokument);
                 </script>
+    </xsl:template>
+    <xsl:template match="tei:w">
+        <a>
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat('http://www.test?word=/', .)"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </a>
     </xsl:template><!--
     #####################
     ###  Formatierung ###

@@ -7,26 +7,6 @@ import module namespace app="http://www.digital-archiv.at/ns/glaser-tei/template
 import module namespace totei="http://www.digital-archiv.at/ns/glaser-tei/totei" at "../modules/totei.xql";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
-
-declare function functx:is-value-in-sequence
-  ( $value as xs:anyAtomicType? ,
-    $seq as xs:anyAtomicType* )  as xs:boolean {
-
-   $value = $seq
- } ;
-
-
-
-
-let $uri := "http://opacbasis.w07adlib1.arz.oeaw.ac.at/wwwopac.ashx?database=archive&amp;command=getpointerfile&amp;number=15"
-let $xml := doc($uri)
-let $ids := $xml//hit/text() 
-let $countIds := count($ids)
-let $result := <items>
-        {for $x in $ids where not(functx:is-value-in-sequence($x, totei:storedIDs('imported')))
-        return 
-            <hit>{$x}</hit>}          
-    </items>
-let $amount = count($result//hit)
-return $amount
-
+for $resource in xmldb:get-child-resources($config:app-root||"/data/imported/")
+    return
+        sm:add-group-ace(xs:anyURI($config:app-root||"/data/imported/"||$resource), "glaser", true(), "rwx")
