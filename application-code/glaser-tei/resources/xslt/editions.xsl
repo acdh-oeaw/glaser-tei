@@ -286,6 +286,40 @@
                 <xsl:apply-templates/>
             </li>
         </xsl:for-each>
+    </xsl:template><!--
+    #####################
+    ###  semantic markup         ###
+    #####################
+-->
+    <xsl:template match="tei:persName">
+        <strong style="color:green" data-toggle="tooltip">
+            <xsl:attribute name="title">
+                <xsl:value-of select="@type"/>
+                <xsl:value-of select="@subtype"/>
+                <xsl:value-of select="@role"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </strong>
+    </xsl:template>
+    <xsl:template match="tei:placeName">
+        <strong style="color:blue" data-toggle="tooltip">
+            <xsl:attribute name="title">
+                <xsl:value-of select="@type"/>
+                <xsl:value-of select="@subtype"/>
+                <xsl:value-of select="@role"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </strong>
+    </xsl:template>
+    <xsl:template match="tei:orgName">
+        <strong style="color:purple" data-toggle="tooltip">
+            <xsl:attribute name="title">
+                <xsl:value-of select="@type"/>
+                <xsl:value-of select="@subtype"/>
+                <xsl:value-of select="@role"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </strong>
     </xsl:template><!-- reference strings   -->
     <xsl:template match="tei:rs[@ref or @key]">
         <strong>
