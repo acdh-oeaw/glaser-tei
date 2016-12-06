@@ -42,6 +42,9 @@ sm:add-group-ace(xs:anyURI($config:app-root||"/modules/totei.xql"), "glaser", tr
 sm:add-group-ace(xs:anyURI($config:app-root||"/modules/validates.xql"), "glaser", true(), "r-x"),
 sm:add-group-ace(xs:anyURI($config:app-root||"/modules/functx.xql"), "glaser", true(), "r-x"),
 
+(: remove access rights to import-documents-check.html for guest user :)
+sm:chmod(xs:anyURI($config:app-root||"/pages/import-documents-check.html"), "rw-rw----"),
+
 (: grant all rights to all documents to 'glaser' group:)
 
 for $collection in xmldb:get-child-collections($config:app-root||"/data")
