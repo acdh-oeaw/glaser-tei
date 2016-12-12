@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>hansi is the best Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B173b</title>
+                <respStmt>
+                    <resp>Transcribed</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO transcribed THE TEXT</name>
+                    <resp>Translated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO translated THE TEXT</name>
+                    <resp>Annotated</resp>
+                    <name>PLEASE ADD NAME OF PERSON WHO annotated THE TEXT</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>ÖAW BASIS ???</name>
+                    <address>
+                        <addrLine>Sonnenfelsgasse 19, 1010 Wien, Austria</addrLine>
+                    </address>
+                    <pubPlace>Vienna</pubPlace>
+                    <date when="2016">2016</date>
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>
+                                    Distributed under CC BY-SA 4.0 License.
+                                </p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>
+                            <orgName key="834">Bibliothek, Archiv, Sammlungen: Information &amp; Service (BAS:IS) [ÖAW]</orgName>
+                        </institution>
+                        <repository>
+                            <orgName key="1110001189">AT-OeAW-BA-3-27-A</orgName>
+                        </repository>
+                        <idno>1110001189</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origPlace>
+                    <settlement>
+                        <placeName key="770">Ḥinū az-Zurayr</placeName>
+                    </settlement>
+                </origPlace>
+            </creation>
+            <particDesc>
+                <listPerson xml:id="personsMentioned">
+                    <head>Persons mentioned</head>
+                </listPerson>
+                <listPlace xml:id="placesMentioned">
+                    <head>Placess mentioned</head>
+                    <place xml:id="adlib_id770">
+                        <placeName>Ḥinū az-Zurayr</placeName>
+                        <idno type="geonames"/>
+                    </place>
+                </listPlace>
+            </particDesc>
+            <abstract xml:lang="en">
+                <p>abstract</p>
+            </abstract>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-11-10" who="ghatke"/>
+            <change when="2016-11-10" who="ghatke"/>
+            <change when="2016-11-10" who="ghatke"/>
+            <change when="2016-11-04" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-09-27" who="ghatke"/>
+            <change when="2016-06-24" who="ghatke"/>
+            <change when="2016-05-31" who="ghatke"/>
+            <change when="2016-05-24" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-05-11" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-04" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+            <change when="2016-02-09" who="ghatke"/>
+            <change when="2016-02-09" who="ghatke"/>
+            <change when="2016-02-09" who="ghatke"/>
+            <change when="2016-02-09" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">1.(ydʿʾb | ḏbyn |)
+2.(bn) | šhr | mkrb | qtbn | w-[kl | w=]
+3.ld | ʿm | w-ʾwsn | w-kḥd | w-[d=]
+4.hsm | w-tbnw | w-yrfʾ | ʾymnn
+5.w-ʾšʾmn | nqz | w-wzl | w-brr | msbʾ
+6.w-mnql | ẓrm | b-ʾmr | ʿm | ḏ-[šqr | b-ʿm | w-b]
+7.ʾnby | w-b | ʿm | ḏ-rymtm | w-b | ʿm | ḏ-šqr | w-b
+8.[ḥwkm | w-b | ḏt | ṣntm | w-b | ḏt | ẓhrn | w-b | ḏt | rḥbn]
+9.[ʾwsʿm | bn | yṣrʿm | bn | mdhm | tqdm | w-ḥrg | kl]
+10.[ʿšq | w-wzl | w-ṣll | mnqln | ẓrm | b-tḥrg | mrʾ-s]
+11.[ydʿʾb]</div>
+            <div type="translation">1.Yadaʿʾab Dhubyān
+2.bin Shahr, the ruler of Qatabān and [all of the child-]
+3.ren of ʿAmm and ʾAwsān and Kaḥid and [Da-]
+4.hasum and Tubanū and Yarfaʾ, the southern reaches 
+5.and the northern reaches, has cut and carved out and levelled the road
+6.and the mountain pass of Ẓarrum at the command of ʿAmm Dhū-[Shaqīr. By ʿAmm, and by]
+7.ʾAnbay, and by ʿAmm Dhū-Raymatim, and by ʿAmm Dhū-Shaqīr, and by
+8.[Ḥawkam, and by Dhāt-Ṣanatim, and by Dhāt-Ẓahrān, and by Dhāt-Raḥbān.]
+9.[ʾAwsʿamm, the son of Yiṣurʿamm, of the lineage of Madihum, led and commanded all of] 
+10.[the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,]
+11.[Yadaʿʾab.]</div>
+        </body>
+    </text>
+</TEI>

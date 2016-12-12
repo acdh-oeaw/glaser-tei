@@ -24,6 +24,13 @@ declare function app:test($node as node(), $model as map(*)) {
 };
 
 (:~
+: logs a user in.
+:)
+declare function app:logIn($node as node(), $model as map(*)){
+<p>test</p>
+};
+
+(:~
 : returns the name of the document of the node passed to this function.
 :)
 declare function app:getDocName($node as node()){
