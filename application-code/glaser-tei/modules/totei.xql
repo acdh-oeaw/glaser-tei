@@ -103,7 +103,7 @@ let $text := replace($text, '\.\.\.\s\.\.\.', '<gap quantity="plus4" unit="chars
 let $tei := try{
     util:parse($text)
 } catch * {
-        <div type="error">Caught error {$err:code}: {$err:description} in document {app:getDocName($node)}</div>
+        <div type="error"><message>Caught error {$err:code}: {$err:description} in document {app:getDocName($node)}</message><text>{($text)}</text></div>
         }
 return $tei
 }; 
@@ -189,8 +189,12 @@ declare function totei:check-valid($node as node(), $model as map(*)) {
             <td>
                 <a href="{app:hrefToDoc($doc)}&amp;directory=imported">{app:getDocName($doc)}</a>
             </td>
-            <td>{$validTranslation}</td>
-            <td>{$validTransliteration}</td>
+            <td>{$validTranslation}
+                <br/><hr/>{$validTranslation/text}
+            </td>
+            <td>{$validTransliteration}
+                <br/><hr/>{$validTransliteration/text}
+            </td>
             <td>{$delete}</td>
             <td>{$inEdition}</td>
         </tr>   

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1604b</title>
+                <title type="alt">1110000908</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1604b</title>
+                <respStmt>
+                    <persName>
+                        <forename>Dummy Forename</forename>
+                        <surname>Dummy Lastname</surname>
+                    </persName>
+                    <resp>What was this person doing?</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ÖAW BASIS</authority>
+                <availability>
+                    <licence target="#">Some license information</licence>
+                </availability>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1604b</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>ÖAW Basis</repository>
+                        <collection>name of the collection </collection>
+                        <idno type="invNo">Inventory nummber of the source</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="alphabet">Ancient South Arabian</rs>
+                            <seg>Inscription commissioned by a king</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Stone inscription</objectType>
+                                    <material>Stone</material>
+                                    <measureGrp unit="cm">h. 25, w. 57, th. 11.4</measureGrp>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="scriptCursus">Right to left</rs>
+                                    <rs type="execution">Incision</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"/>
+                                <rs type="scriptTypology">Monumental writing</rs>
+                                <rs type="textualTypology">Legal text</rs>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <note/>
+                            <note type="support"/>
+                            <note type="deposit"/>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate period="#B"/>
+                            <note/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="modern" subtype="site">as-Sawdāʾ</placeName>
+                            <placeName subtype="site" type="ancient">Ns²n</placeName>
+                            <placeName subtype="geographicalArea" type="modern">wādī al-Jawf</placeName>
+                            <placeName type="modern" subtype="country">Yemen</placeName>
+                            <seg type="proximity"/>
+                            <seg type="archaeologicalContext">
+                                <rs type="context"/>
+                                <rs type="structure"/>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="inm-Latn-x-cntmin">Central Minaic</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#DASI">
+                    <list>
+                        <label>Periodization</label>
+                        <item>
+                            <term xml:id="A">Early first millennium to the fourth century BC (predominance of Saba)</term>
+                            <term xml:id="B">Fourth to first centuries BC (predominance of Qataban and Hadramawt, and their alliance with Main)</term>
+                            <term xml:id="B1">Fourth to third centuries BC</term>
+                            <term xml:id="B2">Third to first centuries BC</term>
+                            <term xml:id="C">First century BC to early second century AD (alliances between the tribes of the high plateau and the ASA kingdoms)</term>
+                            <term xml:id="D">Late second to late third centuries AD (wars among the Himyar, Saba and Hadramawt)</term>
+                            <term xml:id="E">Fourth to sixth centuries AD (unification of Yemen under Himyarite rule)</term>
+                            <term xml:id="Ry">It corresponds to the palaeographical divisions established by Jacques Ryckmans with sub-periods I-IV</term>
+                            <term xml:id="RyI">First sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyII">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIb">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIId">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIIa">Third sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVa">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVb">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="inAncientTimes"/>
+                            <term xml:id="inModernTimes"/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-12-20" who="ghatke"/>
+            <change when="2016-12-20" who="ghatke"/>
+            <change when="2016-12-20" who="ghatke"/>
+            <change when="2016-12-19" who="ghatke"/>
+            <change when="2016-11-11" who="ghatke"/>
+            <change when="2016-11-11" who="ghatke"/>
+            <change when="2016-11-11" who="ghatke"/>
+            <change when="2016-11-07" who="ghatke"/>
+            <change when="2016-11-07" who="ghatke"/>
+            <change when="2016-11-07" who="ghatke"/>
+            <change when="2016-11-07" who="ghatke"/>
+            <change when="2016-11-07" who="ghatke"/>
+            <change when="2016-11-07" who="ghatke"/>
+            <change when="2016-11-07" who="ghatke"/>
+            <change when="2016-10-31" who="ghatke"/>
+            <change when="2016-10-31" who="ghatke"/>
+            <change when="2016-10-31" who="ghatke"/>
+            <change when="2016-09-27" who="ghatke"/>
+            <change when="2016-06-22" who="ghatke"/>
+            <change when="2016-06-22" who="ghatke"/>
+            <change when="2016-06-10" who="ghatke"/>
+            <change when="2016-06-07" who="ghatke"/>
+            <change when="2016-06-01" who="ghatke"/>
+            <change when="2016-05-31" who="ghatke"/>
+            <change when="2016-05-24" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+            <change when="2016-03-29" who="ghatke"/>
+            <change when="2016-03-29" who="ghatke"/>
+            <change when="2016-03-29" who="ghatke"/>
+            <change when="2016-02-12" who="ghatke"/>
+            <change when="2016-02-12" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://dasi.humnet.unipi.it/de/cgi-bin/wsimg.pl?recId=6938">
+            <desc type="copyright">By kind permission of British Museum</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in the squeeze:
+
+1. | w-sfḥ | bn | ḥṭbm | mḥrm | ʿm | ḏ-dwnm | w-bn | rṣfm | mḥrm |
+2.m-s | ʿmydʿ | w-hfnm | bnwy | hybr | w-hwfʾl | bn-mw | hy=
+3.ʿm | bnwy | rbḥ | w-ʾḫhy-sm | ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-s=
+4.| w-gddm | l-ʿṣm | wdm | w-bntm | w-šftm | l-ʿm | w-ʾṯr=
+5.y-sm | w-bnty-sm | b-ʿlw | ḏt | mḥrtn | w-ṣr=
+6.ʾnṯ-sm | w-bny-sm | b-ṣdq-sm | ḥg | ḏt | mḥrtn | w-ṣrytn | w-
+7.l-sṭr | w-ftḫ | ḏtn | ʾsṭrn | b-srn | lbḫ | w-mḥd-sm | b-
+8.dw | b-tmnʿ | wrḫ-s | ḏ-tmnʿ | ḫrf | šhrm | ḏ-ygr | ʾḫr=
+9.bḫ | ḥg-ḏt | mḥrtn | w-ṣrytn | w-ḥg | ṣrytm | sṭr | l-s=
+
+
+Restored full text of the inscription:
+
+1.[šhr | hll | yhnʿm | bn | ydʿʾb | mlk | qtbn | ṣry] | w-sfḥ | bn | ḥṭbm | mḥrm | ʿm | ḏ-dwnm | w-bn | rṣfm | mḥrm |
+2.[ʾnby | šymn | w-bn | tḥt | šms | w-rbʿ | šhr | ʾd]m-s | ʿmydʿ | w-hfnm | bnwy | hybr | w-hwfʾl | bn-mw | hy=
+3.[br | ʾbn | w-rʾbʿm | bn | ḥyw | w-ʿlym | w-yšrḥ]ʿm | bnwy | rbḥ | w-ʾḫhy-sm | ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-s=
+4.[m | w-ʾwld-sm | bn | snṣfm | w-skt | w-ʾḫḏ] | w-gddm | l-ʿṣm | wdm | w-bntm | w-šftm | l-ʿm | w-ʾṯr=
+5.[t | n-l | ystfḥwn | ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-sm | w-bn]y-sm | w-bnty-sm | b-ʿlw | ḏt | mḥrtn | w-ṣr=
+6.[ytn | w-ṣry | šhr | ʾdm-s | ʾrby | ʿm | ḏ-lbḫ | w-t]ʾnṯ-sm | w-bny-sm | b-ṣdq-sm | ḥg | ḏt | mḥrtn | w-ṣrytn | w-
+7.[ʾsṭr-s | w-ṯfṭ | šhr | ʾdm-s | ʾrby | ḏ-lbḫ |] l-sṭr | w-ftḫ | ḏtn | ʾsṭrn | b-srn | lbḫ | w-mḥd-sm | b-
+8.[byt | ʿm | ḏ-lbḫ | b-ḏ-ġylm | w-b | ḫlfn | ḏ-ś]dw | b-tmnʿ | wrḫ-s | ḏ-tmnʿ | ḫrf | šhrm | ḏ-ygr | ʾḫr=
+9.[n | w-l | yhlkwn | w-ṣtdq | ʾrby | ʿm | ḏ-l]bḫ | ḥg-ḏt | mḥrtn | w-ṣrytn | w-ḥg | ṣrytm | sṭr | l-s=
+10.[m | šhr | ygl | w-tʿlm-ʾy | yd | šhr]</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[Shahr Hilāl Yuhanʿim bin Yadaʿʾab, King of Qatabān, has decreed] and announced from Ḥaṭabum, the temple of ʿAmm Dhū-Dawānum and from Raṣafum, the temple
+2.[of ʾAnbay the patron-deity, and on the authority of the protective goddess and guardian of Shahr, for his cli]ents ʿAmmīyadaʿ and Hafīnum of the lineage of Haybar, and for Hawafīʾīl of the lineage of Hay-
+3.[bar ʾAbān, and for Rāʾibum of the lineage of Ḥayaw, and for ʿAliyyum and Yishraḥ]ʿamm of the lineage of Rābiḥ, and for their kinsmen the priests of ʿAmm Dhū-Labakh, and for their womenfolk,
+4.[and for their children-without any oversight or omission or detraction] or cancellation--as a tie of friendship and affiliation and protection by ʿAmm and ʾAthīra-
+5.[t. So let the priests of ʿAmm Dhū-Labakh and their womenfolk and their sons and their daughters adhere to this proclamation and de-
+6.[cree. And Shahr decreed for his clients, the priests of ʿAmm Dhū-Labakh and their wo]menfolk and their sons, with their concurrence, in accordance with this proclamation and decree and
+7.[its inscribed versions. And Shahr directed his clients, the priests of ʿAmm Dhū-Labakh,] to write out and carve these inscriptions in the valley of Labakh and their chapel in
+8.[the temple of ʿAmm Dhū-Labakh in Dhū-Ghaylim and at the gate of Śa]dū at Timnaʿ--(this in) the month of Dhū-Timnaʿ in the last year of Shahrum Dhū-Yagirr.
+9.[And let the priests of ʿAmm Dhū-La]bakh comply and (thus) receive their due according to this proclamation and decree, and in accordance with any decree which
+10.[Shahr Yagill might write for them. Signed by the hand of Shahr.]</tei:ab>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <idno type="quotationLabel">Avanzini 1995</idno>
+                        <seg type="reference">Avanzini, Alessandra 1995. As-Sawdāʾ. Inventaire des inscriptions sudarabiques. 4. Paris: de Boccard / Rome: Herder. [Académie des Inscriptions et Belles-lettres; Istituto italiano per l'Africa e l'Oriente]</seg>
+                        <citedRange>120-122, pl. 19/a</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

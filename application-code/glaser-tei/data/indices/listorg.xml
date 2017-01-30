@@ -18,17 +18,8 @@
     <text>
         <body>
             <listOrg>
-                <org xml:id="saint_germain_abbey">
-                    <orgName xml:id="gnd_041182413" ref="http://www.geonames.org/6696091">Abbaye de Saint-Germain-des-Prés</orgName>
-                </org>
-                <org xml:id="tegernsee_abbey">
-                    <orgName xml:id="gnd_809501-2" ref="http://www.geonames.org/2823679">Abbey Tegernsee</orgName>
-                </org>
-                <org xml:id="corvey">
-                    <orgName xml:id="gnd_2071959-0" ref="http://www.geonames.org/10942877">Corvey Abbey</orgName>
-                </org>
-                <org xml:id="saint-bertin">
-                    <orgName xml:id="gnd_1086389638" ref="http://www.geonames.org/2977845">Abbey of Saint-Omer-Saint-Bertin</orgName>
+                <org>
+                    <orgName>some Organisation</orgName>
                 </org>
             </listOrg>
         </body>
