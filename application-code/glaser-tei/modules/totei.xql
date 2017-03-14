@@ -91,6 +91,7 @@ let $node := $node
 let $text := $node/text()
 let $text := replace($text, '<', '<add>')
 let $text := replace($text, '>', '</add>')
+let $text := replace($text, '<add</add>', '<add>')
 let $text := concat('<ab type="formal-markup">', $text, '</ab>')
 let $text := replace($text, '(\d+).', '<lb n="$1"/>')
 let $text := replace($text, '\[', '<supplied reason="lost">' )
