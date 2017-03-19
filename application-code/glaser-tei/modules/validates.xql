@@ -5,7 +5,7 @@ module namespace validates="http://www.digital-archiv.at/ns/glaser-tei/validates
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace app="http://www.digital-archiv.at/ns/glaser-tei/templates" at "app.xql";
 import module namespace config="http://www.digital-archiv.at/ns/glaser-tei/config" at "config.xqm";
-import module namespace functx="http://www.functx.com" at "functx.xql";
+import module namespace functx = "http://www.functx.com";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace repo="http://exist-db.org/xquery/repo";

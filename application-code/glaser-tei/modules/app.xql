@@ -1,7 +1,7 @@
 xquery version "3.0";
 module namespace app="http://www.digital-archiv.at/ns/glaser-tei/templates";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
-import module namespace functx="http://www.functx.com" at "functx.xql";
+import module namespace functx = "http://www.functx.com";
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace config="http://www.digital-archiv.at/ns/glaser-tei/config" at "config.xqm";
 import module namespace totei="http://www.digital-archiv.at/ns/glaser-tei/totei" at "totei.xql";
