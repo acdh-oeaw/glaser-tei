@@ -20,18 +20,18 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
         <script type="text/javascript" src="../resources/js/cool-share/plugin.js"/><!--  End of cool-share  --><!-- Piwik -->
         <script type="text/javascript">
-             var _paq = _paq || [];
-             _paq.push(["setDomains", ["*.glaser-tei.acdh.oeaw.ac.at/pages/index.html","*.exist-curation.minerva.arz.oeaw.ac.at/exist/apps/glaser-tei"]]);
-             _paq.push(['trackPageView']);
-             _paq.push(['enableLinkTracking']);
-             (function() {
-               var u="//piwik.apollo.arz.oeaw.ac.at/";
-               _paq.push(['setTrackerUrl', u+'piwik.php']);
-               _paq.push(['setSiteId', '45']);
-               var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-               g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-             })();
-           </script>
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.glaser-tei.acdh.oeaw.ac.at/pages/index.html","*.exist-curation.minerva.arz.oeaw.ac.at/exist/apps/glaser-tei"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.apollo.arz.oeaw.ac.at/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '45']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
         <noscript>
             <p>
                 <img src="//piwik.apollo.arz.oeaw.ac.at/piwik.php?idsite=45" style="border:0;" alt=""/>
@@ -39,58 +39,58 @@
         </noscript><!-- End Piwik Code -->
     </head>
     <body id="body" data-spy="scroll" data-target="#myScrollspy" data-offset="15">
-        <header>
-            <nav class="navbar navbar-default">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"/>
-                        <span class="icon-bar"/>
-                        <span class="icon-bar"/>
-                    </button>
-                    <a data-template="config:app-title" class="navbar-brand" href="./index.html">App Title</a>
-                </div>
-                <div class="navbar-collapse collapse" id="navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown" id="about">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Progress</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="toc.html?collection=imported">Check Progress</a>
-                                </li>
-                                <li>
-                                    <a href="validates.html">Valid?</a>
-                                </li>
-                                <li>
-                                    <a href="../../../../exist/restxq/tei-abstracts/done/xml">Text as XML</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Workbench</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="import-documents.html">Import Texts</a>
-                                </li>
-                                <li>
-                                    <a href="import-documents-check.html">Check and Process</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="pull-right">
-                        <form method="get" action="ft_search.html" class="navbar-form" id="pageform">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" name="searchexpr" placeholder="search in all inventories" pattern=".{3,}" required="" title="3 characters minimum"/>
-                                </div>
-                                <button type="submit" class="btn btn-primary">search</button>
+	<header>        
+		<nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"/>
+                    <span class="icon-bar"/>
+                    <span class="icon-bar"/>
+                </button>
+                <a data-template="config:app-title" class="navbar-brand" href="./index.html">App Title</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown" id="about">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Progress</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="toc.html?collection=imported">Check Progress</a>
+                            </li>
+                            <li>
+                                <a href="validates.html">Valid?</a>
+                            </li>
+                            <li>
+                                <a href="../../../../exist/restxq/glaser-tei/editions/xml">Text as XML</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Workbench</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="import-documents.html">Import Texts</a>
+                            </li>
+                            <li>
+                                <a href="import-documents-check.html">Check and Process</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="pull-right">
+                    <form method="get" action="ft_search.html" class="navbar-form" id="pageform">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="searchexpr" placeholder="search in all inventories" pattern=".{3,}" required="" title="3 characters minimum"/>
                             </div>
-                        </form>
-                    </div>
+                            <button type="submit" class="btn btn-primary">search</button>
+                        </div>
+                    </form>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+	</header>
         <section class="main-content">
             <div id="content" class="container"/>
             <span class="socialShare"><!-- The share buttons will be inserted here --></span>
