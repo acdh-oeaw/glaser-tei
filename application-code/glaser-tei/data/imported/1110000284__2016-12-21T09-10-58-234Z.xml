@@ -179,6 +179,87 @@ Restored full text of the inscription:
 9.[ʾwsʿm | bn | yṣrʿm | bn | mdhm | tqdm | w-ḥrg | kl]
 10.[ʿšq | w-wzl | w-ṣll | mnqln | ẓrm | b-tḥrg | mrʾ-s]
 11.[ydʿʾb]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>
+                    <tei:unclear>ydʿʾb | ḏbyn |</tei:unclear>
+                    <tei:lb n="2"/>
+                    <tei:unclear>bn</tei:unclear> | šhr | mkrb | qtbn | w
+<tei:lb n="3"/>ld | ʿm | w-ʾwsn | w-kḥd | w
+<tei:lb n="4"/>hsm | w-tbnw | w-yrfʾ | ʾymnn
+<tei:lb n="5"/>w-ʾšʾmn | nqz | w-wzl | w-brr | msbʾ
+<tei:lb n="6"/>w-mnql | ẓrm | b-ʾmr | ʿm | ḏ
+<tei:lb n="7"/>ʾnby | w-b | ʿm | ḏ-rymtm | w-b | ʿm | ḏ-šqr | w-b
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:unclear>ydʿʾb | ḏbyn |</tei:unclear>
+                    <tei:lb n="2"/>
+                    <tei:unclear>bn</tei:unclear> | šhr | mkrb | qtbn | w-<tei:supplied reason="lost">kl | w=</tei:supplied>
+                    <tei:lb n="3"/>ld | ʿm | w-ʾwsn | w-kḥd | w-<tei:supplied reason="lost">d=</tei:supplied>
+                    <tei:lb n="4"/>hsm | w-tbnw | w-yrfʾ | ʾymnn
+<tei:lb n="5"/>w-ʾšʾmn | nqz | w-wzl | w-brr | msbʾ
+<tei:lb n="6"/>w-mnql | ẓrm | b-ʾmr | ʿm | ḏ-<tei:supplied reason="lost">šqr | b-ʿm | w-b</tei:supplied>
+                    <tei:lb n="7"/>ʾnby | w-b | ʿm | ḏ-rymtm | w-b | ʿm | ḏ-šqr | w-b
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">ḥwkm | w-b | ḏt | ṣntm | w-b | ḏt | ẓhrn | w-b | ḏt | rḥbn</tei:supplied>
+                    <tei:lb n="9"/>
+                    <tei:supplied reason="lost">ʾwsʿm | bn | yṣrʿm | bn | mdhm | tqdm | w-ḥrg | kl</tei:supplied>
+                    <tei:lb n="10"/>
+                    <tei:supplied reason="lost">ʿšq | w-wzl | w-ṣll | mnqln | ẓrm | b-tḥrg | mrʾ-s</tei:supplied>
+                    <tei:lb n="11"/>
+                    <tei:supplied reason="lost">ydʿʾb</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>ydʿʾb  ḏbyn 
+<tei:lb n="2"/>bn  šhr  mkrb  qtbn  w
+<tei:lb n="3"/>ld  ʿm  w-ʾwsn  w-kḥd  w
+<tei:lb n="4"/>hsm  w-tbnw  w-yrfʾ  ʾymnn
+<tei:lb n="5"/>w-ʾšʾmn  nqz  w-wzl  w-brr  msbʾ
+<tei:lb n="6"/>w-mnql  ẓrm  b-ʾmr  ʿm  ḏ
+<tei:lb n="7"/>ʾnby  w-b  ʿm  ḏ-rymtm  w-b  ʿm  ḏ-šqr  w-b
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ydʿʾb  ḏbyn 
+<tei:lb n="2"/>bn  šhr  mkrb  qtbn  w-kl  w=
+<tei:lb n="3"/>ld  ʿm  w-ʾwsn  w-kḥd  w-d=
+<tei:lb n="4"/>hsm  w-tbnw  w-yrfʾ  ʾymnn
+<tei:lb n="5"/>w-ʾšʾmn  nqz  w-wzl  w-brr  msbʾ
+<tei:lb n="6"/>w-mnql  ẓrm  b-ʾmr  ʿm  ḏ-šqr  b-ʿm  w-b
+<tei:lb n="7"/>ʾnby  w-b  ʿm  ḏ-rymtm  w-b  ʿm  ḏ-šqr  w-b
+<tei:lb n="8"/>ḥwkm  w-b  ḏt  ṣntm  w-b  ḏt  ẓhrn  w-b  ḏt  rḥbn
+<tei:lb n="9"/>ʾwsʿm  bn  yṣrʿm  bn  mdhm  tqdm  w-ḥrg  kl
+<tei:lb n="10"/>ʿšq  w-wzl  w-ṣll  mnqln  ẓrm  b-tḥrg  mrʾ-s
+<tei:lb n="11"/>ydʿʾb</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>ydʿʾb  ḏbyn 
+<tei:lb n="2"/>bn  šhr  mkrb  qtbn  w
+<tei:lb n="3"/>ld  ʿm  w-ʾwsn  w-kḥd  w
+<tei:lb n="4"/>hsm  w-tbnw  w-yrfʾ  ʾymnn
+<tei:lb n="5"/>w-ʾšʾmn  nqz  w-wzl  w-brr  msbʾ
+<tei:lb n="6"/>w-mnql  ẓrm  b-ʾmr  ʿm  ḏ
+<tei:lb n="7"/>ʾnby  w-b  ʿm  ḏ-rymtm  w-b  ʿm  ḏ-šqr  w-b
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ydʿʾb  ḏbyn 
+<tei:lb n="2"/>bn  šhr  mkrb  qtbn  w-kl  w=
+<tei:lb n="3"/>ld  ʿm  w-ʾwsn  w-kḥd  w-d=
+<tei:lb n="4"/>hsm  w-tbnw  w-yrfʾ  ʾymnn
+<tei:lb n="5"/>w-ʾšʾmn  nqz  w-wzl  w-brr  msbʾ
+<tei:lb n="6"/>w-mnql  ẓrm  b-ʾmr  ʿm  ḏ-šqr  b-ʿm  w-b
+<tei:lb n="7"/>ʾnby  w-b  ʿm  ḏ-rymtm  w-b  ʿm  ḏ-šqr  w-b
+<tei:lb n="8"/>ḥwkm  w-b  ḏt  ṣntm  w-b  ḏt  ẓhrn  w-b  ḏt  rḥbn
+<tei:lb n="9"/>ʾwsʿm  bn  yṣrʿm  bn  mdhm  tqdm  w-ḥrg  kl
+<tei:lb n="10"/>ʿšq  w-wzl  w-ṣll  mnqln  ẓrm  b-tḥrg  mrʾ-s
+<tei:lb n="11"/>ydʿʾb</tei:ab>
             </div>
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Yadaʿʾab Dhubyān
@@ -192,6 +273,47 @@ Restored full text of the inscription:
 9.[ʾAwsʿamm, the son of Yiṣurʿamm, of the lineage of Madihum, led and commanded all of] 
 10.[the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,]
 11.[Yadaʿʾab.]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>Yadaʿʾab Dhubyān
+<tei:lb n="2"/>bin Shahr, the ruler of Qatabān and <tei:supplied reason="lost">all of the child-</tei:supplied>
+                    <tei:lb n="3"/>ren of ʿAmm and ʾAwsān and Kaḥid and <tei:supplied reason="lost">Da-</tei:supplied>
+                    <tei:lb n="4"/>hasum and Tubanū and Yarfaʾ, the southern reaches 
+<tei:lb n="5"/>and the northern reaches, has cut and carved out and levelled the road
+<tei:lb n="6"/>and the mountain pass of Ẓarrum at the command of ʿAmm Dhū-<tei:supplied reason="lost">Shaqīr. By ʿAmm, and by</tei:supplied>
+                    <tei:lb n="7"/>ʾAnbay, and by ʿAmm Dhū-Raymatim, and by ʿAmm Dhū-Shaqīr, and by
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">Ḥawkam, and by Dhāt-Ṣanatim, and by Dhāt-Ẓahrān, and by Dhāt-Raḥbān.</tei:supplied>
+                    <tei:lb n="9"/>
+                    <tei:supplied reason="lost">ʾAwsʿamm, the son of Yiṣurʿamm, of the lineage of Madihum, led and commanded all of</tei:supplied>
+                    <tei:lb n="10"/>
+                    <tei:supplied reason="lost">the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,</tei:supplied>
+                    <tei:lb n="11"/>
+                    <tei:supplied reason="lost">Yadaʿʾab.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Yadaʿʾab Dhubyān
+<tei:lb n="2"/>bin Shahr, the ruler of Qatabān and all of the child-
+<tei:lb n="3"/>ren of ʿAmm and ʾAwsān and Kaḥid and Da-
+<tei:lb n="4"/>hasum and Tubanū and Yarfaʾ, the southern reaches 
+<tei:lb n="5"/>and the northern reaches, has cut and carved out and levelled the road
+<tei:lb n="6"/>and the mountain pass of Ẓarrum at the command of ʿAmm Dhū-Shaqīr. By ʿAmm, and by
+<tei:lb n="7"/>ʾAnbay, and by ʿAmm Dhū-Raymatim, and by ʿAmm Dhū-Shaqīr, and by
+<tei:lb n="8"/>Ḥawkam, and by Dhāt-Ṣanatim, and by Dhāt-Ẓahrān, and by Dhāt-Raḥbān.
+<tei:lb n="9"/>ʾAwsʿamm, the son of Yiṣurʿamm, of the lineage of Madihum, led and commanded all of 
+<tei:lb n="10"/>the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,
+<tei:lb n="11"/>Yadaʿʾab.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Yadaʿʾab Dhubyān
+<tei:lb n="2"/>bin Shahr, the ruler of Qatabān and all of the child-
+<tei:lb n="3"/>ren of ʿAmm and ʾAwsān and Kaḥid and Da-
+<tei:lb n="4"/>hasum and Tubanū and Yarfaʾ, the southern reaches 
+<tei:lb n="5"/>and the northern reaches, has cut and carved out and levelled the road
+<tei:lb n="6"/>and the mountain pass of Ẓarrum at the command of ʿAmm Dhū-Shaqīr. By ʿAmm, and by
+<tei:lb n="7"/>ʾAnbay, and by ʿAmm Dhū-Raymatim, and by ʿAmm Dhū-Shaqīr, and by
+<tei:lb n="8"/>Ḥawkam, and by Dhāt-Ṣanatim, and by Dhāt-Ẓahrān, and by Dhāt-Raḥbān.
+<tei:lb n="9"/>ʾAwsʿamm, the son of Yiṣurʿamm, of the lineage of Madihum, led and commanded all of 
+<tei:lb n="10"/>the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,
+<tei:lb n="11"/>Yadaʿʾab.</tei:ab>
             </div>
             <div type="commentary">
                 <p/>
