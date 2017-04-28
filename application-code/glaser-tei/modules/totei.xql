@@ -100,6 +100,8 @@ let $text := replace($text, '\(', '<unclear>')
 let $text := replace($text, '\)', '</unclear>')
 let $text := replace($text, '\{', '<del>')
 let $text := replace($text, '\}', '</del>')
+let $text := replace($text, 'Γ', '<unclear>')
+let $text := replace($text, '˥', '</unclear>')
 let $text := replace($text, '\.\.\.\s\.\.\.', '<gap quantity="plus4" unit="chars"></gap>')
 let $tei := try{
     util:parse($text)
