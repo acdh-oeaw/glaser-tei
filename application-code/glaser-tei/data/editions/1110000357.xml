@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1155O</title>
+                <title type="alt">1110000357</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1155O</title>
+                <respStmt>
+                    <persName>
+                        <forename>Dummy Forename</forename>
+                        <surname>Dummy Lastname</surname>
+                    </persName>
+                    <resp>What was this person doing?</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ÖAW BASIS</authority>
+                <availability>
+                    <licence target="#">Some license information</licence>
+                </availability>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1155O</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>ÖAW Basis</repository>
+                        <collection>name of the collection </collection>
+                        <idno type="invNo">Inventory nummber of the source</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="alphabet">Ancient South Arabian</rs>
+                            <seg>Inscription commissioned by a king</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Stone inscription</objectType>
+                                    <material>Stone</material>
+                                    <measureGrp unit="cm">h. 25, w. 57, th. 11.4</measureGrp>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="scriptCursus">Right to left</rs>
+                                    <rs type="execution">Incision</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"/>
+                                <rs type="scriptTypology">Monumental writing</rs>
+                                <rs type="textualTypology">Legal text</rs>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <note/>
+                            <note type="support"/>
+                            <note type="deposit"/>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate period="#B"/>
+                            <note/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="modern" subtype="site">as-Sawdāʾ</placeName>
+                            <placeName subtype="site" type="ancient">Ns²n</placeName>
+                            <placeName subtype="geographicalArea" type="modern">wādī al-Jawf</placeName>
+                            <placeName type="modern" subtype="country">Yemen</placeName>
+                            <seg type="proximity"/>
+                            <seg type="archaeologicalContext">
+                                <rs type="context"/>
+                                <rs type="structure"/>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="inm-Latn-x-cntmin">Central Minaic</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#DASI">
+                    <list>
+                        <label>Periodization</label>
+                        <item>
+                            <term xml:id="A">Early first millennium to the fourth century BC (predominance of Saba)</term>
+                            <term xml:id="B">Fourth to first centuries BC (predominance of Qataban and Hadramawt, and their alliance with Main)</term>
+                            <term xml:id="B1">Fourth to third centuries BC</term>
+                            <term xml:id="B2">Third to first centuries BC</term>
+                            <term xml:id="C">First century BC to early second century AD (alliances between the tribes of the high plateau and the ASA kingdoms)</term>
+                            <term xml:id="D">Late second to late third centuries AD (wars among the Himyar, Saba and Hadramawt)</term>
+                            <term xml:id="E">Fourth to sixth centuries AD (unification of Yemen under Himyarite rule)</term>
+                            <term xml:id="Ry">It corresponds to the palaeographical divisions established by Jacques Ryckmans with sub-periods I-IV</term>
+                            <term xml:id="RyI">First sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyII">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIb">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIId">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIIa">Third sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVa">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVb">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="inAncientTimes"/>
+                            <term xml:id="inModernTimes"/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-03-03" who="rruzicka"/>
+            <change when="2017-02-24" who="rruzicka"/>
+            <change when="2017-02-24" who="rruzicka"/>
+            <change when="2017-02-23" who="rruzicka"/>
+            <change when="2017-02-23" who="rruzicka"/>
+            <change when="2017-02-23" who="rruzicka"/>
+            <change when="2017-02-23" who="rruzicka"/>
+            <change when="2017-02-23" who="rruzicka"/>
+            <change when="2017-02-23" who="rruzicka"/>
+            <change when="2017-02-21" who="rruzicka"/>
+            <change when="2016-09-27" who="rruzicka"/>
+            <change when="2016-05-13" who="rruzicka"/>
+            <change when="2016-05-11" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-12" who="rruzicka"/>
+            <change when="2016-04-06" who="rruzicka"/>
+            <change when="2016-04-06" who="rruzicka"/>
+            <change when="2016-04-06" who="rruzicka"/>
+            <change when="2016-04-06" who="rruzicka"/>
+            <change when="2016-04-06" who="rruzicka"/>
+            <change when="2016-04-06" who="rruzicka"/>
+            <change when="2016-04-04" who="rruzicka"/>
+            <change when="2016-03-31" who="rruzicka"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://dasi.humnet.unipi.it/de/cgi-bin/wsimg.pl?recId=6938">
+            <desc type="copyright">By kind permission of British Museum</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.rn | w-mʿḏr-s | ʾbn
+2.(ḏ-)ymnt | w-ḏ-šʾmt 
+3.rb | bn | ʾlyfʿ | w-b | 
+
+
+Restored full text of the inscription:
+
+1.[ʿmṣdq | bn | ḥmʿṯt | ḏ-yfʿn | w-sʿd | bn | ʿlg | ḏ-ḍfgn | kbry | mṣrn | w-mʿn | mṣrn | ʾsd | mṣr | w-rtkl | b-ʿmh-smn | mṣr | w-ʾʾšr | w-ʿbr | nhrn | b-kbr | ... ...m | ḏ-rdʿ | qdmn | kbr-s | ślʾ | w-bny | w-sqny | k-ʿṯtr | ḏ-qbḍm | ṣḥftn | tnʿm | ʾnf | mwsm | ʿḍm | w-tqrm | bn | ʾšrs | ʿd | šq]rn | w-mʿḏr-s | ʾbn[m | kl | ṣḥft | byn | mḥfdnyhn | ẓrbn | w-lbʾn | b-kbwdt | w-ʾkrb | ktrb | ʿṯ=]
+2.[tr | ḏ-qbḍm | ʾhl | sbrr | w-yʾtmr | w-strḍw | ʿṯtr | ḏ-qbḍ | b-kbwdtn | w-ʾkrbn | mbny | ṣḥftn | ywm | mtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | w-ʾmr-sm | bn | ʾḍbʾ | ḍbʾ-sm | w-ʾqny-sm | w-bʿr-sm | sbʾ | w-ḫwln | b-msbʾ | byn | mʿnm | w-rgmtm | w-bn | ḍr | kwn | byn |] (ḏ-)ymnt | w-ḏ-šʾmt [| w-ywm | mtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | bn | wsṭ | mṣr | b-=]
+3.[mrd | kwn | byn | mḏy | w-mṣr | w-ymtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | slmhm | w-wfyh | ʿd | ʿrb | hgr-sm | qrnw | b-ʿṯtr | šrqn | w-b | ʿṯtr | ḏ-qbḍm | w-b | wdm | w-b | nkrḥm | w-b | ʿṯtr | ḏ-yhrq | w-b | ḏt | nšqm | w-b-kl | ʾlʾlt | mʿn | w-yṯl | w-b | ʾbydʿ | yṯʿ | mlk | mʿn | w-b | bhny | mʿdk]rb | bn | ʾlyfʿ | w-b | [šʿbh-sm | mʿn | w-ḏ-yṯl | w-b | kbry | mṣrn | ʿmṣdq | w-sʿdm | w-rṯd | ʿmṣdq |]
+4.[w-sʿd | w-mʿn | mṣrn | hqnyt-sm | w-ʾsṭr-sm | ʾlʾlt | mʿn | w-yṯl | w-mlk | mʿn | w-mʿn | bn | ḏ-ymśr | w-sfʾy | w-snkr | ʾsṭr-sm | bn | mqmh-sm | w-b | ʿmsmʿ | ḏ-blḥ | kbr | yṯl |]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>rn | w-mʿḏr-s | ʾbn
+<tei:lb n="2"/>
+                    <tei:unclear>ḏ-</tei:unclear>ymnt | w-ḏ-šʾmt 
+<tei:lb n="3"/>rb | bn | ʾlyfʿ | w-b | 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">ʿmṣdq | bn | ḥmʿṯt | ḏ-yfʿn | w-sʿd | bn | ʿlg | ḏ-ḍfgn | kbry | mṣrn | w-mʿn | mṣrn | ʾsd | mṣr | w-rtkl | b-ʿmh-smn | mṣr | w-ʾʾšr | w-ʿbr | nhrn | b-kbr | <tei:gap quantity="plus4" unit="chars"/>m | ḏ-rdʿ | qdmn | kbr-s | ślʾ | w-bny | w-sqny | k-ʿṯtr | ḏ-qbḍm | ṣḥftn | tnʿm | ʾnf | mwsm | ʿḍm | w-tqrm | bn | ʾšrs | ʿd | šq</tei:supplied>rn | w-mʿḏr-s | ʾbn<tei:supplied reason="lost">m | kl | ṣḥft | byn | mḥfdnyhn | ẓrbn | w-lbʾn | b-kbwdt | w-ʾkrb | ktrb | ʿṯ=</tei:supplied>
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">tr | ḏ-qbḍm | ʾhl | sbrr | w-yʾtmr | w-strḍw | ʿṯtr | ḏ-qbḍ | b-kbwdtn | w-ʾkrbn | mbny | ṣḥftn | ywm | mtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | w-ʾmr-sm | bn | ʾḍbʾ | ḍbʾ-sm | w-ʾqny-sm | w-bʿr-sm | sbʾ | w-ḫwln | b-msbʾ | byn | mʿnm | w-rgmtm | w-bn | ḍr | kwn | byn |</tei:supplied> <tei:unclear>ḏ-</tei:unclear>ymnt | w-ḏ-šʾmt <tei:supplied reason="lost">| w-ywm | mtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | bn | wsṭ | mṣr | b-=</tei:supplied>
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">mrd | kwn | byn | mḏy | w-mṣr | w-ymtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | slmhm | w-wfyh | ʿd | ʿrb | hgr-sm | qrnw | b-ʿṯtr | šrqn | w-b | ʿṯtr | ḏ-qbḍm | w-b | wdm | w-b | nkrḥm | w-b | ʿṯtr | ḏ-yhrq | w-b | ḏt | nšqm | w-b-kl | ʾlʾlt | mʿn | w-yṯl | w-b | ʾbydʿ | yṯʿ | mlk | mʿn | w-b | bhny | mʿdk</tei:supplied>rb | bn | ʾlyfʿ | w-b | <tei:supplied reason="lost">šʿbh-sm | mʿn | w-ḏ-yṯl | w-b | kbry | mṣrn | ʿmṣdq | w-sʿdm | w-rṯd | ʿmṣdq |</tei:supplied>
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">w-sʿd | w-mʿn | mṣrn | hqnyt-sm | w-ʾsṭr-sm | ʾlʾlt | mʿn | w-yṯl | w-mlk | mʿn | w-mʿn | bn | ḏ-ymśr | w-sfʾy | w-snkr | ʾsṭr-sm | bn | mqmh-sm | w-b | ʿmsmʿ | ḏ-blḥ | kbr | yṯl |</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>rn  w-mʿḏr-s  ʾbn
+<tei:lb n="2"/>ḏ-ymnt  w-ḏ-šʾmt 
+<tei:lb n="3"/>rb  bn  ʾlyfʿ  w-b  
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ʿmṣdq  bn  ḥmʿṯt  ḏ-yfʿn  w-sʿd  bn  ʿlg  ḏ-ḍfgn  kbry  mṣrn  w-mʿn  mṣrn  ʾsd  mṣr  w-rtkl  b-ʿmh-smn  mṣr  w-ʾʾšr  w-ʿbr  nhrn  b-kbr  m  ḏ-rdʿ  qdmn  kbr-s  ślʾ  w-bny  w-sqny  k-ʿṯtr  ḏ-qbḍm  ṣḥftn  tnʿm  ʾnf  mwsm  ʿḍm  w-tqrm  bn  ʾšrs  ʿd  šqrn  w-mʿḏr-s  ʾbnm  kl  ṣḥft  byn  mḥfdnyhn  ẓrbn  w-lbʾn  b-kbwdt  w-ʾkrb  ktrb  ʿṯ=
+<tei:lb n="2"/>tr  ḏ-qbḍm  ʾhl  sbrr  w-yʾtmr  w-strḍw  ʿṯtr  ḏ-qbḍ  b-kbwdtn  w-ʾkrbn  mbny  ṣḥftn  ywm  mtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  w-wdm  w-nkrḥm  w-ʾmr-sm  bn  ʾḍbʾ  ḍbʾ-sm  w-ʾqny-sm  w-bʿr-sm  sbʾ  w-ḫwln  b-msbʾ  byn  mʿnm  w-rgmtm  w-bn  ḍr  kwn  byn  ḏ-ymnt  w-ḏ-šʾmt  w-ywm  mtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  w-wdm  w-nkrḥm  bn  wsṭ  mṣr  b-=
+<tei:lb n="3"/>mrd  kwn  byn  mḏy  w-mṣr  w-ymtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  slmhm  w-wfyh  ʿd  ʿrb  hgr-sm  qrnw  b-ʿṯtr  šrqn  w-b  ʿṯtr  ḏ-qbḍm  w-b  wdm  w-b  nkrḥm  w-b  ʿṯtr  ḏ-yhrq  w-b  ḏt  nšqm  w-b-kl  ʾlʾlt  mʿn  w-yṯl  w-b  ʾbydʿ  yṯʿ  mlk  mʿn  w-b  bhny  mʿdkrb  bn  ʾlyfʿ  w-b  šʿbh-sm  mʿn  w-ḏ-yṯl  w-b  kbry  mṣrn  ʿmṣdq  w-sʿdm  w-rṯd  ʿmṣdq 
+<tei:lb n="4"/>w-sʿd  w-mʿn  mṣrn  hqnyt-sm  w-ʾsṭr-sm  ʾlʾlt  mʿn  w-yṯl  w-mlk  mʿn  w-mʿn  bn  ḏ-ymśr  w-sfʾy  w-snkr  ʾsṭr-sm  bn  mqmh-sm  w-b  ʿmsmʿ  ḏ-blḥ  kbr  yṯl </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>rn  w-mʿḏr-s  ʾbn
+<tei:lb n="2"/>ḏ-ymnt  w-ḏ-šʾmt 
+<tei:lb n="3"/>rb  bn  ʾlyfʿ  w-b  
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ʿmṣdq  bn  ḥmʿṯt  ḏ-yfʿn  w-sʿd  bn  ʿlg  ḏ-ḍfgn  kbry  mṣrn  w-mʿn  mṣrn  ʾsd  mṣr  w-rtkl  b-ʿmh-smn  mṣr  w-ʾʾšr  w-ʿbr  nhrn  b-kbr  m  ḏ-rdʿ  qdmn  kbr-s  ślʾ  w-bny  w-sqny  k-ʿṯtr  ḏ-qbḍm  ṣḥftn  tnʿm  ʾnf  mwsm  ʿḍm  w-tqrm  bn  ʾšrs  ʿd  šqrn  w-mʿḏr-s  ʾbnm  kl  ṣḥft  byn  mḥfdnyhn  ẓrbn  w-lbʾn  b-kbwdt  w-ʾkrb  ktrb  ʿṯ=
+<tei:lb n="2"/>tr  ḏ-qbḍm  ʾhl  sbrr  w-yʾtmr  w-strḍw  ʿṯtr  ḏ-qbḍ  b-kbwdtn  w-ʾkrbn  mbny  ṣḥftn  ywm  mtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  w-wdm  w-nkrḥm  w-ʾmr-sm  bn  ʾḍbʾ  ḍbʾ-sm  w-ʾqny-sm  w-bʿr-sm  sbʾ  w-ḫwln  b-msbʾ  byn  mʿnm  w-rgmtm  w-bn  ḍr  kwn  byn  ḏ-ymnt  w-ḏ-šʾmt  w-ywm  mtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  w-wdm  w-nkrḥm  bn  wsṭ  mṣr  b-=
+<tei:lb n="3"/>mrd  kwn  byn  mḏy  w-mṣr  w-ymtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  slmhm  w-wfyh  ʿd  ʿrb  hgr-sm  qrnw  b-ʿṯtr  šrqn  w-b  ʿṯtr  ḏ-qbḍm  w-b  wdm  w-b  nkrḥm  w-b  ʿṯtr  ḏ-yhrq  w-b  ḏt  nšqm  w-b-kl  ʾlʾlt  mʿn  w-yṯl  w-b  ʾbydʿ  yṯʿ  mlk  mʿn  w-b  bhny  mʿdkrb  bn  ʾlyfʿ  w-b  šʿbh-sm  mʿn  w-ḏ-yṯl  w-b  kbry  mṣrn  ʿmṣdq  w-sʿdm  w-rṯd  ʿmṣdq 
+<tei:lb n="4"/>w-sʿd  w-mʿn  mṣrn  hqnyt-sm  w-ʾsṭr-sm  ʾlʾlt  mʿn  w-yṯl  w-mlk  mʿn  w-mʿn  bn  ḏ-ymśr  w-sfʾy  w-snkr  ʾsṭr-sm  bn  mqmh-sm  w-b  ʿmsmʿ  ḏ-blḥ  kbr  yṯl </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.and its back wall with stone
+2.the southern region and the northern region
+3.[ka]rib bin ʾĪlīyafaʿ; and by
+
+
+Restored full text of the inscription:
+
+1.[ʿAmmīṣadaq bin Ḥamīʿathat Dhū-Yāfiʿān and Saʿd bin ʿAlag Dhū-Ḍafgān, the two kabīrs of Maṣarān and Maʿīn Maṣarān-those who conducted a caravan and traded with them in Egypt and Assyria and ʿAbar-Nahrēn during the kabīrate of … …m Dhū-Radaʿ (in) the first part of his kabīrate-have dedicated and built and offered to ʿAthtar Dhū-Qabḍim the curtain-wall of Tanʿim: the façade decorated with wood and stone, from the foundations to the top,] and its back wall with stone, [the entire curtain-wall between the two towers of Ẓāribān and Labūʾān; (this) with the taxes and the obligatory payments which ʿAth-]
+2.[tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, (as seen) when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from the attacks which Sabaʾ and Khawlān made on them and their property and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between] the southern region and the northern region; [and when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum protected them and their property in the middle of Egypt during]
+3.[the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and by ʿAthtar Dhū-Yahraq and by Dhāt-Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīka]rib bin ʾĪlīyafaʿ; and by [their tribe of Maʿīn and of Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq]
+4.[and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>and its back wall with stone
+<tei:lb n="2"/>the southern region and the northern region
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">ka</tei:supplied>rib bin ʾĪlīyafaʿ; and by
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">ʿAmmīṣadaq bin Ḥamīʿathat Dhū-Yāfiʿān and Saʿd bin ʿAlag Dhū-Ḍafgān, the two kabīrs of Maṣarān and Maʿīn Maṣarān-those who conducted a caravan and traded with them in Egypt and Assyria and ʿAbar-Nahrēn during the kabīrate of … …m Dhū-Radaʿ <tei:unclear>in</tei:unclear> the first part of his kabīrate-have dedicated and built and offered to ʿAthtar Dhū-Qabḍim the curtain-wall of Tanʿim: the façade decorated with wood and stone, from the foundations to the top,</tei:supplied> and its back wall with stone, <tei:supplied reason="lost">the entire curtain-wall between the two towers of Ẓāribān and Labūʾān; <tei:unclear>this</tei:unclear> with the taxes and the obligatory payments which ʿAth-</tei:supplied>
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, <tei:unclear>as seen</tei:unclear> when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from the attacks which Sabaʾ and Khawlān made on them and their property and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between</tei:supplied> the southern region and the northern region; <tei:supplied reason="lost">and when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum protected them and their property in the middle of Egypt during</tei:supplied>
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and by ʿAthtar Dhū-Yahraq and by Dhāt-Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīka</tei:supplied>rib bin ʾĪlīyafaʿ; and by <tei:supplied reason="lost">their tribe of Maʿīn and of Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq</tei:supplied>
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>and its back wall with stone
+<tei:lb n="2"/>the southern region and the northern region
+<tei:lb n="3"/>karib bin ʾĪlīyafaʿ; and by
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ʿAmmīṣadaq bin Ḥamīʿathat Dhū-Yāfiʿān and Saʿd bin ʿAlag Dhū-Ḍafgān, the two kabīrs of Maṣarān and Maʿīn Maṣarān-those who conducted a caravan and traded with them in Egypt and Assyria and ʿAbar-Nahrēn during the kabīrate of … …m Dhū-Radaʿ in the first part of his kabīrate-have dedicated and built and offered to ʿAthtar Dhū-Qabḍim the curtain-wall of Tanʿim: the façade decorated with wood and stone, from the foundations to the top, and its back wall with stone, the entire curtain-wall between the two towers of Ẓāribān and Labūʾān; this with the taxes and the obligatory payments which ʿAth-
+<tei:lb n="2"/>tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, as seen when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from the attacks which Sabaʾ and Khawlān made on them and their property and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between the southern region and the northern region; and when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum protected them and their property in the middle of Egypt during
+<tei:lb n="3"/>the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and by ʿAthtar Dhū-Yahraq and by Dhāt-Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīkarib bin ʾĪlīyafaʿ; and by their tribe of Maʿīn and of Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq
+<tei:lb n="4"/>and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>and its back wall with stone
+<tei:lb n="2"/>the southern region and the northern region
+<tei:lb n="3"/>karib bin ʾĪlīyafaʿ; and by
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ʿAmmīṣadaq bin Ḥamīʿathat Dhū-Yāfiʿān and Saʿd bin ʿAlag Dhū-Ḍafgān, the two kabīrs of Maṣarān and Maʿīn Maṣarān-those who conducted a caravan and traded with them in Egypt and Assyria and ʿAbar-Nahrēn during the kabīrate of … …m Dhū-Radaʿ in the first part of his kabīrate-have dedicated and built and offered to ʿAthtar Dhū-Qabḍim the curtain-wall of Tanʿim: the façade decorated with wood and stone, from the foundations to the top, and its back wall with stone, the entire curtain-wall between the two towers of Ẓāribān and Labūʾān; this with the taxes and the obligatory payments which ʿAth-
+<tei:lb n="2"/>tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, as seen when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from the attacks which Sabaʾ and Khawlān made on them and their property and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between the southern region and the northern region; and when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum protected them and their property in the middle of Egypt during
+<tei:lb n="3"/>the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and by ʿAthtar Dhū-Yahraq and by Dhāt-Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīkarib bin ʾĪlīyafaʿ; and by their tribe of Maʿīn and of Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq
+<tei:lb n="4"/>and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.</tei:ab>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <idno type="quotationLabel">Avanzini 1995</idno>
+                        <seg type="reference">Avanzini, Alessandra 1995. As-Sawdāʾ. Inventaire des inscriptions sudarabiques. 4. Paris: de Boccard / Rome: Herder. [Académie des Inscriptions et Belles-lettres; Istituto italiano per l'Africa e l'Oriente]</seg>
+                        <citedRange>120-122, pl. 19/a</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

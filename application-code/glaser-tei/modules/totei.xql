@@ -12,7 +12,7 @@ import module namespace functx = "http://www.functx.com";
 :)
 declare function totei:storedIDs($collection as xs:string){
 for $doc in collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
-let $ID := substring-before(app:getDocName($doc), '__')
+let $ID := if(contains(app:getDocName($doc), '__')) then substring-before(app:getDocName($doc), '__') else substring-before(app:getDocName($doc), '.xml')
 return
     $ID
 };
@@ -241,4 +241,27 @@ if (request:get-parameter("document", "") != "") then
 (:    let $newTEI := update replace $newnode with doc($movedxml)//tei:div[@type='edition']/tei:ab:)
     return $movedxml
 else()
+};
+
+declare function totei:processEnBulk($doc as xs:string){
+    let $adlibID := substring-before($doc, '__')
+    let $collection := concat($config:app-root, '/data/imported/')
+    let $targetcollection :=concat($config:app-root, '/data/editions')
+    let $movedxml := xmldb:store($targetcollection, $adlibID||'.xml', doc(concat($collection, $doc)))
+    let $transliteration := doc(concat($collection, $doc))//tei:div[@type='edition']
+    let $newTransliteration  := functx:change-element-ns-deep(totei:DasiToTei($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $plainTransliteration := functx:change-element-ns-deep(totei:ToPlainText($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $syntaxTransliteration := functx:change-element-ns-deep(totei:ToPlainTextSyntax($transliteration/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $translation := doc(concat($collection, $doc))//tei:div[@type='translation']
+    let $newTranslation  := functx:change-element-ns-deep(totei:DasiToTei($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $plainTranslation  := functx:change-element-ns-deep(totei:ToPlainText($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $syntaxTranslation  := functx:change-element-ns-deep(totei:ToPlainTextSyntax($translation/tei:ab), "http://www.tei-c.org/ns/1.0", "tei")
+    let $newTEI := update insert $newTransliteration into doc($movedxml)//tei:div[@type='edition']
+    let $plainTEI := update insert $plainTransliteration into doc($movedxml)//tei:div[@type='edition']
+    let $syntaxplainTEI := update insert $syntaxTransliteration into doc($movedxml)//tei:div[@type='edition']
+    let $newerTEI := update insert $newTranslation into doc($movedxml)//tei:div[@type='translation']
+    let $newerPlainTEI := update insert $plainTranslation into doc($movedxml)//tei:div[@type='translation']
+    let $syntaxnewerPlainTEI := update insert $syntaxTranslation into doc($movedxml)//tei:div[@type='translation']
+(:    let $newTEI := update replace $newnode with doc($movedxml)//tei:div[@type='edition']/tei:ab:)
+    return $movedxml
 };

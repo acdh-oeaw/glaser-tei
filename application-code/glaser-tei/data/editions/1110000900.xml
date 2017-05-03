@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1601b</title>
+                <title type="alt">1110000900</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1601b</title>
+                <respStmt>
+                    <persName>
+                        <forename>Dummy Forename</forename>
+                        <surname>Dummy Lastname</surname>
+                    </persName>
+                    <resp>What was this person doing?</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ÖAW BASIS</authority>
+                <availability>
+                    <licence target="#">Some license information</licence>
+                </availability>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1601b</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>ÖAW Basis</repository>
+                        <collection>name of the collection </collection>
+                        <idno type="invNo">Inventory nummber of the source</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="alphabet">Ancient South Arabian</rs>
+                            <seg>Inscription commissioned by a king</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Stone inscription</objectType>
+                                    <material>Stone</material>
+                                    <measureGrp unit="cm">h. 25, w. 57, th. 11.4</measureGrp>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="scriptCursus">Right to left</rs>
+                                    <rs type="execution">Incision</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"/>
+                                <rs type="scriptTypology">Monumental writing</rs>
+                                <rs type="textualTypology">Legal text</rs>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <note/>
+                            <note type="support"/>
+                            <note type="deposit"/>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate period="#B"/>
+                            <note/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="modern" subtype="site">as-Sawdāʾ</placeName>
+                            <placeName subtype="site" type="ancient">Ns²n</placeName>
+                            <placeName subtype="geographicalArea" type="modern">wādī al-Jawf</placeName>
+                            <placeName type="modern" subtype="country">Yemen</placeName>
+                            <seg type="proximity"/>
+                            <seg type="archaeologicalContext">
+                                <rs type="context"/>
+                                <rs type="structure"/>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="inm-Latn-x-cntmin">Central Minaic</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#DASI">
+                    <list>
+                        <label>Periodization</label>
+                        <item>
+                            <term xml:id="A">Early first millennium to the fourth century BC (predominance of Saba)</term>
+                            <term xml:id="B">Fourth to first centuries BC (predominance of Qataban and Hadramawt, and their alliance with Main)</term>
+                            <term xml:id="B1">Fourth to third centuries BC</term>
+                            <term xml:id="B2">Third to first centuries BC</term>
+                            <term xml:id="C">First century BC to early second century AD (alliances between the tribes of the high plateau and the ASA kingdoms)</term>
+                            <term xml:id="D">Late second to late third centuries AD (wars among the Himyar, Saba and Hadramawt)</term>
+                            <term xml:id="E">Fourth to sixth centuries AD (unification of Yemen under Himyarite rule)</term>
+                            <term xml:id="Ry">It corresponds to the palaeographical divisions established by Jacques Ryckmans with sub-periods I-IV</term>
+                            <term xml:id="RyI">First sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyII">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIb">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIId">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIIa">Third sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVa">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVb">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="inAncientTimes"/>
+                            <term xml:id="inModernTimes"/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-03-02" who="ghatke"/>
+            <change when="2017-02-10" who="ghatke"/>
+            <change when="2017-02-10" who="ghatke"/>
+            <change when="2016-09-27" who="ghatke"/>
+            <change when="2016-06-21" who="ghatke"/>
+            <change when="2016-06-21" who="ghatke"/>
+            <change when="2016-06-21" who="ghatke"/>
+            <change when="2016-06-21" who="ghatke"/>
+            <change when="2016-05-30" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://dasi.humnet.unipi.it/de/cgi-bin/wsimg.pl?recId=6938">
+            <desc type="copyright">By kind permission of British Museum</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.k | qtbn | whb | w-sqny | l-ʿm | ḏ-lbḫ | w-ʾrby
+2.b-ʿm | kbrm | b-ykbr | w-ḥrg | šʿbn | kḥd | w-l | 
+3.ḏ-lbḫ | ṭd | ʾnsm | ḫrfmyw | bn-km | b-ynfṯ | ʿd
+4.tḥrgn | l-ḏm | b-yfṯ-s | w-l | yqny | w-ṯʿd | ḏm | 
+5.ḥd | ʿšr | kl | hnʾm | w-mwblm | w-tqntm | w-trṯ
+6.(w-)l | yṣḥf | w-ḥrg | ʿṣmn | bn | šhr | wrḫn | ḏ-tmnʿ 
+7.(w)n | ḏn | ṣḥfn | sqnytm | l-ʿm | ḏ-lbḫ | w-ʾrby
+8. | w-ʿtqb | w-ṯtwb | ḏn | ṣḥfn | ʾrbym | b-yr(b)
+9.ḏ-lbḫ | bn | tḥt | ʿm | ḏ-dwnm | w-ʾnby 
+10.t | ṣḥftn | w-ʾsṭr-s | w-ṯfṭ | šhr | ʾrby 
+11.byt | wrfw | w-ʿm | ḏ-lbḫ | b-ḏ-ġylm | w-b | byt | ʿm 
+12.rf | mwhbm | ḏ-ḏrḥn | qdmn | w-tʿlm-ʾy |
+13. | hybr |
+
+
+Restored full text of the inscription:
+
+1.[šhr | ġyln | bn | ʾbšbm | ml]k | qtbn | whb | w-sqny | l-ʿm | ḏ-lbḫ | w-ʾrby-[s | ṣḥf | tḥ=]
+2.[rg | šʿbn | kḥd | ḏ-dtnt |] b-ʿm | kbrm | b-ykbr | w-ḥrg | šʿbn | kḥd | w-l | [yṣḥf | w-ḥrg | ḏn]
+3.[ṣḥfn | ʿṣmm | b-yʿṣm | ʿm |] ḏ-lbḫ | ṭd | ʾnsm | ḫrfmyw | bn-km | b-ynfṯ | ʿd-[km | b-ysfd | ḫrf=]
+4.[myw | w-ṯwb | ʾḫ-s | l-ḏn |] tḥrgn | l-ḏm | b-yfṯ-s | w-l | yqny | w-ṯʿd | ḏm | [b-yḥrg | ḏn | ṣḥf=]
+5.[n | b-ʿm | kbrm | b-yḥrg | k]ḥd | ʿšr | kl | hnʾm | w-mwblm | w-tqntm | w-trṯ[m | w-kl | lfym | b-y=]
+6.[lfy | kbr | kḥd | ḏ-dtnt |] (w-)l | yṣḥf | w-ḥrg | ʿṣmn | bn | šhr | wrḫn | ḏ-tmnʿ [| ḫrf | mwhbm | ḏ-ḏ=]
+7.[rḥn | ʾḫrn | l-ʾḫr | w-k](w)n | ḏn | ṣḥfn | sqnytm | l-ʿm | ḏ-lbḫ | w-ʾrby-[s | l-ḏt | bd | mlʾt]
+8.[w-kwmw | l-yṣḥf | w-ḥrg] | w-ʿtqb | w-ṯtwb | ḏn | ṣḥfn | ʾrbym | b-yr(b)[y | ʿm | ḏ-lbḫ | w-ṣry]
+9.[šhr | ʾrby | ʿm | ḏ-lbḫ | ʿṣm |] ḏ-lbḫ | bn | tḥt | ʿm | ḏ-dwnm | w-ʾnby [| šymn | w-šms | w-rbʿ]
+10.[šhr | b-ṣdq-sm | ḥg | ḏ]t | ṣḥftn | w-ʾsṭr-s | w-ṯfṭ | šhr | ʾrby [| ʿm | ḏ-lbḫ | l-ftḫ]
+11.[w-sṭr | ḏtn | ʾsṭrn | b-]byt | wrfw | w-ʿm | ḏ-lbḫ | b-ḏ-ġylm | w-b | byt | ʿm [| b-srn | lbḫ]
+12.[wrḫ-s | ḏ-brm | qdmn | ḫ]rf | mwhbm | ḏ-ḏrḥn | qdmn | w-tʿlm-ʾy | [yd | šhr]
+13.[w-nbṭʿm | bn | ʾlsmʿ | bn] | hybr |
+14.[tqdm | ḏtn | ʾsṭrn]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>k | qtbn | whb | w-sqny | l-ʿm | ḏ-lbḫ | w-ʾrby
+<tei:lb n="2"/>b-ʿm | kbrm | b-ykbr | w-ḥrg | šʿbn | kḥd | w-l | 
+<tei:lb n="3"/>ḏ-lbḫ | ṭd | ʾnsm | ḫrfmyw | bn-km | b-ynfṯ | ʿd
+<tei:lb n="4"/>tḥrgn | l-ḏm | b-yfṯ-s | w-l | yqny | w-ṯʿd | ḏm | 
+<tei:lb n="5"/>ḥd | ʿšr | kl | hnʾm | w-mwblm | w-tqntm | w-trṯ
+<tei:lb n="6"/>
+                    <tei:unclear>w-</tei:unclear>l | yṣḥf | w-ḥrg | ʿṣmn | bn | šhr | wrḫn | ḏ-tmnʿ 
+<tei:lb n="7"/>
+                    <tei:unclear>w</tei:unclear>n | ḏn | ṣḥfn | sqnytm | l-ʿm | ḏ-lbḫ | w-ʾrby
+<tei:lb n="8"/> | w-ʿtqb | w-ṯtwb | ḏn | ṣḥfn | ʾrbym | b-yr<tei:unclear>b</tei:unclear>
+<tei:lb n="9"/>ḏ-lbḫ | bn | tḥt | ʿm | ḏ-dwnm | w-ʾnby 
+<tei:lb n="10"/>t | ṣḥftn | w-ʾsṭr-s | w-ṯfṭ | šhr | ʾrby 
+<tei:lb n="11"/>byt | wrfw | w-ʿm | ḏ-lbḫ | b-ḏ-ġylm | w-b | byt | ʿm 
+<tei:lb n="12"/>rf | mwhbm | ḏ-ḏrḥn | qdmn | w-tʿlm-ʾy |
+<tei:lb n="13"/> | hybr |
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">šhr | ġyln | bn | ʾbšbm | ml</tei:supplied>k | qtbn | whb | w-sqny | l-ʿm | ḏ-lbḫ | w-ʾrby-<tei:supplied reason="lost">s | ṣḥf | tḥ=</tei:supplied>
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">rg | šʿbn | kḥd | ḏ-dtnt |</tei:supplied> b-ʿm | kbrm | b-ykbr | w-ḥrg | šʿbn | kḥd | w-l | <tei:supplied reason="lost">yṣḥf | w-ḥrg | ḏn</tei:supplied>
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">ṣḥfn | ʿṣmm | b-yʿṣm | ʿm |</tei:supplied> ḏ-lbḫ | ṭd | ʾnsm | ḫrfmyw | bn-km | b-ynfṯ | ʿd-<tei:supplied reason="lost">km | b-ysfd | ḫrf=</tei:supplied>
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">myw | w-ṯwb | ʾḫ-s | l-ḏn |</tei:supplied> tḥrgn | l-ḏm | b-yfṯ-s | w-l | yqny | w-ṯʿd | ḏm | <tei:supplied reason="lost">b-yḥrg | ḏn | ṣḥf=</tei:supplied>
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">n | b-ʿm | kbrm | b-yḥrg | k</tei:supplied>ḥd | ʿšr | kl | hnʾm | w-mwblm | w-tqntm | w-trṯ<tei:supplied reason="lost">m | w-kl | lfym | b-y=</tei:supplied>
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">lfy | kbr | kḥd | ḏ-dtnt |</tei:supplied> <tei:unclear>w-</tei:unclear>l | yṣḥf | w-ḥrg | ʿṣmn | bn | šhr | wrḫn | ḏ-tmnʿ <tei:supplied reason="lost">| ḫrf | mwhbm | ḏ-ḏ=</tei:supplied>
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">rḥn | ʾḫrn | l-ʾḫr | w-k</tei:supplied>
+                    <tei:unclear>w</tei:unclear>n | ḏn | ṣḥfn | sqnytm | l-ʿm | ḏ-lbḫ | w-ʾrby-<tei:supplied reason="lost">s | l-ḏt | bd | mlʾt</tei:supplied>
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">w-kwmw | l-yṣḥf | w-ḥrg</tei:supplied> | w-ʿtqb | w-ṯtwb | ḏn | ṣḥfn | ʾrbym | b-yr<tei:unclear>b</tei:unclear>
+                    <tei:supplied reason="lost">y | ʿm | ḏ-lbḫ | w-ṣry</tei:supplied>
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">šhr | ʾrby | ʿm | ḏ-lbḫ | ʿṣm |</tei:supplied> ḏ-lbḫ | bn | tḥt | ʿm | ḏ-dwnm | w-ʾnby <tei:supplied reason="lost">| šymn | w-šms | w-rbʿ</tei:supplied>
+<tei:lb n="10"/>
+                    <tei:supplied reason="lost">šhr | b-ṣdq-sm | ḥg | ḏ</tei:supplied>t | ṣḥftn | w-ʾsṭr-s | w-ṯfṭ | šhr | ʾrby <tei:supplied reason="lost">| ʿm | ḏ-lbḫ | l-ftḫ</tei:supplied>
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">w-sṭr | ḏtn | ʾsṭrn | b-</tei:supplied>byt | wrfw | w-ʿm | ḏ-lbḫ | b-ḏ-ġylm | w-b | byt | ʿm <tei:supplied reason="lost">| b-srn | lbḫ</tei:supplied>
+<tei:lb n="12"/>
+                    <tei:supplied reason="lost">wrḫ-s | ḏ-brm | qdmn | ḫ</tei:supplied>rf | mwhbm | ḏ-ḏrḥn | qdmn | w-tʿlm-ʾy | <tei:supplied reason="lost">yd | šhr</tei:supplied>
+<tei:lb n="13"/>
+                    <tei:supplied reason="lost">w-nbṭʿm | bn | ʾlsmʿ | bn</tei:supplied> | hybr |
+<tei:lb n="14"/>
+                    <tei:supplied reason="lost">tqdm | ḏtn | ʾsṭrn</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>k  qtbn  whb  w-sqny  l-ʿm  ḏ-lbḫ  w-ʾrby
+<tei:lb n="2"/>b-ʿm  kbrm  b-ykbr  w-ḥrg  šʿbn  kḥd  w-l  
+<tei:lb n="3"/>ḏ-lbḫ  ṭd  ʾnsm  ḫrfmyw  bn-km  b-ynfṯ  ʿd
+<tei:lb n="4"/>tḥrgn  l-ḏm  b-yfṯ-s  w-l  yqny  w-ṯʿd  ḏm  
+<tei:lb n="5"/>ḥd  ʿšr  kl  hnʾm  w-mwblm  w-tqntm  w-trṯ
+<tei:lb n="6"/>w-l  yṣḥf  w-ḥrg  ʿṣmn  bn  šhr  wrḫn  ḏ-tmnʿ 
+<tei:lb n="7"/>wn  ḏn  ṣḥfn  sqnytm  l-ʿm  ḏ-lbḫ  w-ʾrby
+<tei:lb n="8"/>  w-ʿtqb  w-ṯtwb  ḏn  ṣḥfn  ʾrbym  b-yrb
+<tei:lb n="9"/>ḏ-lbḫ  bn  tḥt  ʿm  ḏ-dwnm  w-ʾnby 
+<tei:lb n="10"/>t  ṣḥftn  w-ʾsṭr-s  w-ṯfṭ  šhr  ʾrby 
+<tei:lb n="11"/>byt  wrfw  w-ʿm  ḏ-lbḫ  b-ḏ-ġylm  w-b  byt  ʿm 
+<tei:lb n="12"/>rf  mwhbm  ḏ-ḏrḥn  qdmn  w-tʿlm-ʾy 
+<tei:lb n="13"/>  hybr 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>šhr  ġyln  bn  ʾbšbm  mlk  qtbn  whb  w-sqny  l-ʿm  ḏ-lbḫ  w-ʾrby-s  ṣḥf  tḥ=
+<tei:lb n="2"/>rg  šʿbn  kḥd  ḏ-dtnt  b-ʿm  kbrm  b-ykbr  w-ḥrg  šʿbn  kḥd  w-l  yṣḥf  w-ḥrg  ḏn
+<tei:lb n="3"/>ṣḥfn  ʿṣmm  b-yʿṣm  ʿm  ḏ-lbḫ  ṭd  ʾnsm  ḫrfmyw  bn-km  b-ynfṯ  ʿd-km  b-ysfd  ḫrf=
+<tei:lb n="4"/>myw  w-ṯwb  ʾḫ-s  l-ḏn  tḥrgn  l-ḏm  b-yfṯ-s  w-l  yqny  w-ṯʿd  ḏm  b-yḥrg  ḏn  ṣḥf=
+<tei:lb n="5"/>n  b-ʿm  kbrm  b-yḥrg  kḥd  ʿšr  kl  hnʾm  w-mwblm  w-tqntm  w-trṯm  w-kl  lfym  b-y=
+<tei:lb n="6"/>lfy  kbr  kḥd  ḏ-dtnt  w-l  yṣḥf  w-ḥrg  ʿṣmn  bn  šhr  wrḫn  ḏ-tmnʿ  ḫrf  mwhbm  ḏ-ḏ=
+<tei:lb n="7"/>rḥn  ʾḫrn  l-ʾḫr  w-kwn  ḏn  ṣḥfn  sqnytm  l-ʿm  ḏ-lbḫ  w-ʾrby-s  l-ḏt  bd  mlʾt
+<tei:lb n="8"/>w-kwmw  l-yṣḥf  w-ḥrg  w-ʿtqb  w-ṯtwb  ḏn  ṣḥfn  ʾrbym  b-yrby  ʿm  ḏ-lbḫ  w-ṣry
+<tei:lb n="9"/>šhr  ʾrby  ʿm  ḏ-lbḫ  ʿṣm  ḏ-lbḫ  bn  tḥt  ʿm  ḏ-dwnm  w-ʾnby  šymn  w-šms  w-rbʿ
+<tei:lb n="10"/>šhr  b-ṣdq-sm  ḥg  ḏt  ṣḥftn  w-ʾsṭr-s  w-ṯfṭ  šhr  ʾrby  ʿm  ḏ-lbḫ  l-ftḫ
+<tei:lb n="11"/>w-sṭr  ḏtn  ʾsṭrn  b-byt  wrfw  w-ʿm  ḏ-lbḫ  b-ḏ-ġylm  w-b  byt  ʿm  b-srn  lbḫ
+<tei:lb n="12"/>wrḫ-s  ḏ-brm  qdmn  ḫrf  mwhbm  ḏ-ḏrḥn  qdmn  w-tʿlm-ʾy  yd  šhr
+<tei:lb n="13"/>w-nbṭʿm  bn  ʾlsmʿ  bn  hybr 
+<tei:lb n="14"/>tqdm  ḏtn  ʾsṭrn</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>k  qtbn  whb  w-sqny  l-ʿm  ḏ-lbḫ  w-ʾrby
+<tei:lb n="2"/>b-ʿm  kbrm  b-ykbr  w-ḥrg  šʿbn  kḥd  w-l  
+<tei:lb n="3"/>ḏ-lbḫ  ṭd  ʾnsm  ḫrfmyw  bn-km  b-ynfṯ  ʿd
+<tei:lb n="4"/>tḥrgn  l-ḏm  b-yfṯ-s  w-l  yqny  w-ṯʿd  ḏm  
+<tei:lb n="5"/>ḥd  ʿšr  kl  hnʾm  w-mwblm  w-tqntm  w-trṯ
+<tei:lb n="6"/>w-l  yṣḥf  w-ḥrg  ʿṣmn  bn  šhr  wrḫn  ḏ-tmnʿ 
+<tei:lb n="7"/>wn  ḏn  ṣḥfn  sqnytm  l-ʿm  ḏ-lbḫ  w-ʾrby
+<tei:lb n="8"/>  w-ʿtqb  w-ṯtwb  ḏn  ṣḥfn  ʾrbym  b-yrb
+<tei:lb n="9"/>ḏ-lbḫ  bn  tḥt  ʿm  ḏ-dwnm  w-ʾnby 
+<tei:lb n="10"/>t  ṣḥftn  w-ʾsṭr-s  w-ṯfṭ  šhr  ʾrby 
+<tei:lb n="11"/>byt  wrfw  w-ʿm  ḏ-lbḫ  b-ḏ-ġylm  w-b  byt  ʿm 
+<tei:lb n="12"/>rf  mwhbm  ḏ-ḏrḥn  qdmn  w-tʿlm-ʾy 
+<tei:lb n="13"/>  hybr 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>šhr  ġyln  bn  ʾbšbm  mlk  qtbn  whb  w-sqny  l-ʿm  ḏ-lbḫ  w-ʾrby-s  ṣḥf  tḥ=
+<tei:lb n="2"/>rg  šʿbn  kḥd  ḏ-dtnt  b-ʿm  kbrm  b-ykbr  w-ḥrg  šʿbn  kḥd  w-l  yṣḥf  w-ḥrg  ḏn
+<tei:lb n="3"/>ṣḥfn  ʿṣmm  b-yʿṣm  ʿm  ḏ-lbḫ  ṭd  ʾnsm  ḫrfmyw  bn-km  b-ynfṯ  ʿd-km  b-ysfd  ḫrf=
+<tei:lb n="4"/>myw  w-ṯwb  ʾḫ-s  l-ḏn  tḥrgn  l-ḏm  b-yfṯ-s  w-l  yqny  w-ṯʿd  ḏm  b-yḥrg  ḏn  ṣḥf=
+<tei:lb n="5"/>n  b-ʿm  kbrm  b-yḥrg  kḥd  ʿšr  kl  hnʾm  w-mwblm  w-tqntm  w-trṯm  w-kl  lfym  b-y=
+<tei:lb n="6"/>lfy  kbr  kḥd  ḏ-dtnt  w-l  yṣḥf  w-ḥrg  ʿṣmn  bn  šhr  wrḫn  ḏ-tmnʿ  ḫrf  mwhbm  ḏ-ḏ=
+<tei:lb n="7"/>rḥn  ʾḫrn  l-ʾḫr  w-kwn  ḏn  ṣḥfn  sqnytm  l-ʿm  ḏ-lbḫ  w-ʾrby-s  l-ḏt  bd  mlʾt
+<tei:lb n="8"/>w-kwmw  l-yṣḥf  w-ḥrg  w-ʿtqb  w-ṯtwb  ḏn  ṣḥfn  ʾrbym  b-yrby  ʿm  ḏ-lbḫ  w-ṣry
+<tei:lb n="9"/>šhr  ʾrby  ʿm  ḏ-lbḫ  ʿṣm  ḏ-lbḫ  bn  tḥt  ʿm  ḏ-dwnm  w-ʾnby  šymn  w-šms  w-rbʿ
+<tei:lb n="10"/>šhr  b-ṣdq-sm  ḥg  ḏt  ṣḥftn  w-ʾsṭr-s  w-ṯfṭ  šhr  ʾrby  ʿm  ḏ-lbḫ  l-ftḫ
+<tei:lb n="11"/>w-sṭr  ḏtn  ʾsṭrn  b-byt  wrfw  w-ʿm  ḏ-lbḫ  b-ḏ-ġylm  w-b  byt  ʿm  b-srn  lbḫ
+<tei:lb n="12"/>wrḫ-s  ḏ-brm  qdmn  ḫrf  mwhbm  ḏ-ḏrḥn  qdmn  w-tʿlm-ʾy  yd  šhr
+<tei:lb n="13"/>w-nbṭʿm  bn  ʾlsmʿ  bn  hybr 
+<tei:lb n="14"/>tqdm  ḏtn  ʾsṭrn</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and [his] priests 
+2.together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may 
+3.Dhū-Labakh has made binding on one man per two years, from (the time) when he is appointed
+4.office, to the one who shall appoint him. And may he take ownership of and possess whatever
+5.[Ka]ḥid, (from) the tithe on all of the profits and revenues and acquisitions and inheritances
+6.might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ 
+7.and may this document be a dedication to ʿAmm Dhū-Labakh and [his] priests 
+8.let every priest who serves as priest
+9.of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay
+10.document and its inscriptions. And Shahr directed the priests 
+11.the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm
+12.first [ye]ar of Mawhabum Dhū-Dharaḥān. And Shahr signed (this document) 
+13.Haybar
+
+
+Restored full text of the inscription:
+
+1.[Shahr Ghaylān bin ʾAbīshibām, Kin]g of Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and [his] priests [a document (with which) to ad-]
+2.[minister the tribe of Kaḥid Dhū-Datīnat,] together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may [this document be written and enable administration]
+3.[as a directive which ʿAmm] Dhū-Labakh has made binding on one man per two years, from (the time) when he is appointed [until (the time) when he completes the]
+4.[two years and hands his fellow over to this] office, to the one who shall appoint him. And may he take ownership of and possess whatever [this document commands,]
+5.[together with any magistrate who administers Ka]ḥid, (from) the tithe on all of the profits and revenues and acquisitions and inheritances, [and all income which]
+6.[the magistrate of Kaḥid of Datīnat] might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ [in the year of Mawhabum Dhū-Dha-]
+7.[raḥān the Latter, (remaining effective) thenceforth,] and may this document be a dedication to ʿAmm Dhū-Labakh and [his] priests [for all time.]
+8.[And therefore,] let every priest who serves as priest [for ʿAmm Dhū-Labakh write and carry out and administer and adhere to this document. And Shahr announced] 
+9.[for the priests of ʿAmm Dhū-Labakh a directive] of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay [the patron god and Shamas and the protector of] 
+10.[Shahr, with their goodwill, according to thi]s document and its inscriptions. And Shahr directed the priests of [ʿAmm Dhū-Labakh to engrave] 
+11.[and inscribe these inscriptions in] the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm [in the valley of Labakh.]
+12.[(This in) the first month of Dhū-Barīm in the] first [ye]ar of Mawhabum Dhū-Dharaḥān. And Shahr signed (this document) [with his own hand,]
+13.[and Nabaṭʿamm bin ʾĪlīsamaʿ bin] Haybar
+14.[directed (the carving of) these inscriptions].</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and <tei:supplied reason="lost">his</tei:supplied> priests 
+<tei:lb n="2"/>together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may 
+<tei:lb n="3"/>Dhū-Labakh has made binding on one man per two years, from <tei:unclear>the time</tei:unclear> when he is appointed
+<tei:lb n="4"/>office, to the one who shall appoint him. And may he take ownership of and possess whatever
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">Ka</tei:supplied>ḥid, <tei:unclear>from</tei:unclear> the tithe on all of the profits and revenues and acquisitions and inheritances
+<tei:lb n="6"/>might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ 
+<tei:lb n="7"/>and may this document be a dedication to ʿAmm Dhū-Labakh and <tei:supplied reason="lost">his</tei:supplied> priests 
+<tei:lb n="8"/>let every priest who serves as priest
+<tei:lb n="9"/>of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay
+<tei:lb n="10"/>document and its inscriptions. And Shahr directed the priests 
+<tei:lb n="11"/>the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm
+<tei:lb n="12"/>first <tei:supplied reason="lost">ye</tei:supplied>ar of Mawhabum Dhū-Dharaḥān. And Shahr signed <tei:unclear>this document</tei:unclear> 
+<tei:lb n="13"/>Haybar
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Shahr Ghaylān bin ʾAbīshibām, Kin</tei:supplied>g of Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and <tei:supplied reason="lost">his</tei:supplied> priests <tei:supplied reason="lost">a document <tei:unclear>with which</tei:unclear> to ad-</tei:supplied>
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">minister the tribe of Kaḥid Dhū-Datīnat,</tei:supplied> together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may <tei:supplied reason="lost">this document be written and enable administration</tei:supplied>
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">as a directive which ʿAmm</tei:supplied> Dhū-Labakh has made binding on one man per two years, from <tei:unclear>the time</tei:unclear> when he is appointed <tei:supplied reason="lost">until <tei:unclear>the time</tei:unclear> when he completes the</tei:supplied>
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">two years and hands his fellow over to this</tei:supplied> office, to the one who shall appoint him. And may he take ownership of and possess whatever <tei:supplied reason="lost">this document commands,</tei:supplied>
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">together with any magistrate who administers Ka</tei:supplied>ḥid, <tei:unclear>from</tei:unclear> the tithe on all of the profits and revenues and acquisitions and inheritances, <tei:supplied reason="lost">and all income which</tei:supplied>
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">the magistrate of Kaḥid of Datīnat</tei:supplied> might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ <tei:supplied reason="lost">in the year of Mawhabum Dhū-Dha-</tei:supplied>
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">raḥān the Latter, <tei:unclear>remaining effective</tei:unclear> thenceforth,</tei:supplied> and may this document be a dedication to ʿAmm Dhū-Labakh and <tei:supplied reason="lost">his</tei:supplied> priests <tei:supplied reason="lost">for all time.</tei:supplied>
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">And therefore,</tei:supplied> let every priest who serves as priest <tei:supplied reason="lost">for ʿAmm Dhū-Labakh write and carry out and administer and adhere to this document. And Shahr announced</tei:supplied> 
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">for the priests of ʿAmm Dhū-Labakh a directive</tei:supplied> of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay <tei:supplied reason="lost">the patron god and Shamas and the protector of</tei:supplied> 
+<tei:lb n="10"/>
+                    <tei:supplied reason="lost">Shahr, with their goodwill, according to thi</tei:supplied>s document and its inscriptions. And Shahr directed the priests of <tei:supplied reason="lost">ʿAmm Dhū-Labakh to engrave</tei:supplied> 
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">and inscribe these inscriptions in</tei:supplied> the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm <tei:supplied reason="lost">in the valley of Labakh.</tei:supplied>
+<tei:lb n="12"/>
+                    <tei:supplied reason="lost">
+                        <tei:unclear>This in</tei:unclear> the first month of Dhū-Barīm in the</tei:supplied> first <tei:supplied reason="lost">ye</tei:supplied>ar of Mawhabum Dhū-Dharaḥān. And Shahr signed <tei:unclear>this document</tei:unclear> <tei:supplied reason="lost">with his own hand,</tei:supplied>
+<tei:lb n="13"/>
+                    <tei:supplied reason="lost">and Nabaṭʿamm bin ʾĪlīsamaʿ bin</tei:supplied> Haybar
+<tei:lb n="14"/>
+                    <tei:supplied reason="lost">directed <tei:unclear>the carving of</tei:unclear> these inscriptions</tei:supplied>.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and his priests 
+<tei:lb n="2"/>together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may 
+<tei:lb n="3"/>Dhū-Labakh has made binding on one man per two years, from the time when he is appointed
+<tei:lb n="4"/>office, to the one who shall appoint him. And may he take ownership of and possess whatever
+<tei:lb n="5"/>Kaḥid, from the tithe on all of the profits and revenues and acquisitions and inheritances
+<tei:lb n="6"/>might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ 
+<tei:lb n="7"/>and may this document be a dedication to ʿAmm Dhū-Labakh and his priests 
+<tei:lb n="8"/>let every priest who serves as priest
+<tei:lb n="9"/>of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay
+<tei:lb n="10"/>document and its inscriptions. And Shahr directed the priests 
+<tei:lb n="11"/>the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm
+<tei:lb n="12"/>first year of Mawhabum Dhū-Dharaḥān. And Shahr signed this document 
+<tei:lb n="13"/>Haybar
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and his priests a document with which to ad-
+<tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may this document be written and enable administration
+<tei:lb n="3"/>as a directive which ʿAmm Dhū-Labakh has made binding on one man per two years, from the time when he is appointed until the time when he completes the
+<tei:lb n="4"/>two years and hands his fellow over to this office, to the one who shall appoint him. And may he take ownership of and possess whatever this document commands,
+<tei:lb n="5"/>together with any magistrate who administers Kaḥid, from the tithe on all of the profits and revenues and acquisitions and inheritances, and all income which
+<tei:lb n="6"/>the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ in the year of Mawhabum Dhū-Dha-
+<tei:lb n="7"/>raḥān the Latter, remaining effective thenceforth, and may this document be a dedication to ʿAmm Dhū-Labakh and his priests for all time.
+<tei:lb n="8"/>And therefore, let every priest who serves as priest for ʿAmm Dhū-Labakh write and carry out and administer and adhere to this document. And Shahr announced 
+<tei:lb n="9"/>for the priests of ʿAmm Dhū-Labakh a directive of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay the patron god and Shamas and the protector of 
+<tei:lb n="10"/>Shahr, with their goodwill, according to this document and its inscriptions. And Shahr directed the priests of ʿAmm Dhū-Labakh to engrave 
+<tei:lb n="11"/>and inscribe these inscriptions in the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm in the valley of Labakh.
+<tei:lb n="12"/>This in the first month of Dhū-Barīm in the first year of Mawhabum Dhū-Dharaḥān. And Shahr signed this document with his own hand,
+<tei:lb n="13"/>and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+<tei:lb n="14"/>directed the carving of these inscriptions.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and his priests 
+<tei:lb n="2"/>together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may 
+<tei:lb n="3"/>Dhū-Labakh has made binding on one man per two years, from the time when he is appointed
+<tei:lb n="4"/>office, to the one who shall appoint him. And may he take ownership of and possess whatever
+<tei:lb n="5"/>Kaḥid, from the tithe on all of the profits and revenues and acquisitions and inheritances
+<tei:lb n="6"/>might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ 
+<tei:lb n="7"/>and may this document be a dedication to ʿAmm Dhū-Labakh and his priests 
+<tei:lb n="8"/>let every priest who serves as priest
+<tei:lb n="9"/>of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay
+<tei:lb n="10"/>document and its inscriptions. And Shahr directed the priests 
+<tei:lb n="11"/>the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm
+<tei:lb n="12"/>first year of Mawhabum Dhū-Dharaḥān. And Shahr signed this document 
+<tei:lb n="13"/>Haybar
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and his priests a document with which to ad-
+<tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may this document be written and enable administration
+<tei:lb n="3"/>as a directive which ʿAmm Dhū-Labakh has made binding on one man per two years, from the time when he is appointed until the time when he completes the
+<tei:lb n="4"/>two years and hands his fellow over to this office, to the one who shall appoint him. And may he take ownership of and possess whatever this document commands,
+<tei:lb n="5"/>together with any magistrate who administers Kaḥid, from the tithe on all of the profits and revenues and acquisitions and inheritances, and all income which
+<tei:lb n="6"/>the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ in the year of Mawhabum Dhū-Dha-
+<tei:lb n="7"/>raḥān the Latter, remaining effective thenceforth, and may this document be a dedication to ʿAmm Dhū-Labakh and his priests for all time.
+<tei:lb n="8"/>And therefore, let every priest who serves as priest for ʿAmm Dhū-Labakh write and carry out and administer and adhere to this document. And Shahr announced 
+<tei:lb n="9"/>for the priests of ʿAmm Dhū-Labakh a directive of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay the patron god and Shamas and the protector of 
+<tei:lb n="10"/>Shahr, with their goodwill, according to this document and its inscriptions. And Shahr directed the priests of ʿAmm Dhū-Labakh to engrave 
+<tei:lb n="11"/>and inscribe these inscriptions in the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm in the valley of Labakh.
+<tei:lb n="12"/>This in the first month of Dhū-Barīm in the first year of Mawhabum Dhū-Dharaḥān. And Shahr signed this document with his own hand,
+<tei:lb n="13"/>and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+<tei:lb n="14"/>directed the carving of these inscriptions.</tei:ab>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <idno type="quotationLabel">Avanzini 1995</idno>
+                        <seg type="reference">Avanzini, Alessandra 1995. As-Sawdāʾ. Inventaire des inscriptions sudarabiques. 4. Paris: de Boccard / Rome: Herder. [Académie des Inscriptions et Belles-lettres; Istituto italiano per l'Africa e l'Oriente]</seg>
+                        <citedRange>120-122, pl. 19/a</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

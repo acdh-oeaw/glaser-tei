@@ -8,5 +8,5 @@ import module namespace totei="http://www.digital-archiv.at/ns/glaser-tei/totei"
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 for $resource in xmldb:get-child-resources($config:app-root||"/data/imported/")
-    return
-        sm:add-group-ace(xs:anyURI($config:app-root||"/data/imported/"||$resource), "glaser", true(), "rwx")
+    let $new := totei:processEnBulk($resource)
+    return $new

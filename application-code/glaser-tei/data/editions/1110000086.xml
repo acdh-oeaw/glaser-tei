@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL19</title>
+                <title type="alt">1110000086</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL19</title>
+                <respStmt>
+                    <persName>
+                        <forename>Dummy Forename</forename>
+                        <surname>Dummy Lastname</surname>
+                    </persName>
+                    <resp>What was this person doing?</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ÖAW BASIS</authority>
+                <availability>
+                    <licence target="#">Some license information</licence>
+                </availability>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-GL19</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>ÖAW Basis</repository>
+                        <collection>name of the collection </collection>
+                        <idno type="invNo">Inventory nummber of the source</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="alphabet">Ancient South Arabian</rs>
+                            <seg>Inscription commissioned by a king</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Stone inscription</objectType>
+                                    <material>Stone</material>
+                                    <measureGrp unit="cm">h. 25, w. 57, th. 11.4</measureGrp>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="scriptCursus">Right to left</rs>
+                                    <rs type="execution">Incision</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"/>
+                                <rs type="scriptTypology">Monumental writing</rs>
+                                <rs type="textualTypology">Legal text</rs>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <note/>
+                            <note type="support"/>
+                            <note type="deposit"/>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate period="#B"/>
+                            <note/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="modern" subtype="site">as-Sawdāʾ</placeName>
+                            <placeName subtype="site" type="ancient">Ns²n</placeName>
+                            <placeName subtype="geographicalArea" type="modern">wādī al-Jawf</placeName>
+                            <placeName type="modern" subtype="country">Yemen</placeName>
+                            <seg type="proximity"/>
+                            <seg type="archaeologicalContext">
+                                <rs type="context"/>
+                                <rs type="structure"/>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="inm-Latn-x-cntmin">Central Minaic</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#DASI">
+                    <list>
+                        <label>Periodization</label>
+                        <item>
+                            <term xml:id="A">Early first millennium to the fourth century BC (predominance of Saba)</term>
+                            <term xml:id="B">Fourth to first centuries BC (predominance of Qataban and Hadramawt, and their alliance with Main)</term>
+                            <term xml:id="B1">Fourth to third centuries BC</term>
+                            <term xml:id="B2">Third to first centuries BC</term>
+                            <term xml:id="C">First century BC to early second century AD (alliances between the tribes of the high plateau and the ASA kingdoms)</term>
+                            <term xml:id="D">Late second to late third centuries AD (wars among the Himyar, Saba and Hadramawt)</term>
+                            <term xml:id="E">Fourth to sixth centuries AD (unification of Yemen under Himyarite rule)</term>
+                            <term xml:id="Ry">It corresponds to the palaeographical divisions established by Jacques Ryckmans with sub-periods I-IV</term>
+                            <term xml:id="RyI">First sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyII">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIb">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIId">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIIa">Third sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVa">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVb">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="inAncientTimes"/>
+                            <term xml:id="inModernTimes"/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-05-03" who="rr"/>
+            <change when="2017-03-31" who="rr"/>
+            <change when="2017-03-30" who="rr"/>
+            <change when="2016-11-25" who="rr"/>
+            <change when="2016-11-25" who="rr"/>
+            <change when="2016-10-17" who="rr"/>
+            <change when="2016-10-13" who="rr"/>
+            <change when="2016-10-13" who="rr"/>
+            <change when="2016-10-13" who="rr"/>
+            <change when="2016-09-27" who="rr"/>
+            <change when="2016-05-13" who="rr"/>
+            <change when="2016-05-11" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-06" who="rr"/>
+            <change when="2016-04-06" who="rr"/>
+            <change when="2016-03-31" who="rr"/>
+            <change when="2016-01-13" who="rr"/>
+            <change when="2016-01-13" who="rr"/>
+            <change when="2015-12-04" who="rr"/>
+            <change when="2015-12-04" who="rr"/>
+            <change when="2015-11-25" who="rr"/>
+            <change when="2015-11-18" who="rr"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://dasi.humnet.unipi.it/de/cgi-bin/wsimg.pl?recId=6938">
+            <desc type="copyright">By kind permission of British Museum</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[… ... ... | hq=]
+2.ny | šym-hmw | tʾlb | rymm
+3.&lt;b&gt;ʿl | qdmn | [b-]hgrn | dmh[n]
+4.&lt;ṣ&gt;lmn | ḥgn | [wq]h-hw | b-m[sʾl-=]
+5.[hw | b-q]yf-hw | ḏ-[hq]r[w | b-hgrn]
+6.[Mr]yb | [b-]kn | [s]tm[lʾ | b-ʿm-h=]
+7.[w | b-mʿš]rtm | l-wfy | [ġ]lm | wl[d=]
+8.[t | mgdl]t | ḏt | [sm]yʿm | w-t[ʾ=]
+9.[lb] | f-[šft] | w-hkwnn | ʿb[d]-&lt;h&gt;[w]
+10.[.bḥm |] b-wfy | hwt | ġlm[n | w-]
+11.[l-sʿd-hm]w | nʿmt&lt;m&gt; | w-w[f]y[m]
+12.[... ... | wzʾ | s]ʿ[d-]hmw | ʾwld
+13.[... ... ... ...]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">… <tei:gap quantity="plus4" unit="chars"/> | hq=</tei:supplied>
+<tei:lb n="2"/>ny | šym-hmw | tʾlb | rymm
+<tei:lb n="3"/>
+                    <tei:add>b</tei:add>ʿl | qdmn | <tei:supplied reason="lost">b-</tei:supplied>hgrn | dmh<tei:supplied reason="lost">n</tei:supplied>
+<tei:lb n="4"/>
+                    <tei:add>ṣ</tei:add>lmn | ḥgn | <tei:supplied reason="lost">wq</tei:supplied>h-hw | b-m<tei:supplied reason="lost">sʾl-=</tei:supplied>
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">hw | b-q</tei:supplied>yf-hw | ḏ-<tei:supplied reason="lost">hq</tei:supplied>r<tei:supplied reason="lost">w | b-hgrn</tei:supplied>
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">Mr</tei:supplied>yb | <tei:supplied reason="lost">b-</tei:supplied>kn | <tei:supplied reason="lost">s</tei:supplied>tm<tei:supplied reason="lost">lʾ | b-ʿm-h=</tei:supplied>
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">w | b-mʿš</tei:supplied>rtm | l-wfy | <tei:supplied reason="lost">ġ</tei:supplied>lm | wl<tei:supplied reason="lost">d=</tei:supplied>
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">t | mgdl</tei:supplied>t | ḏt | <tei:supplied reason="lost">sm</tei:supplied>yʿm | w-t<tei:supplied reason="lost">ʾ=</tei:supplied>
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">lb</tei:supplied> | f-<tei:supplied reason="lost">šft</tei:supplied> | w-hkwnn | ʿb<tei:supplied reason="lost">d</tei:supplied>-<tei:add>h</tei:add>
+                    <tei:supplied reason="lost">w</tei:supplied>
+<tei:lb n="10"/>
+                    <tei:supplied reason="lost">.bḥm |</tei:supplied> b-wfy | hwt | ġlm<tei:supplied reason="lost">n | w-</tei:supplied>
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">l-sʿd-hm</tei:supplied>w | nʿmt<tei:add>m</tei:add> | w-w<tei:supplied reason="lost">f</tei:supplied>y<tei:supplied reason="lost">m</tei:supplied>
+<tei:lb n="12"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> | wzʾ | s</tei:supplied>ʿ<tei:supplied reason="lost">d-</tei:supplied>hmw | ʾwld
+<tei:lb n="13"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>…   hq=
+<tei:lb n="2"/>ny  šym-hmw  tʾlb  rymm
+<tei:lb n="3"/>bʿl  qdmn  b-hgrn  dmhn
+<tei:lb n="4"/>ṣlmn  ḥgn  wqh-hw  b-msʾl-=
+<tei:lb n="5"/>hw  b-qyf-hw  ḏ-hqrw  b-hgrn
+<tei:lb n="6"/>Mryb  b-kn  stmlʾ  b-ʿm-h=
+<tei:lb n="7"/>w  b-mʿšrtm  l-wfy  ġlm  wld=
+<tei:lb n="8"/>t  mgdlt  ḏt  smyʿm  w-tʾ=
+<tei:lb n="9"/>lb  f-šft  w-hkwnn  ʿbd-hw
+<tei:lb n="10"/>.bḥm  b-wfy  hwt  ġlmn  w-
+<tei:lb n="11"/>l-sʿd-hmw  nʿmtm  w-wfym
+<tei:lb n="12"/>  wzʾ  sʿd-hmw  ʾwld
+<tei:lb n="13"/> </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>…   hq=
+<tei:lb n="2"/>ny  šym-hmw  tʾlb  rymm
+<tei:lb n="3"/>bʿl  qdmn  b-hgrn  dmhn
+<tei:lb n="4"/>ṣlmn  ḥgn  wqh-hw  b-msʾl-=
+<tei:lb n="5"/>hw  b-qyf-hw  ḏ-hqrw  b-hgrn
+<tei:lb n="6"/>Mryb  b-kn  stmlʾ  b-ʿm-h=
+<tei:lb n="7"/>w  b-mʿšrtm  l-wfy  ġlm  wld=
+<tei:lb n="8"/>t  mgdlt  ḏt  smyʿm  w-tʾ=
+<tei:lb n="9"/>lb  f-šft  w-hkwnn  ʿbd-hw
+<tei:lb n="10"/>.bḥm  b-wfy  hwt  ġlmn  w-
+<tei:lb n="11"/>l-sʿd-hmw  nʿmtm  w-wfym
+<tei:lb n="12"/>  wzʾ  sʿd-hmw  ʾwld
+<tei:lb n="13"/> </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ... ... has offer-=]
+2.ed to their patron deity Taʾlab Riyāmum, 
+3.Lord of Qādimān, [in] the city of Damih[ān,]
+4.(this) statue, as he had commanded him in his or[acle,]
+5.[together with his] stele, which he had offered in the city of
+6.[Mā]rib, when he had [sought] and oracle [from him,]
+7.[together with a] tithe--for the well-being of the child which
+8.[Magadl]āt Dhāt-[Sam]ayʿamm bore. Now Ta[ʾ-]
+9.[lab] has [promised] and shall grant his servant
+10.[.]biḥum the well-being of that child. [And]
+11.[may he grant the]m prosperity and well-being
+12.[... ... and] continue to grant them children
+13.[... ... ... ...]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ... has offer-=</tei:supplied>
+<tei:lb n="2"/>ed to their patron deity Taʾlab Riyāmum, 
+<tei:lb n="3"/>Lord of Qādimān, <tei:supplied reason="lost">in</tei:supplied> the city of Damih<tei:supplied reason="lost">ān,</tei:supplied>
+<tei:lb n="4"/>
+                    <tei:unclear>this</tei:unclear> statue, as he had commanded him in his or<tei:supplied reason="lost">acle,</tei:supplied>
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">together with his</tei:supplied> stele, which he had offered in the city of
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">Mā</tei:supplied>rib, when he had <tei:supplied reason="lost">sought</tei:supplied> and oracle <tei:supplied reason="lost">from him,</tei:supplied>
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">together with a</tei:supplied> tithe--for the well-being of the child which
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">Magadl</tei:supplied>āt Dhāt-<tei:supplied reason="lost">Sam</tei:supplied>ayʿamm bore. Now Ta<tei:supplied reason="lost">ʾ-</tei:supplied>
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">lab</tei:supplied> has <tei:supplied reason="lost">promised</tei:supplied> and shall grant his servant
+<tei:lb n="10"/>
+                    <tei:supplied reason="lost">.</tei:supplied>biḥum the well-being of that child. <tei:supplied reason="lost">And</tei:supplied>
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">may he grant the</tei:supplied>m prosperity and well-being
+<tei:lb n="12"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> and</tei:supplied> continue to grant them children
+<tei:lb n="13"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/> ... has offer-=
+<tei:lb n="2"/>ed to their patron deity Taʾlab Riyāmum, 
+<tei:lb n="3"/>Lord of Qādimān, in the city of Damihān,
+<tei:lb n="4"/>this statue, as he had commanded him in his oracle,
+<tei:lb n="5"/>together with his stele, which he had offered in the city of
+<tei:lb n="6"/>Mārib, when he had sought and oracle from him,
+<tei:lb n="7"/>together with a tithe--for the well-being of the child which
+<tei:lb n="8"/>Magadlāt Dhāt-Samayʿamm bore. Now Taʾ-
+<tei:lb n="9"/>lab has promised and shall grant his servant
+<tei:lb n="10"/>.biḥum the well-being of that child. And
+<tei:lb n="11"/>may he grant them prosperity and well-being
+<tei:lb n="12"/> and continue to grant them children
+<tei:lb n="13"/> </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/> ... has offer-=
+<tei:lb n="2"/>ed to their patron deity Taʾlab Riyāmum, 
+<tei:lb n="3"/>Lord of Qādimān, in the city of Damihān,
+<tei:lb n="4"/>this statue, as he had commanded him in his oracle,
+<tei:lb n="5"/>together with his stele, which he had offered in the city of
+<tei:lb n="6"/>Mārib, when he had sought and oracle from him,
+<tei:lb n="7"/>together with a tithe--for the well-being of the child which
+<tei:lb n="8"/>Magadlāt Dhāt-Samayʿamm bore. Now Taʾ-
+<tei:lb n="9"/>lab has promised and shall grant his servant
+<tei:lb n="10"/>.biḥum the well-being of that child. And
+<tei:lb n="11"/>may he grant them prosperity and well-being
+<tei:lb n="12"/> and continue to grant them children
+<tei:lb n="13"/> </tei:ab>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <idno type="quotationLabel">Avanzini 1995</idno>
+                        <seg type="reference">Avanzini, Alessandra 1995. As-Sawdāʾ. Inventaire des inscriptions sudarabiques. 4. Paris: de Boccard / Rome: Herder. [Académie des Inscriptions et Belles-lettres; Istituto italiano per l'Africa e l'Oriente]</seg>
+                        <citedRange>120-122, pl. 19/a</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
