@@ -7,6 +7,8 @@ import module namespace app="http://www.digital-archiv.at/ns/glaser-tei/template
 import module namespace totei="http://www.digital-archiv.at/ns/glaser-tei/totei" at "../modules/totei.xql";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
+(:some test:)
+
 for $resource in xmldb:get-child-resources($config:app-root||"/data/imported/")
     let $new := totei:processEnBulk($resource)
     return $new
