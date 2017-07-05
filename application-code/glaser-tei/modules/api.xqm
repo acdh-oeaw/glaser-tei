@@ -103,12 +103,15 @@ declare %private function api:list-collection-content($collection as xs:string, 
                 let $path := functx:substring-before-last(document-uri(root($doc)),'/')
                 let $id := app:getDocName($doc)
                 let $path2me := string-join(($base, $id, 'xml'), '/')
+                let $glaserID := normalize-space(string-join($doc//tei:title[@type="alt"][2]//text(), ' '))
+                order by $glaserID
                     return
                         <data>
                             <type>TEI-Document</type>
                             <id>{$id}</id>
                             <attributes>
                                 <title>{normalize-space(string-join($doc//tei:title[1]//text(), ' '))}</title>
+                                <glaserID>{$glaserID}</glaserID>
                                 <created>{xmldb:created($path, $id)}</created>
                                 <modified>{xmldb:last-modified($path, $id)}</modified>
                             </attributes>
