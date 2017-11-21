@@ -168,7 +168,7 @@ Restored full text of the inscription:
 5.[sʿḏb | gnʾhy | myfʿ]t | w-mḥfd-sm | w-l | ys[ʿḏb | ḫbl | yhr | sʿ=]
 6.[ḏbm | w-ḏ-ʾl | yhr | s]ʿḏbm | w-l | ywzʾ | tl[w | mlk | ḥḍrmt | w-=]
 7.[l | ysʿḏb | ḏ-yḫbl |] bn | gnʾyhn | w-mḥf[dhn]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>d | ydʿʾl | byn | b
 <tei:lb n="2"/>krb | mlky | ḥḍrmt | 
@@ -261,7 +261,7 @@ Restored full text of the inscription:
 5.[repair the walls of Mayfaʿa]t and their towers. And may he re[pair the damage of that which has been strengthened]
 6.[and that which has not been stre]ngthened. And may he continue to ser[ve the king of Ḥaḍramōt. And may he]
 7.[repair that portion] of the walls and the towers [which has suffered damage.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Yadaʿʾīl Bayyin
 <tei:lb n="2"/>karib, the two kings of Ḥaḍramōt

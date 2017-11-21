@@ -26,7 +26,7 @@ let $xml := doc($uri)
 let $ids := $xml//hit/text() 
 let $countIds := count($ids)
 let $result := <items>
-        {for $x in $ids where not(functx:is-value-in-sequence($x, totei:storedIDs('imported')))
+        {for $x in $ids where not(functx:is-value-in-sequence($x, totei:storedIDs('editions')))
         return 
             <hit>{$x}</hit>}          
     </items>
@@ -67,8 +67,7 @@ let $params := <parameters>
 
 let $xsl := doc(concat($config:app-root, '/resources/xslt/adlibXMLtoTEI.xsl'))
 let $tei := transform:transform($adlibXML, $xsl, $params)
-let $time := replace(xs:string(current-dateTime()), '[:+/.]', '-')
-let $filename := concat($x,'__', $time, '.xml')
+let $filename := $x||'.xml'
 let $storedirectory := concat($config:app-root, '/data/imported/')
 let $store := xmldb:store(concat($config:app-root, '/data/imported/'), $filename, $tei)
 return

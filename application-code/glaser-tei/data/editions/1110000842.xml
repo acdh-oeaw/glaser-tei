@@ -165,7 +165,7 @@ Restored full text of the inscription:
 
 1.[yṯʿʾmr | byn | bn | s]mhʿly
 2.[mkrb | sbʾ | gnʾ | ʿr]rtm | ḥrb</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>mhʿly
 <tei:lb n="2"/>rtm | ḥrb
@@ -209,7 +209,7 @@ Restored full text of the inscription:
 
 1.[Yithaʿʾamar Bayyin bin Su]mhūʿalī,
 2.[ruler (mkrb) of Sabaʾ, has walled ʿUra]rtum (and) Ḥarīb.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>mhūʿalī,
 <tei:lb n="2"/>rtum <tei:unclear>and</tei:unclear> Ḥarīb.

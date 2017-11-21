@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1581</title>
+                <title type="alt">1110000874</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1581</title>
+                <respStmt>
+                    <persName>
+                        <forename>Dummy Forename</forename>
+                        <surname>Dummy Lastname</surname>
+                    </persName>
+                    <resp>What was this person doing?</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ÖAW BASIS</authority>
+                <availability>
+                    <licence target="#">Some license information</licence>
+                </availability>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1581</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>ÖAW Basis</repository>
+                        <collection>name of the collection </collection>
+                        <idno type="invNo">Inventory nummber of the source</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="alphabet">Ancient South Arabian</rs>
+                            <seg>Inscription commissioned by a king</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Stone inscription</objectType>
+                                    <material>Stone</material>
+                                    <measureGrp unit="cm">h. 25, w. 57, th. 11.4</measureGrp>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="scriptCursus">Right to left</rs>
+                                    <rs type="execution">Incision</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"/>
+                                <rs type="scriptTypology">Monumental writing</rs>
+                                <rs type="textualTypology">Legal text</rs>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <note/>
+                            <note type="support"/>
+                            <note type="deposit"/>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate period="#B"/>
+                            <note/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="modern" subtype="site">as-Sawdāʾ</placeName>
+                            <placeName subtype="site" type="ancient">Ns²n</placeName>
+                            <placeName subtype="geographicalArea" type="modern">wādī al-Jawf</placeName>
+                            <placeName type="modern" subtype="country">Yemen</placeName>
+                            <seg type="proximity"/>
+                            <seg type="archaeologicalContext">
+                                <rs type="context"/>
+                                <rs type="structure"/>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="inm-Latn-x-cntmin">Central Minaic</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#DASI">
+                    <list>
+                        <label>Periodization</label>
+                        <item>
+                            <term xml:id="A">Early first millennium to the fourth century BC (predominance of Saba)</term>
+                            <term xml:id="B">Fourth to first centuries BC (predominance of Qataban and Hadramawt, and their alliance with Main)</term>
+                            <term xml:id="B1">Fourth to third centuries BC</term>
+                            <term xml:id="B2">Third to first centuries BC</term>
+                            <term xml:id="C">First century BC to early second century AD (alliances between the tribes of the high plateau and the ASA kingdoms)</term>
+                            <term xml:id="D">Late second to late third centuries AD (wars among the Himyar, Saba and Hadramawt)</term>
+                            <term xml:id="E">Fourth to sixth centuries AD (unification of Yemen under Himyarite rule)</term>
+                            <term xml:id="Ry">It corresponds to the palaeographical divisions established by Jacques Ryckmans with sub-periods I-IV</term>
+                            <term xml:id="RyI">First sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyII">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIb">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIId">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIIa">Third sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVa">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVb">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="inAncientTimes"/>
+                            <term xml:id="inModernTimes"/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-04-11" who="ghatke"/>
+            <change when="2017-04-11" who="ghatke"/>
+            <change when="2016-12-22" who="ghatke"/>
+            <change when="2016-11-23" who="ghatke"/>
+            <change when="2016-11-23" who="ghatke"/>
+            <change when="2016-09-27" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+            <change when="2016-03-16" who="ghatke"/>
+            <change when="2016-03-16" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://dasi.humnet.unipi.it/de/cgi-bin/wsimg.pl?recId=6938">
+            <desc type="copyright">By kind permission of British Museum</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.lḥyʿm | bn | ʾbʾns | ḏ-ʾlm | w-ʿbdʾl | bn | hnʾm [... ...=]
+2.(n) | tqdmw | w-ḥrg | w-shlk | ʿšq | w-mbny | mḥfdn | brm [| b=]
+3.šrsm | ʿd | frʿm | l-mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr [| b-ʿṯ=]
+4.tr | w-b | ʿm | w-b | ʾnby | w-b | ʿm | ḏ-ysrm | w-b | ʿm | ḏ-šq[r]
+5.w-b | ḥwkm | w-b | ḏt | ṣntm | w-b | ḏt | ẓhrn | w-b | ḏt | rḥb=
+6.n [| w]-b | mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr | mlk | qtbn</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>lḥyʿm | bn | ʾbʾns | ḏ-ʾlm | w-ʿbdʾl | bn | hnʾm <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>=</tei:supplied>
+<tei:lb n="2"/>
+                    <tei:unclear>n</tei:unclear> | tqdmw | w-ḥrg | w-shlk | ʿšq | w-mbny | mḥfdn | brm <tei:supplied reason="lost">| b=</tei:supplied>
+<tei:lb n="3"/>šrsm | ʿd | frʿm | l-mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr <tei:supplied reason="lost">| b-ʿṯ=</tei:supplied>
+<tei:lb n="4"/>tr | w-b | ʿm | w-b | ʾnby | w-b | ʿm | ḏ-ysrm | w-b | ʿm | ḏ-šq<tei:supplied reason="lost">r</tei:supplied>
+<tei:lb n="5"/>w-b | ḥwkm | w-b | ḏt | ṣntm | w-b | ḏt | ẓhrn | w-b | ḏt | rḥb=
+<tei:lb n="6"/>n <tei:supplied reason="lost">| w</tei:supplied>-b | mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr | mlk | qtbn</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+                    <persName type="gender" subtype="m">lḥyʿm</persName>  <w>bn</w>  <persName type="patronymic">ʾbʾns</persName>
+                    <orgName type="group">ḏ-ʾlm</orgName>  <w>w-</w>
+                    <persName type="gender" subtype="m">ʿbdʾl</persName>  <w>bn</w>  <persName type="patronymic">hnʾm </persName>
+                    <tei:lb n="2"/>n  <w>tqdmw</w>  <w>w-ḥrg</w>  <w>w-shlk</w>  <w>ʿšq</w>  <w>w-mbny</w>  <w>mḥfdn</w>  <placeName type="building">brm</placeName>  <w>b=
+                        <tei:lb n="3"/>šrsm</w>  <w>ʿd</w>  <w>frʿm</w>  <w>l-mrʾ-smy</w>  <rs type="complex">
+                        <persName type="royal" subtype="withoutTitle" role="king" n="1">ydʿʾb</persName>  <persName type="royal" subtype="withoutTitle" role="king" n="2">ḏbyn</persName>
+                    </rs>  <w>bn</w>  <persName type="patronymic" subtype="royal" role="member">šhr</persName>  <w>b-</w>
+                    <name type="theonym">ʿṯ=
+                            <tei:lb n="4"/>tr</name>  <w>w-b</w>  <name type="theonym">ʿm</name>  <w>w-b</w>  <name type="theonym">ʾnby</name>  <w>w-b</w>  <rs type="complex">
+                        <name type="theonym">ʿm</name>  <name type="epithet" subtype="divine">ḏ-ysrm</name>
+                    </rs>  <w>w-b</w>  <rs type="complex">
+                        <name type="theonym">ʿm</name>  <name type="epithet" subtype="divine">ḏ-šqr</name>
+                    </rs>
+                    <tei:lb n="5"/>
+                    <w>w-b</w>  <name type="theonym">ḥwkm</name>  <w>w-b</w>  <name type="theonym">ḏt  ṣntm</name>  <w>w-b</w>  <name type="theonym">ḏt  ẓhrn</name>  <w>w-b</w>  <name type="theonym">ḏt  rḥb=
+                        <tei:lb n="6"/>n</name>  <w>w-b</w>  <w>mrʾ-smy</w>  <rs type="complex">
+                        <persName type="royal" subtype="withTitle" role="king" n="1">ydʿʾb</persName>  <persName type="royal" subtype="withTitle" role="king" n="2">ḏbyn</persName>
+                    </rs>  <w>bn</w>  <persName type="patronymic" subtype="royal" role="member">šhr</persName>  <w>mlk</w>  <orgName type="state">qtbn</orgName>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>lḥyʿm  bn  ʾbʾns  ḏ-ʾlm  w-ʿbdʾl  bn  hnʾm =
+<tei:lb n="2"/>n  tqdmw  w-ḥrg  w-shlk  ʿšq  w-mbny  mḥfdn  brm  b=
+<tei:lb n="3"/>šrsm  ʿd  frʿm  l-mrʾ-smy  ydʿʾb  ḏbyn  bn  šhr  b-ʿṯ=
+<tei:lb n="4"/>tr  w-b  ʿm  w-b  ʾnby  w-b  ʿm  ḏ-ysrm  w-b  ʿm  ḏ-šqr
+<tei:lb n="5"/>w-b  ḥwkm  w-b  ḏt  ṣntm  w-b  ḏt  ẓhrn  w-b  ḏt  rḥb=
+<tei:lb n="6"/>n  w-b  mrʾ-smy  ydʿʾb  ḏbyn  bn  šhr  mlk  qtbn</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum [… …]
+2.have led and directed and carried out the hewing of stones and the construction of the tower of Barīm [from]
+3.the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-[by ʿAth-]
+4.tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqī[r]
+5.and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
+6.ān [and] by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum <tei:supplied reason="lost">… …</tei:supplied>
+<tei:lb n="2"/>have led and directed and carried out the hewing of stones and the construction of the tower of Barīm <tei:supplied reason="lost">from</tei:supplied>
+<tei:lb n="3"/>the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-<tei:supplied reason="lost">by ʿAth-</tei:supplied>
+<tei:lb n="4"/>tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqī<tei:supplied reason="lost">r</tei:supplied>
+<tei:lb n="5"/>and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
+<tei:lb n="6"/>ān <tei:supplied reason="lost">and</tei:supplied> by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum … …
+<tei:lb n="2"/>have led and directed and carried out the hewing of stones and the construction of the tower of Barīm from
+<tei:lb n="3"/>the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-by ʿAth-
+<tei:lb n="4"/>tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqīr
+<tei:lb n="5"/>and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
+<tei:lb n="6"/>ān and by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum … …
+<tei:lb n="2"/>have led and directed and carried out the hewing of stones and the construction of the tower of Barīm from
+<tei:lb n="3"/>the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-by ʿAth-
+<tei:lb n="4"/>tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqīr
+<tei:lb n="5"/>and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
+<tei:lb n="6"/>ān and by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <idno type="quotationLabel">Avanzini 1995</idno>
+                        <seg type="reference">Avanzini, Alessandra 1995. As-Sawdāʾ. Inventaire des inscriptions sudarabiques. 4. Paris: de Boccard / Rome: Herder. [Académie des Inscriptions et Belles-lettres; Istituto italiano per l'Africa e l'Oriente]</seg>
+                        <citedRange>120-122, pl. 19/a</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

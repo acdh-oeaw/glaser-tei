@@ -150,7 +150,7 @@
 4.tr | w-b | ʿm | w-b | ʾnby | w-b | ʿm | ḏ-ysrm | w-b | ʿm | ḏ-šq[r]
 5.w-b | ḥwkm | w-b | ḏt | ṣntm | w-b | ḏt | ẓhrn | w-b | ḏt | rḥb=
 6.n [| w]-b | mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr | mlk | qtbn</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>lḥyʿm | bn | ʾbʾns | ḏ-ʾlm | w-ʿbdʾl | bn | hnʾm <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>=</tei:supplied>
 <tei:lb n="2"/>
@@ -181,7 +181,7 @@
 4.tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqī[r]
 5.and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
 6.ān [and] by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum <tei:supplied reason="lost">… …</tei:supplied>
 <tei:lb n="2"/>have led and directed and carried out the hewing of stones and the construction of the tower of Barīm <tei:supplied reason="lost">from</tei:supplied>
 <tei:lb n="3"/>the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-<tei:supplied reason="lost">by ʿAth-</tei:supplied>

@@ -169,7 +169,7 @@ Restored full text of the inscription:
 9.ʾwsʿm | bn | yṣrʿm | bn | mdhm | tqdm | w-(ḥ)[rg | kl]
 10.ʿšq | w-wzl | w-ṣll | mnqln | ẓrm | b-tḥrg [| mrʾ-s]
 11.ydʿʾb</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="5"/>w-ʾšʾmn | nqz | w-wzl | w-brr | msbʾ
 <tei:lb n="6"/>w-mnql | ẓrm | b-ʾmr | ʿm | ḏ-šqr | b-ʿm | w-b
@@ -272,7 +272,7 @@ Restored full text of the inscription:
 9.ʾAwsʿamm bin Yiṣūrʿamm of the lineage of Madahum led and dire[cted all of]
 10.the cutting and smoothing and paving of the pass of Ẓarim at the directive [of his lord,]
 11.Yadaʿʾab.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="5"/>and the northern, has excavated and smoothed and opened up the road
 <tei:lb n="6"/>and pass of Ẓarim at the command of ʿAmm Dhū-Shaqīr--by ʿAmm and by

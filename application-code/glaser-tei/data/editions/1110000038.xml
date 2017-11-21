@@ -174,7 +174,7 @@ Restored full text of the inscription:
 4.[gnʾm | qšbm | w-hmrw-hw | w-šrʿw-hw | ḫṭln | ... ...]ḫdʿw | w-hʿqbw | l-ḫlf-hw | [m]ṣ[rʿ]tm | [m]brʾ | [w-mqyḥ | kl | ṣdqm | bn | mwṯrm | ʿdy | t=]
 5.[frʿm | b-mlʾ | ʿšrt | ymtm | bn | wrḫn | ḏ-mbkrn | ... ...]b-mqm | mrʾ-hmw | ʿṯtr-[šr]qn | [w-ʾšms-hmw | w-ʾlʾlt-hmw | w-b-ʾḫyl | w-mqymt | ḫmys]
 6.[ḏ-rydn | w-hrṯdw | hgr-hmw | hkrm | b-tḥ... ...] | b-wrḫn | ḏ-qyẓn | [ḏ-b-ḫ]r[fn | ḏ-l-sṯt] | w-[ṯsʿy | w-ṯlṯ | mʾtm | bn | ḫrf | mbḥḍ | bn | ʾbḥḍ].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>w-ndb | w-hq<tei:supplied reason="lost">šb | <tei:gap quantity="plus4" unit="chars"/> | g</tei:supplied>n<tei:supplied reason="lost">ʾ</tei:supplied>
 <tei:lb n="2"/>
@@ -260,7 +260,7 @@ Restored full text of the inscription:
 4.[a new wall, and they provided it with an access route and they equipped it, (that is,) the ḫṭln-structure, ... ...] they repaired and reinforced for its gate door-leaves and a construction [and a completion with all accuracy, from the foundation to the]
 5.[the top-(this) in the space of ten days from the month of Dhū-Mubakkirān (i.e. May) ... ...] by the power of their lord, ʿAthtar [Shāri]qān [and their protective goddesses and their (other) gods, and by the resources and the authority of the armies]
 6.[of Raydān. And they committed their town of Hakirum … … …] in the month of Dhū-Qiyāẓān (i.e. June) [of the] ye[ar 396 of the Era of Mabḥaḍ bin ʾAbḥuḍ].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>and constructed and bui<tei:supplied reason="lost">lt <tei:gap quantity="plus4" unit="chars"/> the w</tei:supplied>al<tei:supplied reason="lost">l</tei:supplied>
 <tei:lb n="2"/>

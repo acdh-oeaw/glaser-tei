@@ -118,33 +118,34 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-03-02" who="ghatke"/>
-            <change when="2017-02-01" who="ghatke"/>
-            <change when="2016-12-20" who="ghatke"/>
-            <change when="2016-11-11" who="ghatke"/>
-            <change when="2016-11-11" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-10-31" who="ghatke"/>
-            <change when="2016-10-31" who="ghatke"/>
-            <change when="2016-10-31" who="ghatke"/>
-            <change when="2016-10-31" who="ghatke"/>
-            <change when="2016-09-27" who="ghatke"/>
-            <change when="2016-06-22" who="ghatke"/>
-            <change when="2016-06-22" who="ghatke"/>
-            <change when="2016-06-22" who="ghatke"/>
-            <change when="2016-05-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-06" who="ghatke"/>
-            <change when="2016-04-06" who="ghatke"/>
-            <change when="2016-03-31" who="ghatke"/>
+            <change when="2017-05-26" who="rr"/>
+            <change when="2017-03-02" who="rr"/>
+            <change when="2017-02-01" who="rr"/>
+            <change when="2016-12-20" who="rr"/>
+            <change when="2016-11-11" who="rr"/>
+            <change when="2016-11-11" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-10-31" who="rr"/>
+            <change when="2016-10-31" who="rr"/>
+            <change when="2016-10-31" who="rr"/>
+            <change when="2016-10-31" who="rr"/>
+            <change when="2016-09-27" who="rr"/>
+            <change when="2016-06-22" who="rr"/>
+            <change when="2016-06-22" who="rr"/>
+            <change when="2016-06-22" who="rr"/>
+            <change when="2016-05-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-06" who="rr"/>
+            <change when="2016-04-06" who="rr"/>
+            <change when="2016-03-31" who="rr"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -181,7 +182,7 @@ Restored full text of the inscription:
 8.byt | ʿm | ḏ-lb[ḫ | b-ḏ-ġylm | w-b | ḫlfn | ḏ-śdw | b-tmnʿ | wrḫ-s | ḏ-tmnʿ | ḫrf | šhrm | ḏ-ygr | ʾḫr=]
 9.n | w-l | yhlkwn | w-ṣtdq | ʾrby | ʿm | ḏ-lbḫ | ḥg-ḏt | mḥr[tn | w-ṣrytn | w-ḥg | ṣrytm | sṭr | l-s=]
 10.m | šhr | ygl | w-tʿlm-ʾy | yd | šhr</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>šhr | hll | yhnʿm | bn | ydʿʾb | mlk | qtbn | ṣry 
 <tei:lb n="2"/>ʾnby | šymn | w-bn | tḥt | šms | w-rbʿ | šhr | ʾdm-s | ʿm
@@ -289,7 +290,7 @@ Restored full text of the inscription:
 8.the temple of ʿAmm Dhū-Laba[kh in Dhū-Ghaylim and at the gate of Śadū at Timnaʿ-(this in) the month of Dhū-Timnaʿ in the last year of Shahrum Dhū-Yagirr.]
 9.And let the priests of ʿAmm Dhū-Labakh comply and (thus) receive their due according to this procla[mation and decree, and in accordance with any decree which]
 10.Shahr Yagill might write for them. Signed by the hand of Shahr.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Shahr Hilāl Yuhanʿim bin Yadaʿʾab, King of Qatabān, has decreed
 <tei:lb n="2"/>of ʾAnbay the patron-deity, and on the authority of the protective goddess and guardian of Shahr, for his clients ʿAmmī<tei:supplied reason="lost">...</tei:supplied>

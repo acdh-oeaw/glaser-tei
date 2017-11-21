@@ -146,7 +146,7 @@
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ... ...]rydʿ | w-ʾbydʿ | w-kl | m[… …=]
 2.[... ... ...]n | b-ʿṯtr | w-b | ʾlmqh | w-(b) [| … …]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>rydʿ | w-ʾbydʿ | w-kl | m<tei:supplied reason="lost">… …=</tei:supplied>
@@ -164,7 +164,7 @@
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ... ...]ryadaʿ and ʾAbīyadaʿ and all [… … …=]
 2.[... ... ...]--by ʿAthtar and by ʾĪlmuquh and by [ … …].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>ryadaʿ and ʾAbīyadaʿ and all <tei:supplied reason="lost">… … …=</tei:supplied>

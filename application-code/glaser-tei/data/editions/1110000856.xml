@@ -146,7 +146,7 @@
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[k]rbʾl | wtr | b(n) [| ḏmrʿly | mkr=]
 2.[b | sbʾ | gnʾ |] ʿrrtm | rymn</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">k</tei:supplied>rbʾl | wtr | b<tei:unclear>n</tei:unclear> <tei:supplied reason="lost">| ḏmrʿly | mkr=</tei:supplied>
 <tei:lb n="2"/>
@@ -161,7 +161,7 @@
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Karibʾīl Watar bin Dhamarʿalī, ruler (mkrb) 
 2.of Sabaʾ, has walled ʿArartum Raymān.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>Karibʾīl Watar bin Dhamarʿalī, ruler <tei:unclear>mkrb</tei:unclear> 
 <tei:lb n="2"/>of Sabaʾ, has walled ʿArartum Raymān.</tei:ab>
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">

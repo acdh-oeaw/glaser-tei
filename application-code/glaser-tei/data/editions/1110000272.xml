@@ -153,7 +153,7 @@
 3.nʾ | myfʿt | w-ḫ=
 4.lf-ṯ | ʾbnm | w-=
 5.(ʿ)ḍm | w-ftlm</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>hbsl | bn | šgb
 <tei:lb n="2"/>qtdm | mbny | g=
 <tei:lb n="3"/>nʾ | myfʿt | w-ḫ=
@@ -179,7 +179,7 @@
 3.wall of Mayfaʿt and its
 4.gate out of stone and
 5.wood and brick.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>Habsal bin Shagab
 <tei:lb n="2"/>has directed the construction of the
 <tei:lb n="3"/>wall of Mayfaʿt and its

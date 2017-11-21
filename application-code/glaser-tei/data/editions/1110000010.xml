@@ -145,7 +145,7 @@
         <body>
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[.]ʿΓr˥ m | w-ṣwbt | [...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">.</tei:supplied>ʿ<tei:unclear>r</tei:unclear> m | w-ṣwbt | <tei:supplied reason="lost">...</tei:supplied>
                 </tei:ab>
@@ -156,7 +156,7 @@
             </div>
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ...] and the glacis of [...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>

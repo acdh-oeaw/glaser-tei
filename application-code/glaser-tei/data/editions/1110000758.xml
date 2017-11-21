@@ -165,7 +165,7 @@ Restored full text of the inscription:
 2.ġyln | mlk | ḥḍrmt | bn | [ʾmynm | sqny]
 3.(w-)ṯlʾ | mrʾ-s | s(y)n | ḏ-ʾl[m | nsr | ṣlfʿ=]
 4.hn | nsr | ʾtw | h-(s) | bn | š[ʾmt | w-qṣʾ-s]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ydʿʾl | byn | m<tei:unclear>lk</tei:unclear> | ḥḍrm<tei:supplied reason="lost">t</tei:supplied>
 <tei:lb n="2"/>ġyln | mlk | ḥḍrmt | bn | 
@@ -226,7 +226,7 @@ Restored full text of the inscription:
 2.Ghaylān, king of Ḥaḍramōt, son of [ʾAmyānum, has offered] 
 3.and consecrated to his lord, Siyān Dhū-ʾAl[īm, (this statue of) an eagle made from ṣlfʿ,]
 4.an eagle which had come to him from the no[rth, and he dedicated it.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Yadaʿʾīl Bayyin, king of Ḥaḍramō<tei:supplied reason="lost">t</tei:supplied>
 <tei:lb n="2"/>Ghaylān, king of Ḥaḍramōt, son of

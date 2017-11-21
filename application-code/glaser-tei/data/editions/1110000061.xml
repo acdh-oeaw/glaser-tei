@@ -143,7 +143,7 @@
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[d]-hm&lt;w&gt; | bn[w] (|) [.]ś[...]h[..]
 2.nʿmtm | w-rḍw | ʾmrʾ-h[mw | ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">d</tei:supplied>-hm<tei:add>w</tei:add> | bn<tei:supplied reason="lost">w</tei:supplied> <tei:unclear>|</tei:unclear> <tei:supplied reason="lost">.</tei:supplied>ś<tei:supplied reason="lost">...</tei:supplied>h<tei:supplied reason="lost">..</tei:supplied>
 <tei:lb n="2"/>nʿmtm | w-rḍw | ʾmrʾ-h<tei:supplied reason="lost">mw | ...</tei:supplied>
@@ -158,7 +158,7 @@
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.their [... ...], of the lineage of [... ...]
 2.prosperity and the good pleasure of their lords, [...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>their <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>
                     </tei:supplied>, of the lineage of <tei:supplied reason="lost">

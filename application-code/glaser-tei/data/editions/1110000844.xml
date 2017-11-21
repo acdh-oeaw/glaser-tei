@@ -159,7 +159,7 @@ Restored full text of the inscription:
 
 1.[yṯʿʾmr | byn | bn | smh]ʿl=
 2.[{|} y | mkrb | sbʾ | gnʾ | ʿrr]tm |</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>
                     <tei:supplied reason="lost">
@@ -208,7 +208,7 @@ Restored full text of the inscription:
 
 1.[Yithaʿʾamar Bayyin bin Sumhū]ʿal=
 2.[ī, ruler (mkrb) Sabaʾ, has walled ʿUrar]tum.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ʿal=
 <tei:lb n="2"/>tum

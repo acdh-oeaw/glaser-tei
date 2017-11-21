@@ -165,7 +165,7 @@
 11.[l-sʿd-hm]w | nʿmt&lt;m&gt; | w-w[f]y[m]
 12.[... ... | wzʾ | s]ʿ[d-]hmw | ʾwld
 13.[... ... ... ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">… <tei:gap quantity="plus4" unit="chars"/> | hq=</tei:supplied>
 <tei:lb n="2"/>ny | šym-hmw | tʾlb | rymm
@@ -239,7 +239,7 @@
 11.[may he grant the]m prosperity and well-being
 12.[... ... and] continue to grant them children
 13.[... ... ... ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/> ... has offer-=</tei:supplied>

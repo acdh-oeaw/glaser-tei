@@ -151,7 +151,7 @@
 Restored full text of the inscription:
 
 1.[ʾlʾws | bn | ḥṭʾ | hqny | ʿṯtr | w-ʾlmqh |] ḥywt | w-kl | wld-h</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ḥywt | w-kl | wld-h
 
@@ -186,7 +186,7 @@ Restored full text of the inscription:
 Restored full text of the inscription:
 
 1.[ʾĪlīʾaws bin Ḥaṭiʾān has dedicated to ʿAthtar and ʾĪlmuquh] Ḥaywat and all of her children.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Ḥaywat and all of her children.
 

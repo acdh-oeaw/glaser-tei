@@ -118,6 +118,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-05-08" who="ghatke"/>
             <change when="2016-12-09" who="ghatke"/>
             <change when="2016-12-09" who="ghatke"/>
             <change when="2016-12-09" who="ghatke"/>
@@ -150,7 +151,7 @@
 6.m | w-b | ḏt | bʿd=
 7.n | w-b | krbʾl
 8.w-b | yṯ[ʿʾmr]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">...</tei:supplied>l | w-ʾlʾws
 <tei:lb n="2"/>
@@ -194,7 +195,7 @@
 6.m, and by Dhāt-Baʿdā-
 7.n, and by Karibʾīl,
 8.and by Yitha[ʿʾamar.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">...</tei:supplied>l and ʾĪlʾaws
 <tei:lb n="2"/>

@@ -151,7 +151,7 @@
 2.[... ... | bn] Γl˥ kl | Γn˥kl | slf | ʾnmr | w-fnw | b-Γʿ˥Γm˥[...]
 3.[... ...| šym-hw] | tʾlb | rymm | w- šms-hmw | bʿ[lt | ... ...]
 4.[... ...|] w-[fnwn | ʿṯtr | ... ... ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>
@@ -187,7 +187,7 @@
 2.[... ... from] all of the construction of the lower part of the bastions and the facade(?), together with [...]
 3.[... ... his patron deity] Taʾlab Riyāmum and their protector-goddess, the mist[ress ... ...]
 4.[... ...] and [the facade(?) ʿAthtar ... ... ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>

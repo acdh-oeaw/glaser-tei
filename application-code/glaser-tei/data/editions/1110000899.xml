@@ -118,35 +118,36 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-03-02" who="ghatke"/>
-            <change when="2017-02-10" who="ghatke"/>
-            <change when="2017-02-10" who="ghatke"/>
-            <change when="2017-02-10" who="ghatke"/>
-            <change when="2017-02-10" who="ghatke"/>
-            <change when="2016-09-27" who="ghatke"/>
-            <change when="2016-06-21" who="ghatke"/>
-            <change when="2016-06-21" who="ghatke"/>
-            <change when="2016-06-21" who="ghatke"/>
-            <change when="2016-06-21" who="ghatke"/>
-            <change when="2016-06-07" who="ghatke"/>
-            <change when="2016-06-01" who="ghatke"/>
-            <change when="2016-06-01" who="ghatke"/>
-            <change when="2016-06-01" who="ghatke"/>
-            <change when="2016-06-01" who="ghatke"/>
-            <change when="2016-06-01" who="ghatke"/>
-            <change when="2016-06-01" who="ghatke"/>
-            <change when="2016-06-01" who="ghatke"/>
-            <change when="2016-06-01" who="ghatke"/>
-            <change when="2016-05-30" who="ghatke"/>
-            <change when="2016-05-30" who="ghatke"/>
-            <change when="2016-05-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-06" who="ghatke"/>
-            <change when="2016-04-06" who="ghatke"/>
-            <change when="2016-03-31" who="ghatke"/>
+            <change when="2017-05-26" who="rr"/>
+            <change when="2017-03-02" who="rr"/>
+            <change when="2017-02-10" who="rr"/>
+            <change when="2017-02-10" who="rr"/>
+            <change when="2017-02-10" who="rr"/>
+            <change when="2017-02-10" who="rr"/>
+            <change when="2016-09-27" who="rr"/>
+            <change when="2016-06-21" who="rr"/>
+            <change when="2016-06-21" who="rr"/>
+            <change when="2016-06-21" who="rr"/>
+            <change when="2016-06-21" who="rr"/>
+            <change when="2016-06-07" who="rr"/>
+            <change when="2016-06-01" who="rr"/>
+            <change when="2016-06-01" who="rr"/>
+            <change when="2016-06-01" who="rr"/>
+            <change when="2016-06-01" who="rr"/>
+            <change when="2016-06-01" who="rr"/>
+            <change when="2016-06-01" who="rr"/>
+            <change when="2016-06-01" who="rr"/>
+            <change when="2016-06-01" who="rr"/>
+            <change when="2016-05-30" who="rr"/>
+            <change when="2016-05-30" who="rr"/>
+            <change when="2016-05-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-06" who="rr"/>
+            <change when="2016-04-06" who="rr"/>
+            <change when="2016-03-31" who="rr"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -191,7 +192,7 @@ Restored full text of the inscription:
 12.wrḫ-s | ḏ-brm | qdmn | ḫrf | m[whbm | ḏ-ḏrḥn | qdmn | w-tʿlm-ʾy | yd | šhr]
 13.w-nbṭʿm | bn | ʾlsmʿ | bn | hybr |
 14.tqdm | ḏtn | ʾsṭrn</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>šhr | ġyln | bn | ʾbšbm | mlk | 
 <tei:lb n="2"/>rg | šʿbn | kḥd | ḏ-dtnt | b-ʿm 
@@ -329,7 +330,7 @@ Restored full text of the inscription:
 12.(This in) the first month of Dhū-Barīm in the [first] year of Ma[whabum Dhū-Dharaḥān. And Shahr signed (this document) with his own hand,]
 13.and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
 14.directed (the carving of) these inscriptions.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of
 <tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with 

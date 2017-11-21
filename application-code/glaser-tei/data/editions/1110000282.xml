@@ -118,31 +118,32 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-02-24" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-02" who="ghatke"/>
-            <change when="2016-12-02" who="ghatke"/>
-            <change when="2016-12-02" who="ghatke"/>
-            <change when="2016-12-02" who="ghatke"/>
-            <change when="2016-11-04" who="ghatke"/>
-            <change when="2016-11-04" who="ghatke"/>
-            <change when="2016-11-04" who="ghatke"/>
-            <change when="2016-11-02" who="ghatke"/>
-            <change when="2016-11-02" who="ghatke"/>
-            <change when="2016-09-27" who="ghatke"/>
-            <change when="2016-06-24" who="ghatke"/>
-            <change when="2016-05-31" who="ghatke"/>
-            <change when="2016-05-24" who="ghatke"/>
-            <change when="2016-05-13" who="ghatke"/>
-            <change when="2016-05-11" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-04" who="ghatke"/>
-            <change when="2016-03-31" who="ghatke"/>
-            <change when="2016-02-11" who="ghatke"/>
-            <change when="2016-02-11" who="ghatke"/>
+            <change when="2017-05-19" who="rruzicka"/>
+            <change when="2017-02-24" who="rruzicka"/>
+            <change when="2016-12-16" who="rruzicka"/>
+            <change when="2016-12-16" who="rruzicka"/>
+            <change when="2016-12-02" who="rruzicka"/>
+            <change when="2016-12-02" who="rruzicka"/>
+            <change when="2016-12-02" who="rruzicka"/>
+            <change when="2016-12-02" who="rruzicka"/>
+            <change when="2016-11-04" who="rruzicka"/>
+            <change when="2016-11-04" who="rruzicka"/>
+            <change when="2016-11-04" who="rruzicka"/>
+            <change when="2016-11-02" who="rruzicka"/>
+            <change when="2016-11-02" who="rruzicka"/>
+            <change when="2016-09-27" who="rruzicka"/>
+            <change when="2016-06-24" who="rruzicka"/>
+            <change when="2016-05-31" who="rruzicka"/>
+            <change when="2016-05-24" who="rruzicka"/>
+            <change when="2016-05-13" who="rruzicka"/>
+            <change when="2016-05-11" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-04" who="rruzicka"/>
+            <change when="2016-03-31" who="rruzicka"/>
+            <change when="2016-02-11" who="rruzicka"/>
+            <change when="2016-02-11" who="rruzicka"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -163,7 +164,7 @@ Restored full text of the inscription:
 
 1.[ṣydm | ʾbrd | bn | ml]šn | mṣdʾ | ḏ-bdš | ʿ=
 2.[qb | qnʾ | stṭr |] b-ʿrhn | mwyt</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>šn | mṣdʾ | ḏ-bdš | ʿ=
 <tei:lb n="2"/>b-ʿrhn | mwyt
@@ -207,7 +208,7 @@ Restored full text of the inscription:
 
 1.[Ṣaydum ʾAbrad bin Mal]shān, the official of Dhū-Badāsh, 
 2.[governor of Qāniʾ had (this) written] at the citadel of Mawīyat.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>
                     <tei:supplied reason="lost">Mal</tei:supplied>shān, the official of Dhū-Badāsh, 

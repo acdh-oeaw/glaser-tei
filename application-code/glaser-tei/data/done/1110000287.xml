@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B173e</title>
+                <title type="alt">1110000287</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B173e</title>
+                <respStmt>
+                    <persName>
+                        <forename>Dummy Forename</forename>
+                        <surname>Dummy Lastname</surname>
+                    </persName>
+                    <resp>What was this person doing?</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ÖAW BASIS</authority>
+                <availability>
+                    <licence target="#">Some license information</licence>
+                </availability>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-B173e</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>ÖAW Basis</repository>
+                        <collection>name of the collection </collection>
+                        <idno type="invNo">Inventory nummber of the source</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="alphabet">Ancient South Arabian</rs>
+                            <seg>Inscription commissioned by a king</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Stone inscription</objectType>
+                                    <material>Stone</material>
+                                    <measureGrp unit="cm">h. 25, w. 57, th. 11.4</measureGrp>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="scriptCursus">Right to left</rs>
+                                    <rs type="execution">Incision</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"/>
+                                <rs type="scriptTypology">Monumental writing</rs>
+                                <rs type="textualTypology">Legal text</rs>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <note/>
+                            <note type="support"/>
+                            <note type="deposit"/>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate period="#B"/>
+                            <note/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="modern" subtype="site">as-Sawdāʾ</placeName>
+                            <placeName subtype="site" type="ancient">Ns²n</placeName>
+                            <placeName subtype="geographicalArea" type="modern">wādī al-Jawf</placeName>
+                            <placeName type="modern" subtype="country">Yemen</placeName>
+                            <seg type="proximity"/>
+                            <seg type="archaeologicalContext">
+                                <rs type="context"/>
+                                <rs type="structure"/>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="inm-Latn-x-cntmin">Central Minaic</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#DASI">
+                    <list>
+                        <label>Periodization</label>
+                        <item>
+                            <term xml:id="A">Early first millennium to the fourth century BC (predominance of Saba)</term>
+                            <term xml:id="B">Fourth to first centuries BC (predominance of Qataban and Hadramawt, and their alliance with Main)</term>
+                            <term xml:id="B1">Fourth to third centuries BC</term>
+                            <term xml:id="B2">Third to first centuries BC</term>
+                            <term xml:id="C">First century BC to early second century AD (alliances between the tribes of the high plateau and the ASA kingdoms)</term>
+                            <term xml:id="D">Late second to late third centuries AD (wars among the Himyar, Saba and Hadramawt)</term>
+                            <term xml:id="E">Fourth to sixth centuries AD (unification of Yemen under Himyarite rule)</term>
+                            <term xml:id="Ry">It corresponds to the palaeographical divisions established by Jacques Ryckmans with sub-periods I-IV</term>
+                            <term xml:id="RyI">First sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyII">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIb">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIId">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIIa">Third sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVa">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVb">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="inAncientTimes"/>
+                            <term xml:id="inModernTimes"/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-02-28" who="ghatke"/>
+            <change when="2017-02-15" who="ghatke"/>
+            <change when="2016-12-19" who="ghatke"/>
+            <change when="2016-12-19" who="ghatke"/>
+            <change when="2016-11-10" who="ghatke"/>
+            <change when="2016-11-04" who="ghatke"/>
+            <change when="2016-11-04" who="ghatke"/>
+            <change when="2016-11-04" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-11-02" who="ghatke"/>
+            <change when="2016-09-27" who="ghatke"/>
+            <change when="2016-06-24" who="ghatke"/>
+            <change when="2016-05-31" who="ghatke"/>
+            <change when="2016-05-24" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-05-11" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-04" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+            <change when="2016-02-09" who="ghatke"/>
+            <change when="2016-02-09" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://dasi.humnet.unipi.it/de/cgi-bin/wsimg.pl?recId=6938">
+            <desc type="copyright">By kind permission of British Museum</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+3.ld | ʿm | w
+4. | w-tbn
+5.ʾmn | n
+6.(l) | ẓrm | 
+7.w-b | ʿm | ḏ
+8.w-b | ḏt | ẓ
+9.bn | y
+
+
+Restored full text of the inscription:
+
+1.[ydʿʾb | ḏbyn |]
+2.[(b)]n | šhr | [mkrb | qtbn | w-kl | w=]
+3.ld | ʿm | w-[ʾwsn | w-kḥd | w-d=]
+4.[hsm] | w-tbn[w | w-yrfʾ | ʾymnn]
+5.[w-ʾš]ʾmn | n[qz | w-wzl | w-brr | msbʾ]
+6.[w-mnq](l) | ẓrm | [b-ʾmr | ʿm | ḏ-šqr | b-ʿm | w-b]
+7.[ʾnby | w-b | ʿm | ḏ-rymtm |] w-b | ʿm | ḏ-[šqr | w-b]
+8.[ḥwkm | w-b | ḏt | ṣntm |] w-b | ḏt | ẓ[hrn | w-b | ḏt | rḥbn]
+9.[ʾwsʿm |] bn | y[ṣrʿm | bn | mdhm | tqdm | w-ḥrg | kl]
+10.[ʿšq | w-wzl | w-ṣll | mnqln | ẓrm | b-tḥrg | mrʾ-s]
+11.[ydʿʾb]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="3"/>ld | ʿm | w
+<tei:lb n="4"/> | w-tbn
+<tei:lb n="5"/>ʾmn | n
+<tei:lb n="6"/>
+                    <tei:unclear>l</tei:unclear> | ẓrm | 
+<tei:lb n="7"/>w-b | ʿm | ḏ
+<tei:lb n="8"/>w-b | ḏt | ẓ
+<tei:lb n="9"/>bn | y
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">ydʿʾb | ḏbyn |</tei:supplied>
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">
+                        <tei:unclear>b</tei:unclear>
+                    </tei:supplied>n | šhr | <tei:supplied reason="lost">mkrb | qtbn | w-kl | w=</tei:supplied>
+<tei:lb n="3"/>ld | ʿm | w-<tei:supplied reason="lost">ʾwsn | w-kḥd | w-d=</tei:supplied>
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">hsm</tei:supplied> | w-tbn<tei:supplied reason="lost">w | w-yrfʾ | ʾymnn</tei:supplied>
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">w-ʾš</tei:supplied>ʾmn | n<tei:supplied reason="lost">qz | w-wzl | w-brr | msbʾ</tei:supplied>
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">w-mnq</tei:supplied>
+                    <tei:unclear>l</tei:unclear> | ẓrm | <tei:supplied reason="lost">b-ʾmr | ʿm | ḏ-šqr | b-ʿm | w-b</tei:supplied>
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">ʾnby | w-b | ʿm | ḏ-rymtm |</tei:supplied> w-b | ʿm | ḏ-<tei:supplied reason="lost">šqr | w-b</tei:supplied>
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">ḥwkm | w-b | ḏt | ṣntm |</tei:supplied> w-b | ḏt | ẓ<tei:supplied reason="lost">hrn | w-b | ḏt | rḥbn</tei:supplied>
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">ʾwsʿm |</tei:supplied> bn | y<tei:supplied reason="lost">ṣrʿm | bn | mdhm | tqdm | w-ḥrg | kl</tei:supplied>
+<tei:lb n="10"/>
+                    <tei:supplied reason="lost">ʿšq | w-wzl | w-ṣll | mnqln | ẓrm | b-tḥrg | mrʾ-s</tei:supplied>
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">ydʿʾb</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="3"/>ld  <name type="theonym">ʿm</name>  w
+<tei:lb n="4"/>  w-tbn
+<tei:lb n="5"/>ʾmn  n
+                    <tei:lb n="6"/>l  <placeName>ẓrm</placeName>  
+                    <tei:lb n="7"/>
+                    <w>w-b</w>  <name type="theonym">ʿm</name>  ḏ
+<tei:lb n="8"/>w-b  ḏt  ẓ
+<tei:lb n="9"/>bn  y
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>
+                    <rs type="complex">
+                        <persName type="royal" subtype="withTitle" role="king" n="1">ydʿʾb</persName>  <persName type="royal" subtype="withTitle" role="king" n="2">ḏbyn</persName>
+                    </rs> 
+                    <tei:lb n="2"/>
+                    <w>bn</w>  <persName type="patronymic" subtype="royal" role="member">šhr</persName>  <w>mkrb</w>  <orgName type="state">qtbn</orgName>  <w>w-kl</w>  <w>w=
+                        <tei:lb n="3"/>ld</w>  <name type="theonym">ʿm</name>  <w>w-</w>
+                    <orgName type="tribe">ʾwsn</orgName>  <w>w-</w>
+                    <orgName type="tribe">kḥd</orgName>  <w>w-</w>
+                    <orgName type="tribe">d=
+                            <tei:lb n="4"/>hsm</orgName>  <w>w-</w>
+                    <orgName type="tribe">tbnw</orgName>  <w>w-</w>
+                    <orgName type="tribe">yrfʾ</orgName>  <w>ʾymnn</w>
+                    <tei:lb n="5"/>
+                    <w>w-ʾšʾmn</w>  <w>nqz</w>  <w>w-wzl</w>  <w>w-brr</w>  <w>msbʾ</w>
+                    <tei:lb n="6"/>
+                    <w>w-mnql</w>  <placeName>ẓrm</placeName>  <w>b-ʾmr</w>  <rs type="complex">
+                        <name type="theonym">ʿm</name>  <name type="epithet" subtype="divine">ḏ-šqr</name>
+                    </rs>  <w>b-</w>
+                    <name type="theonym">ʿm</name>  <w>w-b</w>
+                    <tei:lb n="7"/>
+                    <name type="theonym">ʾnby</name>  <w>w-b</w>  <rs type="complex">
+                        <name type="theonym">ʿm</name>  <name type="epithet" subtype="divine">ḏ-rymtm</name>
+                    </rs>  <w>w-b</w>  <rs type="complex">
+                        <name type="theonym">ʿm</name>  <name type="epithet" subtype="divine">ḏ-šqr</name>
+                    </rs>  <w>w-b</w>
+                    <tei:lb n="8"/>
+                    <name type="theonym">ḥwkm</name>  <w>w-b</w>  <name type="theonym">ḏt  ṣntm</name>  <w>w-b</w>  <name type="theonym">ḏt  ẓhrn</name>  <w>w-b</w>  <name type="theonym">ḏt  rḥbn</name>
+                    <tei:lb n="9"/>
+                    <persName type="gender" subtype="m">ʾwsʿm</persName>  <w>bn</w>  <persName type="patronymic">yṣrʿm</persName>  <w>bn</w>  <orgName type="group">mdhm</orgName>  <w>tqdm</w>  <w>w-ḥrg</w>  <w>kl</w>
+                    <tei:lb n="10"/>
+                    <w>ʿšq</w>  <w>w-wzl</w>  <w>w-ṣll</w>  <w>mnqln</w>  <placeName>ẓrm</placeName>  <w>b-tḥrg</w>  <w>mrʾ-s</w>
+                    <tei:lb n="11"/>
+                    <persName type="royal" subtype="withoutTitle" role="king">ydʿʾb</persName>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="3"/>ld  ʿm  w
+<tei:lb n="4"/>  w-tbn
+<tei:lb n="5"/>ʾmn  n
+<tei:lb n="6"/>l  ẓrm  
+<tei:lb n="7"/>w-b  ʿm  ḏ
+<tei:lb n="8"/>w-b  ḏt  ẓ
+<tei:lb n="9"/>bn  y
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ydʿʾb  ḏbyn 
+<tei:lb n="2"/>bn  šhr  mkrb  qtbn  w-kl  w=
+<tei:lb n="3"/>ld  ʿm  w-ʾwsn  w-kḥd  w-d=
+<tei:lb n="4"/>hsm  w-tbnw  w-yrfʾ  ʾymnn
+<tei:lb n="5"/>w-ʾšʾmn  nqz  w-wzl  w-brr  msbʾ
+<tei:lb n="6"/>w-mnql  ẓrm  b-ʾmr  ʿm  ḏ-šqr  b-ʿm  w-b
+<tei:lb n="7"/>ʾnby  w-b  ʿm  ḏ-rymtm  w-b  ʿm  ḏ-šqr  w-b
+<tei:lb n="8"/>ḥwkm  w-b  ḏt  ṣntm  w-b  ḏt  ẓhrn  w-b  ḏt  rḥbn
+<tei:lb n="9"/>ʾwsʿm  bn  yṣrʿm  bn  mdhm  tqdm  w-ḥrg  kl
+<tei:lb n="10"/>ʿšq  w-wzl  w-ṣll  mnqln  ẓrm  b-tḥrg  mrʾ-s
+<tei:lb n="11"/>ydʿʾb</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+3.ren of ʿAmm and 
+4.[hasum] and Tuban[ū] 
+5.[... ...]
+6.[...] Ẓarrum 
+7.and by ʿAmm Dhū-
+8.and by Dhāt-Ẓa[hrān]
+9.the son of Y[...]
+
+
+Restored full text of the inscription:
+
+1.[Yadaʿʾab Dhubyān]
+2.[bi]n Shahr, the ruler of Qatabān and [all of the child-]
+3.ren of ʿAmm and [ʾAwsān and Kaḥid and Da-]
+4.[hasum] and Tuban[ū and Yarfaʾ, the southern reaches] 
+5.[and the north]ern reaches, has cu[t and carved out and levelled the road]
+6.[and the mountain pa]ss of Ẓarrum [at the command of ʿAmm Dhū-Shaqīr. By ʿAmm, and by]
+7.[ʾAnbay, and by ʿAmm Dhū-Raymatim,] and by ʿAmm Dhū-[Shaqīr, and by]
+8.[Ḥawkam, and by Dhāt-Ṣanatim,] and by Dhāt-Ẓa[hrān, and by Dhāt-Raḥbān.]
+9.[ʾAwsʿamm,] the son of Yi[ṣurʿamm, of the lineage of Madihum, led and commanded all of]
+10.[the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,]
+11.[Yadaʿʾab.]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="3"/>ren of ʿAmm and 
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">hasum</tei:supplied> and Tuban<tei:supplied reason="lost">ū</tei:supplied> 
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">...</tei:supplied> Ẓarrum 
+<tei:lb n="7"/>and by ʿAmm Dhū-
+<tei:lb n="8"/>and by Dhāt-Ẓa<tei:supplied reason="lost">hrān</tei:supplied>
+<tei:lb n="9"/>the son of Y<tei:supplied reason="lost">...</tei:supplied>
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Yadaʿʾab Dhubyān</tei:supplied>
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">bi</tei:supplied>n Shahr, the ruler of Qatabān and <tei:supplied reason="lost">all of the child-</tei:supplied>
+<tei:lb n="3"/>ren of ʿAmm and <tei:supplied reason="lost">ʾAwsān and Kaḥid and Da-</tei:supplied>
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">hasum</tei:supplied> and Tuban<tei:supplied reason="lost">ū and Yarfaʾ, the southern reaches</tei:supplied> 
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">and the north</tei:supplied>ern reaches, has cu<tei:supplied reason="lost">t and carved out and levelled the road</tei:supplied>
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">and the mountain pa</tei:supplied>ss of Ẓarrum <tei:supplied reason="lost">at the command of ʿAmm Dhū-Shaqīr. By ʿAmm, and by</tei:supplied>
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">ʾAnbay, and by ʿAmm Dhū-Raymatim,</tei:supplied> and by ʿAmm Dhū-<tei:supplied reason="lost">Shaqīr, and by</tei:supplied>
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">Ḥawkam, and by Dhāt-Ṣanatim,</tei:supplied> and by Dhāt-Ẓa<tei:supplied reason="lost">hrān, and by Dhāt-Raḥbān.</tei:supplied>
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">ʾAwsʿamm,</tei:supplied> the son of Yi<tei:supplied reason="lost">ṣurʿamm, of the lineage of Madihum, led and commanded all of</tei:supplied>
+<tei:lb n="10"/>
+                    <tei:supplied reason="lost">the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,</tei:supplied>
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">Yadaʿʾab.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="3"/>ren of ʿAmm and 
+<tei:lb n="4"/>hasum and Tubanū 
+<tei:lb n="5"/>
+<tei:lb n="6"/>... Ẓarrum 
+<tei:lb n="7"/>and by ʿAmm Dhū-
+<tei:lb n="8"/>and by Dhāt-Ẓahrān
+<tei:lb n="9"/>the son of Y...
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Yadaʿʾab Dhubyān
+<tei:lb n="2"/>bin Shahr, the ruler of Qatabān and all of the child-
+<tei:lb n="3"/>ren of ʿAmm and ʾAwsān and Kaḥid and Da-
+<tei:lb n="4"/>hasum and Tubanū and Yarfaʾ, the southern reaches 
+<tei:lb n="5"/>and the northern reaches, has cut and carved out and levelled the road
+<tei:lb n="6"/>and the mountain pass of Ẓarrum at the command of ʿAmm Dhū-Shaqīr. By ʿAmm, and by
+<tei:lb n="7"/>ʾAnbay, and by ʿAmm Dhū-Raymatim, and by ʿAmm Dhū-Shaqīr, and by
+<tei:lb n="8"/>Ḥawkam, and by Dhāt-Ṣanatim, and by Dhāt-Ẓahrān, and by Dhāt-Raḥbān.
+<tei:lb n="9"/>ʾAwsʿamm, the son of Yiṣurʿamm, of the lineage of Madihum, led and commanded all of
+<tei:lb n="10"/>the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,
+<tei:lb n="11"/>Yadaʿʾab.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="3"/>ren of ʿAmm and 
+<tei:lb n="4"/>hasum and Tubanū 
+<tei:lb n="5"/>
+<tei:lb n="6"/>... Ẓarrum 
+<tei:lb n="7"/>and by ʿAmm Dhū-
+<tei:lb n="8"/>and by Dhāt-Ẓahrān
+<tei:lb n="9"/>the son of Y...
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Yadaʿʾab Dhubyān
+<tei:lb n="2"/>bin Shahr, the ruler of Qatabān and all of the child-
+<tei:lb n="3"/>ren of ʿAmm and ʾAwsān and Kaḥid and Da-
+<tei:lb n="4"/>hasum and Tubanū and Yarfaʾ, the southern reaches 
+<tei:lb n="5"/>and the northern reaches, has cut and carved out and levelled the road
+<tei:lb n="6"/>and the mountain pass of Ẓarrum at the command of ʿAmm Dhū-Shaqīr. By ʿAmm, and by
+<tei:lb n="7"/>ʾAnbay, and by ʿAmm Dhū-Raymatim, and by ʿAmm Dhū-Shaqīr, and by
+<tei:lb n="8"/>Ḥawkam, and by Dhāt-Ṣanatim, and by Dhāt-Ẓahrān, and by Dhāt-Raḥbān.
+<tei:lb n="9"/>ʾAwsʿamm, the son of Yiṣurʿamm, of the lineage of Madihum, led and commanded all of
+<tei:lb n="10"/>the cutting and carving out and smoothing of the mountain pass of Ẓarrum, by the command of his lord,
+<tei:lb n="11"/>Yadaʿʾab.</tei:ab>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <idno type="quotationLabel">Avanzini 1995</idno>
+                        <seg type="reference">Avanzini, Alessandra 1995. As-Sawdāʾ. Inventaire des inscriptions sudarabiques. 4. Paris: de Boccard / Rome: Herder. [Académie des Inscriptions et Belles-lettres; Istituto italiano per l'Africa e l'Oriente]</seg>
+                        <citedRange>120-122, pl. 19/a</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

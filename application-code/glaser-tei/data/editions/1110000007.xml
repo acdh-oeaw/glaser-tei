@@ -151,7 +151,7 @@
 Restoration:
 
 1.[ʿm | ḏ-]šqr | w-b | ḥΓw˥[km | ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>šqr | w-b | ḥ<tei:unclear>w</tei:unclear>
 
@@ -188,7 +188,7 @@ Restoration:
 Restoration:
 
 1.ʿAmm Dhū-Shaqīr and by Ḥaw[kam ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Shaqīr and by Ḥaw<tei:supplied reason="lost">kam</tei:supplied>
 

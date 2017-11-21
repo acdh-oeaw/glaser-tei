@@ -160,7 +160,7 @@ Restored full text of the inscription:
 
 1.yṯʿʾmr | byn | bn | [smhʿl=]
 2.[{|} y |] mkrb | sbʾ | gnʾ | ʿrrtm |</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>yṯʿʾmr | byn | bn | <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>
@@ -207,7 +207,7 @@ Restored full text of the inscription:
 
 1.Yithaʿʾamar Bayyin bin [Sumhūʿal=]
 2.[ī,] ruler (mkrb) Sabaʾ, has walled ʿUrartum.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Yithaʿʾamar Bayyin bin
 <tei:lb n="2"/>ruler <tei:unclear>mkrb</tei:unclear> Sabaʾ, has walled ʿUrartum.

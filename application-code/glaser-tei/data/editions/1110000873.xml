@@ -151,7 +151,7 @@
 2.ṣdqw | b-ʾqbr-hmw | bn | y[... ...=]
 3.wm | w-ṣbḥm | bn | ḏḫrt | w-y[... ...s=]
 4.ʿdʾl | b-qrnʾ | nš(ʾkrb) [| ... ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>yḏkr | ḏ-hqn | ʿdw | qrn<tei:supplied reason="lost">ʾ | <tei:gap quantity="plus4" unit="chars"/>
                     </tei:supplied>
 <tei:lb n="2"/>ṣdqw | b-ʾqbr-hmw | bn | y<tei:supplied reason="lost">
@@ -177,7 +177,7 @@
 2.they confirmed their rights of ownership over their graves from [... ...]
 3.[…] and Ṣabāḥum bin Dhakhirat and [... ... Sa-]
 4.ʿdʾīl  in Qarnaʾ. Nashaʾkarib [... ...].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>Yadhkur Dhū-Haqqān has reached Qarn<tei:supplied reason="lost">aʾ <tei:gap quantity="plus4" unit="chars"/>
                     </tei:supplied>
 <tei:lb n="2"/>they confirmed their rights of ownership over their graves from <tei:supplied reason="lost">

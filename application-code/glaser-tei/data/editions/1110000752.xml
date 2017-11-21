@@ -169,7 +169,7 @@ Restored full text of the inscription:
 4.[s | b-ʾmr | w-mqdm | ʿṯtr | šrqn | w-ʿm | ḏ-dwnm | w-nswr | w-ʾl | fḫr | w-b-rdʾ | šms-s | w-b-rdʾ | w-ʾḫ=]
 5.[yl | ʾdm | bn | qśmm | kl | šʿbn | ḏ-mrḥḍw | w-(m)šrqytn | w-rṯd | ġlbm | ḏtn | ʾsṭrn | ʿṯtr | š=]
 6.[rqn | w-ʿm | w-nswr | w-ʾl | fḫr | bn-kl | ḫśśm | w-ḫblm | w-śnḥm | w-msfʾym | w-msnkrm | bn | ʾbrṯ-sm]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this photograph of the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this photograph of the squeeze:
 
 <tei:lb n="1"/>ġlbm | <tei:supplied reason="lost">..</tei:supplied>yb | bn | dwsm
 <tei:lb n="2"/>šbʿn | w-lgʾm | w-srʿ
@@ -235,7 +235,7 @@ Restored full text of the inscription:
 4.[at the command and direction of ʿAthtar Shāriqān and ʿAmm Dhū-Dawānum and Niswār and ʾĪl-Fākhir , and with the aid of his goddess of protection, and with the aid and resour-]
 5.[ces of the clients of Qāśimum--the entire tribe of Marḥaḍū and Mashraqiyyatān. And Ghālibum entrusted these inscriptions to ʿAthtar Shā-]
 6.[riqān and ʿAmm and Niswār and ʾĪl-Fākhir against anyone who might damage or deface or tamper with or destroy or remove (them) from their place.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this photograph of the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this photograph of the squeeze:
 
 <tei:lb n="1"/>Ghālibum <tei:supplied reason="lost">..</tei:supplied>yāb bin Dawsum 
 <tei:lb n="2"/>of Shabʿān and Lagiʾum and Sāriʿ 

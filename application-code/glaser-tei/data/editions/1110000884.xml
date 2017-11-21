@@ -155,7 +155,7 @@ Restored full text of the inscription:
 
 1.hwfʿm | yhnʿm | bn | sm[hwtr | mkrb]
 2.(q)tbn | w-wld | ʿm | bny | [mḥfdn | mrs]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>hwfʿm | yhnʿm | bn | sm
 <tei:lb n="2"/>
@@ -200,7 +200,7 @@ Restored full text of the inscription:
 
 1.Hawafīʿamm Yuhanʿim bin Sum[hūwatar, ruler of]
 2.Qatabān and the children of ʿAmm have built [the tower of Maras].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Hawafīʿamm Yuhanʿim bin Sum<tei:supplied reason="lost">...</tei:supplied>
 <tei:lb n="2"/>Qatabān and the children of ʿAmm have built 

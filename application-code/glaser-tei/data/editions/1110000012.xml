@@ -146,7 +146,7 @@
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[...l] | mwhbm | sflyn | sq[n=]
 2.[y] | [ʿ]m | ʿd | mʿšqn | bw[...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">...l</tei:supplied> | mwhbm | sflyn | sq<tei:supplied reason="lost">n=</tei:supplied>
 <tei:lb n="2"/>
@@ -162,7 +162,7 @@
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[...l] Mawhabum Sufliyyān has off[er-]
 2.[ed] to ʿAmm in Maʿāshiqān [....]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">...l</tei:supplied> Mawhabum Sufliyyān has off<tei:supplied reason="lost">er-</tei:supplied>
 <tei:lb n="2"/>

@@ -145,7 +145,7 @@
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.ʿmkrb | bn | ʾlkrb | bn | n[... ...]
 2.[... ...](lbm) | w-b | ydʿʾl | w-b | yṯʿʾm[r]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>ʿmkrb | bn | ʾlkrb | bn | n<tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>
                     </tei:supplied>
@@ -165,7 +165,7 @@
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.ʿAmmīkarib bin ʾĪlkarib of the lineage of N[... ...]
 2.[... ...](lbum) and by Yadaʿʾīl and by Yithaʿʾama[r]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>ʿAmmīkarib bin ʾĪlkarib of the lineage of N<tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>
                     </tei:supplied>

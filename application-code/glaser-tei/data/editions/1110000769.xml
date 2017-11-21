@@ -118,6 +118,8 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-06-28" who="ghatke"/>
+            <change when="2017-04-20" who="ghatke"/>
             <change when="2017-03-02" who="ghatke"/>
             <change when="2016-12-22" who="ghatke"/>
             <change when="2016-12-22" who="ghatke"/>
@@ -170,7 +172,7 @@ Restored full text of the inscription:
 9.[ʾwsʿm | bn | yṣrʿm | bn | mdhm | tqdm | w-ḥrg | kl]
 10.[ʿšq | w-wzl | w-ṣll | mnqln | ẓrm | b-tḥrg | mrʾ-s]
 11.[ydʿʾb]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>ydʿʾb | ḏbyn
 <tei:lb n="2"/>
@@ -263,7 +265,21 @@ Restored full text of the inscription:
 <tei:lb n="11"/>ydʿʾb</tei:ab>
             </div>
             <div xml:lang="en" type="translation">
-                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Yadaʿʾab Dhubyān
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in the squeeze:
+
+1.Yadaʿʾab Dhubyān
+2.bin Shahr, ruler of Qatabān and the chil-
+3.dren of ʿAmm and of ʾAwsān and of Kaḥid and of [Da-]
+4.hasum and of Tubanū and of Yarfaʾ, the southern lands 
+5.and the northern, has excavated and smoothed and opened up the road
+6.and pass of Ẓarim at the command of ʿAmm Dhū-Shaqīr-by ʿAmm and by
+7.ʾAnbay and by ʿAmm Dhū-Raymat and by ʿAmm Dhū-Shaqīr and
+8.Ḥa[w]kam and by Dhāt-Ṣanatim [and] by Dhāt-Ẓahirān and by
+
+
+Restored full text of the inscription:
+
+1.Yadaʿʾab Dhubyān
 2.bin Shahr, ruler of Qatabān and the chil-
 3.dren of ʿAmm and of ʾAwsān and of Kaḥid and of [Da-]
 4.hasum and of Tubanū and of Yarfaʾ, the southern lands 
@@ -274,8 +290,21 @@ Restored full text of the inscription:
 9.[ʾAwsʿamm bin Yiṣūrʿamm of the lineage of Madahum led and directed all of]
 10.[the cutting and smoothing and paving of the pass of Ẓarim at the directive of his lord,]
 11.[Yadaʿʾab.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
-                    <tei:lb n="1"/>Yadaʿʾab Dhubyān
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>Yadaʿʾab Dhubyān
+<tei:lb n="2"/>bin Shahr, ruler of Qatabān and the chil-
+<tei:lb n="3"/>dren of ʿAmm and of ʾAwsān and of Kaḥid and of <tei:supplied reason="lost">Da-</tei:supplied>
+<tei:lb n="4"/>hasum and of Tubanū and of Yarfaʾ, the southern lands 
+<tei:lb n="5"/>and the northern, has excavated and smoothed and opened up the road
+<tei:lb n="6"/>and pass of Ẓarim at the command of ʿAmm Dhū-Shaqīr-by ʿAmm and by
+<tei:lb n="7"/>ʾAnbay and by ʿAmm Dhū-Raymat and by ʿAmm Dhū-Shaqīr and
+<tei:lb n="8"/>Ḥa<tei:supplied reason="lost">w</tei:supplied>kam and by Dhāt-Ṣanatim <tei:supplied reason="lost">and</tei:supplied> by Dhāt-Ẓahirān and by
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Yadaʿʾab Dhubyān
 <tei:lb n="2"/>bin Shahr, ruler of Qatabān and the chil-
 <tei:lb n="3"/>dren of ʿAmm and of ʾAwsān and of Kaḥid and of <tei:supplied reason="lost">Da-</tei:supplied>
 <tei:lb n="4"/>hasum and of Tubanū and of Yarfaʾ, the southern lands 
@@ -290,8 +319,21 @@ Restored full text of the inscription:
 <tei:lb n="11"/>
                     <tei:supplied reason="lost">Yadaʿʾab.</tei:supplied>
                 </tei:ab>
-                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
-                    <tei:lb n="1"/>Yadaʿʾab Dhubyān
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>Yadaʿʾab Dhubyān
+<tei:lb n="2"/>bin Shahr, ruler of Qatabān and the chil-
+<tei:lb n="3"/>dren of ʿAmm and of ʾAwsān and of Kaḥid and of Da-
+<tei:lb n="4"/>hasum and of Tubanū and of Yarfaʾ, the southern lands 
+<tei:lb n="5"/>and the northern, has excavated and smoothed and opened up the road
+<tei:lb n="6"/>and pass of Ẓarim at the command of ʿAmm Dhū-Shaqīr-by ʿAmm and by
+<tei:lb n="7"/>ʾAnbay and by ʿAmm Dhū-Raymat and by ʿAmm Dhū-Shaqīr and
+<tei:lb n="8"/>Ḥawkam and by Dhāt-Ṣanatim and by Dhāt-Ẓahirān and by
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Yadaʿʾab Dhubyān
 <tei:lb n="2"/>bin Shahr, ruler of Qatabān and the chil-
 <tei:lb n="3"/>dren of ʿAmm and of ʾAwsān and of Kaḥid and of Da-
 <tei:lb n="4"/>hasum and of Tubanū and of Yarfaʾ, the southern lands 
@@ -302,8 +344,21 @@ Restored full text of the inscription:
 <tei:lb n="9"/>ʾAwsʿamm bin Yiṣūrʿamm of the lineage of Madahum led and directed all of
 <tei:lb n="10"/>the cutting and smoothing and paving of the pass of Ẓarim at the directive of his lord,
 <tei:lb n="11"/>Yadaʿʾab.</tei:ab>
-                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
-                    <tei:lb n="1"/>Yadaʿʾab Dhubyān
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>Yadaʿʾab Dhubyān
+<tei:lb n="2"/>bin Shahr, ruler of Qatabān and the chil-
+<tei:lb n="3"/>dren of ʿAmm and of ʾAwsān and of Kaḥid and of Da-
+<tei:lb n="4"/>hasum and of Tubanū and of Yarfaʾ, the southern lands 
+<tei:lb n="5"/>and the northern, has excavated and smoothed and opened up the road
+<tei:lb n="6"/>and pass of Ẓarim at the command of ʿAmm Dhū-Shaqīr-by ʿAmm and by
+<tei:lb n="7"/>ʾAnbay and by ʿAmm Dhū-Raymat and by ʿAmm Dhū-Shaqīr and
+<tei:lb n="8"/>Ḥawkam and by Dhāt-Ṣanatim and by Dhāt-Ẓahirān and by
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Yadaʿʾab Dhubyān
 <tei:lb n="2"/>bin Shahr, ruler of Qatabān and the chil-
 <tei:lb n="3"/>dren of ʿAmm and of ʾAwsān and of Kaḥid and of Da-
 <tei:lb n="4"/>hasum and of Tubanū and of Yarfaʾ, the southern lands 

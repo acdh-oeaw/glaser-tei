@@ -166,7 +166,7 @@ Restored full text of the inscription:
 6.[w-ʾḏ]n-s | w-bn-sww | ġḍrn | w-ʾnmrm | w-kl [| wld-s | w-qny-s]
 7.[b-ʿṯtr] | w-b | ʿm | w-b | ʾnby | w-b | ḏt | ṣntm [| w-b | ḏ...]
 8.[w-b | yd]ʿʾb | ḏbyn | w-bn-hw | shrm | [mlky | qtbn]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="5"/>
                     <tei:supplied reason="lost">
@@ -250,7 +250,7 @@ Restored full text of the inscription:
 6.[and] his [facul]ties and his sons, Ghaḍirān and ʾAnmārum, and all of [his (other) children, and (his) possessions.]
 7.[By ʿAthtar,] and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, [and by Dh...],
 8.[and by Yada]ʿʾab Dhubyān and his son Shahrum, the [two] kings of [Qatabān].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="6"/>his <tei:supplied reason="lost">...</tei:supplied> and his sons, Ghaḍirān and ʾAnmārum, and all
 <tei:lb n="7"/>and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim

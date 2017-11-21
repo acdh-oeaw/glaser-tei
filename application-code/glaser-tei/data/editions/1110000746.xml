@@ -169,7 +169,7 @@ Restored full text of the inscription:
 5.[sʿḏb | gnʾhy | myfʿt | w-mḥfd-sm | w-l | y](s)ʿḏb | ḫbl | yhr | sʿ=
 6.[ḏbm | w-ḏ-ʾl | yhr | sʿḏbm | w-l | ywzʾ | t]lw | mlk | ḥḍrmt | w-=
 7.[l | ysʿḏb | ḏ-yḫbl | bn | gnʾyhn | w-mḥ](f)dhn</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>bn | smhyfʿ | w-ʾl=
 <tei:lb n="2"/>t | qtdm | w-gsm | gn=
@@ -266,7 +266,7 @@ Restored full text of the inscription:
 5.[repair the walls of Mayfaʿat and their towers. And may he re]pair the damage of that which has been strengthened
 6.[and that which has not been strengthened. And may he continue to se]rve the king of Ḥaḍramōt. And may he 
 7.[repair that portion of the walls and the to]wers [which has suffered damage.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>bin Sumhūyafaʿ and ʾĪlī-
 <tei:lb n="2"/>has directed and constructed the wall

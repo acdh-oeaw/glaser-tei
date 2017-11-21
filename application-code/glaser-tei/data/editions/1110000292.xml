@@ -158,7 +158,7 @@
 8.ʿm | w-b-ḏt | ṣntm | w-b | mrʾ-s | y=
 9.[dʿ]ʾb | [y]nf | y(h)nʿm | mlk | qtbn | w
 10.[... ... ... ... ... ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/> <tei:gap quantity="plus4" unit="chars"/> <tei:gap quantity="plus4" unit="chars"/>
@@ -211,7 +211,7 @@
 8.ʿum and by Dhāt-Ṣanatim and by his lord Ya-
 9.[daʿ]ʾab [Ya]nūf Yuhanʿim, King of Qatabān and
 10.[... ... ... ... ... ...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/> <tei:gap quantity="plus4" unit="chars"/> <tei:gap quantity="plus4" unit="chars"/>

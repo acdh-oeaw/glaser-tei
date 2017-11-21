@@ -172,7 +172,7 @@ Restored full text of the inscription:
  6.ywm | ršw | ʿṯtr | w-fdy-hw | bn | kl | ʾby=
  7.t-hw | w-sqy | ʿṯtr | sbʾ | w-gw[m]
  8.ḫrf | w-dṯʾ</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="4"/>
                     <tei:supplied reason="lost">l</tei:supplied>n | yḥwr | ʿ<tei:supplied reason="lost">dy</tei:supplied>
@@ -254,7 +254,7 @@ Restored full text of the inscription:
 6.[whe]n he served as priest of ʿAt[htar. And he (i.e. ʿAthtar) absolved him of his duties with respect to all of] his
 7.[templ]es. And ʿAth[tar] provided irrigation [for Sabaʾ and the community]
 8.during the autumn and spring.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="4"/>since he settled in
 <tei:lb n="5"/>ʿAmmīkarib bin Wa<tei:supplied reason="lost">...</tei:supplied>

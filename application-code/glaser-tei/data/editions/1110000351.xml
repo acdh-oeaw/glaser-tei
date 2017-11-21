@@ -165,7 +165,7 @@ Restored full text of the inscription:
 2.[tr | ḏ-qbḍm | ʾhl | sbrr | w-yʾtmr | w-strḍw | ʿṯtr | ḏ-qbḍ | b-kbwdtn | w-ʾkrbn | mbny | ṣḥftn | ywm | mtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | w-ʾmr-sm | bn] | ʾḍbʾ | ḍbʾ-sm | w-ʾqny-[sm | w-bʿr-sm | sbʾ | w-ḫwln | b-msbʾ | byn | mʿnm | w-rgmtm | w-bn | ḍr | kwn | byn | ḏ-ymnt | w-ḏ-šʾmt | w-ywm | mtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | bn | wsṭ | mṣr | b-=]
 3.[mrd | kwn | byn | mḏy | w-mṣr | w-ymtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | slmhm | w-wfyh | ʿd | ʿrb | hgr-sm | qrnw | b-ʿṯtr | šrqn | w-b | ʿṯtr | ḏ-qbḍm | w-b | wdm | w-b | nkrḥm | w-]b | ʿṯtr | ḏ-yhrq | w-b | ḏt | [nšqm | w-b-kl | ʾlʾlt | mʿn | w-yṯl | w-b | ʾbydʿ | yṯʿ | mlk | mʿn | w-b | bhny | mʿdkrb | bn | ʾlyfʿ | w-b | šʿbh-sm | mʿn | w-ḏ-yṯl | w-b | kbry | mṣrn | ʿmṣdq | w-sʿdm | w-rṯd | ʿmṣdq |]
 4.[w-sʿd | w-mʿn | mṣrn | hqnyt-sm | w-ʾsṭr-sm | ʾlʾlt | mʿn | w-yṯl | w-mlk | mʿn | w-mʿn | bn | ḏ-ymśr | w-sfʾy | w-snkr | ʾsṭr-sm | bn | mqmh-sm | w-b | ʿmsmʿ | ḏ-blḥ | kbr | yṯl |]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/> | kbr-s | ślʾ | w-bny | w-sq
 <tei:lb n="2"/> | ʾḍbʾ | ḍbʾ-sm | w-ʾqny
@@ -224,7 +224,7 @@ Restored full text of the inscription:
 2.[tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, (as seen) when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from] the attacks which [Sabaʾ and Khawlān] made on them and their property [and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between the southern region and the northern region; and when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum protected them and their property in the middle of Egypt during]
 3.[the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and] by ʿAthtar Dhū-Yahraq and by Dhāt-[Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīkarib bin ʾĪlīyafaʿ; and by their tribe of Maʿīn and of Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq]
 4.[and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>his kabīrate-have dedicated and built and off<tei:supplied reason="lost">ered</tei:supplied>
 <tei:lb n="2"/>the attacks which <tei:supplied reason="lost">

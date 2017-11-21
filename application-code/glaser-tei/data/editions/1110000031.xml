@@ -158,7 +158,7 @@
 25.tr | ḏ-[s]yl | ḏʾ-hl
 26.ᶜlyʾl | ḫśr | rḍw
 27.t | bn | [s]m[ʿ]y</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="24"/>ysmᶜ <tei:supplied reason="lost">ʾ</tei:supplied> l | bn | bᶜṯ=
 <tei:lb n="25"/>tr | ḏ-<tei:supplied reason="lost">s</tei:supplied>yl | ḏʾ-hl
 <tei:lb n="26"/>ᶜlyʾl | ḫśr | rḍw
@@ -179,7 +179,7 @@
 25.tar of Sayl of the tribe of 
 26.ʿAlayʾīl has paid the bride price for Raḍw-
 27.at from Samʿī.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="24"/>Yismaʿʾīl bin Biʿath-
 <tei:lb n="25"/>tar of Sayl of the tribe of 
 <tei:lb n="26"/>ʿAlayʾīl has paid the bride price for Raḍw-

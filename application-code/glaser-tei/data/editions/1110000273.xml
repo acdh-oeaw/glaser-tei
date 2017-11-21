@@ -156,7 +156,7 @@ Restored full text of the inscription:
 
 1.(h)bsl | bn | [šgb | qtd=]
 2.m | mbny | g[nʾ | myfʿt | ʾbnm]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>
                     <tei:unclear>h</tei:unclear>bsl | bn <tei:unclear>|</tei:unclear> 
@@ -201,7 +201,7 @@ Restored full text of the inscription:
 
 1.(Ha)bsal bin [Shagab has directed]
 2.the construction of the w[all of Mayfaʿt out of stone.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>
                     <tei:unclear>Ha</tei:unclear>bsal bin

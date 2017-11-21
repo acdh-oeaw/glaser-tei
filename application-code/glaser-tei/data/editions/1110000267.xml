@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B1371c</title>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B137_1c</title>
                 <title type="alt">1110000267</title>
-                <title type="alt">AT-OeAW-BA-3-27-A-B1371c</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B137_1c</title>
                 <respStmt>
                     <persName>
                         <forename>Dummy Forename</forename>
@@ -19,7 +19,7 @@
                 <availability>
                     <licence target="#">Some license information</licence>
                 </availability>
-                <idno type="idRecord">AT-OeAW-BA-3-27-A-B1371c</idno>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-B137_1c</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -118,28 +118,29 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-02-24" who="ghatke"/>
-            <change when="2017-02-17" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-09-27" who="ghatke"/>
-            <change when="2016-08-11" who="ghatke"/>
-            <change when="2016-05-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-04" who="ghatke"/>
-            <change when="2016-03-31" who="ghatke"/>
-            <change when="2016-03-15" who="ghatke"/>
-            <change when="2016-03-15" who="ghatke"/>
-            <change when="2016-03-15" who="ghatke"/>
-            <change when="2016-03-15" who="ghatke"/>
-            <change when="2016-03-15" who="ghatke"/>
-            <change when="2016-03-15" who="ghatke"/>
-            <change when="2016-03-15" who="ghatke"/>
+            <change when="2017-05-09" who="rr"/>
+            <change when="2017-02-24" who="rr"/>
+            <change when="2017-02-17" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-09-27" who="rr"/>
+            <change when="2016-08-11" who="rr"/>
+            <change when="2016-05-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-04" who="rr"/>
+            <change when="2016-03-31" who="rr"/>
+            <change when="2016-03-15" who="rr"/>
+            <change when="2016-03-15" who="rr"/>
+            <change when="2016-03-15" who="rr"/>
+            <change when="2016-03-15" who="rr"/>
+            <change when="2016-03-15" who="rr"/>
+            <change when="2016-03-15" who="rr"/>
+            <change when="2016-03-15" who="rr"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -160,7 +161,7 @@ Restored full text of the inscription:
 
 1.ṣydm | ʾbrd | bn | m[lšn | mṣdʾ | ḏ-bdš | ʿ=]
 2.qb | qnʾ | stṭr | b-[ʿrhn | mwyt]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>ṣydm | ʾbrd | bn | m
 <tei:lb n="2"/>qb | qnʾ | stṭr | b
@@ -203,7 +204,7 @@ Restored full text of the inscription:
 
 1.Ṣayādum ʾAbrad bin Ma[lshān, officer of Badash, the vice-]
 2.roy of Qāniʾ wrote (this) for himself at [the citadel of Māwiyat.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Ṣayādum ʾAbrad bin Ma<tei:supplied reason="lost">lshān</tei:supplied>
 <tei:lb n="2"/>roy of Qāniʾ wrote <tei:unclear>this</tei:unclear> for himself at

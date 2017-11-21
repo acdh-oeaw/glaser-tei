@@ -172,7 +172,7 @@ Restored full text of the inscription:
 
 1.[... ...|] w-ḥ(w)[km | ḏ-ʾmr | w-šmr | qẓr | qyn | | ršw | ʿmm | bny | w-sḥdṯ | | kl | mbny | w-mhlk]
 2.[... ...|] b-mn(š)[ʾ | qtbn | b-ʿṯtr | w-b | ʿm | w-b | ʾnby | w-b | ḏt | ṣntm | | w-b | ḏt | ẓhrn]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>w-ḥ<tei:unclear>w</tei:unclear>
                     <tei:supplied reason="lost">km</tei:supplied>
@@ -223,7 +223,7 @@ Restored full text of the inscription:
 
 1.[... ...] and Ḥaw[kam of ʾAmīr and Shammar, the collector and official and high priest of ʿAmm built and established the entire construction and completion (of)]
 2.[... ...] through the mobili[zation of the Qatabānians. By ʿAthtar and by ʿAmm and by ʾAnbay and by Dhāt-Ṣanatim and by Dhāt-Ẓahrān.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>and Ḥaw<tei:supplied reason="lost">kam</tei:supplied>
 <tei:lb n="2"/>through the mobili<tei:supplied reason="lost">zation</tei:supplied>

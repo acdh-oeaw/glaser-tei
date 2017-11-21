@@ -118,6 +118,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-04-20" who="ghatke"/>
             <change when="2016-11-11" who="ghatke"/>
             <change when="2016-11-11" who="ghatke"/>
             <change when="2016-09-27" who="ghatke"/>
@@ -144,7 +145,7 @@
         <body>
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.ʾbyṯʿ | yhwḍʿ | b[n | …]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>ʾbyṯʿ | yhwḍʿ | b<tei:supplied reason="lost">n | …</tei:supplied>
                 </tei:ab>
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
@@ -154,7 +155,7 @@
             </div>
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.ʾAbīyathaʿ Yuhawaḍiʿ b[in …]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>ʾAbīyathaʿ Yuhawaḍiʿ b<tei:supplied reason="lost">in …</tei:supplied>
                 </tei:ab>
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">

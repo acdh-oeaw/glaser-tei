@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1126_02</title>
+                <title type="alt">1110000156</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1126_02</title>
+                <respStmt>
+                    <persName>
+                        <forename>Dummy Forename</forename>
+                        <surname>Dummy Lastname</surname>
+                    </persName>
+                    <resp>What was this person doing?</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ÖAW BASIS</authority>
+                <availability>
+                    <licence target="#">Some license information</licence>
+                </availability>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1126_02</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>ÖAW Basis</repository>
+                        <collection>name of the collection </collection>
+                        <idno type="invNo">Inventory nummber of the source</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="alphabet">Ancient South Arabian</rs>
+                            <seg>Inscription commissioned by a king</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Stone inscription</objectType>
+                                    <material>Stone</material>
+                                    <measureGrp unit="cm">h. 25, w. 57, th. 11.4</measureGrp>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="scriptCursus">Right to left</rs>
+                                    <rs type="execution">Incision</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"/>
+                                <rs type="scriptTypology">Monumental writing</rs>
+                                <rs type="textualTypology">Legal text</rs>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <note/>
+                            <note type="support"/>
+                            <note type="deposit"/>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate period="#B"/>
+                            <note/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="modern" subtype="site">as-Sawdāʾ</placeName>
+                            <placeName subtype="site" type="ancient">Ns²n</placeName>
+                            <placeName subtype="geographicalArea" type="modern">wādī al-Jawf</placeName>
+                            <placeName type="modern" subtype="country">Yemen</placeName>
+                            <seg type="proximity"/>
+                            <seg type="archaeologicalContext">
+                                <rs type="context"/>
+                                <rs type="structure"/>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="inm-Latn-x-cntmin">Central Minaic</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#DASI">
+                    <list>
+                        <label>Periodization</label>
+                        <item>
+                            <term xml:id="A">Early first millennium to the fourth century BC (predominance of Saba)</term>
+                            <term xml:id="B">Fourth to first centuries BC (predominance of Qataban and Hadramawt, and their alliance with Main)</term>
+                            <term xml:id="B1">Fourth to third centuries BC</term>
+                            <term xml:id="B2">Third to first centuries BC</term>
+                            <term xml:id="C">First century BC to early second century AD (alliances between the tribes of the high plateau and the ASA kingdoms)</term>
+                            <term xml:id="D">Late second to late third centuries AD (wars among the Himyar, Saba and Hadramawt)</term>
+                            <term xml:id="E">Fourth to sixth centuries AD (unification of Yemen under Himyarite rule)</term>
+                            <term xml:id="Ry">It corresponds to the palaeographical divisions established by Jacques Ryckmans with sub-periods I-IV</term>
+                            <term xml:id="RyI">First sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyII">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIb">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIId">Second sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIIIa">Third sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVa">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="RyIVb">Fourth sub-period of the palaeographical divisions established by Jacques Ryckmans</term>
+                            <term xml:id="inAncientTimes"/>
+                            <term xml:id="inModernTimes"/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-03-30" who="ghatke"/>
+            <change when="2016-12-15" who="ghatke"/>
+            <change when="2016-12-15" who="ghatke"/>
+            <change when="2016-12-15" who="ghatke"/>
+            <change when="2016-12-15" who="ghatke"/>
+            <change when="2016-12-15" who="ghatke"/>
+            <change when="2016-09-27" who="ghatke"/>
+            <change when="2016-07-15" who="ghatke"/>
+            <change when="2016-07-15" who="ghatke"/>
+            <change when="2016-07-12" who="ghatke"/>
+            <change when="2016-07-12" who="ghatke"/>
+            <change when="2016-07-12" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-05-11" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-04" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://dasi.humnet.unipi.it/de/cgi-bin/wsimg.pl?recId=6938">
+            <desc type="copyright">By kind permission of British Museum</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in the squeeze:
+
+2.[.]sḥr | hqny | ʾlmqh | [bʾl]
+3.[ʾ]wm | wṯnn | ḥmdm | l-ḏt | [..]
+4.fy | ʾlmqh | grb | ʿbd[..]
+5.n | w-ʾwldhw | w-b-ʿbr-hw | [..]
+6.[ʾ] | sbʾ | w-l | wzʾ | ʾlmqh
+7.[.]n | ʿbd-hw | s[l]mn | w[.]
+8.d-hw | w-bʿr-hw | b[..]
+9.ṯm | b-ʿṯtr | w-ʾl[mqh]
+
+
+Restored full text of the inscription:
+
+1.[slmn | bn | ... ...]
+2.[ḏ-]sḥr | hqny | ʾlmqh | [bʿl]
+3.[ʾ]wm | wṯnn | ḥmdm | l-ḏt | [hw=]
+4.fy | ʾlmqh | grb | ʿbd-[hw | slm=]
+5.n | w-ʾwld-hw | w-bʿr-hw | [b-msb=]
+6.(ʾ) | sbʾ | w-l | wzʾ | ʾlmq[h | hwf=]
+7.(y)n | ʿ(b)d-hw | s[l]mn | w-[ʾwl=]
+8.d-hw | w-bʿr-hw | b-[kl | ʾbr=]
+9.ṯm | b-ʿṯtr | w-ʾ[lmqh]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">.</tei:supplied>sḥr | hqny | ʾlmqh | <tei:supplied reason="lost">bʾl</tei:supplied>
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">ʾ</tei:supplied>wm | wṯnn | ḥmdm | l-ḏt | <tei:supplied reason="lost">..</tei:supplied>
+<tei:lb n="4"/>fy | ʾlmqh | grb | ʿbd<tei:supplied reason="lost">..</tei:supplied>
+<tei:lb n="5"/>n | w-ʾwldhw | w-b-ʿbr-hw | <tei:supplied reason="lost">..</tei:supplied>
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">ʾ</tei:supplied> | sbʾ | w-l | wzʾ | ʾlmqh
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">.</tei:supplied>n | ʿbd-hw | s<tei:supplied reason="lost">l</tei:supplied>mn | w<tei:supplied reason="lost">.</tei:supplied>
+<tei:lb n="8"/>d-hw | w-bʿr-hw | b<tei:supplied reason="lost">..</tei:supplied>
+<tei:lb n="9"/>ṯm | b-ʿṯtr | w-ʾl<tei:supplied reason="lost">mqh</tei:supplied>
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">slmn | bn | <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">ḏ-</tei:supplied>sḥr | hqny | ʾlmqh | <tei:supplied reason="lost">bʿl</tei:supplied>
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">ʾ</tei:supplied>wm | wṯnn | ḥmdm | l-ḏt | <tei:supplied reason="lost">hw=</tei:supplied>
+<tei:lb n="4"/>fy | ʾlmqh | grb | ʿbd-<tei:supplied reason="lost">hw | slm=</tei:supplied>
+<tei:lb n="5"/>n | w-ʾwld-hw | w-bʿr-hw | <tei:supplied reason="lost">b-msb=</tei:supplied>
+<tei:lb n="6"/>
+                    <tei:unclear>ʾ</tei:unclear> | sbʾ | w-l | wzʾ | ʾlmq<tei:supplied reason="lost">h | hwf=</tei:supplied>
+<tei:lb n="7"/>
+                    <tei:unclear>y</tei:unclear>n | ʿ<tei:unclear>b</tei:unclear>d-hw | s<tei:supplied reason="lost">l</tei:supplied>mn | w-<tei:supplied reason="lost">ʾwl=</tei:supplied>
+<tei:lb n="8"/>d-hw | w-bʿr-hw | b-<tei:supplied reason="lost">kl | ʾbr=</tei:supplied>
+<tei:lb n="9"/>ṯm | b-ʿṯtr | w-ʾ<tei:supplied reason="lost">lmqh</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in the squeeze:
+
+                    <tei:lb n="2"/>.sḥr  <w>hqny</w>  <name type="theonym">ʾlmqh</name>  <w>bʾl</w>
+                    <tei:lb n="3"/>
+                    <placeName type="building">ʾwm</placeName>  <w>wṯnn</w>  <w>ḥmdm</w>  <w>l-ḏt</w>  ..
+                    <tei:lb n="4"/>fy  <name type="theonym">ʾlmqh</name>  <w>grb</w>  ʿbd..
+<tei:lb n="5"/>n  <w>w-ʾwldhw</w>  <w>w-b-ʿbr-hw</w>  ..
+                    <tei:lb n="6"/>ʾ  <w>sbʾ</w>  <w>w-l  wzʾ</w>  <name type="theonym">ʾlmqh</name>
+                    <tei:lb n="7"/>.n  <w>ʿbd-hw</w>  <persName type="gender" subtype="m">slmn</persName>  w.
+<tei:lb n="8"/>d-hw  <w>w-bʿr-hw</w>  b..
+                    <tei:lb n="9"/>ṯm  <w>b-</w>
+                    <name type="theonym">ʿṯtr</name>  <w>w-</w>
+                    <name type="theonym">ʾlmqh</name>
+
+
+Restored full text of the inscription:
+
+
+                    <tei:lb n="1"/>
+                    <persName type="gender" subtype="m">slmn</persName>  <w>bn</w>  
+                    <tei:lb n="2"/>
+                    <orgName type="group"> ḏ-sḥr</orgName>  <w>hqny</w>  <name type="theonym">ʾlmqh</name>  <w>bʿl</w>
+                    <tei:lb n="3"/>
+                    <placeName type="building">ʾwm</placeName>  <w>wṯnn</w>  <w>ḥmdm</w>  <w>l-ḏt</w>  <w>hw=
+                        <tei:lb n="4"/>fy</w>  <name type="theonym">ʾlmqh</name>  <w>grb</w>  <w>ʿbd-hw</w>  <persName type="gender" subtype="m">slm=
+                            <tei:lb n="5"/>n</persName>  <w>w-ʾwld-hw</w>  <w>w-bʿr-hw</w>  <w>b-msb=
+                                <tei:lb n="6"/>ʾ</w>  <w>sbʾ</w>  <w>w-l </w> <w>wzʾ</w>  <name type="theonym">ʾlmqh</name>  <w>hwf=
+                                    <tei:lb n="7"/>yn</w>  <w>ʿbd-hw</w>  <persName type="gender" subtype="m">slmn</persName>  <w>w-ʾwl=
+                                        <tei:lb n="8"/>d-hw</w>  <w>w-bʿr-hw</w>  <w>b-kl</w>  <w>ʾbr=
+                                            <tei:lb n="9"/>ṯm</w>  <w>b-</w>
+                    <name type="theonym">ʿṯtr</name>  <w>w-</w>
+                    <name type="theonym">ʾlmqh</name>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in the squeeze:
+
+<tei:lb n="2"/>.sḥr  hqny  ʾlmqh  bʾl
+<tei:lb n="3"/>ʾwm  wṯnn  ḥmdm  l-ḏt  ..
+<tei:lb n="4"/>fy  ʾlmqh  grb  ʿbd..
+<tei:lb n="5"/>n  w-ʾwldhw  w-b-ʿbr-hw  ..
+<tei:lb n="6"/>ʾ  sbʾ  w-l  wzʾ  ʾlmqh
+<tei:lb n="7"/>.n  ʿbd-hw  slmn  w.
+<tei:lb n="8"/>d-hw  w-bʿr-hw  b..
+<tei:lb n="9"/>ṯm  b-ʿṯtr  w-ʾlmqh
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>slmn  bn  
+<tei:lb n="2"/>ḏ-sḥr  hqny  ʾlmqh  bʿl
+<tei:lb n="3"/>ʾwm  wṯnn  ḥmdm  l-ḏt  hw=
+<tei:lb n="4"/>fy  ʾlmqh  grb  ʿbd-hw  slm=
+<tei:lb n="5"/>n  w-ʾwld-hw  w-bʿr-hw  b-msb=
+<tei:lb n="6"/>ʾ  sbʾ  w-l  wzʾ  ʾlmqh  hwf=
+<tei:lb n="7"/>yn  ʿbd-hw  slmn  w-ʾwl=
+<tei:lb n="8"/>d-hw  w-bʿr-hw  b-kl  ʾbr=
+<tei:lb n="9"/>ṯm  b-ʿṯtr  w-ʾlmqh</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+2.Saḥar has dedicated to ʾĪlmuquh, 
+3.[of ʾA]wwām, (this) boundary-stele out of gratitude because 
+4.ʾĪlmuquh [had pro]tected the person of [his] servant
+5.n and his children and his cattle 
+6.which he undertook. And may ʾĪlmuqu[h] continue to 
+7.[..] his servant Salmān and his 
+8.[..] and his cattle under
+9.[..]. By ʿAthtar and by ʾ
+
+
+Restored full text of the inscription:
+
+1.[Salmān bin … …]
+2.[Dhū-]Saḥar has dedicated to ʾĪlmuquh [Lord]
+3.[of ʾA]wwām (this) boundary-stele out of gratitude because 
+4.ʾĪlmuquh [had pro]tected the person of [his] servant [Salmā-]
+5.n and his children and his cattle [during the expedition]
+6.which he undertook. And may ʾĪlmuqu[h] continue to [pro-]
+7.tect his servant Salmān and his [child-]
+8.ren and his cattle under [all circum-]
+9.stances. By ʿAthtar and by ʾĪ[lmuquh].</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="2"/>Saḥar has dedicated to ʾĪlmuquh, 
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">of ʾA</tei:supplied>wwām, <tei:unclear>this</tei:unclear> boundary-stele out of gratitude because 
+<tei:lb n="4"/>ʾĪlmuquh <tei:supplied reason="lost">had pro</tei:supplied>tected the person of <tei:supplied reason="lost">his</tei:supplied> servant
+<tei:lb n="5"/>n and his children and his cattle 
+<tei:lb n="6"/>which he undertook. And may ʾĪlmuqu<tei:supplied reason="lost">h</tei:supplied> continue to 
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">..</tei:supplied> his servant Salmān and his 
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">..</tei:supplied> and his cattle under
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">..</tei:supplied>. By ʿAthtar and by ʾ
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Salmān bin … …</tei:supplied>
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">Dhū-</tei:supplied>Saḥar has dedicated to ʾĪlmuquh <tei:supplied reason="lost">Lord</tei:supplied>
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">of ʾA</tei:supplied>wwām <tei:unclear>this</tei:unclear> boundary-stele out of gratitude because 
+<tei:lb n="4"/>ʾĪlmuquh <tei:supplied reason="lost">had pro</tei:supplied>tected the person of <tei:supplied reason="lost">his</tei:supplied> servant <tei:supplied reason="lost">Salmā-</tei:supplied>
+<tei:lb n="5"/>n and his children and his cattle <tei:supplied reason="lost">during the expedition</tei:supplied>
+<tei:lb n="6"/>which he undertook. And may ʾĪlmuqu<tei:supplied reason="lost">h</tei:supplied> continue to <tei:supplied reason="lost">pro-</tei:supplied>
+<tei:lb n="7"/>tect his servant Salmān and his <tei:supplied reason="lost">child-</tei:supplied>
+<tei:lb n="8"/>ren and his cattle under <tei:supplied reason="lost">all circum-</tei:supplied>
+<tei:lb n="9"/>stances. By ʿAthtar and by ʾĪ<tei:supplied reason="lost">lmuquh</tei:supplied>.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="2"/>Saḥar has dedicated to ʾĪlmuquh, 
+<tei:lb n="3"/>of ʾAwwām, this boundary-stele out of gratitude because 
+<tei:lb n="4"/>ʾĪlmuquh had protected the person of his servant
+<tei:lb n="5"/>n and his children and his cattle 
+<tei:lb n="6"/>which he undertook. And may ʾĪlmuquh continue to 
+<tei:lb n="7"/>.. his servant Salmān and his 
+<tei:lb n="8"/>.. and his cattle under
+<tei:lb n="9"/>... By ʿAthtar and by ʾ
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Salmān bin … …
+<tei:lb n="2"/>Dhū-Saḥar has dedicated to ʾĪlmuquh Lord
+<tei:lb n="3"/>of ʾAwwām this boundary-stele out of gratitude because 
+<tei:lb n="4"/>ʾĪlmuquh had protected the person of his servant Salmā-
+<tei:lb n="5"/>n and his children and his cattle during the expedition
+<tei:lb n="6"/>which he undertook. And may ʾĪlmuquh continue to pro-
+<tei:lb n="7"/>tect his servant Salmān and his child-
+<tei:lb n="8"/>ren and his cattle under all circum-
+<tei:lb n="9"/>stances. By ʿAthtar and by ʾĪlmuquh.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="2"/>Saḥar has dedicated to ʾĪlmuquh, 
+<tei:lb n="3"/>of ʾAwwām, this boundary-stele out of gratitude because 
+<tei:lb n="4"/>ʾĪlmuquh had protected the person of his servant
+<tei:lb n="5"/>n and his children and his cattle 
+<tei:lb n="6"/>which he undertook. And may ʾĪlmuquh continue to 
+<tei:lb n="7"/>.. his servant Salmān and his 
+<tei:lb n="8"/>.. and his cattle under
+<tei:lb n="9"/>... By ʿAthtar and by ʾ
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Salmān bin … …
+<tei:lb n="2"/>Dhū-Saḥar has dedicated to ʾĪlmuquh Lord
+<tei:lb n="3"/>of ʾAwwām this boundary-stele out of gratitude because 
+<tei:lb n="4"/>ʾĪlmuquh had protected the person of his servant Salmā-
+<tei:lb n="5"/>n and his children and his cattle during the expedition
+<tei:lb n="6"/>which he undertook. And may ʾĪlmuquh continue to pro-
+<tei:lb n="7"/>tect his servant Salmān and his child-
+<tei:lb n="8"/>ren and his cattle under all circum-
+<tei:lb n="9"/>stances. By ʿAthtar and by ʾĪlmuquh.</tei:ab>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <idno type="quotationLabel">Avanzini 1995</idno>
+                        <seg type="reference">Avanzini, Alessandra 1995. As-Sawdāʾ. Inventaire des inscriptions sudarabiques. 4. Paris: de Boccard / Rome: Herder. [Académie des Inscriptions et Belles-lettres; Istituto italiano per l'Africa e l'Oriente]</seg>
+                        <citedRange>120-122, pl. 19/a</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

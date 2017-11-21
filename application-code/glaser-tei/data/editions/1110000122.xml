@@ -165,7 +165,7 @@ Restored full text of the inscription:
 2.[ġyln |] mlk | ḥḍr[mt | bn | ʾmynm | sqny]
 3.[w-ṯl]ʾ | mrʾ-[s | syn | ḏ-ʾlm | nsr | ṣlfʿ=]
 4.[hn | nsr | ʾtw | h-s | bn | šʾmt | w-qṣʾ-s]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>ydʿʾl | byn | m
 <tei:lb n="2"/>mlk | ḥḍr
@@ -223,7 +223,7 @@ Restored full text of the inscription:
 2.[Ghaylān,] king of Ḥaḍra[mōt, son of ʾAmyānum, has offered] 
 3.[and consecrated] to his lord, [Siyān Dhū-ʾAlīm, (this statue of) an eagle made from ṣlfʿ,]
 4.[an eagle which had come to him from the north, and he dedicated it.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>Yadaʿʾīl Bayyin, ki<tei:supplied reason="lost">ng</tei:supplied>
 <tei:lb n="2"/>king of Ḥaḍra<tei:supplied reason="lost">mōt</tei:supplied> 

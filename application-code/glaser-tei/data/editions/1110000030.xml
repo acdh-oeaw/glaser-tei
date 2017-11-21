@@ -161,7 +161,7 @@
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">21.lḥym Γ|˥ bn | [ʾb]smᶜ
 22.ḏ-mΓl˥[g] | Γḏ-˥[ʾ]Γhl˥ Γ|˥ gḥḏ | Γs˥kr=
 23.b | w-ḫśr | tbʾ | bn | mṣr</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="21"/>lḥym <tei:unclear>|</tei:unclear> bn | <tei:supplied reason="lost">ʾb</tei:supplied>smᶜ
 <tei:lb n="22"/>ḏ-m<tei:unclear>l</tei:unclear>
                     <tei:supplied reason="lost">g</tei:supplied> | <tei:unclear>ḏ-</tei:unclear>
@@ -181,7 +181,7 @@
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">21.Laḥayum bin ʾAbīsamaʿ 
 22.of Malag of the tribe of Gaḥadh has marri-
 23.ed and paid the bride price for Tabaʾ from Egypt.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="21"/>Laḥayum bin ʾAbīsamaʿ 
 <tei:lb n="22"/>of Malag of the tribe of Gaḥadh has marri-
 <tei:lb n="23"/>ed and paid the bride price for Tabaʾ from Egypt.</tei:ab>

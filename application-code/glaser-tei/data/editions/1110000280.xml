@@ -164,7 +164,7 @@ Restored full text of the inscription:
 
 1.[... ... | w-ḥwkm | ḏ-ʾmr | w-šmr | qẓr |] qyn | | ršw | ʿm | bny | w-sḥ[dṯ | | kl | mbny | w-mhlk]
 2.[... ... | b-mnšʾ | qtbn | b-ʿṯtr | w-b |] ʿm | w-b | ʾnby | w-b | ḏt | ṣ[ntm | | w-b | ḏt | ẓhrn]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>qyn | ršw | ʿm | bny | w-sḥ
 <tei:lb n="2"/>ʿm | w-b | ʾnby | w-b | ḏt | ṣ
@@ -211,7 +211,7 @@ Restored full text of the inscription:
 
 1.[... ... and Ḥawkam of ʾAmīr and Shammar, the collector and] official and high priest of ʿAmm and establish[ed the entire construction and completion (of)]
 2.[... ... through the mobilization of the Qatabānians. By ʿAthtar and by] ʿAmm and by ʾAnbay and by Dhāt-Ṣa[natim and by Dhāt-Ẓahrān.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>official and high priest of ʿAmm and <tei:supplied reason="lost">...</tei:supplied>
 <tei:lb n="2"/>ʿAmm and by ʾAnbay and by Dhāt-Ṣa<tei:supplied reason="lost">natim</tei:supplied>

@@ -170,7 +170,7 @@ Restored full text of the inscription:
 3.[bt | w-nhmt | w-gsmhy | gnʾ | qlt | w-ʿqbhn | mt | ḥḏrw | b-ḥmyrm | w-tbʿ | hyśʿʾl] | w-dwsm | w-ʿm-smn | bn | ʾbhty | ḥḍr[mt | w-mtsk b-]
 4.[myfʿt | w-ḍyftn | qrnhm | w-bny | w-yʿr | ʿqb | ḍyfthn | w-bny | gnʾhn | w-mḥfdyh]n | yḏʾn | w-yḏtʾn | w-ḫlfhn | ykn | b-mʿrb | w-ś[dm | w-ḍwym]
 5.[... ... | w-ʾbry | bn-mw | rbbm | ʾd | šqrm | bn-mw | lbn | šms | lbn | šms | b-hy | yšrḥʾl | ḏ-ʿḏḏm |] śnyhn |  šlśt | ʾwrḫ(m | b-)ʿšry | w-mʾt | [ʾsdm | gsmhm]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze: 
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze: 
 
 <tei:lb n="1"/>
                     <tei:supplied reason="lost">
@@ -253,7 +253,7 @@ Restored full text of the inscription:
 3.[.. and the polished stones and the fill of the wall of Qalat and the defenses, when they were on their guard against Ḥimyarum. And Hayaśaʿʾīl] and Dawsum went forth, and with them were some of the high-ranking officials of Ḥaḍra[mōt; and they arrived at]
 4.[Mayfaʿt and Ḍayfatān as a garrison; and he built and strengthened the defenses of Ḍayfatān and he built the wall and the two tower]s of Yadhaʾān and Yadhatʾān and the gate of Yakan, in polished stone, and [a barrier and a refuge]
 5.[... ... and the passages(?) from the base to the top, by the grace of Shamas in] the second year of Yashraḥʾīl Dhū-ʿAzīzum, in three months, [the construction] by 120 [men].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>
                     <tei:supplied reason="lost">ʾAbī</tei:supplied>yaśaʿ, the ruler of Ḥaḍramōt, when <tei:supplied reason="lost">

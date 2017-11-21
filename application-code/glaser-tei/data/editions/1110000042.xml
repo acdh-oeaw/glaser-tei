@@ -148,7 +148,7 @@
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">59.[slm] | bn | š[k]Γr˥ [| ḏ-dbr | ḏ-ʾ]hl
 60.y[l]q[ẓ | s][k][rb |] w-[hśr] [| ʾnṯt-s
 61.t]w[dd | bn | ḥḍrmt]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="59"/>
                     <tei:supplied reason="lost">slm</tei:supplied> | bn | š<tei:supplied reason="lost">k</tei:supplied>
                     <tei:unclear>r</tei:unclear> <tei:supplied reason="lost">| ḏ-dbr | ḏ-ʾ</tei:supplied>hl
@@ -170,7 +170,7 @@
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">59.Sālim bin Shākir of Dabar of the tribe 
 60.Yalqaẓ has married and paid the bride price for his wife 
 61.Tawaddud from Ḥaḍramawt.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="59"/>Sālim bin Shākir of Dabar of the tribe 
 <tei:lb n="60"/>Yalqaẓ has married and paid the bride price for his wife 
 <tei:lb n="61"/>Tawaddud from Ḥaḍramawt.</tei:ab>

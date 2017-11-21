@@ -158,7 +158,7 @@
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[ḥ]wfʿ[m | y]h[nʿm|] bn [smh-]
 2.wtr | mΓkr˥b | qtbn | w-[wl]
 3.(d |) ʿm Γ|˥ [b]ny Γ|˥ mḥfd[n] | ḥẓ[..]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">ḥ</tei:supplied>wfʿ<tei:supplied reason="lost">m | y</tei:supplied>h<tei:supplied reason="lost">nʿm|</tei:supplied> bn <tei:supplied reason="lost">smh-</tei:supplied>
 <tei:lb n="2"/>wtr | m<tei:unclear>kr</tei:unclear>b | qtbn | w-<tei:supplied reason="lost">wl</tei:supplied>
@@ -178,7 +178,7 @@
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[Ḥa]wafīʿa[mm Yu]ha[nʿim] bin [Sumhū-]
 2.watar, the ruler of Qatabān and [the Children]
 3.of ʿAmm, has built the tower of Ḥaẓ[..].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">Ḥa</tei:supplied>wafīʿa<tei:supplied reason="lost">mm Yu</tei:supplied>ha<tei:supplied reason="lost">nʿim</tei:supplied> bin <tei:supplied reason="lost">Sumhū-</tei:supplied>
 <tei:lb n="2"/>watar, the ruler of Qatabān and <tei:supplied reason="lost">the Children</tei:supplied>

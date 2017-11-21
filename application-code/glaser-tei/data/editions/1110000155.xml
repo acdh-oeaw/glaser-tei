@@ -176,7 +176,7 @@ Restored full text of the inscription:
 7.(y)n | ʿ(b)d-hw | s[l]mn | w-(ʾ)[wl=]
 8.d-hw | w-bʿr-hw | b-k(l) [| ʾbr=]
 9.ṯm | b-ʿṯtr | w-ʾ[lmqh]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>
                     <tei:unclear>slmn</tei:unclear> | 
@@ -286,7 +286,7 @@ Restored full text of the inscription:
 7.tect his servant Salmān and his chi[ld-]
 8.ren and his cattle under all [circum-]
 9.stances. By ʿAthtar and by ʾĪ[lmuquh].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Salmān 
 <tei:lb n="2"/>Dhū-Saḥar has dedicated to ʾĪlmuquh, 

@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B137e</title>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B137_2e</title>
                 <title type="alt">1110000283</title>
-                <title type="alt">AT-OeAW-BA-3-27-A-B137e</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B137_2e</title>
                 <respStmt>
                     <persName>
                         <forename>Dummy Forename</forename>
@@ -19,7 +19,7 @@
                 <availability>
                     <licence target="#">Some license information</licence>
                 </availability>
-                <idno type="idRecord">AT-OeAW-BA-3-27-A-B137e</idno>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-B137_2e</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -118,6 +118,11 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-05-19" who="rruzicka"/>
+            <change when="2017-05-09" who="rruzicka"/>
+            <change when="2017-05-09" who="rruzicka"/>
+            <change when="2017-05-09" who="rruzicka"/>
+            <change when="2017-05-09" who="rruzicka"/>
             <change when="2017-03-31" who="rruzicka"/>
             <change when="2017-02-24" who="rruzicka"/>
             <change when="2016-12-16" who="rruzicka"/>
@@ -164,7 +169,7 @@ Restored full text of the inscription:
 
 1.[ṣydm | ʾbrd | bn | mlš](n) | mṣdʾ | ḏ-bdš | ʿ=
 2.[qb | qnʾ | stṭr |] (b-)ʿrhn | mwyt</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>šn | mṣdʾ | ḏ-bdš | ʿ=
 <tei:lb n="2"/>b-ʿrhn | mwyt
@@ -209,7 +214,7 @@ Restored full text of the inscription:
 
 1.[Ṣaydum ʾAbrad bin Malshā]n, the officer of Dhū-Badash, [the]
 2.[governor of Qāniʾ, had this written] at the citadel of Māwiyat.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>the officer of Dhū-Badash
 <tei:lb n="2"/>at the citadel of Māwiyat.

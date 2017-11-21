@@ -118,6 +118,8 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-07-07" who="ghatke"/>
+            <change when="2017-05-26" who="ghatke"/>
             <change when="2017-03-02" who="ghatke"/>
             <change when="2017-02-15" who="ghatke"/>
             <change when="2016-12-20" who="ghatke"/>
@@ -193,7 +195,7 @@ Restored full text of the inscription:
 8.[byt | ʿm | ḏ-lbḫ | b-ḏ-ġylm | w-b | ḫlfn | ḏ-ś]dw | b-tmnʿ | wrḫ-s | ḏ-tmnʿ | ḫrf | šhrm | ḏ-ygr | ʾḫr=
 9.[n | w-l | yhlkwn | w-ṣtdq | ʾrby | ʿm | ḏ-l]bḫ | ḥg-ḏt | mḥrtn | w-ṣrytn | w-ḥg | ṣrytm | sṭr | l-s=
 10.[m | šhr | ygl | w-tʿlm-ʾy | yd | šhr]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/> | w-sfḥ | bn | ḥṭbm | mḥrm | ʿm | ḏ-dwnm | w-bn | rṣfm | mḥrm |
 <tei:lb n="2"/>m-s | ʿmydʿ | w-hfnm | bnwy | hybr | w-hwfʾl | bn-mw | hy=
@@ -306,7 +308,7 @@ Restored full text of the inscription:
 8.[the temple of ʿAmm Dhū-Labakh in Dhū-Ghaylim and at the gate of Śa]dū at Timnaʿ--(this in) the month of Dhū-Timnaʿ in the last year of Shahrum Dhū-Yagirr.
 9.[And let the priests of ʿAmm Dhū-La]bakh comply and (thus) receive their due according to this proclamation and decree, and in accordance with any decree which
 10.[Shahr Yagill might write for them. Signed by the hand of Shahr.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>and announced from Ḥaṭabum, the temple of ʿAmm Dhū-Dawānum and from Raṣafum, the temple
 <tei:lb n="2"/>ʿAmmīyadaʿ and Hafīnum of the lineage of Haybar, and for Hawafīʾīl of the lineage of Hay-

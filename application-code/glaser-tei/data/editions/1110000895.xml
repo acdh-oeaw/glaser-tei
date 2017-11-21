@@ -161,7 +161,7 @@ Restored full text of the inscription:
 2.šhr | mlk | qtbn | tqdm | w-shlk | kl | [ʿšq | w-wzl | w-ṣll]
 3.mnqln | mblqt | w-kl | mhlk | w-ḥdṯn [| byt | wdm | w-ʾṯrt]
 4.w-mḫtn | mlkn | b-qly | b-tḥ[rg | mrʾ-s | ydʿʾb]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ʾwsʿm | bn | yṣrʿm | bn | mdhm | nṣf
 <tei:lb n="2"/>šhr | mlk | qtbn | tqdm | w-shlk | kl | 
@@ -220,7 +220,7 @@ Restored full text of the inscription:
 2.Shahr, king of Qatabān, has directed and completed all of [the cutting and levelling and paving of]
 3.the mountain pass of Mablaqat and all of the construction and renovation [of the temple of Waddum and ʾAthīrat]
 4.and the residence of the king in Qalay-by the com[mand of his lord, Yadaʿʾab].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ʾAwsʿamm bin Yiṣūrʿamm of the lineage of Madihum, servant
 <tei:lb n="2"/>Shahr, king of Qatabān, has directed and completed all 

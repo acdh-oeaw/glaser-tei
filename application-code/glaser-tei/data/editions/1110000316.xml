@@ -118,22 +118,23 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-02-28" who="ghatke"/>
-            <change when="2016-12-23" who="ghatke"/>
-            <change when="2016-12-23" who="ghatke"/>
-            <change when="2016-12-23" who="ghatke"/>
-            <change when="2016-12-19" who="ghatke"/>
-            <change when="2016-12-19" who="ghatke"/>
-            <change when="2016-09-27" who="ghatke"/>
-            <change when="2016-05-13" who="ghatke"/>
-            <change when="2016-05-11" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-01" who="ghatke"/>
-            <change when="2016-03-31" who="ghatke"/>
-            <change when="2016-03-29" who="ghatke"/>
-            <change when="2016-03-29" who="ghatke"/>
+            <change when="2017-05-19" who="rruzicka"/>
+            <change when="2017-02-28" who="rruzicka"/>
+            <change when="2016-12-23" who="rruzicka"/>
+            <change when="2016-12-23" who="rruzicka"/>
+            <change when="2016-12-23" who="rruzicka"/>
+            <change when="2016-12-19" who="rruzicka"/>
+            <change when="2016-12-19" who="rruzicka"/>
+            <change when="2016-09-27" who="rruzicka"/>
+            <change when="2016-05-13" who="rruzicka"/>
+            <change when="2016-05-11" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-01" who="rruzicka"/>
+            <change when="2016-03-31" who="rruzicka"/>
+            <change when="2016-03-29" who="rruzicka"/>
+            <change when="2016-03-29" who="rruzicka"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -155,7 +156,7 @@ Restored full text of the inscription:
 1.[... ... |] ʿlbm | w-nbṭʿm | bn | hwfʿṯt
 2.[... ... |] qbr-smy | yfʿt | w-mśwd-s | w-kl
 3.[... ... | b-ḥg | ʾnby | w-ʾl | tʿly]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ʿlbm | w-nbṭʿm | bn | hwfʿṯt
 <tei:lb n="2"/>qbr-smy | yfʿt | w-mśwd-s | w-kl
@@ -208,7 +209,7 @@ Restored full text of the inscription:
 1.[… ...] ʿAlabum and Nabaṭʿamm bin Hawafīʿathat
 2.[… ...] their tomb of Yāfiʿat and its hall and all
 3.[… ... by the command of ʾAnbay, and let there be no violation].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ʿAlabum and Nabaṭʿamm bin Hawafīʿathat
 <tei:lb n="2"/>their tomb of Yāfiʿat and its hall and all

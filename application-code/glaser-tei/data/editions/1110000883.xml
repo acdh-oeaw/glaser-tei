@@ -118,6 +118,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-07-07" who="ghatke"/>
             <change when="2017-03-02" who="ghatke"/>
             <change when="2016-12-22" who="ghatke"/>
             <change when="2016-11-16" who="ghatke"/>
@@ -156,7 +157,7 @@ Restored full text of the inscription:
 
 1.[h](wf)ʿ(m) | yhnʿ[m] | bn | sm(hw)[tr | mkrb]
 2.[qt]bn | w-wld | ʿm | bny | mḥf(d)[n | mrs]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>
                     <tei:supplied reason="lost">h</tei:supplied>
@@ -207,7 +208,7 @@ Restored full text of the inscription:
 
 1.[Ha]wafīʿamm Yuhanʿim bin Sumhūwa[tar, ruler of]
 2.[Qata]bān and the children of ʿAmm have built [the] tower of [Maras].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze.
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze.
 
 <tei:lb n="1"/>
                     <tei:supplied reason="lost">Ha</tei:supplied>wafīʿamm Yuhanʿim bin Sumhūwa<tei:supplied reason="lost">...</tei:supplied>

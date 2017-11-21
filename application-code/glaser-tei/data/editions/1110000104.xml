@@ -149,14 +149,14 @@
         <body>
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">[b]n | smhʿly</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:supplied reason="lost">b</tei:supplied>n | smhʿly</tei:ab>
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">bn  smhʿly</tei:ab>
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">bn  smhʿly</tei:ab>
             </div>
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">[so]n of Sumhūʿalī</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:supplied reason="lost">so</tei:supplied>n of Sumhūʿalī</tei:ab>
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">son of Sumhūʿalī</tei:ab>
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">son of Sumhūʿalī</tei:ab>

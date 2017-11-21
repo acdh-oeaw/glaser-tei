@@ -153,7 +153,7 @@ Restored full text of the inscription:
 
 1.hwfʿm | yhnʿm | bn | smh(w)[tr | mkrb]
 2.qtbn | w-wld | ʿm | bny | mḥfd[n | mrs]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>hwfʿm | yhnʿm | bn | smh<tei:unclear>w</tei:unclear>
 <tei:lb n="2"/>qtbn | w-wld | ʿm | bny | mḥfd
@@ -197,7 +197,7 @@ Restored full text of the inscription:
 
 1.Hawafīʿamm Yuhanʿim bin Sumhūwa[tar, ruler of]
 2.Qatabān and the children of ʿAmm have built [the] tower [of Maras.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Hawafīʿamm Yuhanʿim bin Sumhūwa<tei:supplied reason="lost">...</tei:supplied>
 <tei:lb n="2"/>Qatabān and the children of ʿAmm have built <tei:supplied reason="lost">the</tei:supplied> tower

@@ -118,25 +118,26 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-04-07" who="rr"/>
-            <change when="2017-03-31" who="rr"/>
-            <change when="2016-12-02" who="rr"/>
-            <change when="2016-10-17" who="rr"/>
-            <change when="2016-09-27" who="rr"/>
-            <change when="2016-05-13" who="rr"/>
-            <change when="2016-05-11" who="rr"/>
-            <change when="2016-04-13" who="rr"/>
-            <change when="2016-04-13" who="rr"/>
-            <change when="2016-04-13" who="rr"/>
-            <change when="2016-04-06" who="rr"/>
-            <change when="2016-04-06" who="rr"/>
-            <change when="2016-03-31" who="rr"/>
-            <change when="2016-01-26" who="rr"/>
-            <change when="2015-10-27" who="rr"/>
-            <change when="2015-10-27" who="rr"/>
-            <change when="2015-10-27" who="rr"/>
-            <change when="2015-10-27" who="rr"/>
-            <change when="2015-10-27" who="rr"/>
+            <change when="2017-05-08" who="ghatke"/>
+            <change when="2017-04-07" who="ghatke"/>
+            <change when="2017-03-31" who="ghatke"/>
+            <change when="2016-12-02" who="ghatke"/>
+            <change when="2016-10-17" who="ghatke"/>
+            <change when="2016-09-27" who="ghatke"/>
+            <change when="2016-05-13" who="ghatke"/>
+            <change when="2016-05-11" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-13" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-04-06" who="ghatke"/>
+            <change when="2016-03-31" who="ghatke"/>
+            <change when="2016-01-26" who="ghatke"/>
+            <change when="2015-10-27" who="ghatke"/>
+            <change when="2015-10-27" who="ghatke"/>
+            <change when="2015-10-27" who="ghatke"/>
+            <change when="2015-10-27" who="ghatke"/>
+            <change when="2015-10-27" who="ghatke"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -156,7 +157,7 @@
 7.n | w-]rʾ | stwfyw | tbq[ltn | w-l-sʿd]-h=
 8.mw | ʾ[ṯmr]m | w-ʾfq[lm | n]ʾdm | hnʾ=
 9.m [| b-]ʾlmqh | bʿlḥrnm</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">rṯd | <tei:gap quantity="plus4" unit="chars"/> |</tei:supplied> w-ʾḫy-h<tei:supplied reason="lost">w</tei:supplied>
 <tei:lb n="2"/>
@@ -200,7 +201,7 @@
 7.ān. And] verily the field[s] were indeed protected. [And may he grant]
 8.them bountiful, healthy c[rop]s and prod[uce].
 9.[By] ʾĪlmuquh, master of Ḥarrānum.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>
                     <tei:supplied reason="lost">Rathad <tei:gap quantity="plus4" unit="chars"/>
                     </tei:supplied> and hi<tei:supplied reason="lost">s</tei:supplied> brother

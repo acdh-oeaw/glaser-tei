@@ -118,6 +118,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-05-19" who="rruzicka"/>
             <change when="2017-03-31" who="rruzicka"/>
             <change when="2017-02-28" who="rruzicka"/>
             <change when="2016-12-23" who="rruzicka"/>
@@ -154,7 +155,7 @@ Restored text of the inscription:
 1.[... ... | ʿlbm | w-nbṭʿm | bn | hwfʿṯt]
 2.[... ... | qbr-smy | yfʿt | w-mśwd-s | w-kl]
 3.[... ... | b-ḥg | ʾnb]y | w-ʾl | tʿl[y]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="3"/>y | w-ʾl | tʿl
 
@@ -200,7 +201,7 @@ Restored full text of the inscription:
 1.[… ... ʿAlabum and Nabaṭʿamm bin Hawafīʿathat]
 2.[… ... their tomb of Yāfiʿat and its hall and all]
 3.[… ... by the command of ʾAnba]y, and let there be no violati[on].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="3"/>and let there be no violati<tei:supplied reason="lost">on</tei:supplied>
 

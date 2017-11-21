@@ -118,12 +118,13 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-03-10" who="ghatke"/>
-            <change when="2017-03-03" who="ghatke"/>
-            <change when="2017-02-09" who="ghatke"/>
-            <change when="2017-02-09" who="ghatke"/>
-            <change when="2017-01-18" who="ghatke"/>
-            <change when="2016-12-15" who="ghatke"/>
+            <change when="2017-05-26" who="rr"/>
+            <change when="2017-03-10" who="rr"/>
+            <change when="2017-03-03" who="rr"/>
+            <change when="2017-02-09" who="rr"/>
+            <change when="2017-02-09" who="rr"/>
+            <change when="2017-01-18" who="rr"/>
+            <change when="2016-12-15" who="rr"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -137,7 +138,7 @@
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.ysmʿʾl | bn | ʾlʿz | h=
 2.qny | bšmm | wwdm  | ʿb=
 3.dm | whwfm | bʾlmq&lt;h&gt;</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>ysmʿʾl | bn | ʾlʿz | h=
 <tei:lb n="2"/>qny | bšmm | wwdm  | ʿb=
 <tei:lb n="3"/>dm | whwfm | bʾlmq<tei:add>h</tei:add>
@@ -155,7 +156,7 @@
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Yasmāʿʾīl bin ʾĪlīʿazz has
 2.offered to Bashāmum and Waddum ʿAd=
 3.dum and Hawfum. By ʾĪlmuquh.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>Yasmāʿʾīl bin ʾĪlīʿazz has
 <tei:lb n="2"/>offered to Bashāmum and Waddum ʿAd=
 <tei:lb n="3"/>dum and Hawfum. By ʾĪlmuquh.</tei:ab>

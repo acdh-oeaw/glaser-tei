@@ -160,7 +160,7 @@ Restored full text of the inscription:
 
 1.ṣydm | ʾbrd | bn | m[lšn | mṣdʾ | ḏ-bdš | ʿ=]
 2.qb | qnʾ | stṭr | b-[ʿrhn | mwyt]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>ṣydm | ʾbrd | bn | m
 <tei:lb n="2"/>qb | qnʾ | stṭr | b
@@ -203,7 +203,7 @@ Restored full text of the inscription:
 
 1.Ṣayādum ʾAbrad bin Ma[lshān, officer of Badash, the vice-]
 2.roy of Qāniʾ wrote (this) for himself at [the citadel of Māwiyat.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>Ṣayādum ʾAbrad bin Ma<tei:supplied reason="lost">lshān</tei:supplied>
 <tei:lb n="2"/>roy of Qāniʾ wrote <tei:unclear>this</tei:unclear> for himself at

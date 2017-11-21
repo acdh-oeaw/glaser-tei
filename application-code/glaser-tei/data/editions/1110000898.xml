@@ -169,7 +169,7 @@ Restored full text of the inscription:
 5.[mlkn | b-qly |] (b-)mn[š]ʾ | qtbn | w-ʾḫyl | ḏ-brm | w-hrbt
 6.[b-ʿṯtr | w-b | ʿ]m | w-b | ʾnby | w-b | ḥwkm | w-b | ḏt | ṣntm
 7.[w-b-ḏt |] ẓhrn-w-b-ḏt | rḥbn</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>byn | bn | šhr | mkrb | qtbn | w-kl
 <tei:lb n="2"/>ʾwsn | w-kḥd | w-dhsm | w-tb=
@@ -259,7 +259,7 @@ Restored full text of the inscription:
 5.[the king in Qalay,] with the mobilizat[ion] of the Qatabānians and the resources of Barīm and Harbat
 6.[By ʿAthtar and by ʿA]mm and by ʾAnbay and by Ḥawkam and by Dhāt-Ṣanatim
 7.[and by Dhāt-]Ẓahrān and by Dhāt-Raḥībān.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>byān bin Shahr, the ruler of Qatabān and all of
 <tei:lb n="2"/>ʾAwsān and Kaḥid and Dahasum and Taba-

@@ -179,7 +179,7 @@ Restored full text of the inscription:
 9.[ʾwsʿm | bn | yṣr]ʿm | bn | md[hm | tqdm | w-ḥrg | kl]
 10.[ʿšq | w-wzl | w-ṣl]l | mnqln | [ẓrm | b-tḥrg | mrʾ-s]
 11.[ydʿʾb]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ʾb | ḏb
 <tei:lb n="2"/>krb | qt
@@ -303,7 +303,7 @@ Restored full text of the inscription:
 9.[ʾAwsʿamm, the son of Yiṣur]ʿamm, of the lineage of Madi[hum, led and commanded all of] 
 10.[the cutting and carving out and smooth]ing of the mountain pass of [Ẓarrum, by the command of his lord,]
 11.[Yadaʿʾab.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>
                     <tei:supplied reason="lost">Yadaʿ</tei:supplied>ʾab Dhub<tei:supplied reason="lost">yān</tei:supplied>

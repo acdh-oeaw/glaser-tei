@@ -182,7 +182,7 @@ Restored full text of the inscription:
 6.[t | ʿsnn | tfš | w-mzf-h | mnḫy | ysrn | w-bny | mʿsn | ylṭ | w-mzf-hw | mnḫy | ʾbyn | w-bny | ẓrb | w-mlkn | l-ysrn | w-bny | w-hqm | ʾbny | ysrn | w-ʾbyn | b-wsṭ-hmy | w-bny | ... ...n | w-ʾln | nḫlm | ʿsy | b-ysrn | w-yśf-mw | qny-hw | ḏ-yqhmlk | w-ʾṯʾbn | w-mḏbn | w-mfrśm | w-ḏ-ʾnfn |] w-qṭntn | w-sfwtm | w-
 7.slqn | w-ḏ | fd(h)m | [w-ḏ | ʾwṯnm | w-dbsw | w-mfrśm | w-ḏ | ḥbbm | w-śmrw | w-mhgwm | w-ʾln | ʿsy | b-ṭrq | ʿn.yn | w-ḥḍrw | w-šśwn | ... ...ʿ | w-ʾln | wśf | ʿsy | b-ysrn | frʿtm | w-tywsm | w-ʾṯʾbn | w-ywm | ṣd | ṣyd | krwm | w-ywm | hʿ | mhyʿ | lqẓ | ʿṯtr | ḏ-fṣd | w-bny | ʿṯtr | wrqm | w-ʿsy | mfrśtn | ʾl | mḥ=]
 8.[myn | ln | wṯn | ʿqbn | ʿd | ḏ-ʾnfn | gwlm | w-ʿsy | kl | qny | ḥḍrhmw | bn | ḫlʾmr | bkr | ḏ-mfʿlm | kl | ḏ-qny | b-bḍʿ | wnb | w-kl | bḍʿ | ftrm | w-qnt | w-kl | ʾhgr-hw | mfʿlm | w-ftrm | w-qnt | w-gw | w-ʾʿr-hw | w-ʾsrr-hw | w-mrʿyt | ʾh(gr)-hw | gwlm | w-wśf | ḥw-hw | fyšn | ʾdm | hšʾm-hw | ḥḍrhmw | ḏ-mfʿlm | b-ʾhgr-hw | mfʿlm | w-f]trm | w-qnt | w-gw</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="2"/>rʿyt-h | gwlm | w-
 <tei:lb n="3"/>ʾsrr | yrdnn | 
@@ -274,7 +274,7 @@ Restored full text of the inscription:
 6.[t the water reservoir of Tafish and its canal in the direction of Yāsirān. And he built the water reservoir of Yaluṭ and its canal in the direction of ʾAbyan. And he built Ẓarīb and Milkān for Yāsirān. And he built and erected the buildings of Yāsirān and ʾAbyan within them. And he built … …. And these, the palm groves, he acquired in Yāsirān. And he increased his property (by acqiring) Dhū-Yaqahmalik and ʾAthʾabān and Madhābān and Mafriśum and Dhū-ʾUnfān] and Qaṭīnatān and Safwatum and 
 7.Salqān and Dhū-Fadihim [and Dhū-ʾAwthānim and Dabasū and Mafriśum and Dhū-Ḥabībim and Śamirū and Mahgawum; and these (properties) which he acquired in Ṭaraq: ʿAn.yān and Ḥaḍarū and Shaśawān … …. And (by acquiring) these (properties) he increased his ownership in Yāsirān: Fāriʿatum and Tayawsum and ʾAthʾabān. And (these things he did) when he undertook a hunt for Karawum; and when he carried out the construction of Laqaẓ for ʿAthtar Dhū-Faṣad. And he built for ʿAthtar (the temple of) Waraqum. And he acquired the fields of Maḥ-]
 8.[miyyān from the boundary of ʿĀqibān up to Dhū-ʾUnfān, with full property rights. And he acquired the entire property of Ḥaḍarhumū from Khālīʾamar, the first-born of Dhū-Mafʿilim-all that he held in possession in the territory of Wanab, and all of the territory of Fatīrum and Qanat, and all of its (i.e. Wanab’s) towns: Mafʿilum and Fatīrum and Qanat and Gaww; and its mountains and its valleys and the grazing lands of its towns, with full property rights. And he increased his labor force of Fayshān with the vassals (whose services) Ḥaḍarhumū Dhū-Mafʿilim had sold him with his towns of Mafʿilim and Fa]tīrum and Qanat and Gaww.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="2"/>its <tei:supplied reason="lost">gra</tei:supplied>zing lands, with full property rights; and
 <tei:lb n="3"/>the valleys descending

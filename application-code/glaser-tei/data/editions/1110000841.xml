@@ -160,7 +160,7 @@ Restored full text of the inscription:
 
 1.yṯʿʾmr | byn | bn [| smhʿly]
 2.mkrb | sbʾ | gnʾ | ʿ[rrtm | ḥrb]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>yṯʿʾmr | byn | bn 
 <tei:lb n="2"/>mkrb | sbʾ | gnʾ | ʿ
@@ -203,7 +203,7 @@ Restored full text of the inscription:
 
 1.Yithaʿʾamar Bayyin bin [Sumhūʿalī,]
 2.ruler (mkrb) of Sabaʾ, has walled ʿU[rartum (and) Ḥarīb.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Yithaʿʾamar Bayyin bin 
 <tei:lb n="2"/>ruler <tei:unclear>mkrb</tei:unclear> of Sabaʾ, has walled ʿ

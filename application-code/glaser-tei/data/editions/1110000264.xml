@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B133_5b</title>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B133_05_02</title>
                 <title type="alt">1110000264</title>
-                <title type="alt">AT-OeAW-BA-3-27-A-B133_5b</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B133_05_02</title>
                 <respStmt>
                     <persName>
                         <forename>Dummy Forename</forename>
@@ -19,7 +19,7 @@
                 <availability>
                     <licence target="#">Some license information</licence>
                 </availability>
-                <idno type="idRecord">AT-OeAW-BA-3-27-A-B133_5b</idno>
+                <idno type="idRecord">AT-OeAW-BA-3-27-A-B133_05_02</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -118,31 +118,35 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-02-24" who="ghatke"/>
-            <change when="2017-02-24" who="ghatke"/>
-            <change when="2017-02-17" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-09-27" who="ghatke"/>
-            <change when="2016-05-13" who="ghatke"/>
-            <change when="2016-05-11" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-04" who="ghatke"/>
-            <change when="2016-03-31" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
-            <change when="2016-01-29" who="ghatke"/>
+            <change when="2017-05-26" who="rr"/>
+            <change when="2017-05-12" who="rr"/>
+            <change when="2017-05-12" who="rr"/>
+            <change when="2017-05-12" who="rr"/>
+            <change when="2017-02-24" who="rr"/>
+            <change when="2017-02-24" who="rr"/>
+            <change when="2017-02-17" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-12-16" who="rr"/>
+            <change when="2016-09-27" who="rr"/>
+            <change when="2016-05-13" who="rr"/>
+            <change when="2016-05-11" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-04" who="rr"/>
+            <change when="2016-03-31" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
+            <change when="2016-01-29" who="rr"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -168,7 +172,7 @@ Restored full text of the inscription:
 3.[bt | w-nhmt | w-gsmhy | gnʾ | qlt | w-ʿqbhn | mt | ḥḏrw | b-ḥmyrm | w-tbʿ | hyśʿʾl | w-dwsm | w-]ʿm-smn | bn | ʾbhty | ḥḍrmt | w-mtsk b-
 4.[myfʿt | w-ḍyftn | qrnhm | w-bny | w-yʿr | ʿqb | ḍyfthn | w-bny | gnʾhn | w-mḥfdyhn | yḏʾn | w-yḏt]ʾn | w-ḫlfhn | ykn | b-mʿrb | w-śdm | w-ḍwym
 5.[... ... | w-ʾbry | bn-mw | rbbm | ʾd | šqrm | bn-mw | lbn | šms | lbn | šms | b-hy | yšrḥʾl | ḏ-ʿḏḏm | śnyhn |  šlśt | ʾwrḫm | b-ʿšry | w-mʾt | ʾsdm | gsmhm]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>b | ḥḍrmt | mt | ʾmr-s | mrʾ-sww 
 <tei:lb n="2"/>ʿlhtyhn | bn | bḥrhn | qdmm | ʿlhy | gr=
@@ -237,7 +241,7 @@ Restored full text of the inscription:
 3.[.. and the polished stones and the fill of the wall of Qalat and the defenses, when they were on their guard against Ḥimyarum. And Hayaśaʿʾīl and Dawsum went forth, and] with them were some of the high-ranking officials of Ḥaḍramōt; and they arrived at
 4.[Mayfaʿt and Ḍayfatān as a garrison; and he built and strengthened the defenses of Ḍayfatān and he built the wall and the two towers of Yadhaʾān and Yadhat]ʾān and the gate of Yakan, in polished stone, and a barrier and a refuge
 5.[... ... and the passages(?) from the base to the top, by the grace of Shamas in the second year of Yashraḥʾīl Dhū-ʿAzīzum, in three months, the construction by 120 men.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
 
 <tei:lb n="1"/>of Ḥaḍramōt, when his two lords <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>

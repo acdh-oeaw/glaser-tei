@@ -118,28 +118,29 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-03-02" who="ghatke"/>
-            <change when="2017-02-15" who="ghatke"/>
-            <change when="2017-02-15" who="ghatke"/>
-            <change when="2016-12-20" who="ghatke"/>
-            <change when="2016-12-20" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-11-07" who="ghatke"/>
-            <change when="2016-10-31" who="ghatke"/>
-            <change when="2016-10-31" who="ghatke"/>
-            <change when="2016-09-27" who="ghatke"/>
-            <change when="2016-06-22" who="ghatke"/>
-            <change when="2016-06-22" who="ghatke"/>
-            <change when="2016-05-13" who="ghatke"/>
-            <change when="2016-04-20" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-06" who="ghatke"/>
-            <change when="2016-04-06" who="ghatke"/>
-            <change when="2016-03-31" who="ghatke"/>
+            <change when="2017-05-26" who="rr"/>
+            <change when="2017-03-02" who="rr"/>
+            <change when="2017-02-15" who="rr"/>
+            <change when="2017-02-15" who="rr"/>
+            <change when="2016-12-20" who="rr"/>
+            <change when="2016-12-20" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-11-07" who="rr"/>
+            <change when="2016-10-31" who="rr"/>
+            <change when="2016-10-31" who="rr"/>
+            <change when="2016-09-27" who="rr"/>
+            <change when="2016-06-22" who="rr"/>
+            <change when="2016-06-22" who="rr"/>
+            <change when="2016-05-13" who="rr"/>
+            <change when="2016-04-20" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-13" who="rr"/>
+            <change when="2016-04-06" who="rr"/>
+            <change when="2016-04-06" who="rr"/>
+            <change when="2016-03-31" who="rr"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -178,7 +179,7 @@ Restored full text of the inscription:
 12.[w-tqdm | w-sʿšq |] ʾsṭr | ḏn | brṯn
 13.[nbṭʿm | bn |] ʾlsmʿ | bn | [hybr | ḏ-ʾ=]
 14.[mnt | ʿm | ḏ-lbḫ | w-ʾrby-s]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="7"/>
                     <tei:supplied reason="lost">
@@ -313,7 +314,7 @@ Restored full text of the inscription:
 12.[And Nabaṭʿamm bin ʾĪlīsamaʿ of the lineage of Haybar has directed and completed] the inscriptions of this place,
 13.[under the pro-]
 14.[tection of ʿAmm Dhū-Labakh and his priests.]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="7"/>
                     <tei:supplied reason="lost">

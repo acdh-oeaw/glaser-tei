@@ -143,7 +143,7 @@
             <div xml:lang="inm-Latn-x-cntmin" type="edition">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.w-bny-hw |  bnw | ḏ-ḥbb | hn[...]
 2.n | mlk | sbʾ | w-ʾḫ-hw | ʾl[...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>w-bny-hw |  bnw | ḏ-ḥbb | hn<tei:supplied reason="lost">...</tei:supplied>
 <tei:lb n="2"/>n | mlk | sbʾ | w-ʾḫ-hw | ʾl<tei:supplied reason="lost">...</tei:supplied>
                 </tei:ab>
@@ -157,7 +157,7 @@
             <div xml:lang="en" type="translation">
                 <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.and his lineage, the clan of Dhū-Ḥibāb [... ...]
 2.[.], king of Sabaʾ and his brother ʾĪl[...]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
                     <tei:lb n="1"/>and his lineage, the clan of Dhū-Ḥibāb <tei:supplied reason="lost">
                         <tei:gap quantity="plus4" unit="chars"/>
                     </tei:supplied>

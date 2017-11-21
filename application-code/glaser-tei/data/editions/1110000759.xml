@@ -118,30 +118,31 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-02-24" who="ghatke"/>
-            <change when="2017-02-02" who="ghatke"/>
-            <change when="2017-02-02" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-12-16" who="ghatke"/>
-            <change when="2016-10-27" who="ghatke"/>
-            <change when="2016-09-27" who="ghatke"/>
-            <change when="2016-05-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-13" who="ghatke"/>
-            <change when="2016-04-04" who="ghatke"/>
-            <change when="2016-03-31" who="ghatke"/>
-            <change when="2016-03-30" who="ghatke"/>
-            <change when="2016-03-30" who="ghatke"/>
-            <change when="2016-03-30" who="ghatke"/>
-            <change when="2016-03-30" who="ghatke"/>
-            <change when="2016-03-30" who="ghatke"/>
-            <change when="2016-03-30" who="ghatke"/>
-            <change when="2016-03-30" who="ghatke"/>
-            <change when="2016-03-30" who="ghatke"/>
+            <change when="2017-05-19" who="rruzicka"/>
+            <change when="2017-02-24" who="rruzicka"/>
+            <change when="2017-02-02" who="rruzicka"/>
+            <change when="2017-02-02" who="rruzicka"/>
+            <change when="2016-12-16" who="rruzicka"/>
+            <change when="2016-12-16" who="rruzicka"/>
+            <change when="2016-12-16" who="rruzicka"/>
+            <change when="2016-10-27" who="rruzicka"/>
+            <change when="2016-09-27" who="rruzicka"/>
+            <change when="2016-05-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-13" who="rruzicka"/>
+            <change when="2016-04-04" who="rruzicka"/>
+            <change when="2016-03-31" who="rruzicka"/>
+            <change when="2016-03-30" who="rruzicka"/>
+            <change when="2016-03-30" who="rruzicka"/>
+            <change when="2016-03-30" who="rruzicka"/>
+            <change when="2016-03-30" who="rruzicka"/>
+            <change when="2016-03-30" who="rruzicka"/>
+            <change when="2016-03-30" who="rruzicka"/>
+            <change when="2016-03-30" who="rruzicka"/>
+            <change when="2016-03-30" who="rruzicka"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -162,7 +163,7 @@ Restored full text of the inscription:
 
 1.(h)wfʿśt | bn | śmrm | sqny | syn | ḏ-ʾlm | nfs-s | w-ʾ[ḏn-s | w-wld-s | w-qny-s | w-mslmhn | ḏ-l-sm | ywm | ... ... | ḏ-q=]
 2.(n)y | w-bʿl [| ...] | bnhy | ʾʿrś | [...]ly | ḏ-(ʾ)mʿdm [| b-mwfr | ḏ-tḥrbhn | b-ṯlm | ywm | ṣry | syn |  ḏ-ʾlm | ...n | mwqrthn |]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>
                     <tei:unclear>h</tei:unclear>wfʿśt | bn | śmrm | sqny | syn | ḏ-ʾlm | nfs-s | w-ʾ
@@ -209,7 +210,7 @@ Restored full text of the inscription:
 
 1.Hawafīʿa&lt;th&gt;at bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself [and his faculties and his children and his possessions and (this) altar which they possess when … which he pos-]
 2.sessed and gained legal possession of […] the sons of ʾAʿriś […] Dhū-ʾAmʿādim [in the cultivated land of Dhū-Taḥribhān in Thalam, when Siyān Dhū-ʾAlīm protected … the cutting(?) …]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>Hawafīʿa<tei:add>th</tei:add>at bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself and
 <tei:lb n="2"/>sessed and gained legal possession of <tei:supplied reason="lost">…</tei:supplied> the sons of ʾAʿriś <tei:supplied reason="lost">…</tei:supplied> Dhū-ʾAmʿādim

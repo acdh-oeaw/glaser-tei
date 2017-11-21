@@ -168,7 +168,7 @@ Restored full text of the inscription:
 4.[gnʾm | qšbm | w-hmrw-hw | w-šrʿw-hw | ḫṭln | ... ...ḫdʿw | w-hʿqbw | l-ḫlf-hw | mṣrʿtm | mbrʾ | w-]mqyḥ | kl | ṣdqm | bn | mwṯrm | ʿdy | t=
 5.[frʿm | b-mlʾ | ʿšrt | ymtm | bn | wrḫn | ḏ-mbkrn | ... ...b-mqm | mrʾ-hmw | ʿṯtr-šrqn | w-ʾšms-hmw | w-]ʾlʾlt-hmw | w-b-ʾḫyl | w-mqymt | ḫmys
 6.[ḏ-rydn | w-hrṯdw | hgr-hmw | hkrm | b-tḥ... ... | b-wrḫn | ḏ-qyẓn | ḏ-b-ḫrfn | ḏ-l-sṯt | w-ṯsʿy] | w-ṯlṯ | mʾtm | bn | ḫrf | mbḥḍ | bn | ʾbḥḍ</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/> |  w-ṣwbt | w-mḥfdt | hgr-hm<tei:supplied reason="lost">w</tei:supplied>
 <tei:lb n="2"/>w | w-rymw | kl | gnʾ-h<tei:supplied reason="lost">w</tei:supplied> | w-ṣwbt-
@@ -248,7 +248,7 @@ Restored full text of the inscription:
 4.[a new wall, and they provided it with an access route and they equipped it, (that is,) the ḫṭln-structure, ... ... they repaired and reinforced for its gate door-leaves and a construction and] a completion with all accuracy, from the foundation to the
 5.[the top-(this) in the space of ten days from the month of Dhū-Mubakkirān (i.e. May) ... ... by the power of their lord, ʿAthtar Shāriqān and their protective goddesses and] their (other) gods, and by the resources and the authority of the armies
 6.[of Raydān. And they committed their town of Hakirum … … … in the month of Dhū-Qiyāẓān (i.e. June) of the year] 3[96] of the Era of Mabḥaḍ bin ʾAbḥuḍ.</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>and the glacis and the towers of their town
 <tei:lb n="2"/>and built high its wall and its glacis

@@ -171,7 +171,7 @@ Restored full text of the inscription:
 6.[w-ʾḏn-s | w-bn-sww | ġḍrn | w-ʾnmrm | w-kl | wld-s | w-qny-s]
 7.[b-ʿṯtr | w-b | ʿm | w-b | ʾnby | w-b | ḏt | ṣntm | w-b | ḏ...]
 8.[w-b | ydʿʾb | ḏbyn | w-bn-hw | shrm | mlky | qtbn]</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>ḏ-ḏrḥn | bn | šhr | qyn | ršw | ʿmm | w-<tei:unclear>b-</tei:unclear>ršw<tei:unclear>t-s</tei:unclear>
 <tei:lb n="2"/>mrqdm | sṭd | ṭly | b-ṣryn | ʿm | w-ḥwkm y=
@@ -258,7 +258,7 @@ Restored full text of the inscription:
 6.[and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his (other) children, and (his) possessions.]
 7.[By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh...],
 8.[and by Yadaʿʾab Dhubyān and his son Shahrum, the two kings of Qatabān].</tei:ab>
-            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
 
 <tei:lb n="1"/>
                     <tei:supplied reason="lost">Fariʿkarib</tei:supplied> Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
