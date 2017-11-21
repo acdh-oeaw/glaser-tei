@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/111524192.svg)](https://zenodo.org/badge/latestdoi/111524192)
+
 # Glaser-TEI
 
 This Repo contains the code of Glaser-TEI. The purpose of the web application Glaser-TEI is to facilitate the TEI encoding of transliteration from the so called ['Glaser Abklatsche'](http://glaser.acdh.oeaw.ac.at/).
