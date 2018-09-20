@@ -1,7 +1,7 @@
 xquery version "3.0";
 import module namespace config="http://www.digital-archiv.at/ns/glaser-tei/config" at "modules/config.xqm";
 
-declare variable $app-user :=doc(concat($config:app-root, "/repo.xml"))//repo:target/text();
+declare variable $app-user :='glaser';
 
 (: create 'glaser' group :)
 if (not(sm:group-exists($app-user)))
