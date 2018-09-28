@@ -1,0 +1,516 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1602e</title>
+                <title type="alt">1110000906</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1602e</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1602e</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000906PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+7.[... ... ... ...]
+8.l-sṭr | w-ftḫ | ḏtn | ʾsṭrn | b-sr
+9. | b-ḏ | ġylm | wrḫ-s | ḏ-bšmm | ḫr=
+10.ʾsdn | ʾrby | ḏ-lbḫ | ʾlḏy | b-ʿlw | ml=
+11. | w-šwb | w-ṯmr | ʿm | [w-tʿlm-ʾy | yd |] šhr
+12ʾsṭr | ḏn | brṯn
+13.ʾlsmʿ | bn | 
+14.[... ... ... ...]
+
+
+Restored full text of the inscription:
+
+1.[šhr | ygl | bn | ydʿʾb | mlk | qtbn | ṣry | w-sfḥ | bn | ḥṭbm | mḥ=]
+2.[rm | ʿm | ḏ-dwnm | w-bn | rṣfm | mḥrm | ʾnby | šymn | w-bn | tḥt | šms]
+3.[w-rbʿ | šhr | ʾdm-s | mʿdkrb | bn | hybr | w-wdʾl | bn | rbḥ | w-ʾḫhy-]
+4.[smy | ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-sm | bn | snṣfm | w-skt | w-ʾḫḏ | w-]
+5.[gddm | l-ʿṣm | wdm | w-bntm | w-šftm | l-ʿm | w-ʾṯrt | n-l | ystfḥwn]
+6.[ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-sm | b-ʿlw | ḏt | mḥrtn | w-ṣry | šhr | ʾdm-s]
+7.[ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-sm | b-ṣdq-sm | ḥg | ḏt | mḥrtn | w-ʾsṭrn]
+8.[w-ṯfṭ | šhr | ʾdm-s | ʾrby | ḏ-lbḫ |] l-sṭr | w-ftḫ | ḏtn | ʾsṭrn | b-sr[n]
+9.[lbḫ | w-b | mḥd-sm | b-byt | ʿm | ḏ-lbḫ] | b-ḏ | ġylm | wrḫ-s | ḏ-bšmm | ḫr=
+10.[f | ʿmʿly | ḏ-ġrbm | qdmn | w-ḏn |] ʾsdn | ʾrby | ḏ-lbḫ | ʾlḏy | b-ʿlw | ml=
+11.[kn | nḥql | ḏ-bn | ṣḥf | dtnt] | w-šwb | w-ṯmr | ʿm | [w-tʿlm-ʾy | yd |] šhr
+12.[w-tqdm | w-sʿšq |] ʾsṭr | ḏn | brṯn
+13.[nbṭʿm | bn |] ʾlsmʿ | bn | [hybr | ḏ-ʾ=]
+14.[mnt | ʿm | ḏ-lbḫ | w-ʾrby-s]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> 
+                  <tei:gap quantity="5" unit="chars" reason="lost"/>
+                    </tei:supplied>
+               <tei:lb n="8"/>l-sṭr | w-ftḫ | ḏtn | ʾsṭrn | b-sr
+<tei:lb n="9"/> | b-ḏ | ġylm | wrḫ-s | ḏ-bšmm | ḫr=
+<tei:lb n="10"/>ʾsdn | ʾrby | ḏ-lbḫ | ʾlḏy | b-ʿlw | ml=
+<tei:lb n="11"/> | w-šwb | w-ṯmr | ʿm | <tei:supplied reason="lost">w-tʿlm-ʾy | yd |</tei:supplied> šhr
+<tei:lb n="12"/>sṭr | ḏn | brṯn
+<tei:lb n="13"/>ʾlsmʿ | bn | 
+<tei:lb n="14"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> 
+                  <tei:gap quantity="5" unit="chars" reason="lost"/>
+                    </tei:supplied>
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">šhr | ygl | bn | ydʿʾb | mlk | qtbn | ṣry | w-sfḥ | bn | ḥṭbm | mḥ=</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">rm | ʿm | ḏ-dwnm | w-bn | rṣfm | mḥrm | ʾnby | šymn | w-bn | tḥt | šms</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">w-rbʿ | šhr | ʾdm-s | mʿdkrb | bn | hybr | w-wdʾl | bn | rbḥ | w-ʾḫhy-</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">smy | ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-sm | bn | snṣfm | w-skt | w-ʾḫḏ | w-</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">gddm | l-ʿṣm | wdm | w-bntm | w-šftm | l-ʿm | w-ʾṯrt | n-l | ystfḥwn</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-sm | b-ʿlw | ḏt | mḥrtn | w-ṣry | šhr | ʾdm-s</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">ʾrby | ʿm | ḏ-lbḫ | w-tʾnṯ-sm | b-ṣdq-sm | ḥg | ḏt | mḥrtn | w-ʾsṭrn</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">w-ṯfṭ | šhr | ʾdm-s | ʾrby | ḏ-lbḫ |</tei:supplied> l-sṭr | w-ftḫ | ḏtn | ʾsṭrn | b-sr<tei:supplied reason="lost">n</tei:supplied>
+               <tei:lb n="9"/>
+                    <tei:supplied reason="lost">lbḫ | w-b | mḥd-sm | b-byt | ʿm | ḏ-lbḫ</tei:supplied> | b-ḏ | ġylm | wrḫ-s | ḏ-bšmm | ḫr=
+<tei:lb n="10"/>
+                    <tei:supplied reason="lost">f | ʿmʿly | ḏ-ġrbm | qdmn | w-ḏn |</tei:supplied> ʾsdn | ʾrby | ḏ-lbḫ | ʾlḏy | b-ʿlw | ml=
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">kn | nḥql | ḏ-bn | ṣḥf | dtnt</tei:supplied> | w-šwb | w-ṯmr | ʿm | <tei:supplied reason="lost">w-tʿlm-ʾy | yd |</tei:supplied> šhr
+<tei:lb n="12"/>
+                    <tei:supplied reason="lost">w-tqdm | w-sʿšq |</tei:supplied> ʾsṭr | ḏn | brṯn
+<tei:lb n="13"/>
+                    <tei:supplied reason="lost">nbṭʿm | bn |</tei:supplied> ʾlsmʿ | bn | <tei:supplied reason="lost">hybr | ḏ-ʾ=</tei:supplied>
+               <tei:lb n="14"/>
+                    <tei:supplied reason="lost">mnt | ʿm | ḏ-lbḫ | w-ʾrby-s</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="7"/> 
+                    <tei:lb n="8"/>l<w>l-sṭr</w>  
+               <w>w-ftḫ</w>  
+               <w>ḏtn</w>  
+               <w>ʾsṭrn</w>  b-sr
+                    <tei:lb n="9"/>  
+               <w>b-</w>
+               <placeName>ḏ  ġylm</placeName>  
+               <w>wrḫ-s</w>  
+               <rs type="month">ḏ-bšmm</rs>  ḫr=
+                    <tei:lb n="10"/>
+               <w>ʾsdn</w>  
+               <w>ʾrby</w>  
+               <name type="epithet" subtype="divine">ḏ-lbḫ</name>  
+               <w>ʾlḏy</w>  
+               <w>b-ʿlw</w>  ml=
+                    <tei:lb n="11"/>  
+               <w>w-šwb</w>  
+               <w>w-ṯmr</w>  
+               <name type="theonym">ʿm</name>  
+               <w>w-tʿlm-ʾy</w>  
+               <w>yd</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>
+               <tei:lb n="12"/>sṭr  <w>ḏn</w>  
+               <w>brṯn</w>
+                    <tei:lb n="13"/>
+               <persName type="patronymic">ʾlsmʿ</persName>  
+               <w>bn</w>  
+               <tei:lb n="14"/> 
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">šhr</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">ygl</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">ydʿʾb</persName>  
+               <w>mlk</w>  
+               <orgName type="state">qtbn</orgName>  
+               <w>ṣry</w>  
+               <w>w-sfḥ</w>  
+               <w>bn</w>  
+               <placeName type="sanctuary">ḥṭbm</placeName>  
+               <w>mḥ=
+                        <tei:lb n="2"/>rm</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-dwnm</name>
+               </rs>  
+               <w>w-bn</w>  
+               <placeName type="sanctuary">rṣfm</placeName>  
+               <w>mḥrm</w>  
+               <rs type="complex">
+                  <name type="theonym">ʾnby</name>  
+                  <name type="epithet" subtype="divine">šymn</name>
+               </rs>  
+               <w>w-bn</w>  
+               <w>tḥt</w>  
+               <name type="theonym">šms</name>
+                    <tei:lb n="3"/>
+               <w>w-rbʿ</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>  
+               <w>ʾdm-s</w>  
+               <persName type="gender" subtype="m">mʿdkrb</persName>  
+               <w>bn</w>  
+               <orgName type="group">hybr</orgName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">wdʾl</persName>  
+               <w>bn</w>  
+               <orgName type="group">rbḥ</orgName>  
+               <w>w-ʾḫhy-
+                        <tei:lb n="4"/>smy</w>  
+               <w>ʾrby</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>w-tʾnṯ-sm</w>  
+               <w>bn</w>  
+               <w>snṣfm</w>  
+               <w>w-skt</w>  
+               <w>w-ʾḫḏ</w>  
+               <w>w-
+                            <tei:lb n="5"/>gddm</w>  
+               <w>l-ʿṣm</w>  
+               <w>wdm</w>  
+               <w>w-bntm</w>  
+               <w>w-šftm</w>  
+               <w>l-</w>
+               <name type="theonym">ʿm</name>  
+               <w>w-</w>
+               <name type="theonym">ʾṯrt</name>  
+               <w>n-l</w>  
+               <w>ystfḥwn</w>
+                    <tei:lb n="6"/>
+               <w>ʾrby</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>w-tʾnṯ-sm</w>  
+               <w>b-ʿlw</w>  
+               <w>ḏt</w>  
+               <w>mḥrtn</w>  
+               <w>w-ṣry</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>  
+               <w>ʾdm-s</w>
+                    <tei:lb n="7"/>
+               <w>ʾrby</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>w-tʾnṯ-sm</w> 
+               <w> b-ṣdq-sm </w> 
+               <w>ḥg</w>  
+               <w>ḏt</w>  
+               <w>mḥrtn</w>  
+               <w>w-ʾsṭrn</w>
+                    <tei:lb n="8"/>
+               <w>w-ṯfṭ</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>  
+               <w>ʾdm-s</w>  
+               <w>ʾrby</w>   
+               <name type="epithet" subtype="divine">ḏ-lbḫ</name>  
+               <w>l-sṭr</w>  
+               <w>w-ftḫ</w>  
+               <w>ḏtn</w>  
+               <w>ʾsṭrn</w>  
+               <w>b-srn</w>
+                    <tei:lb n="9"/>
+               <placeName>lbḫ</placeName>  
+               <w>w-b</w>  
+               <w>mḥd-sm</w>  
+               <w>b-byt</w>   
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>b-</w>
+               <placeName>ḏ  ġylm</placeName>  
+               <w>wrḫ-s</w>  
+               <rs type="month">ḏ-bšmm</rs>  
+               <w>ḫr=
+                        <tei:lb n="10"/>f</w>  
+               <rs type="eponym">
+                  <persName type="gender" subtype="m">ʿmʿly</persName>  
+                  <orgName type="group">ḏ-ġrbm</orgName>
+               </rs>  
+               <w>qdmn</w>  
+               <w>w-ḏn</w>  
+               <w>ʾsdn</w>  
+               <w>ʾrby</w>  
+               <name type="epithet" subtype="divine">ḏ-lbḫ</name>  
+               <w>ʾlḏy</w>  
+               <w>b-ʿlw</w>  
+               <w>ml=
+                            <tei:lb n="11"/>kn</w>  
+               <w>nḥql</w>  
+               <w>ḏ-bn</w>  
+               <w>ṣḥf</w>  
+               <placeName>dtnt</placeName>  
+               <w>w-šwb</w>  
+               <w>w-ṯmr</w>  
+               <name type="theonym">ʿm</name>  
+               <w>w-tʿlm-ʾy</w>  
+               <w>yd</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>
+                    <tei:lb n="12"/>
+               <w>w-tqdm</w>  
+               <w>w-sʿšq</w>  
+               <w>ʾsṭr</w>  
+               <w>ḏn</w>  
+               <w>brṯn</w>
+                    <tei:lb n="13"/>
+               <persName type="gender" subtype="m">nbṭʿm</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ʾlsmʿ</persName>  
+               <w>bn</w>  
+               <orgName type="group">hybr</orgName>  
+               <w>ḏ-ʾ=
+                        <tei:lb n="14"/>mnt</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>w-ʾrby-s</w>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="7"/> 
+               <tei:lb n="8"/>l-sṭr  w-ftḫ  ḏtn  ʾsṭrn  b-sr
+<tei:lb n="9"/>  b-ḏ  ġylm  wrḫ-s  ḏ-bšmm  ḫr=
+<tei:lb n="10"/>ʾsdn  ʾrby  ḏ-lbḫ  ʾlḏy  b-ʿlw  ml=
+<tei:lb n="11"/>  w-šwb  w-ṯmr  ʿm  w-tʿlm-ʾy  yd  šhr
+<tei:lb n="12"/>sṭr  ḏn  brṯn
+<tei:lb n="13"/>ʾlsmʿ  bn  
+<tei:lb n="14"/> 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>šhr  ygl  bn  ydʿʾb  mlk  qtbn  ṣry  w-sfḥ  bn  ḥṭbm  mḥ=
+<tei:lb n="2"/>rm  ʿm  ḏ-dwnm  w-bn  rṣfm  mḥrm  ʾnby  šymn  w-bn  tḥt  šms
+<tei:lb n="3"/>w-rbʿ  šhr  ʾdm-s  mʿdkrb  bn  hybr  w-wdʾl  bn  rbḥ  w-ʾḫhy-
+<tei:lb n="4"/>smy  ʾrby  ʿm  ḏ-lbḫ  w-tʾnṯ-sm  bn  snṣfm  w-skt  w-ʾḫḏ  w-
+<tei:lb n="5"/>gddm  l-ʿṣm  wdm  w-bntm  w-šftm  l-ʿm  w-ʾṯrt  n-l  ystfḥwn
+<tei:lb n="6"/>ʾrby  ʿm  ḏ-lbḫ  w-tʾnṯ-sm  b-ʿlw  ḏt  mḥrtn  w-ṣry  šhr  ʾdm-s
+<tei:lb n="7"/>ʾrby  ʿm  ḏ-lbḫ  w-tʾnṯ-sm  b-ṣdq-sm  ḥg  ḏt  mḥrtn  w-ʾsṭrn
+<tei:lb n="8"/>w-ṯfṭ  šhr  ʾdm-s  ʾrby  ḏ-lbḫ  l-sṭr  w-ftḫ  ḏtn  ʾsṭrn  b-srn
+<tei:lb n="9"/>lbḫ  w-b  mḥd-sm  b-byt  ʿm  ḏ-lbḫ  b-ḏ  ġylm  wrḫ-s  ḏ-bšmm  ḫr=
+<tei:lb n="10"/>f  ʿmʿly  ḏ-ġrbm  qdmn  w-ḏn  ʾsdn  ʾrby  ḏ-lbḫ  ʾlḏy  b-ʿlw  ml=
+<tei:lb n="11"/>kn  nḥql  ḏ-bn  ṣḥf  dtnt  w-šwb  w-ṯmr  ʿm  w-tʿlm-ʾy  yd  šhr
+<tei:lb n="12"/>w-tqdm  w-sʿšq  ʾsṭr  ḏn  brṯn
+<tei:lb n="13"/>nbṭʿm  bn  ʾlsmʿ  bn  hybr  ḏ-ʾ=
+<tei:lb n="14"/>mnt  ʿm  ḏ-lbḫ  w-ʾrby-s</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+7.[... ... ... ...]
+8.to inscribe and engrave these records in [the] valley 
+9.in Dhū-Ghaylim. The month of Bashimum, the 
+10.individuals, the priests of Labakh who are in possess- 
+11.and the products and the crops of ʿAmm. [And it was signed by the hand of] Shahr.
+12.the inscriptions of this place,
+13.ʾĪlīsamaʿ of the lineage of 
+14.[... ... ... ...]
+
+
+Restored full text of the inscription:
+
+1.[Shahr Yagill bin Yadaʿʾab, King of Qatabān, has promulgated and decreed from Ḥaṭabum, the tem-] 
+2.[ple of ʿAmm Dhū-Dawānim and from Raṣafum, the temple of ʾAnbay-the patron-god-and on behalf of Shamas]
+3.[and the protector of Shahr for his vassals Maʿdīkarib of the lineage of Haybar and Waddʾīl of the lineage of Rābiḥ and their kinsmen,]
+4.[the priests of ʿAmm Dhū-Labakh and their wives, without any shortcomings or cessation or detraction or]
+5.[termination, for the patronage-tie of friendship and affiliation and protection, for (the sake of) ʿAmm and ʾAthīrat. Let, then,]
+6.[the priests of ʿAmm Dhū-Labakh and their wives hold themselves bound to this commandment. And Shahr has decreed for his vassals,]
+7.[the priests of ʿAmm Dhū-Labakh and their wives with their concurrence, in accordance with this commandment and (these) records.]
+8.[And Shahr has directed his vassals, the priests of Labakh,] to inscribe and engrave these records in [the] valley 
+9.[of Labakh and in their designated place in the temple of ʿAmm Dhū-Labakh] in Dhū-Ghaylim. The month of Bashimum, the 
+10.[first year of ʿAmmīʿalī Dhū-Gharībum. Now these] individuals, the priests of Labakh who are in possess- 
+11.[ion of property, in particular that which (is designated) in the document of Datīnat,] and the products and the crops of ʿAmm. [And it was signed by the hand of] Shahr.
+12.[And Nabaṭʿamm bin ʾĪlīsamaʿ of the lineage of Haybar has directed and completed] the inscriptions of this place,
+13.[under the pro-]
+14.[tection of ʿAmm Dhū-Labakh and his priests.]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="7"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> 
+                  <tei:gap quantity="5" unit="chars" reason="lost"/>
+                    </tei:supplied>
+               <tei:lb n="8"/>to inscribe and engrave these records in <tei:supplied reason="lost">the</tei:supplied> valley 
+<tei:lb n="9"/>in Dhū-Ghaylim. The month of Bashimum, the 
+<tei:lb n="10"/>individuals, the priests of Labakh who are in possess- 
+<tei:lb n="11"/>and the products and the crops of ʿAmm. <tei:supplied reason="lost">And it was signed by the hand of</tei:supplied> Shahr.
+<tei:lb n="12"/>the inscriptions of this place,
+<tei:lb n="13"/>ʾĪlīsamaʿ of the lineage of 
+<tei:lb n="14"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> 
+                  <tei:gap quantity="5" unit="chars" reason="lost"/>
+                    </tei:supplied>
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Shahr Yagill bin Yadaʿʾab, King of Qatabān, has promulgated and decreed from Ḥaṭabum, the tem-</tei:supplied> 
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">ple of ʿAmm Dhū-Dawānim and from Raṣafum, the temple of ʾAnbay-the patron-god-and on behalf of Shamas</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">and the protector of Shahr for his vassals Maʿdīkarib of the lineage of Haybar and Waddʾīl of the lineage of Rābiḥ and their kinsmen,</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">the priests of ʿAmm Dhū-Labakh and their wives, without any shortcomings or cessation or detraction or</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">termination, for the patronage-tie of friendship and affiliation and protection, for <tei:unclear>the sake of</tei:unclear> ʿAmm and ʾAthīrat. Let, then,</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">the priests of ʿAmm Dhū-Labakh and their wives hold themselves bound to this commandment. And Shahr has decreed for his vassals,</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">the priests of ʿAmm Dhū-Labakh and their wives with their concurrence, in accordance with this commandment and <tei:unclear>these</tei:unclear> records.</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">And Shahr has directed his vassals, the priests of Labakh,</tei:supplied> to inscribe and engrave these records in <tei:supplied reason="lost">the</tei:supplied> valley 
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">of Labakh and in their designated place in the temple of ʿAmm Dhū-Labakh</tei:supplied> in Dhū-Ghaylim. The month of Bashimum, the 
+<tei:lb n="10"/>
+                    <tei:supplied reason="lost">first year of ʿAmmīʿalī Dhū-Gharībum. Now these</tei:supplied> individuals, the priests of Labakh who are in possess- 
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">ion of property, in particular that which <tei:unclear>is designated</tei:unclear> in the document of Datīnat,</tei:supplied> and the products and the crops of ʿAmm. <tei:supplied reason="lost">And it was signed by the hand of</tei:supplied> Shahr.
+<tei:lb n="12"/>
+                    <tei:supplied reason="lost">And Nabaṭʿamm bin ʾĪlīsamaʿ of the lineage of Haybar has directed and completed</tei:supplied> the inscriptions of this place,
+<tei:lb n="13"/>
+                    <tei:supplied reason="lost">under the pro-</tei:supplied>
+               <tei:lb n="14"/>
+                    <tei:supplied reason="lost">tection of ʿAmm Dhū-Labakh and his priests.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="7"/> 
+               <tei:lb n="8"/>to inscribe and engrave these records in the valley 
+<tei:lb n="9"/>in Dhū-Ghaylim. The month of Bashimum, the 
+<tei:lb n="10"/>individuals, the priests of Labakh who are in possess- 
+<tei:lb n="11"/>and the products and the crops of ʿAmm. And it was signed by the hand of Shahr.
+<tei:lb n="12"/>the inscriptions of this place,
+<tei:lb n="13"/>ʾĪlīsamaʿ of the lineage of 
+<tei:lb n="14"/> 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Shahr Yagill bin Yadaʿʾab, King of Qatabān, has promulgated and decreed from Ḥaṭabum, the tem- 
+<tei:lb n="2"/>ple of ʿAmm Dhū-Dawānim and from Raṣafum, the temple of ʾAnbay-the patron-god-and on behalf of Shamas
+<tei:lb n="3"/>and the protector of Shahr for his vassals Maʿdīkarib of the lineage of Haybar and Waddʾīl of the lineage of Rābiḥ and their kinsmen,
+<tei:lb n="4"/>the priests of ʿAmm Dhū-Labakh and their wives, without any shortcomings or cessation or detraction or
+<tei:lb n="5"/>termination, for the patronage-tie of friendship and affiliation and protection, for the sake of ʿAmm and ʾAthīrat. Let, then,
+<tei:lb n="6"/>the priests of ʿAmm Dhū-Labakh and their wives hold themselves bound to this commandment. And Shahr has decreed for his vassals,
+<tei:lb n="7"/>the priests of ʿAmm Dhū-Labakh and their wives with their concurrence, in accordance with this commandment and these records.
+<tei:lb n="8"/>And Shahr has directed his vassals, the priests of Labakh, to inscribe and engrave these records in the valley 
+<tei:lb n="9"/>of Labakh and in their designated place in the temple of ʿAmm Dhū-Labakh in Dhū-Ghaylim. The month of Bashimum, the 
+<tei:lb n="10"/>first year of ʿAmmīʿalī Dhū-Gharībum. Now these individuals, the priests of Labakh who are in possess- 
+<tei:lb n="11"/>ion of property, in particular that which is designated in the document of Datīnat, and the products and the crops of ʿAmm. And it was signed by the hand of Shahr.
+<tei:lb n="12"/>And Nabaṭʿamm bin ʾĪlīsamaʿ of the lineage of Haybar has directed and completed the inscriptions of this place,
+<tei:lb n="13"/>under the pro-
+<tei:lb n="14"/>tection of ʿAmm Dhū-Labakh and his priests.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="7"/> 
+               <tei:lb n="8"/>to inscribe and engrave these records in the valley 
+<tei:lb n="9"/>in Dhū-Ghaylim. The month of Bashimum, the 
+<tei:lb n="10"/>individuals, the priests of Labakh who are in possess- 
+<tei:lb n="11"/>and the products and the crops of ʿAmm. And it was signed by the hand of Shahr.
+<tei:lb n="12"/>the inscriptions of this place,
+<tei:lb n="13"/>ʾĪlīsamaʿ of the lineage of 
+<tei:lb n="14"/> 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Shahr Yagill bin Yadaʿʾab, King of Qatabān, has promulgated and decreed from Ḥaṭabum, the tem- 
+<tei:lb n="2"/>ple of ʿAmm Dhū-Dawānim and from Raṣafum, the temple of ʾAnbay-the patron-god-and on behalf of Shamas
+<tei:lb n="3"/>and the protector of Shahr for his vassals Maʿdīkarib of the lineage of Haybar and Waddʾīl of the lineage of Rābiḥ and their kinsmen,
+<tei:lb n="4"/>the priests of ʿAmm Dhū-Labakh and their wives, without any shortcomings or cessation or detraction or
+<tei:lb n="5"/>termination, for the patronage-tie of friendship and affiliation and protection, for the sake of ʿAmm and ʾAthīrat. Let, then,
+<tei:lb n="6"/>the priests of ʿAmm Dhū-Labakh and their wives hold themselves bound to this commandment. And Shahr has decreed for his vassals,
+<tei:lb n="7"/>the priests of ʿAmm Dhū-Labakh and their wives with their concurrence, in accordance with this commandment and these records.
+<tei:lb n="8"/>And Shahr has directed his vassals, the priests of Labakh, to inscribe and engrave these records in the valley 
+<tei:lb n="9"/>of Labakh and in their designated place in the temple of ʿAmm Dhū-Labakh in Dhū-Ghaylim. The month of Bashimum, the 
+<tei:lb n="10"/>first year of ʿAmmīʿalī Dhū-Gharībum. Now these individuals, the priests of Labakh who are in possess- 
+<tei:lb n="11"/>ion of property, in particular that which is designated in the document of Datīnat, and the products and the crops of ʿAmm. And it was signed by the hand of Shahr.
+<tei:lb n="12"/>And Nabaṭʿamm bin ʾĪlīsamaʿ of the lineage of Haybar has directed and completed the inscriptions of this place,
+<tei:lb n="13"/>under the pro-
+<tei:lb n="14"/>tection of ʿAmm Dhū-Labakh and his priests.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

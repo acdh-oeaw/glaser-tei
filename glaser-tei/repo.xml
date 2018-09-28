@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>A web service to serve epidoc encoded glaser squeezes</description>
+    <author ref="http://d-nb.info/gnd/129199176">Peter Andorfer</author>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>glaser-tei</target>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" user="admin" group="dba" mode="rw-rw-r--"/>
+
+<deployed>2018-09-28T08:30:58.074+02:00</deployed>
+</meta>

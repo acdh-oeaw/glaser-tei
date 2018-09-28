@@ -1,0 +1,26 @@
+.jumbotron {
+    color:black;
+}
+
+.reference {
+    cursor: pointer;
+    color: #88dbdf;
+}
+
+span.data-hr {
+    background-color: #ffff00;
+}
+
+.card {
+    overflow: visible;
+}
+
+a {
+    color: #88dbdf;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #88dbdf;
+    text-decoration: none;
+}
+

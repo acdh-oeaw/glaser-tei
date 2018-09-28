@@ -1,0 +1,207 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B151a</title>
+                <title type="alt">1110000759</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B151a</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-B151a</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000759PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.(h)wfʿśt | bn | śmrm | sqny | syn | ḏ-ʾlm | nfs-s | w-ʾ
+2.(n)y | w-bʿl [| ...] | bnhy | ʾʿrś | [...]ly | ḏ-(ʾ)mʿdm
+
+
+Restored full text of the inscription:
+
+1.(h)wfʿśt | bn | śmrm | sqny | syn | ḏ-ʾlm | nfs-s | w-ʾ[ḏn-s | w-wld-s | w-qny-s | w-mslmhn | ḏ-l-sm | ywm | ... ... | ḏ-q=]
+2.(n)y | w-bʿl [| ...] | bnhy | ʾʿrś | [...]ly | ḏ-(ʾ)mʿdm [| b-mwfr | ḏ-tḥrbhn | b-ṯlm | ywm | ṣry | syn |  ḏ-ʾlm | ...n | mwqrthn |]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:unclear>h</tei:unclear>wfʿśt | bn | śmrm | sqny | syn | ḏ-ʾlm | nfs-s | w-ʾ
+<tei:lb n="2"/>
+                    <tei:unclear>n</tei:unclear>y | w-bʿl <tei:supplied reason="lost">| ...</tei:supplied> | bnhy | ʾʿrś | <tei:supplied reason="lost">...</tei:supplied>ly | ḏ-<tei:unclear>ʾ</tei:unclear>mʿdm
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:unclear>h</tei:unclear>wfʿśt | bn | śmrm | sqny | syn | ḏ-ʾlm | nfs-s | w-ʾ<tei:supplied reason="lost">ḏn-s | w-wld-s | w-qny-s | w-mslmhn | ḏ-l-sm | ywm | <tei:gap quantity="5" unit="chars" reason="lost"/> | ḏ-q=</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:unclear>n</tei:unclear>y | w-bʿl <tei:supplied reason="lost">| ...</tei:supplied> | bnhy | ʾʿrś | <tei:supplied reason="lost">...</tei:supplied>ly | ḏ-<tei:unclear>ʾ</tei:unclear>mʿdm <tei:supplied reason="lost">| b-mwfr | ḏ-tḥrbhn | b-ṯlm | ywm | ṣry | syn |  ḏ-ʾlm | ...n | mwqrthn |</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">hwfʿśt</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">śmrm</persName>  
+               <w>sqny</w>  
+               <rs type="complex">
+                  <name type="theonym">syn</name>  
+                  <name type="epithet" subtype="divine">ḏ-ʾlm</name>
+               </rs>  
+               <w>nfs-s</w>  w-ʾ
+                    <tei:lb n="2"/>ny  <w>w-bʿl</w>  ...  <w>bnhy</w>  
+               <persName type="gender" subtype="m">ʾʿrś</persName>  ...ly  <orgName type="group">ḏ-ʾmʿdm</orgName>
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">hwfʿśt</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">śmrm</persName>
+                    <w>sqny</w>  
+               <rs type="complex">
+                  <name type="theonym">syn</name>  
+                  <name type="epithet" subtype="divine">ḏ-ʾlm</name>
+               </rs>
+                    <w>nfs-s</w>  
+               <w>w-ʾḏn-s</w>  
+               <w>w-wld-s</w>  
+               <w>w-qny-s</w>  
+               <w>w-mslmhn</w>  
+               <w>ḏ-l-sm</w>  
+               <w>ywm</w>    
+               <w>ḏ-q=
+                        <tei:lb n="2"/>ny</w>  
+               <w>w-bʿl</w>  ...  <w>bnhy</w>  
+               <persName type="gender" subtype="m">ʾʿrś</persName>  ...ly  <orgName type="group">ḏ-ʾmʿdm</orgName>  
+               <w>b-mwfr</w>  
+               <w>ḏ-</w>
+               <placeName>tḥrbhn</placeName>  
+               <w>b-</w>
+               <placeName>ṯlm</placeName>  
+               <w>ywm</w>  
+               <w>ṣry</w>  
+               <rs type="complex">
+                  <name type="theonym">syn</name>  
+                  <name type="epithet" subtype="divine">ḏ-ʾlm</name>
+               </rs>  ...n  <w>mwqrthn</w> 
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>hwfʿśt  bn  śmrm  sqny  syn  ḏ-ʾlm  nfs-s  w-ʾ
+<tei:lb n="2"/>ny  w-bʿl  ...  bnhy  ʾʿrś  ...ly  ḏ-ʾmʿdm
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>hwfʿśt  bn  śmrm  sqny  syn  ḏ-ʾlm  nfs-s  w-ʾḏn-s  w-wld-s  w-qny-s  w-mslmhn  ḏ-l-sm  ywm    ḏ-q=
+<tei:lb n="2"/>ny  w-bʿl  ...  bnhy  ʾʿrś  ...ly  ḏ-ʾmʿdm  b-mwfr  ḏ-tḥrbhn  b-ṯlm  ywm  ṣry  syn   ḏ-ʾlm  ...n  mwqrthn </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.Hawafīʿa&lt;th&gt;at bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself and
+2.sessed and gained legal possession of […] the sons of ʾAʿriś […] Dhū-ʾAmʿādim
+
+
+Restored full text of the inscription:
+
+1.Hawafīʿa&lt;th&gt;at bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself [and his faculties and his children and his possessions and (this) altar which they possess when … which he pos-]
+2.sessed and gained legal possession of […] the sons of ʾAʿriś […] Dhū-ʾAmʿādim [in the cultivated land of Dhū-Taḥribhān in Thalam, when Siyān Dhū-ʾAlīm protected … the cutting(?) …]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Hawafīʿa<tei:add>th</tei:add>at bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself and
+<tei:lb n="2"/>sessed and gained legal possession of <tei:supplied reason="lost">…</tei:supplied> the sons of ʾAʿriś <tei:supplied reason="lost">…</tei:supplied> Dhū-ʾAmʿādim
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Hawafīʿa<tei:add>th</tei:add>at bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself <tei:supplied reason="lost">and his faculties and his children and his possessions and <tei:unclear>this</tei:unclear> altar which they possess when … which he pos-</tei:supplied>
+               <tei:lb n="2"/>sessed and gained legal possession of <tei:supplied reason="lost">…</tei:supplied> the sons of ʾAʿriś <tei:supplied reason="lost">…</tei:supplied> Dhū-ʾAmʿādim <tei:supplied reason="lost">in the cultivated land of Dhū-Taḥribhān in Thalam, when Siyān Dhū-ʾAlīm protected … the cutting<tei:unclear>?</tei:unclear> …</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Hawafīʿathat bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself and
+<tei:lb n="2"/>sessed and gained legal possession of … the sons of ʾAʿriś … Dhū-ʾAmʿādim
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Hawafīʿathat bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself and his faculties and his children and his possessions and this altar which they possess when … which he pos-
+<tei:lb n="2"/>sessed and gained legal possession of … the sons of ʾAʿriś … Dhū-ʾAmʿādim in the cultivated land of Dhū-Taḥribhān in Thalam, when Siyān Dhū-ʾAlīm protected … the cutting? …</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Hawafīʿathat bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself and
+<tei:lb n="2"/>sessed and gained legal possession of … the sons of ʾAʿriś … Dhū-ʾAmʿādim
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Hawafīʿathat bin Śamīrum dedicated to Siyān Dhū-ʾAlīm himself and his faculties and his children and his possessions and this altar which they possess when … which he pos-
+<tei:lb n="2"/>sessed and gained legal possession of … the sons of ʾAʿriś … Dhū-ʾAmʿādim in the cultivated land of Dhū-Taḥribhān in Thalam, when Siyān Dhū-ʾAlīm protected … the cutting? …</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1560b</title>
+                <title type="alt">1110000844</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1560b</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1560b</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000844PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in the squeeze:
+
+1.[... ... ... ... ...]ʿl=
+2.[... ... ... ... ...]tm |
+
+
+Restored full text of the inscription:
+
+1.[yṯʿʾmr | byn | bn | smh]ʿl=
+2.[{|} y | mkrb | sbʾ | gnʾ | ʿrr]tm |</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> 
+                  <tei:gap quantity="5" unit="chars" reason="lost"/> ...</tei:supplied>ʿl=
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> 
+                  <tei:gap quantity="5" unit="chars" reason="lost"/> ...</tei:supplied>tm |
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">yṯʿʾmr | byn | bn | smh</tei:supplied>ʿl=
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">
+                        <tei:del>|</tei:del> y | mkrb | sbʾ | gnʾ | ʿrr</tei:supplied>tm |</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>  ...ʿl=
+<tei:lb n="2"/>  ...tm 
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">yṯʿʾmr</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">byn</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">smhʿly</persName>
+                    <tei:lb n="2"/>
+               <w>mkrb</w>  
+               <orgName type="state">sbʾ</orgName>  
+               <w>gnʾ</w>  
+               <placeName>ʿrrtm</placeName>  
+               <placeName>ḥrb</placeName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>  ...ʿl=
+<tei:lb n="2"/>  ...tm 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>yṯʿʾmr  byn  bn  smhʿl=
+<tei:lb n="2"/> y  mkrb  sbʾ  gnʾ  ʿrrtm </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.ʿal=
+2.tum
+
+
+Restored full text of the inscription:
+
+1.[Yithaʿʾamar Bayyin bin Sumhū]ʿal=
+2.[ī, ruler (mkrb) Sabaʾ, has walled ʿUrar]tum.</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>ʿal=
+<tei:lb n="2"/>tum
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Yithaʿʾamar Bayyin bin Sumhū</tei:supplied>ʿal=
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">ī, ruler <tei:unclear>mkrb</tei:unclear> Sabaʾ, has walled ʿUrar</tei:supplied>tum.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>ʿal=
+<tei:lb n="2"/>tum
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Yithaʿʾamar Bayyin bin Sumhūʿal=
+<tei:lb n="2"/>ī, ruler mkrb Sabaʾ, has walled ʿUrartum.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>ʿal=
+<tei:lb n="2"/>tum
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Yithaʿʾamar Bayyin bin Sumhūʿal=
+<tei:lb n="2"/>ī, ruler mkrb Sabaʾ, has walled ʿUrartum.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

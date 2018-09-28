@@ -1,0 +1,421 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1155P</title>
+                <title type="alt">1110000358</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1155P</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1155P</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000358PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.nm | kl | ṣḥft | byn 
+2.t | w-ywm | mtʿ-sm | w-
+3.(b) | šʿbh-sm | mʿn | w-ḏ-
+
+
+Restored full text of the inscription:
+
+1.[ʿmṣdq | bn | ḥmʿṯt | ḏ-yfʿn | w-sʿd | bn | ʿlg | ḏ-ḍfgn | kbry | mṣrn | w-mʿn | mṣrn | ʾsd | mṣr | w-rtkl | b-ʿmh-smn | mṣr | w-ʾʾšr | w-ʿbr | nhrn | b-kbr | ... ...m | ḏ-rdʿ | qdmn | kbr-s | ślʾ | w-bny | w-sqny | k-ʿṯtr | ḏ-qbḍm | ṣḥftn | tnʿm | ʾnf | mwsm | ʿḍm | w-tqrm | bn | ʾšrs | ʿd | šqrn | w-mʿḏr-s | ʾb]nm | kl | ṣḥft | byn [| mḥfdnyhn | ẓrbn | w-lbʾn | b-kbwdt | w-ʾkrb | ktrb | ʿṯ=]
+2.[tr | ḏ-qbḍm | ʾhl | sbrr | w-yʾtmr | w-strḍw | ʿṯtr | ḏ-qbḍ | b-kbwdtn | w-ʾkrbn | mbny | ṣḥftn | ywm | mtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | w-ʾmr-sm | bn | ʾḍbʾ | ḍbʾ-sm | w-ʾqny-sm | w-bʿr-sm | sbʾ | w-ḫwln | b-msbʾ | byn | mʿnm | w-rgmtm | w-bn | ḍr | kwn | byn | ḏ-ymnt | w-ḏ-šʾm]t | w-ywm | mtʿ-sm | w-[ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | bn | wsṭ | mṣr | b-=]
+3.[mrd | kwn | byn | mḏy | w-mṣr | w-ymtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | slmhm | w-wfyh | ʿd | ʿrb | hgr-sm | qrnw | b-ʿṯtr | šrqn | w-b | ʿṯtr | ḏ-qbḍm | w-b | wdm | w-b | nkrḥm | w-b | ʿṯtr | ḏ-yhrq | w-b | ḏt | nšqm | w-b-kl | ʾlʾlt | mʿn | w-yṯl | w-b | ʾbydʿ | yṯʿ | mlk | mʿn | w-b | bhny | mʿdkrb | bn | ʾlyfʿ | w-](b) | šʿbh-sm | mʿn | w-ḏ-[yṯl | w-b | kbry | mṣrn | ʿmṣdq | w-sʿdm | w-rṯd | ʿmṣdq |]
+4.[w-sʿd | w-mʿn | mṣrn | hqnyt-sm | w-ʾsṭr-sm | ʾlʾlt | mʿn | w-yṯl | w-mlk | mʿn | w-mʿn | bn | ḏ-ymśr | w-sfʾy | w-snkr | ʾsṭr-sm | bn | mqmh-sm | w-b | ʿmsmʿ | ḏ-blḥ | kbr | yṯl |]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>nm | kl | ṣḥft | byn 
+<tei:lb n="2"/>t | w-ywm | mtʿ-sm | w-
+<tei:lb n="3"/>
+                    <tei:unclear>b</tei:unclear> | šʿbh-sm | mʿn | w-ḏ-
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">ʿmṣdq | bn | ḥmʿṯt | ḏ-yfʿn | w-sʿd | bn | ʿlg | ḏ-ḍfgn | kbry | mṣrn | w-mʿn | mṣrn | ʾsd | mṣr | w-rtkl | b-ʿmh-smn | mṣr | w-ʾʾšr | w-ʿbr | nhrn | b-kbr | <tei:gap quantity="5" unit="chars" reason="lost"/>m | ḏ-rdʿ | qdmn | kbr-s | ślʾ | w-bny | w-sqny | k-ʿṯtr | ḏ-qbḍm | ṣḥftn | tnʿm | ʾnf | mwsm | ʿḍm | w-tqrm | bn | ʾšrs | ʿd | šqrn | w-mʿḏr-s | ʾb</tei:supplied>nm | kl | ṣḥft | byn <tei:supplied reason="lost">| mḥfdnyhn | ẓrbn | w-lbʾn | b-kbwdt | w-ʾkrb | ktrb | ʿṯ=</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">tr | ḏ-qbḍm | ʾhl | sbrr | w-yʾtmr | w-strḍw | ʿṯtr | ḏ-qbḍ | b-kbwdtn | w-ʾkrbn | mbny | ṣḥftn | ywm | mtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | w-ʾmr-sm | bn | ʾḍbʾ | ḍbʾ-sm | w-ʾqny-sm | w-bʿr-sm | sbʾ | w-ḫwln | b-msbʾ | byn | mʿnm | w-rgmtm | w-bn | ḍr | kwn | byn | ḏ-ymnt | w-ḏ-šʾm</tei:supplied>t | w-ywm | mtʿ-sm | w-<tei:supplied reason="lost">ʾqny-sm | ʿṯtr | ḏ-qbḍm | w-wdm | w-nkrḥm | bn | wsṭ | mṣr | b-=</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">mrd | kwn | byn | mḏy | w-mṣr | w-ymtʿ-sm | w-ʾqny-sm | ʿṯtr | ḏ-qbḍm | slmhm | w-wfyh | ʿd | ʿrb | hgr-sm | qrnw | b-ʿṯtr | šrqn | w-b | ʿṯtr | ḏ-qbḍm | w-b | wdm | w-b | nkrḥm | w-b | ʿṯtr | ḏ-yhrq | w-b | ḏt | nšqm | w-b-kl | ʾlʾlt | mʿn | w-yṯl | w-b | ʾbydʿ | yṯʿ | mlk | mʿn | w-b | bhny | mʿdkrb | bn | ʾlyfʿ | w-</tei:supplied>
+                    <tei:unclear>b</tei:unclear> | šʿbh-sm | mʿn | w-ḏ-<tei:supplied reason="lost">yṯl | w-b | kbry | mṣrn | ʿmṣdq | w-sʿdm | w-rṯd | ʿmṣdq |</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">w-sʿd | w-mʿn | mṣrn | hqnyt-sm | w-ʾsṭr-sm | ʾlʾlt | mʿn | w-yṯl | w-mlk | mʿn | w-mʿn | bn | ḏ-ymśr | w-sfʾy | w-snkr | ʾsṭr-sm | bn | mqmh-sm | w-b | ʿmsmʿ | ḏ-blḥ | kbr | yṯl |</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>nm  <w>kl</w>  
+               <w>ṣḥft</w>  
+               <w>byn</w> 
+               <tei:lb n="2"/>t  <w>w-ywm</w>  
+               <w>mtʿ-sm</w>  w-
+                    <tei:lb n="3"/>b  <w>šʿbh-sm</w>  
+               <orgName type="tribe">mʿn</orgName>  w-ḏ-
+
+
+Restored full text of the inscription:
+
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">ʿmṣdq</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ḥmʿṯt</persName>  
+               <orgName type="tribe">ḏ-yfʿn</orgName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">sʿd</persName>
+                    <w>bn</w>  
+               <persName type="patronymic">ʿlg</persName>  
+               <orgName type="tribe">ḏ-ḍfgn</orgName>  
+               <w>kbry</w>  
+               <placeName>mṣrn</placeName>  
+               <w>w-</w>
+               <rs type="complex">
+                  <orgName type="tribe" n="1">mʿn</orgName>  
+                  <orgName type="tribe" n="2">mṣrn</orgName>
+               </rs>
+                    <w>ʾsd</w>   
+               <placeName>mṣr</placeName>  
+               <w>w-rtkl</w>  
+               <w>b-ʿmh-smn</w>   
+               <placeName>mṣr</placeName>  
+               <w>w-</w>
+               <placeName>ʾʾšr</placeName>  
+               <w>w-</w> 
+               <placeName>ʿbr  nhrn</placeName>
+                    <w>b-kbr</w>  m  <orgName type="tribe">ḏ-rdʿ</orgName>  
+               <w>qdmn</w>  
+               <w>kbr-s</w>  
+               <w>ślʾ</w>  
+               <w>w-bny</w>  
+               <w>w-sqny</w>  
+               <w>k-</w>
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">ḏ-qbḍm</name>
+               </rs>
+                    <w>ṣḥftn</w>  
+               <placeName type="building">tnʿm</placeName>  
+               <w>ʾnf</w>  
+               <w>mwsm</w>  
+               <w>ʿḍm</w>  
+               <w>w-tqrm</w>  
+               <w>bn</w>  
+               <w>ʾšrs</w>  
+               <w>ʿd</w>  
+               <w>šqrn</w>  
+               <w>w-mʿḏr-s</w>
+                    <w>ʾbnm</w>  
+               <w>kl</w>  
+               <w>ṣḥft</w>  
+               <w>byn</w>  
+               <w>mḥfdnyhn</w>  
+               <placeName type="building">ẓrbn</placeName>  
+               <w>w-</w>
+               <placeName type="building">lbʾn</placeName>
+                    <w>b-kbwdt</w>  
+               <w>w-ʾkrb</w>  
+               <w>ktrb</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯ=
+                        <tei:lb n="2"/>tr</name>   
+                  <name type="epithet" subtype="divine">ḏ-qbḍm</name>
+               </rs>  
+               <w>ʾhl</w>  
+               <w>sbrr</w>  
+               <w>w-yʾtmr</w>  
+               <w>w-strḍw</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>   
+                  <name type="epithet" subtype="divine">ḏ-qbḍ</name>
+               </rs>
+                    <w>b-kbwdtn</w>  
+               <w>w-ʾkrbn</w>  
+               <w>mbny</w>  
+               <w>ṣḥftn</w>  
+               <w>ywm</w>  
+               <w>mtʿ-sm</w>  
+               <w>w-ʾqny-sm</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">ḏ-qbḍm</name>
+               </rs>
+                    <w>w-</w>
+               <name type="theonym">wdm</name>  
+               <w>w-</w>
+               <name type="theonym">nkrḥm</name>  
+               <w>w-ʾmr-sm</w>  
+               <w>bn</w>  
+               <w>ʾḍbʾ</w>  
+               <w>ḍbʾ-sm</w>  
+               <w>w-ʾqny-sm</w>
+                    <w>w-bʿr-sm</w>  sbʾ   <w>w-</w>
+               <orgName type="tribe">ḫwln</orgName>  
+               <w>b-msbʾ</w>  
+               <w>byn</w>  
+               <orgName type="state">mʿnm</orgName>  
+               <w>w-</w>
+               <placeName>rgmtm</placeName>  
+               <w>w-bn</w>  
+               <w>ḍr</w>
+                    <w>kwn</w>  
+               <w>byn</w> 
+               <w> ḏ-ymnt</w>  
+               <w>w-ḏ-šʾmt</w>  
+               <w>w-ywm</w>  
+               <w>mtʿ-sm</w>  
+               <w>w-ʾqny-sm</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">ḏ-qbḍm</name>
+               </rs>
+                    <w>w-</w>
+               <name type="theonym">wdm</name>  
+               <w>w-</w>
+               <name type="theonym">nkrḥm</name>  
+               <w>bn</w>  
+               <w>wsṭ</w>  
+               <placeName>mṣr</placeName>  
+               <w>b-=
+                        <tei:lb n="3"/>mrd</w>  
+               <w>kwn</w>  
+               <w>byn</w>  
+               <orgName type="ethnonym">mḏy</orgName>  
+               <w>w-</w>
+               <placeName>mṣr</placeName>  
+               <w>w-ymtʿ-sm</w>  
+               <w>w-ʾqny-sm</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">ḏ-qbḍm</name>
+               </rs>
+                    <w>slmhm</w>  
+               <w>w-wfyh</w>  
+               <w>ʿd</w>  
+               <w>ʿrb</w>  
+               <w>hgr-sm</w>  
+               <placeName>qrnw</placeName>  
+               <w>b-</w> 
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">šrqn</name>
+               </rs>
+                    <w>w-b</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">ḏ-qbḍm</name>
+               </rs>  
+               <w>w-b</w>  
+               <name type="theonym">wdm</name>
+                    <w>w-b</w>  
+               <name type="theonym">nkrḥm</name>  
+               <w>w-b</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">ḏ-yhrq</name>
+               </rs>
+                    <w>w-b</w>  
+               <name type="theonym">ḏt  nšqm</name>  
+               <w>w-b-kl</w>  
+               <w>ʾlʾlt</w>  
+               <orgName type="tribe">mʿn</orgName>  
+               <w>w-</w>
+               <orgName type="tribe">yṯl</orgName>  
+               <w>w-b</w>  
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">ʾbydʿ</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">yṯʿ</persName>
+               </rs>
+                    <rs type="complex">
+                  <w>mlk</w>  
+                  <orgName type="tribe">mʿn</orgName>
+               </rs>  
+               <w>w-b</w>  
+               <w>bhny</w>  
+               <persName type="royal" role="member">mʿdkrb</persName>  
+               <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">ʾlyfʿ</persName>
+                    <w>w-b</w>  
+               <w>šʿbh-sm</w>  
+               <orgName type="tribe">mʿn</orgName>  
+               <w>w-</w>
+               <orgName type="tribe">ḏ-yṯl</orgName>  
+               <w>w-b</w>  
+               <w>kbry</w>  
+               <placeName>mṣrn</placeName>
+                    <persName type="gender" subtype="m">ʿmṣdq</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">sʿdm</persName>  
+               <w>w-rṯd</w>  
+               <persName type="gender" subtype="m">ʿmṣdq</persName> 
+                    <tei:lb n="4"/>
+               <w>w-</w>
+               <persName type="gender" subtype="m">sʿd</persName>  
+               <w>w-</w>
+               <rs type="complex">
+                  <orgName type="tribe" n="1">mʿn</orgName>  
+                  <orgName type="tribe" n="2">mṣrn</orgName>
+               </rs>
+                    <w>hqnyt-sm</w>  
+               <w>w-ʾsṭr-sm</w>  
+               <w>ʾlʾlt</w>  
+               <orgName type="tribe">mʿn</orgName>  
+               <w>w-</w>
+               <orgName type="tribe">yṯl </orgName> 
+               <w>w-mlk</w>  
+               <orgName type="tribe">mʿn</orgName>  
+               <w>w-</w>
+               <orgName type="tribe">mʿn</orgName>  
+               <w>bn</w>  
+               <w>ḏ-ymśr</w>  
+               <w>w-sfʾy</w>
+                    <w>w-snkr</w>  
+               <w>ʾsṭr-sm</w>  
+               <w>bn</w>  
+               <w>mqmh-sm</w>  
+               <w>w-b</w>  
+               <persName type="gender" subtype="m">ʿmsmʿ</persName>  
+               <orgName type="group">ḏ-blḥ</orgName>
+                    <w>kbr</w>  
+               <orgName type="tribe">yṯl </orgName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>nm  kl  ṣḥft  byn 
+<tei:lb n="2"/>t  w-ywm  mtʿ-sm  w-
+<tei:lb n="3"/>b  šʿbh-sm  mʿn  w-ḏ-
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ʿmṣdq  bn  ḥmʿṯt  ḏ-yfʿn  w-sʿd  bn  ʿlg  ḏ-ḍfgn  kbry  mṣrn  w-mʿn  mṣrn  ʾsd  mṣr  w-rtkl  b-ʿmh-smn  mṣr  w-ʾʾšr  w-ʿbr  nhrn  b-kbr  m  ḏ-rdʿ  qdmn  kbr-s  ślʾ  w-bny  w-sqny  k-ʿṯtr  ḏ-qbḍm  ṣḥftn  tnʿm  ʾnf  mwsm  ʿḍm  w-tqrm  bn  ʾšrs  ʿd  šqrn  w-mʿḏr-s  ʾbnm  kl  ṣḥft  byn  mḥfdnyhn  ẓrbn  w-lbʾn  b-kbwdt  w-ʾkrb  ktrb  ʿṯ=
+<tei:lb n="2"/>tr  ḏ-qbḍm  ʾhl  sbrr  w-yʾtmr  w-strḍw  ʿṯtr  ḏ-qbḍ  b-kbwdtn  w-ʾkrbn  mbny  ṣḥftn  ywm  mtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  w-wdm  w-nkrḥm  w-ʾmr-sm  bn  ʾḍbʾ  ḍbʾ-sm  w-ʾqny-sm  w-bʿr-sm  sbʾ  w-ḫwln  b-msbʾ  byn  mʿnm  w-rgmtm  w-bn  ḍr  kwn  byn  ḏ-ymnt  w-ḏ-šʾmt  w-ywm  mtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  w-wdm  w-nkrḥm  bn  wsṭ  mṣr  b-=
+<tei:lb n="3"/>mrd  kwn  byn  mḏy  w-mṣr  w-ymtʿ-sm  w-ʾqny-sm  ʿṯtr  ḏ-qbḍm  slmhm  w-wfyh  ʿd  ʿrb  hgr-sm  qrnw  b-ʿṯtr  šrqn  w-b  ʿṯtr  ḏ-qbḍm  w-b  wdm  w-b  nkrḥm  w-b  ʿṯtr  ḏ-yhrq  w-b  ḏt  nšqm  w-b-kl  ʾlʾlt  mʿn  w-yṯl  w-b  ʾbydʿ  yṯʿ  mlk  mʿn  w-b  bhny  mʿdkrb  bn  ʾlyfʿ  w-b  šʿbh-sm  mʿn  w-ḏ-yṯl  w-b  kbry  mṣrn  ʿmṣdq  w-sʿdm  w-rṯd  ʿmṣdq 
+<tei:lb n="4"/>w-sʿd  w-mʿn  mṣrn  hqnyt-sm  w-ʾsṭr-sm  ʾlʾlt  mʿn  w-yṯl  w-mlk  mʿn  w-mʿn  bn  ḏ-ymśr  w-sfʾy  w-snkr  ʾsṭr-sm  bn  mqmh-sm  w-b  ʿmsmʿ  ḏ-blḥ  kbr  yṯl </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in the squeeze:
+
+1.with [sto]ne, the entire curtain-wall between
+2.when [... ... ...] protected them and 
+3.by their tribe of Maʿīn and of
+
+
+Restored full text of the inscription:
+
+1.[ʿAmmīṣadaq bin Ḥamīʿathat Dhū-Yāfiʿān and Saʿd bin ʿAlag Dhū-Ḍafgān, the two kabīrs of Maṣarān and Maʿīn Maṣarān-those who conducted a caravan and traded with them in Egypt and Assyria and ʿAbar-Nahrēn during the kabīrate of … …m Dhū-Radaʿ (in) the first part of his kabīrate-have dedicated and built and offered to ʿAthtar Dhū-Qabḍim the curtain-wall of Tanʿim: the façade decorated with wood and stone, from the foundations to the top, and its back wall] with [sto]ne, the entire curtain-wall between [the two towers of Ẓāribān and Labūʾān; (this) with the taxes and the obligatory payments which ʿAth-]
+2.[tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, (as seen) when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from the attacks which Sabaʾ and Khawlān made on them and their property and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between the southern region and the northern region; and] when [ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum] protected them and [their property in the middle of Egypt during]
+3.[the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and by ʿAthtar Dhū-Yahraq and by Dhāt-Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīkarib bin ʾĪlīyafaʿ; and] by their tribe of Maʿīn and of [Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq]
+4.[and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>with <tei:supplied reason="lost">sto</tei:supplied>ne, the entire curtain-wall between
+<tei:lb n="2"/>when <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> ...</tei:supplied> protected them and 
+<tei:lb n="3"/>by their tribe of Maʿīn and of
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">ʿAmmīṣadaq bin Ḥamīʿathat Dhū-Yāfiʿān and Saʿd bin ʿAlag Dhū-Ḍafgān, the two kabīrs of Maṣarān and Maʿīn Maṣarān-those who conducted a caravan and traded with them in Egypt and Assyria and ʿAbar-Nahrēn during the kabīrate of … …m Dhū-Radaʿ <tei:unclear>in</tei:unclear> the first part of his kabīrate-have dedicated and built and offered to ʿAthtar Dhū-Qabḍim the curtain-wall of Tanʿim: the façade decorated with wood and stone, from the foundations to the top, and its back wall</tei:supplied> with <tei:supplied reason="lost">sto</tei:supplied>ne, the entire curtain-wall between <tei:supplied reason="lost">the two towers of Ẓāribān and Labūʾān; <tei:unclear>this</tei:unclear> with the taxes and the obligatory payments which ʿAth-</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, <tei:unclear>as seen</tei:unclear> when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from the attacks which Sabaʾ and Khawlān made on them and their property and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between the southern region and the northern region; and</tei:supplied> when <tei:supplied reason="lost">ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum</tei:supplied> protected them and <tei:supplied reason="lost">their property in the middle of Egypt during</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and by ʿAthtar Dhū-Yahraq and by Dhāt-Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīkarib bin ʾĪlīyafaʿ; and</tei:supplied> by their tribe of Maʿīn and of <tei:supplied reason="lost">Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>with stone, the entire curtain-wall between
+<tei:lb n="2"/>when  ... protected them and 
+<tei:lb n="3"/>by their tribe of Maʿīn and of
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ʿAmmīṣadaq bin Ḥamīʿathat Dhū-Yāfiʿān and Saʿd bin ʿAlag Dhū-Ḍafgān, the two kabīrs of Maṣarān and Maʿīn Maṣarān-those who conducted a caravan and traded with them in Egypt and Assyria and ʿAbar-Nahrēn during the kabīrate of … …m Dhū-Radaʿ in the first part of his kabīrate-have dedicated and built and offered to ʿAthtar Dhū-Qabḍim the curtain-wall of Tanʿim: the façade decorated with wood and stone, from the foundations to the top, and its back wall with stone, the entire curtain-wall between the two towers of Ẓāribān and Labūʾān; this with the taxes and the obligatory payments which ʿAth-
+<tei:lb n="2"/>tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, as seen when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from the attacks which Sabaʾ and Khawlān made on them and their property and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between the southern region and the northern region; and when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum protected them and their property in the middle of Egypt during
+<tei:lb n="3"/>the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and by ʿAthtar Dhū-Yahraq and by Dhāt-Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīkarib bin ʾĪlīyafaʿ; and by their tribe of Maʿīn and of Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq
+<tei:lb n="4"/>and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in the squeeze:
+
+<tei:lb n="1"/>with stone, the entire curtain-wall between
+<tei:lb n="2"/>when  ... protected them and 
+<tei:lb n="3"/>by their tribe of Maʿīn and of
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ʿAmmīṣadaq bin Ḥamīʿathat Dhū-Yāfiʿān and Saʿd bin ʿAlag Dhū-Ḍafgān, the two kabīrs of Maṣarān and Maʿīn Maṣarān-those who conducted a caravan and traded with them in Egypt and Assyria and ʿAbar-Nahrēn during the kabīrate of … …m Dhū-Radaʿ in the first part of his kabīrate-have dedicated and built and offered to ʿAthtar Dhū-Qabḍim the curtain-wall of Tanʿim: the façade decorated with wood and stone, from the foundations to the top, and its back wall with stone, the entire curtain-wall between the two towers of Ẓāribān and Labūʾān; this with the taxes and the obligatory payments which ʿAth-
+<tei:lb n="2"/>tar Dhū-Qabḍim had imposed, which he discharged. And ʿAthtar Dhū-Qabḍ was pleased and satisfied, on account of the tribute and obligatory payments, with the construction of the curtain-wall, as seen when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum and their command protected them and their property from the attacks which Sabaʾ and Khawlān made on them and their property and their livestock on the road between Maʿīn and Ragmatum, and from the war that took place between the southern region and the northern region; and when ʿAthtar Dhū-Qabḍim and Waddum and Nakraḥum protected them and their property in the middle of Egypt during
+<tei:lb n="3"/>the upheaval that took place between the Persians and Egypt, ʿAthtar Dhū-Qabḍim protecting them and their property with safety and well-being until they entered their town of Qarnā. By ʿAthtar Shāriqān and by ʿAthtar Dhū-Qabḍim and by Waddum and by Nakraḥum and by ʿAthtar Dhū-Yahraq and by Dhāt-Nashqim; and by all the gods of Maʿīn and Yathill; and by ʾAbīyadaʿ Yathaʿ, King of Maʿīn; and by the son of Maʿdīkarib bin ʾĪlīyafaʿ; and by their tribe of Maʿīn and of Yathill; and by the two kabīrs of Maṣarān, ʿAmmīṣadaq and Saʿdum. And ʿAmmīṣadaq
+<tei:lb n="4"/>and Saʿdum and Maʿīn Maṣarān have entrusted their offering and their inscriptions to the gods of Maʿīn and Yathill, and the king of Maʿīn and the Minaeans, against anyone who might tear out and carry off and take away their inscriptions from their place; and by ʿAmmīsamaʿ Dhū-Balīḥ, the kabīr of Yathill.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

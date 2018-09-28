@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B145b</title>
+                <title type="alt">1110000273</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B145b</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-B145b</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000273PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.(h)bsl | bn (|) 
+2.m | mbny | g
+
+
+Restored full text of the inscription:
+
+1.(h)bsl | bn | [šgb | qtd=]
+2.m | mbny | g[nʾ | myfʿt | ʾbnm]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:unclear>h</tei:unclear>bsl | bn <tei:unclear>|</tei:unclear> 
+               <tei:lb n="2"/>m | mbny | g
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:unclear>h</tei:unclear>bsl | bn | <tei:supplied reason="lost">šgb | qtd=</tei:supplied>
+               <tei:lb n="2"/>m | mbny | g<tei:supplied reason="lost">nʾ | myfʿt | ʾbnm</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">hbsl</persName>  
+               <w>bn</w>  
+               <tei:lb n="2"/>m  <w>mbny</w>  g
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">hbsl</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">šgb</persName>  
+               <w>qtd=
+                        <tei:lb n="2"/>m</w>  
+               <w>mbny</w>  
+               <w>gnʾ</w>  
+               <placeName>myfʿt</placeName>  
+               <w>ʾbnm</w>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>hbsl  bn  
+<tei:lb n="2"/>m  mbny  g
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>hbsl  bn  šgb  qtd=
+<tei:lb n="2"/>m  mbny  gnʾ  myfʿt  ʾbnm</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.(Ha)bsal bin
+2.the construction of the
+
+
+Restored full text of the inscription:
+
+1.(Ha)bsal bin [Shagab has directed]
+2.the construction of the w[all of Mayfaʿt out of stone.]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:unclear>Ha</tei:unclear>bsal bin
+<tei:lb n="2"/>the construction of the
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:unclear>Ha</tei:unclear>bsal bin <tei:supplied reason="lost">Shagab has directed</tei:supplied>
+               <tei:lb n="2"/>the construction of the w<tei:supplied reason="lost">all of Mayfaʿt out of stone.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Habsal bin
+<tei:lb n="2"/>the construction of the
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Habsal bin Shagab has directed
+<tei:lb n="2"/>the construction of the wall of Mayfaʿt out of stone.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Habsal bin
+<tei:lb n="2"/>the construction of the
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Habsal bin Shagab has directed
+<tei:lb n="2"/>the construction of the wall of Mayfaʿt out of stone.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

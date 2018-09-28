@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">About</title>
+                <title type="sub">Glaser TEI</title>
+                <author>
+                    <persName>
+                        <forename>Peter</forename>
+                        <surname>Andorfer</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                       <licence target="https://creativecommons.org/licenses/by/4.0/">
+                           <p>The (CC BY 4.0)-License applies to this document.</p>
+                       </licence>
+                   </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>About</head>
+                <p>Glaser TEI started out as a workbench to transform XML exported from adlib-cms to EPIDOC encoded XMLs and became then a web service for those EPIDOC XMLs unsed in the <ref target="http://glaser.acdh.oeaw.ac.at/">Glaser App</ref>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

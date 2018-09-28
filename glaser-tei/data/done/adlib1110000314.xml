@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B189c</title>
+                <title type="alt">1110000314</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B189c</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-B189c</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000314PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.[n]bṭʿm | bn | hwfʿṯt
+2. | yfʿt | w-mśwd-s | w-k[l]
+3.y | w-ʾl | tʿly
+
+
+Restored full text of the inscription:
+
+1.[... ... | ʿlbm | w-n]bṭʿm | bn | hwfʿṯt
+2.[... ... | qbr-smy] | yfʿt | w-mśwd-s | w-k[l]
+3.[... ... | b-ḥg | ʾnb]y | w-ʾl | tʿly</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">n</tei:supplied>bṭʿm | bn | hwfʿṯt
+<tei:lb n="2"/> | yfʿt | w-mśwd-s | w-k<tei:supplied reason="lost">l</tei:supplied>
+               <tei:lb n="3"/>y | w-ʾl | tʿly
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> | ʿlbm | w-n</tei:supplied>bṭʿm | bn | hwfʿṯt
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> | qbr-smy</tei:supplied> | yfʿt | w-mśwd-s | w-k<tei:supplied reason="lost">l</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> | b-ḥg | ʾnb</tei:supplied>y | w-ʾl | tʿly</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">nbṭʿm</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">hwfʿṯt</persName>
+                    <tei:lb n="2"/>  
+               <placeName type="building">yfʿt</placeName>  
+               <w>w-mśwd-s </w> 
+               <w>w-kl</w>
+                    <tei:lb n="3"/>y  <w>w-ʾl </w> 
+               <w>tʿly</w>
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>  
+               <persName type="gender" subtype="u">ʿlbm</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">nbṭʿm</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">hwfʿṯt</persName>
+                    <tei:lb n="2"/>  
+               <w>qbr-smy</w>  
+               <placeName type="building">yfʿt</placeName>  
+               <w>w-mśwd-s </w> 
+               <w>w-kl</w>
+                    <tei:lb n="3"/> 
+               <w> b-ḥg</w>  
+               <name type="theonym">ʾnby</name>  
+               <w>w-ʾl </w> 
+               <w>tʿly</w>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>nbṭʿm  bn  hwfʿṯt
+<tei:lb n="2"/>  yfʿt  w-mśwd-s  w-kl
+<tei:lb n="3"/>y  w-ʾl  tʿly
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>  ʿlbm  w-nbṭʿm  bn  hwfʿṯt
+<tei:lb n="2"/>  qbr-smy  yfʿt  w-mśwd-s  w-kl
+<tei:lb n="3"/>  b-ḥg  ʾnby  w-ʾl  tʿly</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.[Na]baṭʿamm bin Hawafīʿathat
+2.Yāfiʿat and its hall and al[l]
+3.[…] and let there be no violation.
+
+
+Restored full text of the inscription:
+
+1.[… ... ʿAlabum and Na]baṭʿamm bin Hawafīʿathat
+2.[… ... their tomb of] Yāfiʿat and its hall and al[l]
+3.[… ... by the command of ʾAnba]y, and let there be no violation.</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Na</tei:supplied>baṭʿamm bin Hawafīʿathat
+<tei:lb n="2"/>Yāfiʿat and its hall and al<tei:supplied reason="lost">l</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">…</tei:supplied> and let there be no violation.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">… ... ʿAlabum and Na</tei:supplied>baṭʿamm bin Hawafīʿathat
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">… ... their tomb of</tei:supplied> Yāfiʿat and its hall and al<tei:supplied reason="lost">l</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">… ... by the command of ʾAnba</tei:supplied>y, and let there be no violation.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Nabaṭʿamm bin Hawafīʿathat
+<tei:lb n="2"/>Yāfiʿat and its hall and all
+<tei:lb n="3"/>… and let there be no violation.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>… ... ʿAlabum and Nabaṭʿamm bin Hawafīʿathat
+<tei:lb n="2"/>… ... their tomb of Yāfiʿat and its hall and all
+<tei:lb n="3"/>… ... by the command of ʾAnbay, and let there be no violation.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Nabaṭʿamm bin Hawafīʿathat
+<tei:lb n="2"/>Yāfiʿat and its hall and all
+<tei:lb n="3"/>… and let there be no violation.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>… ... ʿAlabum and Nabaṭʿamm bin Hawafīʿathat
+<tei:lb n="2"/>… ... their tomb of Yāfiʿat and its hall and all
+<tei:lb n="3"/>… ... by the command of ʾAnbay, and let there be no violation.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

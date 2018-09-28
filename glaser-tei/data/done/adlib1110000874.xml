@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1581</title>
+                <title type="alt">1110000874</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1581</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1581</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000874PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.lḥyʿm | bn | ʾbʾns | ḏ-ʾlm | w-ʿbdʾl | bn | hnʾm [... ...=]
+2.(n) | tqdmw | w-ḥrg | w-shlk | ʿšq | w-mbny | mḥfdn | brm [| b=]
+3.šrsm | ʿd | frʿm | l-mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr [| b-ʿṯ=]
+4.tr | w-b | ʿm | w-b | ʾnby | w-b | ʿm | ḏ-ysrm | w-b | ʿm | ḏ-šq[r]
+5.w-b | ḥwkm | w-b | ḏt | ṣntm | w-b | ḏt | ẓhrn | w-b | ḏt | rḥb=
+6.n [| w]-b | mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr | mlk | qtbn</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>lḥyʿm | bn | ʾbʾns | ḏ-ʾlm | w-ʿbdʾl | bn | hnʾm <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/>=</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:unclear>n</tei:unclear> | tqdmw | w-ḥrg | w-shlk | ʿšq | w-mbny | mḥfdn | brm <tei:supplied reason="lost">| b=</tei:supplied>
+               <tei:lb n="3"/>šrsm | ʿd | frʿm | l-mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr <tei:supplied reason="lost">| b-ʿṯ=</tei:supplied>
+               <tei:lb n="4"/>tr | w-b | ʿm | w-b | ʾnby | w-b | ʿm | ḏ-ysrm | w-b | ʿm | ḏ-šq<tei:supplied reason="lost">r</tei:supplied>
+               <tei:lb n="5"/>w-b | ḥwkm | w-b | ḏt | ṣntm | w-b | ḏt | ẓhrn | w-b | ḏt | rḥb=
+<tei:lb n="6"/>n <tei:supplied reason="lost">| w</tei:supplied>-b | mrʾ-smy | ydʿʾb | ḏbyn | bn | šhr | mlk | qtbn</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">lḥyʿm</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ʾbʾns</persName>
+                    <orgName type="group">ḏ-ʾlm</orgName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">ʿbdʾl</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">hnʾm </persName>
+                    <tei:lb n="2"/>n  <w>tqdmw</w>  
+               <w>w-ḥrg</w>  
+               <w>w-shlk</w>  
+               <w>ʿšq</w>  
+               <w>w-mbny</w>  
+               <w>mḥfdn</w>  
+               <placeName type="building">brm</placeName>  
+               <w>b=
+                        <tei:lb n="3"/>šrsm</w>  
+               <w>ʿd</w>  
+               <w>frʿm</w>  
+               <w>l-mrʾ-smy</w>  
+               <rs type="complex">
+                  <persName type="royal" subtype="withoutTitle" role="king" n="1">ydʿʾb</persName>  
+                  <persName type="royal" subtype="withoutTitle" role="king" n="2">ḏbyn</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">šhr</persName>  
+               <w>b-</w>
+               <name type="theonym">ʿṯ=
+                            <tei:lb n="4"/>tr</name>  
+               <w>w-b</w>  
+               <name type="theonym">ʿm</name>  
+               <w>w-b</w>  
+               <name type="theonym">ʾnby</name>  
+               <w>w-b</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-ysrm</name>
+               </rs>  
+               <w>w-b</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-šqr</name>
+               </rs>
+                    <tei:lb n="5"/>
+               <w>w-b</w>  
+               <name type="theonym">ḥwkm</name>  
+               <w>w-b</w>  
+               <name type="theonym">ḏt  ṣntm</name>  
+               <w>w-b</w>  
+               <name type="theonym">ḏt  ẓhrn</name>  
+               <w>w-b</w>  
+               <name type="theonym">ḏt  rḥb=
+                        <tei:lb n="6"/>n</name>  
+               <w>w-b</w>  
+               <w>mrʾ-smy</w>  
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">ydʿʾb</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">ḏbyn</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">šhr</persName>  
+               <w>mlk</w>  
+               <orgName type="state">qtbn</orgName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>lḥyʿm  bn  ʾbʾns  ḏ-ʾlm  w-ʿbdʾl  bn  hnʾm =
+<tei:lb n="2"/>n  tqdmw  w-ḥrg  w-shlk  ʿšq  w-mbny  mḥfdn  brm  b=
+<tei:lb n="3"/>šrsm  ʿd  frʿm  l-mrʾ-smy  ydʿʾb  ḏbyn  bn  šhr  b-ʿṯ=
+<tei:lb n="4"/>tr  w-b  ʿm  w-b  ʾnby  w-b  ʿm  ḏ-ysrm  w-b  ʿm  ḏ-šqr
+<tei:lb n="5"/>w-b  ḥwkm  w-b  ḏt  ṣntm  w-b  ḏt  ẓhrn  w-b  ḏt  rḥb=
+<tei:lb n="6"/>n  w-b  mrʾ-smy  ydʿʾb  ḏbyn  bn  šhr  mlk  qtbn</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum [… …]
+2.have led and directed and carried out the hewing of stones and the construction of the tower of Barīm [from]
+3.the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-[by ʿAth-]
+4.tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqī[r]
+5.and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
+6.ān [and] by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum <tei:supplied reason="lost">… …</tei:supplied>
+               <tei:lb n="2"/>have led and directed and carried out the hewing of stones and the construction of the tower of Barīm <tei:supplied reason="lost">from</tei:supplied>
+               <tei:lb n="3"/>the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-<tei:supplied reason="lost">by ʿAth-</tei:supplied>
+               <tei:lb n="4"/>tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqī<tei:supplied reason="lost">r</tei:supplied>
+               <tei:lb n="5"/>and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
+<tei:lb n="6"/>ān <tei:supplied reason="lost">and</tei:supplied> by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum … …
+<tei:lb n="2"/>have led and directed and carried out the hewing of stones and the construction of the tower of Barīm from
+<tei:lb n="3"/>the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-by ʿAth-
+<tei:lb n="4"/>tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqīr
+<tei:lb n="5"/>and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
+<tei:lb n="6"/>ān and by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Laḥayʿamm bin ʾAbīʾanas Dhū-ʾAlam and ʿAbdʾīl bin Hāniʾum … …
+<tei:lb n="2"/>have led and directed and carried out the hewing of stones and the construction of the tower of Barīm from
+<tei:lb n="3"/>the foundations to the top for his lord, Yadaʿʾab Dhubyān bin Shahr-by ʿAth-
+<tei:lb n="4"/>tar and by ʿAmm and by ʾAnbay and by ʿAmm Dhū-Yāsirim and by ʿAmm Dhū-Shaqīr
+<tei:lb n="5"/>and by Ḥawkam and by Dhāt Ṣanatim and by Dhāt Ẓāhirān and by Dhāt Raḥīb-
+<tei:lb n="6"/>ān and by their lord Yadaʿʾab Dhubyān bin Shahr, king of Qatabān.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

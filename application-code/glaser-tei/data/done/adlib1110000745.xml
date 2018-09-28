@@ -1,0 +1,338 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B146_3</title>
+                <title type="alt">1110000745</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B146_3</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-B146_3</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000745PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.d | ydʿʾl | byn | b
+2.krb | mlky | ḥḍrmt | 
+3.m | w-ftlm | w-l | yntṣ
+4.(ḥ)lyʾl | w-mlk | ḥḍr(m)
+5.t | w-mḥfd-sm | w-l | ys
+6.ʿḏbm | w-l | ywzʾ | tl
+7.bn | gnʾyhn | w-mḥf
+
+
+Restored full text of the inscription:
+
+1.[whbm | bn | ḍʾsm | ʿb]d | ydʿʾl | byn | b[n | smhyfʿ | w-ʾl=]
+2.[smʿ | ḏbyn | bn | mlk]krb | mlky | ḥḍrmt | [qtdm | w-gsm | gn=]
+3.[ʾ | myfʿt | ʾbnm | w-ʿḍ]m | w-ftlm | w-l | yntṣ[r | kbr | ykbr | my=]
+4.[fʿt | b-syn | w-ḥwl | w-](ḥ)lyʾl | w-mlk | ḥḍr(m)[t | ḏ-ʾl | yštʿr | w-=]
+5.[sʿḏb | gnʾhy | myfʿ]t | w-mḥfd-sm | w-l | ys[ʿḏb | ḫbl | yhr | sʿ=]
+6.[ḏbm | w-ḏ-ʾl | yhr | s]ʿḏbm | w-l | ywzʾ | tl[w | mlk | ḥḍrmt | w-=]
+7.[l | ysʿḏb | ḏ-yḫbl |] bn | gnʾyhn | w-mḥf[dhn]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>d | ydʿʾl | byn | b
+<tei:lb n="2"/>krb | mlky | ḥḍrmt | 
+<tei:lb n="3"/>m | w-ftlm | w-l | yntṣ
+<tei:lb n="4"/>
+                    <tei:unclear>ḥ</tei:unclear>lyʾl | w-mlk | ḥḍr<tei:unclear>m</tei:unclear>
+               <tei:lb n="5"/>t | w-mḥfd-sm | w-l | ys
+<tei:lb n="6"/>ʿḏbm | w-l | ywzʾ | tl
+<tei:lb n="7"/>bn | gnʾyhn | w-mḥf
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">whbm | bn | ḍʾsm | ʿb</tei:supplied>d | ydʿʾl | byn | b<tei:supplied reason="lost">n | smhyfʿ | w-ʾl=</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">smʿ | ḏbyn | bn | mlk</tei:supplied>krb | mlky | ḥḍrmt | <tei:supplied reason="lost">qtdm | w-gsm | gn=</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">ʾ | myfʿt | ʾbnm | w-ʿḍ</tei:supplied>m | w-ftlm | w-l | yntṣ<tei:supplied reason="lost">r | kbr | ykbr | my=</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">fʿt | b-syn | w-ḥwl | w-</tei:supplied>
+                    <tei:unclear>ḥ</tei:unclear>lyʾl | w-mlk | ḥḍr<tei:unclear>m</tei:unclear>
+                    <tei:supplied reason="lost">t | ḏ-ʾl | yštʿr | w-=</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">sʿḏb | gnʾhy | myfʿ</tei:supplied>t | w-mḥfd-sm | w-l | ys<tei:supplied reason="lost">ʿḏb | ḫbl | yhr | sʿ=</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">ḏbm | w-ḏ-ʾl | yhr | s</tei:supplied>ʿḏbm | w-l | ywzʾ | tl<tei:supplied reason="lost">w | mlk | ḥḍrmt | w-=</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">l | ysʿḏb | ḏ-yḫbl |</tei:supplied> bn | gnʾyhn | w-mḥf<tei:supplied reason="lost">dhn</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>d  <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">ydʿʾl</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">byn</persName>
+               </rs>  b
+                    <tei:lb n="2"/>krb  <w>mlky</w>  
+               <orgName type="state">ḥḍrmt</orgName>  
+               <tei:lb n="3"/>m  <w>w-ftlm</w>  
+               <w>w-l</w>  yntṣ
+                    <tei:lb n="4"/>
+               <persName type="gender" subtype="m">ḥlyʾl</persName>  
+               <w>w-mlk</w>  ḥḍrm
+<tei:lb n="5"/>t  <w>w-mḥfd-sm</w>  
+               <w>w-l</w>  ys
+<tei:lb n="6"/>ʿḏbm  <w>w-l</w>  
+               <w>ywzʾ</w>  tl
+<tei:lb n="7"/>
+               <w>bn</w>  
+               <w>gnʾyhn</w>  w-mḥf
+
+
+Restored full text of the inscription:
+
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">whbm</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ḍʾsm</persName>  
+               <w>ʿbd</w>  
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">ydʿʾl</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">byn</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">smhyfʿ</persName>  
+               <w>w-</w>
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">ʾl=
+                        <tei:lb n="2"/>smʿ</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">ḏbyn</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">mlkkrb</persName>  
+               <w>mlky</w>  
+               <orgName type="state">ḥḍrmt</orgName>  
+               <w>qtdm</w>  
+               <w>w-gsm</w>  
+               <w>gn=
+                            <tei:lb n="3"/>ʾ</w>  
+               <placeName>myfʿt</placeName>  
+               <w>ʾbnm</w>  
+               <w>w-ʿḍm</w>  
+               <w>w-ftlm</w>  
+               <w>w-l</w>  
+               <w>yntṣr</w>  
+               <w>kbr</w>  
+               <w>ykbr</w>  
+               <placeName>my=
+                                <tei:lb n="4"/>fʿt</placeName>  
+               <w>b-</w>
+               <name type="theonym">syn</name>  
+               <w>w-</w>
+               <name type="theonym">ḥwl</name>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">ḥlyʾl</persName>  
+               <w>w-mlk</w>  
+               <orgName type="state">ḥḍrmt</orgName>  
+               <w>ḏ-ʾl </w> 
+               <w>yštʿr</w>  
+               <w>w-=
+                                    <tei:lb n="5"/>sʿḏb</w>  
+               <w>gnʾhy</w>  
+               <placeName>myfʿt</placeName>  
+               <w>w-mḥfd-sm</w>  
+               <w>w-l</w> 
+               <w>ysʿḏb</w>  
+               <w>ḫbl</w>  
+               <w>yhr</w>  
+               <w>sʿ=
+                                        <tei:lb n="6"/>ḏbm</w>  
+               <w>w-ḏ-ʾl</w>  
+               <w>yhr</w>  
+               <w>sʿḏbm</w>  
+               <w>w-l</w>  
+               <w>ywzʾ</w>  
+               <w>tlw</w>  
+               <w>mlk</w>  
+               <orgName type="state">ḥḍrmt</orgName>  
+               <w>w-=
+                                            <tei:lb n="7"/>l</w>  
+               <w>ysʿḏb</w>  
+               <w>ḏ-yḫbl</w>  
+               <w>bn</w>  
+               <w>gnʾyhn</w>  
+               <w>w-mḥfdhn</w>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>d  ydʿʾl  byn  b
+<tei:lb n="2"/>krb  mlky  ḥḍrmt  
+<tei:lb n="3"/>m  w-ftlm  w-l  yntṣ
+<tei:lb n="4"/>ḥlyʾl  w-mlk  ḥḍrm
+<tei:lb n="5"/>t  w-mḥfd-sm  w-l  ys
+<tei:lb n="6"/>ʿḏbm  w-l  ywzʾ  tl
+<tei:lb n="7"/>bn  gnʾyhn  w-mḥf
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>whbm  bn  ḍʾsm  ʿbd  ydʿʾl  byn  bn  smhyfʿ  w-ʾl=
+<tei:lb n="2"/>smʿ  ḏbyn  bn  mlkkrb  mlky  ḥḍrmt  qtdm  w-gsm  gn=
+<tei:lb n="3"/>ʾ  myfʿt  ʾbnm  w-ʿḍm  w-ftlm  w-l  yntṣr  kbr  ykbr  my=
+<tei:lb n="4"/>fʿt  b-syn  w-ḥwl  w-ḥlyʾl  w-mlk  ḥḍrmt  ḏ-ʾl  yštʿr  w-=
+<tei:lb n="5"/>sʿḏb  gnʾhy  myfʿt  w-mḥfd-sm  w-l  ysʿḏb  ḫbl  yhr  sʿ=
+<tei:lb n="6"/>ḏbm  w-ḏ-ʾl  yhr  sʿḏbm  w-l  ywzʾ  tlw  mlk  ḥḍrmt  w-=
+<tei:lb n="7"/>l  ysʿḏb  ḏ-yḫbl  bn  gnʾyhn  w-mḥfdhn</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.Yadaʿʾīl Bayyin
+2.karib, the two kings of Ḥaḍramōt
+3.and brick. And may 
+4.Ḥalayʾīl and the king of Ḥaḍramō[t]
+5.and their towers. And may he 
+6.[stre]ngthened. And may he continue to 
+7.of the walls and the towers 
+
+
+Restored full text of the inscription:
+
+1.[Wahabum bin Ḍaʾisum, the serv]ant of Yadaʿʾīl Bayyin bi[n Sumhūyafaʿ and ʾĪlī-]
+2.[samaʿ Dhubyān bin Malkī]karib, the two kings of Ḥaḍramōt, [has directed and constructed the wall]
+3.[of Mayfaʿat out of stone and woo]d and brick. And may the [magistrate who acts in his capacity as the magistrate of May-]
+4.[faʿat be aided by Siyān and Ḥawl and] Ḥalayʾīl and the king of Ḥaḍramō[t against that of which he is negligent and]
+5.[repair the walls of Mayfaʿa]t and their towers. And may he re[pair the damage of that which has been strengthened]
+6.[and that which has not been stre]ngthened. And may he continue to ser[ve the king of Ḥaḍramōt. And may he]
+7.[repair that portion] of the walls and the towers [which has suffered damage.]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Yadaʿʾīl Bayyin
+<tei:lb n="2"/>karib, the two kings of Ḥaḍramōt
+<tei:lb n="3"/>and brick. And may 
+<tei:lb n="4"/>Ḥalayʾīl and the king of Ḥaḍramō<tei:supplied reason="lost">t</tei:supplied>
+               <tei:lb n="5"/>and their towers. And may he 
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">stre</tei:supplied>ngthened. And may he continue to 
+<tei:lb n="7"/>of the walls and the towers 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Wahabum bin Ḍaʾisum, the serv</tei:supplied>ant of Yadaʿʾīl Bayyin bi<tei:supplied reason="lost">n Sumhūyafaʿ and ʾĪlī-</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">samaʿ Dhubyān bin Malkī</tei:supplied>karib, the two kings of Ḥaḍramōt, <tei:supplied reason="lost">has directed and constructed the wall</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">of Mayfaʿat out of stone and woo</tei:supplied>d and brick. And may the <tei:supplied reason="lost">magistrate who acts in his capacity as the magistrate of May-</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">faʿat be aided by Siyān and Ḥawl and</tei:supplied> Ḥalayʾīl and the king of Ḥaḍramō<tei:supplied reason="lost">t against that of which he is negligent and</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">repair the walls of Mayfaʿa</tei:supplied>t and their towers. And may he re<tei:supplied reason="lost">pair the damage of that which has been strengthened</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">and that which has not been stre</tei:supplied>ngthened. And may he continue to ser<tei:supplied reason="lost">ve the king of Ḥaḍramōt. And may he</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">repair that portion</tei:supplied> of the walls and the towers <tei:supplied reason="lost">which has suffered damage.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Yadaʿʾīl Bayyin
+<tei:lb n="2"/>karib, the two kings of Ḥaḍramōt
+<tei:lb n="3"/>and brick. And may 
+<tei:lb n="4"/>Ḥalayʾīl and the king of Ḥaḍramōt
+<tei:lb n="5"/>and their towers. And may he 
+<tei:lb n="6"/>strengthened. And may he continue to 
+<tei:lb n="7"/>of the walls and the towers 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Wahabum bin Ḍaʾisum, the servant of Yadaʿʾīl Bayyin bin Sumhūyafaʿ and ʾĪlī-
+<tei:lb n="2"/>samaʿ Dhubyān bin Malkīkarib, the two kings of Ḥaḍramōt, has directed and constructed the wall
+<tei:lb n="3"/>of Mayfaʿat out of stone and wood and brick. And may the magistrate who acts in his capacity as the magistrate of May-
+<tei:lb n="4"/>faʿat be aided by Siyān and Ḥawl and Ḥalayʾīl and the king of Ḥaḍramōt against that of which he is negligent and
+<tei:lb n="5"/>repair the walls of Mayfaʿat and their towers. And may he repair the damage of that which has been strengthened
+<tei:lb n="6"/>and that which has not been strengthened. And may he continue to serve the king of Ḥaḍramōt. And may he
+<tei:lb n="7"/>repair that portion of the walls and the towers which has suffered damage.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Yadaʿʾīl Bayyin
+<tei:lb n="2"/>karib, the two kings of Ḥaḍramōt
+<tei:lb n="3"/>and brick. And may 
+<tei:lb n="4"/>Ḥalayʾīl and the king of Ḥaḍramōt
+<tei:lb n="5"/>and their towers. And may he 
+<tei:lb n="6"/>strengthened. And may he continue to 
+<tei:lb n="7"/>of the walls and the towers 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Wahabum bin Ḍaʾisum, the servant of Yadaʿʾīl Bayyin bin Sumhūyafaʿ and ʾĪlī-
+<tei:lb n="2"/>samaʿ Dhubyān bin Malkīkarib, the two kings of Ḥaḍramōt, has directed and constructed the wall
+<tei:lb n="3"/>of Mayfaʿat out of stone and wood and brick. And may the magistrate who acts in his capacity as the magistrate of May-
+<tei:lb n="4"/>faʿat be aided by Siyān and Ḥawl and Ḥalayʾīl and the king of Ḥaḍramōt against that of which he is negligent and
+<tei:lb n="5"/>repair the walls of Mayfaʿat and their towers. And may he repair the damage of that which has been strengthened
+<tei:lb n="6"/>and that which has not been strengthened. And may he continue to serve the king of Ḥaḍramōt. And may he
+<tei:lb n="7"/>repair that portion of the walls and the towers which has suffered damage.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

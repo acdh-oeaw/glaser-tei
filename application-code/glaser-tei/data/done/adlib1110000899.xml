@@ -1,0 +1,610 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1601a</title>
+                <title type="alt">1110000899</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1601a</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1601a</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000899PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.šhr | ġyln | bn | ʾbšbm | mlk | 
+2.rg | šʿbn | kḥd | ḏ-dtnt | b-ʿm 
+3.ṣḥfn | ʿṣmm | b-yʿṣm | ʿm | ḏ-lb
+4.myw | w-ṯwb | ʾḫ-s | l-ḏn | tḥrg
+5.n | b-ʿm | kbrm | b-yḥrg | kḥd | ʿš
+6.lfy | kbr | kḥd | ḏ-dtnt | w-l | yṣ
+7.rḥn | ʾḫrn | l-ʾḫr | w-kwn | ḏn
+8.w-kwmw | l-yṣḥf | w-ḥrg | w-ʿt
+9.šhr | ʾrby | ʿm | ḏ-lbḫ | ʿṣm | ḏ
+10.šhr | b-ṣdq-sm | ḥg | ḏt | ṣḥ
+11.w-sṭr | ḏtn | ʾsṭrn | b-byt 
+12.wrḫ-s | ḏ-brm | qdmn | ḫrf | m
+13.w-nbṭʿm | bn | ʾlsmʿ | bn | hybr |
+14.tqdm | ḏtn | ʾsṭrn
+
+
+Restored full text of the inscription:
+
+1.šhr | ġyln | bn | ʾbšbm | mlk | [qtbn | whb | w-sqny | l-ʿm | ḏ-lbḫ | w-ʾrby-s | ṣḥf | tḥ=]
+2.rg | šʿbn | kḥd | ḏ-dtnt | b-ʿm [| kbrm | b-ykbr | w-ḥrg | šʿbn | kḥd | w-l | yṣḥf | w-ḥrg | ḏn]
+3.ṣḥfn | ʿṣmm | b-yʿṣm | ʿm | ḏ-lb[ḫ | ṭd | ʾnsm | ḫrfmyw | bn-km | b-ynfṯ | ʿd-km | b-ysfd | ḫrf=]
+4.myw | w-ṯwb | ʾḫ-s | l-ḏn | tḥrg[n | l-ḏm | b-yfṯ-s | w-l | yqny | w-ṯʿd | ḏm | b-yḥrg | ḏn | ṣḥf=]
+5.n | b-ʿm | kbrm | b-yḥrg | kḥd | ʿš[r | kl | hnʾm | w-mwblm | w-tqntm | w-trṯm | w-kl | lfym | b-y=]
+6.lfy | kbr | kḥd | ḏ-dtnt | w-l | yṣ[ḥf | w-ḥrg | ʿṣmn | bn | šhr | wrḫn | ḏ-tmnʿ | ḫrf | mwhbm | ḏ-ḏ=]
+7.rḥn | ʾḫrn | l-ʾḫr | w-kwn | ḏn [| ṣḥfn | sqnytm | l-ʿm | ḏ-lbḫ | w-ʾrby-s | l-ḏt | bd | mlʾt]
+8.w-kwmw | l-yṣḥf | w-ḥrg | w-ʿt[qb | w-ṯtwb | ḏn | ṣḥfn | ʾrbym | b-yrby | ʿm | ḏ-lbḫ | w-ṣry]
+9.šhr | ʾrby | ʿm | ḏ-lbḫ | ʿṣm | ḏ-[lbḫ | bn | tḥt | ʿm | ḏ-dwnm | w-ʾnby | šymn | w-šms | w-rbʿ]
+10.šhr | b-ṣdq-sm | ḥg | ḏt | ṣḥ[ftn | w-ʾsṭr-s | w-ṯfṭ | šhr | ʾrby | ʿm | ḏ-lbḫ | l-ftḫ]
+11.w-sṭr | ḏtn | ʾsṭrn | b-byt [| wrfw | w-ʿm | ḏ-lbḫ | b-ḏ-ġylm | w-b | byt | ʿm | b-srn | lbḫ]
+12.wrḫ-s | ḏ-brm | qdmn | ḫrf | m[whbm | ḏ-ḏrḥn | qdmn | w-tʿlm-ʾy | yd | šhr]
+13.w-nbṭʿm | bn | ʾlsmʿ | bn | hybr |
+14.tqdm | ḏtn | ʾsṭrn</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>šhr | ġyln | bn | ʾbšbm | mlk | 
+<tei:lb n="2"/>rg | šʿbn | kḥd | ḏ-dtnt | b-ʿm 
+<tei:lb n="3"/>ṣḥfn | ʿṣmm | b-yʿṣm | ʿm | ḏ-lb
+<tei:lb n="4"/>myw | w-ṯwb | ʾḫ-s | l-ḏn | tḥrg
+<tei:lb n="5"/>n | b-ʿm | kbrm | b-yḥrg | kḥd | ʿš
+<tei:lb n="6"/>lfy | kbr | kḥd | ḏ-dtnt | w-l | yṣ
+<tei:lb n="7"/>rḥn | ʾḫrn | l-ʾḫr | w-kwn | ḏn
+<tei:lb n="8"/>w-kwmw | l-yṣḥf | w-ḥrg | w-ʿt
+<tei:lb n="9"/>šhr | ʾrby | ʿm | ḏ-lbḫ | ʿṣm | ḏ
+<tei:lb n="10"/>šhr | b-ṣdq-sm | ḥg | ḏt | ṣḥ
+<tei:lb n="11"/>w-sṭr | ḏtn | ʾsṭrn | b-byt 
+<tei:lb n="12"/>wrḫ-s | ḏ-brm | qdmn | ḫrf | m
+<tei:lb n="13"/>w-nbṭʿm | bn | ʾlsmʿ | bn | hybr |
+<tei:lb n="14"/>tqdm | ḏtn | ʾsṭrn
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>šhr | ġyln | bn | ʾbšbm | mlk | <tei:supplied reason="lost">qtbn | whb | w-sqny | l-ʿm | ḏ-lbḫ | w-ʾrby-s | ṣḥf | tḥ=</tei:supplied>
+               <tei:lb n="2"/>rg | šʿbn | kḥd | ḏ-dtnt | b-ʿm <tei:supplied reason="lost">| kbrm | b-ykbr | w-ḥrg | šʿbn | kḥd | w-l | yṣḥf | w-ḥrg | ḏn</tei:supplied>
+               <tei:lb n="3"/>ṣḥfn | ʿṣmm | b-yʿṣm | ʿm | ḏ-lb<tei:supplied reason="lost">ḫ | ṭd | ʾnsm | ḫrfmyw | bn-km | b-ynfṯ | ʿd-km | b-ysfd | ḫrf=</tei:supplied>
+               <tei:lb n="4"/>myw | w-ṯwb | ʾḫ-s | l-ḏn | tḥrg<tei:supplied reason="lost">n | l-ḏm | b-yfṯ-s | w-l | yqny | w-ṯʿd | ḏm | b-yḥrg | ḏn | ṣḥf=</tei:supplied>
+               <tei:lb n="5"/>n | b-ʿm | kbrm | b-yḥrg | kḥd | ʿš<tei:supplied reason="lost">r | kl | hnʾm | w-mwblm | w-tqntm | w-trṯm | w-kl | lfym | b-y=</tei:supplied>
+               <tei:lb n="6"/>lfy | kbr | kḥd | ḏ-dtnt | w-l | yṣ<tei:supplied reason="lost">ḥf | w-ḥrg | ʿṣmn | bn | šhr | wrḫn | ḏ-tmnʿ | ḫrf | mwhbm | ḏ-ḏ=</tei:supplied>
+               <tei:lb n="7"/>rḥn | ʾḫrn | l-ʾḫr | w-kwn | ḏn <tei:supplied reason="lost">| ṣḥfn | sqnytm | l-ʿm | ḏ-lbḫ | w-ʾrby-s | l-ḏt | bd | mlʾt</tei:supplied>
+               <tei:lb n="8"/>w-kwmw | l-yṣḥf | w-ḥrg | w-ʿt<tei:supplied reason="lost">qb | w-ṯtwb | ḏn | ṣḥfn | ʾrbym | b-yrby | ʿm | ḏ-lbḫ | w-ṣry</tei:supplied>
+               <tei:lb n="9"/>šhr | ʾrby | ʿm | ḏ-lbḫ | ʿṣm | ḏ-<tei:supplied reason="lost">lbḫ | bn | tḥt | ʿm | ḏ-dwnm | w-ʾnby | šymn | w-šms | w-rbʿ</tei:supplied>
+               <tei:lb n="10"/>šhr | b-ṣdq-sm | ḥg | ḏt | ṣḥ<tei:supplied reason="lost">ftn | w-ʾsṭr-s | w-ṯfṭ | šhr | ʾrby | ʿm | ḏ-lbḫ | l-ftḫ</tei:supplied>
+               <tei:lb n="11"/>w-sṭr | ḏtn | ʾsṭrn | b-byt <tei:supplied reason="lost">| wrfw | w-ʿm | ḏ-lbḫ | b-ḏ-ġylm | w-b | byt | ʿm | b-srn | lbḫ</tei:supplied>
+               <tei:lb n="12"/>wrḫ-s | ḏ-brm | qdmn | ḫrf | m<tei:supplied reason="lost">whbm | ḏ-ḏrḥn | qdmn | w-tʿlm-ʾy | yd | šhr</tei:supplied>
+               <tei:lb n="13"/>w-nbṭʿm | bn | ʾlsmʿ | bn | hybr |
+<tei:lb n="14"/>tqdm | ḏtn | ʾsṭrn</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">šhr</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">ġyln</persName>
+               </rs>
+                    <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">ʾbšbm</persName>  
+               <w>mlk</w>
+                    <tei:lb n="2"/>rg  <w>šʿbn</w>  
+               <rs type="complex">
+                  <orgName type="tribe" n="1">kḥd</orgName>  
+                  <orgName type="tribe" n="2">ḏ-dtnt</orgName>
+               </rs>  
+               <w>b-ʿm</w>
+                    <tei:lb n="3"/>
+               <w>ṣḥfn</w>  
+               <w>ʿṣmm</w>  
+               <w>b-yʿṣm</w> ʿm  ḏ-lb
+                    <tei:lb n="4"/>myw  <w>w-ṯwb</w>  
+               <w>ʾḫ-s</w>  
+               <w>l-ḏn</w>  tḥrg
+                    <tei:lb n="5"/>n   <w>b-ʿm</w>  
+               <w>kbrm</w>  
+               <w>b-yḥrg</w>   
+               <orgName type="tribe">kḥd</orgName> ʿš
+                    <tei:lb n="6"/>lfy  <w>kbr</w>  
+               <rs type="complex"> 
+                  <orgName type="tribe" n="1">kḥd</orgName>   
+                  <orgName type="tribe" n="2">ḏ-dtnt</orgName>
+               </rs>  
+               <w>w-l</w>yṣ
+                    <tei:lb n="7"/>rḥn  <w>ʾḫrn</w>  
+               <w>l-ʾḫr</w>  
+               <w>w-kwn</w>  
+               <w>ḏn</w>
+                    <tei:lb n="8"/>
+               <w>w-kwmw</w>  
+               <w>l-yṣḥf</w>  
+               <w>w-ḥrg</w>  w-ʿt
+                    <tei:lb n="9"/>
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>  
+               <w>ʾrby</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>ʿṣm</w>  ḏ
+                    <tei:lb n="10"/>
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>  
+               <w>b-ṣdq-sm</w>  
+               <w>ḥg</w>  
+               <w>ḏt</w>  ṣḥ
+                    <tei:lb n="11"/>
+               <w>w-sṭr</w>  
+               <w>ḏtn</w>  
+               <w>ʾsṭrn</w>  
+               <w>b-byt</w>
+                    <tei:lb n="12"/>
+               <w>wrḫ-s</w>   
+               <rs type="month">ḏ-brm</rs>  
+               <w>qdmn</w>  
+               <w>ḫrf</w>  m
+                    <tei:lb n="13"/>&gt;<w>w-</w>
+               <persName type="gender" subtype="m">nbṭʿm</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ʾlsmʿ</persName>  
+               <w>bn</w>  
+               <orgName type="group">hybr</orgName> 
+                    <tei:lb n="14"/>
+               <w>tqdm</w>  
+               <w>ḏtn</w>  
+               <w>ʾsṭrn</w>
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">šhr</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">ġyln</persName>
+               </rs>
+                    <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">ʾbšbm</persName>  
+               <w>mlk</w>  
+               <orgName type="state">qtbn</orgName>
+                    <w>whb</w>  
+               <w>w-sqny</w>  
+               <w>l-</w>
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>w-ʾrby-s</w>  
+               <w>ṣḥf</w>  
+               <w>tḥ=
+                        <tei:lb n="2"/>rg</w>  
+               <w>šʿbn</w>  
+               <rs type="complex">
+                  <orgName type="tribe" n="1">kḥd</orgName>  
+                  <orgName type="tribe" n="2">ḏ-dtnt</orgName>
+               </rs>  
+               <w>b-ʿm</w>  
+               <w>kbrm</w>  
+               <w>b-ykbr</w>
+                    <w>w-ḥrg</w>  
+               <w>šʿbn</w>  
+               <orgName type="tribe">kḥd</orgName>  
+               <w>w-l</w>  
+               <w>yṣḥf</w>  
+               <w>w-ḥrg</w>  
+               <w>ḏn</w>
+                    <tei:lb n="3"/>
+               <w>ṣḥfn</w>  
+               <w>ʿṣmm</w>  
+               <w>b-yʿṣm</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>ṭd</w>  
+               <w>ʾnsm</w>  
+               <w>ḫrfmyw</w>  
+               <w>bn-km</w>  
+               <w>b-ynfṯ</w>  
+               <w>ʿd-km</w>  
+               <w>b-ysfd</w>  
+               <w>ḫrf=
+<tei:lb n="4"/>myw</w>  
+               <w>w-ṯwb</w>  
+               <w>ʾḫ-s</w>  
+               <w>l-ḏn</w>  
+               <w>tḥrgn</w>  
+               <w>l-ḏm</w>  
+               <w>b-yfṯ-s</w>  
+               <w>w-l</w>  
+               <w>yqny</w>  
+               <w>w-ṯʿd</w>  
+               <w>ḏm</w>  
+               <w>b-yḥrg</w>  
+               <w>ḏn</w>  
+               <w>ṣḥf=
+    <tei:lb n="5"/>n</w>  
+               <w>b-ʿm</w>  
+               <w>kbrm</w>  
+               <w>b-yḥrg</w>   
+               <orgName type="tribe">kḥd</orgName>  
+               <w>ʿšr</w>  
+               <w>kl</w>  
+               <w>hnʾm</w>  
+               <w>w-mwblm</w>  
+               <w>w-tqntm</w>  
+               <w>w-trṯm</w> 
+               <w>w-kl</w>  
+               <w>lfym</w>  
+               <w>b-y=
+        <tei:lb n="6"/>lfy</w>  
+               <w>kbr</w>  
+               <rs type="complex"> 
+                  <orgName type="tribe" n="1">kḥd</orgName>   
+                  <orgName type="tribe" n="2">ḏ-dtnt</orgName>
+               </rs>  
+               <w>w-l</w>  
+               <w>yṣḥf</w>  
+               <w>w-ḥrg</w>  
+               <w>ʿṣmn</w>  
+               <w>bn</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>  
+               <w>wrḫn</w>   
+               <rs type="month">ḏ-tmnʿ</rs>  
+               <w>ḫrf</w>  
+               <rs type="eponym">
+                  <persName type="gender" subtype="m">mwhbm</persName>  
+                  <orgName type="group">ḏ-ḏ=
+            <tei:lb n="7"/>rḥn</orgName>
+               </rs>  
+               <w>ʾḫrn</w>  
+               <w>l-ʾḫr</w>  
+               <w>w-kwn</w>  
+               <w>ḏn</w>  
+               <w>ṣḥfn</w>  
+               <w>sqnytm</w>  
+               <w>l-</w>
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>w-ʾrby-s</w>  
+               <w>l-ḏt</w>  
+               <w>bd</w>  
+               <w>mlʾt</w>
+                <tei:lb n="8"/>
+               <w>w-kwmw</w>  
+               <w>l-yṣḥf</w>  
+               <w>w-ḥrg</w>  
+               <w>w-ʿtqb</w>  
+               <w>w-ṯtwb</w>  
+               <w>ḏn</w>  
+               <w>ṣḥfn</w>  
+               <w>ʾrbym</w>  
+               <w>b-yrby</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>w-ṣry</w>
+                <tei:lb n="9"/>
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>  
+               <w>ʾrby</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>ʿṣm</w>  
+               <name type="epithet" subtype="divine">ḏ-lbḫ</name>  
+               <w>bn</w>  
+               <w>tḥt</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-dwnm</name>
+               </rs>  
+               <w>w-</w>
+               <rs type="complex">
+                  <name type="theonym">ʾnby</name>  
+                  <name type="epithet" subtype="divine">šymn</name>
+               </rs>  
+               <w>w-</w>
+               <name type="theonym">šms</name>  
+               <w>w-rbʿ</w>
+                    <tei:lb n="10"/>
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>  
+               <w>b-ṣdq-sm</w>  
+               <w>ḥg</w>  
+               <w>ḏt</w>  
+               <w>ṣḥftn</w>  
+               <w>w-ʾsṭr-s</w>  
+               <w>w-ṯfṭ</w>  
+               <w>šhr</w>  
+               <w>ʾrby</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>l-ftḫ</w>
+                    <tei:lb n="11"/>
+               <w>w-sṭr</w>  
+               <w>ḏtn</w>  
+               <w>ʾsṭrn</w>  
+               <w>b-byt</w>  
+               <placeName type="sanctuary">wrfw</placeName>  
+               <w>w-</w>
+               <rs type="complex">
+                  <name type="theonym">ʿm</name>  
+                  <name type="epithet" subtype="divine">ḏ-lbḫ</name>
+               </rs>  
+               <w>b-</w>
+               <placeName>ḏ-ġylm</placeName>  
+               <w>w-b</w>  
+               <w>byt</w>  
+               <name type="theonym">ʿm</name>  
+               <w>b-srn</w>  
+               <placeName>lbḫ</placeName>
+                    <tei:lb n="12"/>
+               <w>wrḫ-s</w>   
+               <rs type="month">ḏ-brm</rs>  
+               <w>qdmn</w>  
+               <w>ḫrf</w>  
+               <rs type="eponym">
+                  <persName type="gender" subtype="m">mwhbm</persName>  
+                  <orgName type="group">ḏ-ḏrḥn</orgName>
+               </rs>  
+               <w>qdmn</w>  
+               <w>w-tʿlm-ʾy </w> 
+               <w>yd</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">šhr</persName>
+                        <tei:lb n="13"/>
+               <w>w-</w>
+               <persName type="gender" subtype="m">nbṭʿm</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ʾlsmʿ</persName>  
+               <w>bn</w>  
+               <orgName type="group">hybr</orgName> 
+               <tei:lb n="14"/>
+               <w>tqdm</w>  
+               <w>ḏtn</w>  
+               <w>ʾsṭrn</w>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>šhr  ġyln  bn  ʾbšbm  mlk  
+<tei:lb n="2"/>rg  šʿbn  kḥd  ḏ-dtnt  b-ʿm 
+<tei:lb n="3"/>ṣḥfn  ʿṣmm  b-yʿṣm  ʿm  ḏ-lb
+<tei:lb n="4"/>myw  w-ṯwb  ʾḫ-s  l-ḏn  tḥrg
+<tei:lb n="5"/>n  b-ʿm  kbrm  b-yḥrg  kḥd  ʿš
+<tei:lb n="6"/>lfy  kbr  kḥd  ḏ-dtnt  w-l  yṣ
+<tei:lb n="7"/>rḥn  ʾḫrn  l-ʾḫr  w-kwn  ḏn
+<tei:lb n="8"/>w-kwmw  l-yṣḥf  w-ḥrg  w-ʿt
+<tei:lb n="9"/>šhr  ʾrby  ʿm  ḏ-lbḫ  ʿṣm  ḏ
+<tei:lb n="10"/>šhr  b-ṣdq-sm  ḥg  ḏt  ṣḥ
+<tei:lb n="11"/>w-sṭr  ḏtn  ʾsṭrn  b-byt 
+<tei:lb n="12"/>wrḫ-s  ḏ-brm  qdmn  ḫrf  m
+<tei:lb n="13"/>w-nbṭʿm  bn  ʾlsmʿ  bn  hybr 
+<tei:lb n="14"/>tqdm  ḏtn  ʾsṭrn
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>šhr  ġyln  bn  ʾbšbm  mlk  qtbn  whb  w-sqny  l-ʿm  ḏ-lbḫ  w-ʾrby-s  ṣḥf  tḥ=
+<tei:lb n="2"/>rg  šʿbn  kḥd  ḏ-dtnt  b-ʿm  kbrm  b-ykbr  w-ḥrg  šʿbn  kḥd  w-l  yṣḥf  w-ḥrg  ḏn
+<tei:lb n="3"/>ṣḥfn  ʿṣmm  b-yʿṣm  ʿm  ḏ-lbḫ  ṭd  ʾnsm  ḫrfmyw  bn-km  b-ynfṯ  ʿd-km  b-ysfd  ḫrf=
+<tei:lb n="4"/>myw  w-ṯwb  ʾḫ-s  l-ḏn  tḥrgn  l-ḏm  b-yfṯ-s  w-l  yqny  w-ṯʿd  ḏm  b-yḥrg  ḏn  ṣḥf=
+<tei:lb n="5"/>n  b-ʿm  kbrm  b-yḥrg  kḥd  ʿšr  kl  hnʾm  w-mwblm  w-tqntm  w-trṯm  w-kl  lfym  b-y=
+<tei:lb n="6"/>lfy  kbr  kḥd  ḏ-dtnt  w-l  yṣḥf  w-ḥrg  ʿṣmn  bn  šhr  wrḫn  ḏ-tmnʿ  ḫrf  mwhbm  ḏ-ḏ=
+<tei:lb n="7"/>rḥn  ʾḫrn  l-ʾḫr  w-kwn  ḏn  ṣḥfn  sqnytm  l-ʿm  ḏ-lbḫ  w-ʾrby-s  l-ḏt  bd  mlʾt
+<tei:lb n="8"/>w-kwmw  l-yṣḥf  w-ḥrg  w-ʿtqb  w-ṯtwb  ḏn  ṣḥfn  ʾrbym  b-yrby  ʿm  ḏ-lbḫ  w-ṣry
+<tei:lb n="9"/>šhr  ʾrby  ʿm  ḏ-lbḫ  ʿṣm  ḏ-lbḫ  bn  tḥt  ʿm  ḏ-dwnm  w-ʾnby  šymn  w-šms  w-rbʿ
+<tei:lb n="10"/>šhr  b-ṣdq-sm  ḥg  ḏt  ṣḥftn  w-ʾsṭr-s  w-ṯfṭ  šhr  ʾrby  ʿm  ḏ-lbḫ  l-ftḫ
+<tei:lb n="11"/>w-sṭr  ḏtn  ʾsṭrn  b-byt  wrfw  w-ʿm  ḏ-lbḫ  b-ḏ-ġylm  w-b  byt  ʿm  b-srn  lbḫ
+<tei:lb n="12"/>wrḫ-s  ḏ-brm  qdmn  ḫrf  mwhbm  ḏ-ḏrḥn  qdmn  w-tʿlm-ʾy  yd  šhr
+<tei:lb n="13"/>w-nbṭʿm  bn  ʾlsmʿ  bn  hybr 
+<tei:lb n="14"/>tqdm  ḏtn  ʾsṭrn</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.Shahr Ghaylān bin ʾAbīshibām, King of
+2.minister the tribe of Kaḥid Dhū-Datīnat, together with 
+3.as a directive which ʿAmm Dhū-Laba[kh]
+4.two years and hands his fellow over to [this] office
+5.together with any magistrate who administers Kaḥid, (from) 
+6.the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be 
+7.raḥān the Latter, (remaining effective) thenceforth, and may this
+8.And therefore, let [... ... ...] write and carry out and [...]
+9.for the priests of ʿAmm Dhū-Labakh a directive 
+10.Shahr, with their goodwill, according to this docu[ment] 
+11.and inscribe these inscriptions in the temple 
+12.(This in) the first month of Dhū-Barīm in the [first] year of
+13.and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+14.directed (the carving of) these inscriptions.
+
+
+Restored full text of the inscription:
+
+1.Shahr Ghaylān bin ʾAbīshibām, King of [Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and his priests a document (with which) to ad-]
+2.minister the tribe of Kaḥid Dhū-Datīnat, together with [any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may this document be written and enable administration]
+3.as a directive which ʿAmm Dhū-Laba[kh has made binding on one man per two years, from (the time) when he is appointed until (the time) when he completes the]
+4.two years and hands his fellow over to [this] office, [to the one who shall appoint him. And may he take ownership of and possess whatever this document commands,]
+5.together with any magistrate who administers Kaḥid, (from) the tit[he on all of the profits and revenues and acquisitions and inheritances, and all income which]
+6.the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be writ[ten and take administrative effect in the month of Dhū-Timnaʿ in the year of Mawhabum Dhū-Dha-]
+7.raḥān the Latter, (remaining effective) thenceforth, and may this [document be a dedication to ʿAmm Dhū-Labakh and his priests for all time.]
+8.And therefore, let [every priest who serves as priest for ʿAmm Dhū-Labakh] write and carry out and admini[ster and adhere to this document. And Shahr announced] 
+9.for the priests of ʿAmm Dhū-Labakh a directive of [Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay the patron god and Shamas and the protector of] 
+10.Shahr, with their goodwill, according to this docu[ment and its inscriptions. And Shahr directed the priests of ʿAmm Dhū-Labakh to engrave] 
+11.and inscribe these inscriptions in the temple of [Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm in the valley of Labakh.]
+12.(This in) the first month of Dhū-Barīm in the [first] year of Ma[whabum Dhū-Dharaḥān. And Shahr signed (this document) with his own hand,]
+13.and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+14.directed (the carving of) these inscriptions.</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of
+<tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with 
+<tei:lb n="3"/>as a directive which ʿAmm Dhū-Laba<tei:supplied reason="lost">kh</tei:supplied>
+               <tei:lb n="4"/>two years and hands his fellow over to <tei:supplied reason="lost">this</tei:supplied> office
+<tei:lb n="5"/>together with any magistrate who administers Kaḥid, <tei:unclear>from</tei:unclear> 
+               <tei:lb n="6"/>the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be 
+<tei:lb n="7"/>raḥān the Latter, <tei:unclear>remaining effective</tei:unclear> thenceforth, and may this
+<tei:lb n="8"/>And therefore, let <tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/> ...</tei:supplied> write and carry out and <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="9"/>for the priests of ʿAmm Dhū-Labakh a directive 
+<tei:lb n="10"/>Shahr, with their goodwill, according to this docu<tei:supplied reason="lost">ment</tei:supplied> 
+               <tei:lb n="11"/>and inscribe these inscriptions in the temple 
+<tei:lb n="12"/>
+                    <tei:unclear>This in</tei:unclear> the first month of Dhū-Barīm in the <tei:supplied reason="lost">first</tei:supplied> year of
+<tei:lb n="13"/>and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+<tei:lb n="14"/>directed <tei:unclear>the carving of</tei:unclear> these inscriptions.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of <tei:supplied reason="lost">Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and his priests a document <tei:unclear>with which</tei:unclear> to ad-</tei:supplied>
+               <tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with <tei:supplied reason="lost">any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may this document be written and enable administration</tei:supplied>
+               <tei:lb n="3"/>as a directive which ʿAmm Dhū-Laba<tei:supplied reason="lost">kh has made binding on one man per two years, from <tei:unclear>the time</tei:unclear> when he is appointed until <tei:unclear>the time</tei:unclear> when he completes the</tei:supplied>
+               <tei:lb n="4"/>two years and hands his fellow over to <tei:supplied reason="lost">this</tei:supplied> office, <tei:supplied reason="lost">to the one who shall appoint him. And may he take ownership of and possess whatever this document commands,</tei:supplied>
+               <tei:lb n="5"/>together with any magistrate who administers Kaḥid, <tei:unclear>from</tei:unclear> the tit<tei:supplied reason="lost">he on all of the profits and revenues and acquisitions and inheritances, and all income which</tei:supplied>
+               <tei:lb n="6"/>the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be writ<tei:supplied reason="lost">ten and take administrative effect in the month of Dhū-Timnaʿ in the year of Mawhabum Dhū-Dha-</tei:supplied>
+               <tei:lb n="7"/>raḥān the Latter, <tei:unclear>remaining effective</tei:unclear> thenceforth, and may this <tei:supplied reason="lost">document be a dedication to ʿAmm Dhū-Labakh and his priests for all time.</tei:supplied>
+               <tei:lb n="8"/>And therefore, let <tei:supplied reason="lost">every priest who serves as priest for ʿAmm Dhū-Labakh</tei:supplied> write and carry out and admini<tei:supplied reason="lost">ster and adhere to this document. And Shahr announced</tei:supplied> 
+               <tei:lb n="9"/>for the priests of ʿAmm Dhū-Labakh a directive of <tei:supplied reason="lost">Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay the patron god and Shamas and the protector of</tei:supplied> 
+               <tei:lb n="10"/>Shahr, with their goodwill, according to this docu<tei:supplied reason="lost">ment and its inscriptions. And Shahr directed the priests of ʿAmm Dhū-Labakh to engrave</tei:supplied> 
+               <tei:lb n="11"/>and inscribe these inscriptions in the temple of <tei:supplied reason="lost">Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm in the valley of Labakh.</tei:supplied>
+               <tei:lb n="12"/>
+                    <tei:unclear>This in</tei:unclear> the first month of Dhū-Barīm in the <tei:supplied reason="lost">first</tei:supplied> year of Ma<tei:supplied reason="lost">whabum Dhū-Dharaḥān. And Shahr signed <tei:unclear>this document</tei:unclear> with his own hand,</tei:supplied>
+               <tei:lb n="13"/>and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+<tei:lb n="14"/>directed <tei:unclear>the carving of</tei:unclear> these inscriptions.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of
+<tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with 
+<tei:lb n="3"/>as a directive which ʿAmm Dhū-Labakh
+<tei:lb n="4"/>two years and hands his fellow over to this office
+<tei:lb n="5"/>together with any magistrate who administers Kaḥid, from 
+<tei:lb n="6"/>the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be 
+<tei:lb n="7"/>raḥān the Latter, remaining effective thenceforth, and may this
+<tei:lb n="8"/>And therefore, let  ... write and carry out and ...
+<tei:lb n="9"/>for the priests of ʿAmm Dhū-Labakh a directive 
+<tei:lb n="10"/>Shahr, with their goodwill, according to this document 
+<tei:lb n="11"/>and inscribe these inscriptions in the temple 
+<tei:lb n="12"/>This in the first month of Dhū-Barīm in the first year of
+<tei:lb n="13"/>and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+<tei:lb n="14"/>directed the carving of these inscriptions.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and his priests a document with which to ad-
+<tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may this document be written and enable administration
+<tei:lb n="3"/>as a directive which ʿAmm Dhū-Labakh has made binding on one man per two years, from the time when he is appointed until the time when he completes the
+<tei:lb n="4"/>two years and hands his fellow over to this office, to the one who shall appoint him. And may he take ownership of and possess whatever this document commands,
+<tei:lb n="5"/>together with any magistrate who administers Kaḥid, from the tithe on all of the profits and revenues and acquisitions and inheritances, and all income which
+<tei:lb n="6"/>the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ in the year of Mawhabum Dhū-Dha-
+<tei:lb n="7"/>raḥān the Latter, remaining effective thenceforth, and may this document be a dedication to ʿAmm Dhū-Labakh and his priests for all time.
+<tei:lb n="8"/>And therefore, let every priest who serves as priest for ʿAmm Dhū-Labakh write and carry out and administer and adhere to this document. And Shahr announced 
+<tei:lb n="9"/>for the priests of ʿAmm Dhū-Labakh a directive of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay the patron god and Shamas and the protector of 
+<tei:lb n="10"/>Shahr, with their goodwill, according to this document and its inscriptions. And Shahr directed the priests of ʿAmm Dhū-Labakh to engrave 
+<tei:lb n="11"/>and inscribe these inscriptions in the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm in the valley of Labakh.
+<tei:lb n="12"/>This in the first month of Dhū-Barīm in the first year of Mawhabum Dhū-Dharaḥān. And Shahr signed this document with his own hand,
+<tei:lb n="13"/>and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+<tei:lb n="14"/>directed the carving of these inscriptions.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of
+<tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with 
+<tei:lb n="3"/>as a directive which ʿAmm Dhū-Labakh
+<tei:lb n="4"/>two years and hands his fellow over to this office
+<tei:lb n="5"/>together with any magistrate who administers Kaḥid, from 
+<tei:lb n="6"/>the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be 
+<tei:lb n="7"/>raḥān the Latter, remaining effective thenceforth, and may this
+<tei:lb n="8"/>And therefore, let  ... write and carry out and ...
+<tei:lb n="9"/>for the priests of ʿAmm Dhū-Labakh a directive 
+<tei:lb n="10"/>Shahr, with their goodwill, according to this document 
+<tei:lb n="11"/>and inscribe these inscriptions in the temple 
+<tei:lb n="12"/>This in the first month of Dhū-Barīm in the first year of
+<tei:lb n="13"/>and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+<tei:lb n="14"/>directed the carving of these inscriptions.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Shahr Ghaylān bin ʾAbīshibām, King of Qatabān, has offered and dedicated to ʿAmm Dhū-Labakh and his priests a document with which to ad-
+<tei:lb n="2"/>minister the tribe of Kaḥid Dhū-Datīnat, together with any magistrate acting in his capacity as a magistrate and administering the tribe of Kaḥid. And may this document be written and enable administration
+<tei:lb n="3"/>as a directive which ʿAmm Dhū-Labakh has made binding on one man per two years, from the time when he is appointed until the time when he completes the
+<tei:lb n="4"/>two years and hands his fellow over to this office, to the one who shall appoint him. And may he take ownership of and possess whatever this document commands,
+<tei:lb n="5"/>together with any magistrate who administers Kaḥid, from the tithe on all of the profits and revenues and acquisitions and inheritances, and all income which
+<tei:lb n="6"/>the magistrate of Kaḥid of Datīnat might accrue. And may this directive from Shahr be written and take administrative effect in the month of Dhū-Timnaʿ in the year of Mawhabum Dhū-Dha-
+<tei:lb n="7"/>raḥān the Latter, remaining effective thenceforth, and may this document be a dedication to ʿAmm Dhū-Labakh and his priests for all time.
+<tei:lb n="8"/>And therefore, let every priest who serves as priest for ʿAmm Dhū-Labakh write and carry out and administer and adhere to this document. And Shahr announced 
+<tei:lb n="9"/>for the priests of ʿAmm Dhū-Labakh a directive of Labakh on the authority of ʿAmm Dhū-Dawānim and ʾAnbay the patron god and Shamas and the protector of 
+<tei:lb n="10"/>Shahr, with their goodwill, according to this document and its inscriptions. And Shahr directed the priests of ʿAmm Dhū-Labakh to engrave 
+<tei:lb n="11"/>and inscribe these inscriptions in the temple of Warafū and ʿAmm Dhū-Labakh in Dhū-Ghaylim, and in the temple of ʿAmm in the valley of Labakh.
+<tei:lb n="12"/>This in the first month of Dhū-Barīm in the first year of Mawhabum Dhū-Dharaḥān. And Shahr signed this document with his own hand,
+<tei:lb n="13"/>and Nabaṭʿamm bin ʾĪlīsamaʿ bin Haybar
+<tei:lb n="14"/>directed the carving of these inscriptions.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

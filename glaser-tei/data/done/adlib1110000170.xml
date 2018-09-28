@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL934</title>
+                <title type="alt">1110000170</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL934</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL934</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000170PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.bʿṯtr | w-b
+2.ms-hmw | b-mlʾ | 
+3.ʿln | w-šmsm | 
+
+
+Restored full text of the inscription:
+
+1. bʿṯtr | w-b[n-hw | bnw | ʿnnn | ḏ-ḏrʾn | qfw | qyf | š=]
+2.ms-hmw | b-mlʾ | [w-mʿd | ʿṯtr | šrqn | w-ʾlmqh | bʿl | ʾw=]
+3.ʿln | w-šmsm | [l-wfy-hmw | w-wfy | ʾwld-hmw | w-qny-hmw]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>bʿṯtr | w-b
+<tei:lb n="2"/>ms-hmw | b-mlʾ | 
+<tei:lb n="3"/>ʿln | w-šmsm | 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/> bʿṯtr | w-b<tei:supplied reason="lost">n-hw | bnw | ʿnnn | ḏ-ḏrʾn | qfw | qyf | š=</tei:supplied>
+               <tei:lb n="2"/>ms-hmw | b-mlʾ | <tei:supplied reason="lost">w-mʿd | ʿṯtr | šrqn | w-ʾlmqh | bʿl | ʾw=</tei:supplied>
+               <tei:lb n="3"/>ʿln | w-šmsm | <tei:supplied reason="lost">l-wfy-hmw | w-wfy | ʾwld-hmw | w-qny-hmw</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">bʿṯtr</persName>  w-b
+                    <tei:lb n="2"/>ms-hmw  <w>b-mlʾ</w> 
+                    <tei:lb n="3"/>ʿln   <w>w-</w>
+               <name type="theonym">šmsm</name> 
+
+
+Restored full text of the inscription:
+
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">bʿṯtr</persName>  
+               <w>w-bn-hw</w>  
+               <w>bnw</w>  
+               <rs type="complex">
+                  <orgName type="group" n="1">ʿnnn</orgName>  
+                  <orgName type="group" n="2"> ḏ-ḏrʾn</orgName>
+               </rs>  
+               <w>qfw</w>  
+               <w>qyf</w>  
+               <rs type="nominalGroup">
+                  <name type="theonym">š=
+                        <tei:lb n="2"/>ms</name>-<w>hmw</w>
+               </rs>  
+               <w>b-mlʾ</w>  
+               <w>w-mʿd</w>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">šrqn</name>
+               </rs>  
+               <w>w-</w>
+               <name type="theonym">ʾlmqh</name>  
+               <w>bʿl</w>  
+               <w>ʾw=
+                            <tei:lb n="3"/>ʿln</w>  
+               <w>w-</w>
+               <name type="theonym">šmsm</name>  
+               <w>l-wfy-hmw</w>  
+               <w>w-wfy</w>  
+               <w>ʾwld-hmw</w>  
+               <w>w-qny-hmw</w>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>bʿṯtr  w-b
+<tei:lb n="2"/>ms-hmw  b-mlʾ  
+<tei:lb n="3"/>ʿln  w-šmsm  
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/> bʿṯtr  w-bn-hw  bnw  ʿnnn  ḏ-ḏrʾn  qfw  qyf  š=
+<tei:lb n="2"/>ms-hmw  b-mlʾ  w-mʿd  ʿṯtr  šrqn  w-ʾlmqh  bʿl  ʾw=
+<tei:lb n="3"/>ʿln  w-šmsm  l-wfy-hmw  w-wfy  ʾwld-hmw  w-qny-hmw</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.Biʿathtar, and
+2.their [...] with the favorable oracle 
+3.exes, and Shamsum (i.e the goddess of protection)
+
+
+Restored full text of the inscription:
+
+1.Biʿathtar, and [his sons, of the lineage of ʿInānān Dhū-Dharaʾān set up the stele of]
+2.their [goddess of protection] with the favorable oracle [and the aid of ʿAthtar Shāriqān and ʾĪlmuquh Lord of the Ib-]
+3.exes, and Shamsum (i.e the goddess of protection), [for their well-being and the well-being of their children and their property.]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Biʿathtar, and
+<tei:lb n="2"/>their <tei:supplied reason="lost">...</tei:supplied> with the favorable oracle 
+<tei:lb n="3"/>exes, and Shamsum <tei:unclear>i.e the goddess of protection</tei:unclear>
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Biʿathtar, and <tei:supplied reason="lost">his sons, of the lineage of ʿInānān Dhū-Dharaʾān set up the stele of</tei:supplied>
+               <tei:lb n="2"/>their <tei:supplied reason="lost">goddess of protection</tei:supplied> with the favorable oracle <tei:supplied reason="lost">and the aid of ʿAthtar Shāriqān and ʾĪlmuquh Lord of the Ib-</tei:supplied>
+               <tei:lb n="3"/>exes, and Shamsum <tei:unclear>i.e the goddess of protection</tei:unclear>, <tei:supplied reason="lost">for their well-being and the well-being of their children and their property.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Biʿathtar, and
+<tei:lb n="2"/>their ... with the favorable oracle 
+<tei:lb n="3"/>exes, and Shamsum i.e the goddess of protection
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Biʿathtar, and his sons, of the lineage of ʿInānān Dhū-Dharaʾān set up the stele of
+<tei:lb n="2"/>their goddess of protection with the favorable oracle and the aid of ʿAthtar Shāriqān and ʾĪlmuquh Lord of the Ib-
+<tei:lb n="3"/>exes, and Shamsum i.e the goddess of protection, for their well-being and the well-being of their children and their property.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Biʿathtar, and
+<tei:lb n="2"/>their ... with the favorable oracle 
+<tei:lb n="3"/>exes, and Shamsum i.e the goddess of protection
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Biʿathtar, and his sons, of the lineage of ʿInānān Dhū-Dharaʾān set up the stele of
+<tei:lb n="2"/>their goddess of protection with the favorable oracle and the aid of ʿAthtar Shāriqān and ʾĪlmuquh Lord of the Ib-
+<tei:lb n="3"/>exes, and Shamsum i.e the goddess of protection, for their well-being and the well-being of their children and their property.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

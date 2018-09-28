@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1000b_04</title>
+                <title type="alt">1110000133</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1000b_04</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1000b_04</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000133PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.wtr | bn | ḏmrʿly | mkrb | sb[ʾ] | 
+2.sqy | ngy | gwlm | w-ʾfqn | gwlm | 
+3.w-ʿsy | bn | ḥḍrhmw | ḏ-mfʿlm | 
+4.krb | [ḏ-]ġrn | b-mḍyqt | gwlm | 
+
+
+Restored full text of the inscription:
+
+1.[ʾlt | ʾhgrm | w-ʾbḍʿm | gnʾ | w-hfṭn | krbʾl |] wtr | bn | ḏmrʿly | mkrb | sb[ʾ] | [l-ʾlmqh | w-l | sbʾ | ywm  | h... ...m | t... | w-ktlm | w-yṯl | w-wnb | w-rdʿ | w-wqbm | w-ʾwwm | w-yʿrtm | w-ḥnḏfm | w-nʿwt | ḏt | fddm | w-ḥḍrʾb | w-tmsm | w-gnʾ | tlnn | w-ṣnwt | w-ṣ... ...]
+2.[dm | w-gnʾ | rdʿ | w-myfʿ | b-ḫbʾm | w-gnʾ | mḥrṯm | w-ḏhby | hgry | ḏ-tmnʿ | w-gnʾ | wʿln | w-mwṯbtm | w-kdr | w-hṯb | wld | ʿm | ʿd | ʾhgr-hmw | b-ḏt | ʾḫww | ʾlmqh | w-krbʾl | w-sbʾ | w-ʿsy |  bn | ʿmwqh | ḏ-ʾmrm | hgrn | ṭyb | gwlm | w-qny-hw | b-m]sqy | ngy | gwlm | w-ʾfqn | gwlm | [w-ḥrtn | w-ʿr-h | w-sr-h | w-mrʿyt-h | gwlm | w-]
+3.[ʾsrr | yrdnn | bn | mrs | w-mrʿyt-hmw | gwlm |] w-ʿsy | bn | ḥḍrhmw | ḏ-mfʿlm | [šʿbm | w-ʾsrr-hw | w-mrʿyt-hw | ln | mśrr | ʿd | ʿtb | ... ... | ʾbyt | ʿd | ʿtk | wrḫn | w-ḍʿf | w-kl | ḏ-qny | b-bqṯt |  w-b | dnm | gwlm | w-ʿsy | ṣyḥw | gwlm | w-šʾm | ḫdnn | ʾdm | ḥḍrhmw | ḏ-mfʿlm | w-gbrm | ʾdm | yʿṯq | ḏ-ḫwln | ḏ-yrrt | w-]
+4.[yśf-mw | ḥw-hw | fyšn | w-ʿsy | bn | rʾbm | bn | ḫlʾmr | ḏ-wqbm | kl | ḏ-hṭbn | b-wqbm | w-ḏhb-h | w-sr-h | w-ʿr-h | w-mrʿyt-h | gwlm | w-ʿsy | yʿrtm | w-ḏhb-h | w-sr-h | w-ʿr-h | w-mrʿyt-h | gwlm | w-ʿsy | ʾwwm | w-ḏhb-h | gwlm | w-ʿsy | kl | ḏ-qny | ḫl]krb | [ḏ-]ġrn | b-mḍyqt | gwlm | [w-ʿsy | ṯmdt w-ḏhb-h | w-ʿr-h | w-mrʿyt-h | gwlm]
+5.[w-ʿsy | kl | ḏ-hṭbn | b-mḍyqt | ln | gḏwty | ḥnḏfm | ʿd | hgrn | ṭyb | gwlm | w-ʿsy | kl | ḏ-hṭbn | b-msqy | ngy | gwlm | w-ʿsy | zwt | w-... ...-hmy | w-mrʿyt-hmy | gwlm | w-ʿsy | ʾkryy | w-ḏhb-h | gwlm | w-qny | nʿwt | bn | šdm | w-bn | ḫbʾm | l-ʾwṯn-h | w-bny | tfrʿ | byt-hw | slḥm | ln | ẓwrm | w-rymm | w-bny | b-ʾḏn=]
+6.[t | ʿsnn | tfš | w-mzf-h | mnḫy | ysrn | w-bny | mʿsn | ylṭ | w-mzf-hw | mnḫy | ʾbyn | w-bny | ẓrb | w-mlkn | l-ysrn | w-bny | w-hqm | ʾbny | ysrn | w-ʾbyn | b-wsṭ-hmy | w-bny | ... ...n | w-ʾln | nḫlm | ʿsy | b-ysrn | w-yśf-mw | qny-hw | ḏ-yqhmlk | w-ʾṯʾbn | w-mḏbn | w-mfrśm | w-ḏ-ʾnfn | w-qṭntn | w-sfwtm | w-]
+7.[slqn | w-ḏ | fdhm | w-ḏ | ʾwṯnm | w-dbsw | w-mfrśm | w-ḏ | ḥbbm | w-śmrw | w-mhgwm | w-ʾln | ʿsy | b-ṭrq | ʿn.yn | w-ḥḍrw | w-šśwn | ... ...ʿ | w-ʾln | wśf | ʿsy | b-ysrn | frʿtm | w-tywsm | w-ʾṯʾbn | w-ywm | ṣd | ṣyd | krwm | w-ywm | hʿ | mhyʿ | lqẓ | ʿṯtr | ḏ-fṣd | w-bny | ʿṯtr | wrqm | w-ʿsy | mfrśtn | ʾl | mḥ=]
+8.[myn | ln | wṯn | ʿqbn | ʿd | ḏ-ʾnfn | gwlm | w-ʿsy | kl | qny | ḥḍrhmw | bn | ḫlʾmr | bkr | ḏ-mfʿlm | kl | ḏ-qny | b-bḍʿ | wnb | w-kl | bḍʿ | ftrm | w-qnt | w-kl | ʾhgr-hw | mfʿlm | w-ftrm | w-qnt | w-gw | w-ʾʿr-hw | w-ʾsrr-hw | w-mrʿyt | ʾhgr-hw | gwlm | w-wśf ḥw-hw | fyšn | ʾdm | hšʾm-hw | ḥḍrhmw | ḏ-mfʿlm | b-ʾhgr-hw | mfʿlm | w-ftrm | w-qnt | w-gw]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>wtr | bn | ḏmrʿly | mkrb | sb<tei:supplied reason="lost">ʾ</tei:supplied> | 
+<tei:lb n="2"/>sqy | ngy | gwlm | w-ʾfqn | gwlm | 
+<tei:lb n="3"/>w-ʿsy | bn | ḥḍrhmw | ḏ-mfʿlm | 
+<tei:lb n="4"/>krb | <tei:supplied reason="lost">ḏ-</tei:supplied>ġrn | b-mḍyqt | gwlm | 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">ʾlt | ʾhgrm | w-ʾbḍʿm | gnʾ | w-hfṭn | krbʾl |</tei:supplied> wtr | bn | ḏmrʿly | mkrb | sb<tei:supplied reason="lost">ʾ</tei:supplied> | <tei:supplied reason="lost">l-ʾlmqh | w-l | sbʾ | ywm  | h<tei:gap quantity="5" unit="chars" reason="lost"/>m | t... | w-ktlm | w-yṯl | w-wnb | w-rdʿ | w-wqbm | w-ʾwwm | w-yʿrtm | w-ḥnḏfm | w-nʿwt | ḏt | fddm | w-ḥḍrʾb | w-tmsm | w-gnʾ | tlnn | w-ṣnwt | w-ṣ<tei:gap quantity="5" unit="chars" reason="lost"/>
+                    </tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">dm | w-gnʾ | rdʿ | w-myfʿ | b-ḫbʾm | w-gnʾ | mḥrṯm | w-ḏhby | hgry | ḏ-tmnʿ | w-gnʾ | wʿln | w-mwṯbtm | w-kdr | w-hṯb | wld | ʿm | ʿd | ʾhgr-hmw | b-ḏt | ʾḫww | ʾlmqh | w-krbʾl | w-sbʾ | w-ʿsy |  bn | ʿmwqh | ḏ-ʾmrm | hgrn | ṭyb | gwlm | w-qny-hw | b-m</tei:supplied>sqy | ngy | gwlm | w-ʾfqn | gwlm | <tei:supplied reason="lost">w-ḥrtn | w-ʿr-h | w-sr-h | w-mrʿyt-h | gwlm | w-</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">ʾsrr | yrdnn | bn | mrs | w-mrʿyt-hmw | gwlm |</tei:supplied> w-ʿsy | bn | ḥḍrhmw | ḏ-mfʿlm | <tei:supplied reason="lost">šʿbm | w-ʾsrr-hw | w-mrʿyt-hw | ln | mśrr | ʿd | ʿtb | <tei:gap quantity="5" unit="chars" reason="lost"/> | ʾbyt | ʿd | ʿtk | wrḫn | w-ḍʿf | w-kl | ḏ-qny | b-bqṯt |  w-b | dnm | gwlm | w-ʿsy | ṣyḥw | gwlm | w-šʾm | ḫdnn | ʾdm | ḥḍrhmw | ḏ-mfʿlm | w-gbrm | ʾdm | yʿṯq | ḏ-ḫwln | ḏ-yrrt | w-</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">yśf-mw | ḥw-hw | fyšn | w-ʿsy | bn | rʾbm | bn | ḫlʾmr | ḏ-wqbm | kl | ḏ-hṭbn | b-wqbm | w-ḏhb-h | w-sr-h | w-ʿr-h | w-mrʿyt-h | gwlm | w-ʿsy | yʿrtm | w-ḏhb-h | w-sr-h | w-ʿr-h | w-mrʿyt-h | gwlm | w-ʿsy | ʾwwm | w-ḏhb-h | gwlm | w-ʿsy | kl | ḏ-qny | ḫl</tei:supplied>krb | <tei:supplied reason="lost">ḏ-</tei:supplied>ġrn | b-mḍyqt | gwlm | <tei:supplied reason="lost">w-ʿsy | ṯmdt w-ḏhb-h | w-ʿr-h | w-mrʿyt-h | gwlm</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">w-ʿsy | kl | ḏ-hṭbn | b-mḍyqt | ln | gḏwty | ḥnḏfm | ʿd | hgrn | ṭyb | gwlm | w-ʿsy | kl | ḏ-hṭbn | b-msqy | ngy | gwlm | w-ʿsy | zwt | w-<tei:gap quantity="5" unit="chars" reason="lost"/>-hmy | w-mrʿyt-hmy | gwlm | w-ʿsy | ʾkryy | w-ḏhb-h | gwlm | w-qny | nʿwt | bn | šdm | w-bn | ḫbʾm | l-ʾwṯn-h | w-bny | tfrʿ | byt-hw | slḥm | ln | ẓwrm | w-rymm | w-bny | b-ʾḏn=</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">t | ʿsnn | tfš | w-mzf-h | mnḫy | ysrn | w-bny | mʿsn | ylṭ | w-mzf-hw | mnḫy | ʾbyn | w-bny | ẓrb | w-mlkn | l-ysrn | w-bny | w-hqm | ʾbny | ysrn | w-ʾbyn | b-wsṭ-hmy | w-bny | <tei:gap quantity="5" unit="chars" reason="lost"/>n | w-ʾln | nḫlm | ʿsy | b-ysrn | w-yśf-mw | qny-hw | ḏ-yqhmlk | w-ʾṯʾbn | w-mḏbn | w-mfrśm | w-ḏ-ʾnfn | w-qṭntn | w-sfwtm | w-</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">slqn | w-ḏ | fdhm | w-ḏ | ʾwṯnm | w-dbsw | w-mfrśm | w-ḏ | ḥbbm | w-śmrw | w-mhgwm | w-ʾln | ʿsy | b-ṭrq | ʿn.yn | w-ḥḍrw | w-šśwn | <tei:gap quantity="5" unit="chars" reason="lost"/>ʿ | w-ʾln | wśf | ʿsy | b-ysrn | frʿtm | w-tywsm | w-ʾṯʾbn | w-ywm | ṣd | ṣyd | krwm | w-ywm | hʿ | mhyʿ | lqẓ | ʿṯtr | ḏ-fṣd | w-bny | ʿṯtr | wrqm | w-ʿsy | mfrśtn | ʾl | mḥ=</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">myn | ln | wṯn | ʿqbn | ʿd | ḏ-ʾnfn | gwlm | w-ʿsy | kl | qny | ḥḍrhmw | bn | ḫlʾmr | bkr | ḏ-mfʿlm | kl | ḏ-qny | b-bḍʿ | wnb | w-kl | bḍʿ | ftrm | w-qnt | w-kl | ʾhgr-hw | mfʿlm | w-ftrm | w-qnt | w-gw | w-ʾʿr-hw | w-ʾsrr-hw | w-mrʿyt | ʾhgr-hw | gwlm | w-wśf ḥw-hw | fyšn | ʾdm | hšʾm-hw | ḥḍrhmw | ḏ-mfʿlm | b-ʾhgr-hw | mfʿlm | w-ftrm | w-qnt | w-gw</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>wtr  <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">ḏmrʿly</persName>  
+               <w>mkrb</w>  
+               <orgName type="state">sbʾ</orgName>  
+                    <tei:lb n="2"/>sqy  <placeName>ngy</placeName>  
+               <w>gwlm</w>  
+               <w>w-</w>
+               <placeName>ʾfqn</placeName>  
+               <w>gwlm</w>  
+                    <tei:lb n="3"/>
+               <w>w-ʿsy</w>  
+               <w>bn</w>  
+               <persName type="gender" subtype="m">ḥḍrhmw</persName>  
+               <orgName type="tribe">ḏ-mfʿlm</orgName>  
+                    <tei:lb n="4"/>krb   <orgName type="tribe">ḏ-ġrn</orgName>  
+               <w>b-</w>
+               <placeName>mḍyqt</placeName>  
+               <w>gwlm</w>  
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>
+               <w>ʾlt</w>  
+               <w>ʾhgrm</w>  
+               <w>w-ʾbḍʿm</w>  
+               <w>gnʾ</w>  
+               <w>w-hfṭn</w>  
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">krbʾl</persName>  
+                        <persName type="royal" subtype="withTitle" role="king" n="2">wtr</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic" subtype="royal" role="member">ḏmrʿly</persName>  
+                    <rs type="nominalGroup">
+                  <w>mkrb</w>  
+                  <orgName type="state">sbʾ</orgName>
+               </rs>  
+               <w>l-</w>
+               <name type="theonym">ʾlmqh</name> 
+               <w> w-l </w> 
+               <orgName type="state">sbʾ</orgName>  
+                    <w>ywm</w>   hm  t...  <w>w-</w>
+               <placeName>ktlm</placeName>  
+               <w>w-</w>
+               <placeName>yṯl</placeName>  
+               <w>w-</w>
+               <placeName>wnb</placeName>  
+               <w>w-</w>
+               <placeName>rdʿ</placeName>
+                    <w>w-</w>
+               <placeName>wqbm</placeName>  
+               <w>w-</w>
+               <placeName>ʾwwm</placeName>  
+               <w>w-</w>
+               <placeName>yʿrtm</placeName>  
+               <w>w-</w>
+               <placeName>ḥnḏfm</placeName>  
+                    <w>w-</w>
+               <placeName>nʿwt  ḏt  fddm</placeName>  
+               <w>w-</w>
+               <placeName>ḥḍrʾb</placeName>  
+               <w>w-</w>
+               <placeName>tmsm</placeName>  
+               <w>w-gnʾ</w>  
+               <placeName>tlnn</placeName>
+                    <w>w-</w>
+               <placeName>ṣnwt</placeName>  w-ṣ
+                    
+                    <tei:lb n="2"/>dm  <w>w-gnʾ</w>  
+               <placeName>rdʿ</placeName>  
+               <w>w-</w>
+               <placeName>myfʿ</placeName>  
+               <w>b-</w>
+               <placeName>ḫbʾm</placeName>  
+               <w>w-gnʾ</w>  
+               <placeName>mḥrṯm</placeName>
+                    <w>w-ḏhby</w>  
+               <w>hgry</w>  
+               <w>ḏ-</w>
+               <placeName>tmnʿ</placeName> 
+               <w>w-gnʾ</w>  
+               <placeName>wʿln</placeName>  
+               <w>w-</w>
+               <placeName>mwṯbtm</placeName>  
+               <w>w-</w>
+               <placeName>kdr</placeName>  
+                    <w>w-hṯb</w>  
+               <w>wld</w>  
+               <name type="theonym">ʿm</name>  
+               <w>ʿd</w>  
+               <w>ʾhgr-hmw</w>  
+               <w>b-ḏt</w>  
+               <w>ʾḫww</w>  
+               <name type="theonym">ʾlmqh</name>  
+               <w>w-</w>
+               <persName type="royal" subtype="withoutTitle" role="king">krbʾl</persName>  
+                    <w>w-</w>
+               <orgName type="state">sbʾ</orgName>  
+               <w>w-ʿsy</w>   
+               <w>bn</w>  
+               <persName type="gender" subtype="m">ʿmwqh</persName>  
+               <orgName type="tribe">ḏ-ʾmrm</orgName>
+                    <w>hgrn</w>  
+               <placeName>ṭyb</placeName>  
+               <w>gwlm</w>  
+               <w>w-qny-hw</w>  
+               <w>b-msqy</w>  
+               <placeName>ngy</placeName>  
+               <w>gwlm</w>  
+               <w>w-</w>
+               <placeName>ʾfqn</placeName>
+                    <w>gwlm</w>  
+               <w>w-</w>
+               <placeName>ḥrtn</placeName>  
+               <w>w-ʿr-h</w>  
+               <w>w-sr-h</w>  
+               <w>w-mrʿyt-h </w> 
+               <w>gwlm</w>  
+               <w>w-
+                        
+                        <tei:lb n="3"/>ʾsrr</w>  
+               <w>yrdnn</w>  
+               <w>bn</w>  
+               <placeName>mrs</placeName>  
+               <w>w-mrʿyt-hmw</w>  
+               <w>gwlm</w>  
+               <w>w-ʿsy</w>  
+               <w>bn</w>  
+               <persName type="gender" subtype="m">ḥḍrhmw</persName>
+                    <orgName type="tribe">ḏ-mfʿlm</orgName>  
+               <placeName>šʿbm</placeName>  
+               <w>w-ʾsrr-hw</w>  
+               <w>w-mrʿyt-hw</w>  
+               <w>ln</w>  
+               <placeName>mśrr</placeName>  
+               <w>ʿd</w>  
+               <placeName>ʿtb</placeName>
+                    <w>ʾbyt</w>  
+               <w>ʿd</w>  
+               <w>ʿtk</w>  
+               <placeName>wrḫn</placeName>  
+               <w>w-</w>
+               <placeName>ḍʿf</placeName>  
+               <w>w-kl</w>  
+               <w>ḏ-qny</w>  
+               <w>b-</w>
+               <placeName>bqṯt</placeName>
+                    <w>w-b</w>  
+               <placeName>dnm</placeName>  
+               <w>gwlm</w>  
+               <w>w-ʿsy</w>  
+               <placeName>ṣyḥw</placeName>  
+               <w>gwlm</w>  
+               <w>w-šʾm</w>  
+               <orgName type="group">ḫdnn</orgName>
+                    <w>ʾdm</w>  
+               <persName type="gender" subtype="m">ḥḍrhmw</persName>   
+               <orgName type="tribe">ḏ-mfʿlm</orgName>  
+               <w>w-</w> 
+               <orgName type="tribe">gbrm</orgName>  
+                    <w>ʾdm</w>  
+               <persName type="gender" subtype="m">yʿṯq</persName>  
+               <orgName type="tribe">ḏ-ḫwln</orgName>  
+               <orgName type="tribe">ḏ-yrrt</orgName>  
+               <w>w-
+                        <tei:lb n="4"/>yśf-mw</w>  
+               <w>ḥw-hw</w>  
+               <orgName type="tribe">fyšn</orgName>  
+               <w>w-ʿsy </w> 
+               <w>bn</w>  
+               <persName type="gender" subtype="m">rʾbm</persName>  
+               <w>bn</w>  
+                    <persName type="patronymic">ḫlʾmr</persName>  
+               <orgName type="tribe">ḏ-wqbm</orgName>  
+               <w>kl</w>  
+               <w>ḏ-hṭbn</w>  
+               <w>b-</w>
+               <placeName>wqbm</placeName>  
+               <w>w-ḏhb-h</w>  
+                    <w>w-sr-h</w> 
+               <w> w-ʿr-h</w> 
+               <w> w-mrʿyt-h</w>  
+               <w>gwlm</w> 
+               <w> w-ʿsy</w>  
+               <placeName>yʿrtm</placeName>  
+               <w>w-ḏhb-h</w>  
+               <w>w-sr-h</w>  
+               <w>w-ʿr-h</w>  
+               <w>w-mrʿyt-h</w>
+                    <w>gwlm</w>  
+               <w>w-ʿsy</w>  
+               <placeName>ʾwwm</placeName>  
+               <w>w-ḏhb-h</w>  
+               <w>gwlm</w>  
+               <w>w-ʿsy</w>  
+               <w>kl</w>  
+               <w>ḏ-qny</w>  
+               <persName type="gender" subtype="m">ḫlkrb</persName>
+                    <orgName type="tribe">ḏ-ġrn</orgName>  
+               <w>b-</w>
+               <placeName>mḍyqt</placeName>  
+               <w>gwlm</w>  
+               <w>w-ʿsy</w>  
+               <placeName>ṯmdt</placeName> 
+               <w>w-ḏhb-h</w>  
+               <w>w-ʿr-h</w>
+                    <w>w-mrʿyt-h</w>  
+               <w>gwlm</w>
+                    <tei:lb n="5"/>
+               <w>w-ʿsy</w>  
+               <w>kl</w>  
+               <w>ḏ-hṭbn</w>  
+               <w>b-</w>
+               <placeName>mḍyqt</placeName>  
+               <w>ln</w>  
+               <w>gḏwty</w>  
+               <placeName>ḥnḏfm</placeName>  
+               <w>ʿd</w>
+                    <w>hgrn</w>  
+               <placeName>ṭyb</placeName>  
+               <w>gwlm</w>  
+               <w>w-ʿsy</w>  
+               <w>kl</w> 
+               <w> ḏ-hṭbn</w>  
+               <w>b-msqy</w>  
+               <placeName>ngy</placeName>  
+               <w>gwlm</w>  
+               <w>w-ʿsy</w>
+                    <placeName>zwt</placeName>  w--hmy  <w>w-mrʿyt-hmy</w>  
+               <w>gwlm</w>  
+               <w>w-ʿsy</w>  
+               <placeName>ʾkryy</placeName>  
+               <w>w-ḏhb-h</w>  
+               <w>gwlm</w>  
+               <w>w-qny</w>  
+               <placeName>nʿwt</placeName>
+                    <w>bn</w>  
+               <placeName>šdm</placeName>  
+               <w>w-bn</w>  
+               <placeName>ḫbʾm</placeName>  
+               <w>l-ʾwṯn-h</w>  
+               <w>w-bny</w>  
+               <w>tfrʿ</w>  
+               <w>byt-hw</w>  
+               <placeName type="building">slḥm</placeName>
+                    <w>ln</w>  
+               <w>ẓwrm</w>  
+               <w>w-rymm</w>  
+               <w>w-bny</w>  
+               <w>b-</w>
+               <placeName>ʾḏn=
+                        <tei:lb n="6"/>t</placeName>  
+               <w>ʿsnn</w>  
+               <placeName type="building">tfš</placeName>  
+               <w>w-mzf-h</w>  
+               <w>mnḫy</w>  
+               <placeName>ysrn</placeName>  
+               <w>w-bny</w>  
+               <w>mʿsn</w>
+                    <placeName type="building">ylṭ</placeName>  
+               <w>w-mzf-hw </w> 
+               <w>mnḫy</w>  
+               <placeName>ʾbyn</placeName>  
+               <w>w-bny</w>  
+               <placeName type="building">ẓrb</placeName>  
+               <w>w-</w>
+               <placeName type="building">mlkn</placeName>
+                    <w>l-</w>
+               <placeName>ysrn</placeName>  
+               <w>w-bny</w>  
+               <w>w-hqm</w>  
+               <w>ʾbny</w>  
+               <placeName>ysrn</placeName>  
+               <w>w-</w>
+               <placeName>ʾbyn</placeName>
+                    <w>b-wsṭ-hmy </w> 
+               <w>w-bny</w>  n  <w>w-ʾln</w>  
+               <w>nḫlm</w>  
+               <w>ʿsy</w>  
+               <w>b-</w>
+               <placeName>ysrn</placeName>  
+               <w>w-yśf-mw</w>  
+               <w>qny-hw</w>  
+               <placeName>ḏ-yqhmlk</placeName>
+                    <w>w-</w>
+               <placeName>ʾṯʾbn</placeName>  
+               <w>w-</w>
+               <placeName>mḏbn</placeName>  
+               <w>w-</w>
+               <placeName>mfrśm</placeName>  
+               <w>w-</w>
+               <placeName>ḏ-ʾnfn</placeName>
+                    <w>w-</w>
+               <placeName>qṭntn</placeName>  
+               <w>w-</w>
+               <placeName>sfwtm</placeName>  
+               <w>w-</w>
+                    <tei:lb n="7"/>
+               <placeName>slqn</placeName>  
+               <w>w-</w>
+               <placeName>ḏ  fdhm</placeName>  
+               <w>w-</w>
+               <placeName>ḏ  ʾwṯnm</placeName>  
+               <w>w-</w>
+               <placeName>dbsw</placeName>  
+               <w>w-</w>
+               <placeName>mfrśm</placeName>  
+               <w>w-</w>
+               <placeName>ḏ  ḥbbm</placeName>  
+               <w>w-</w>
+               <placeName>śmrw</placeName>
+                    <w>w-</w>
+               <placeName>mhgwm</placeName>  
+               <w>w-ʾln</w>  
+               <w>ʿsy</w>  
+               <w>b-</w>
+               <placeName>ṭrq</placeName>  
+               <placeName>ʿn.yn</placeName>  
+               <w>w-</w>
+               <placeName>ḥḍrw</placeName>  
+               <w>w-</w>
+               <placeName>šśwn</placeName>
+                    ʿ  <w>w-ʾln</w>  
+               <w>wśf</w>  
+               <w>ʿsy</w>  
+               <w>b-</w>
+               <placeName>ysrn</placeName>  
+               <placeName>frʿtm</placeName>  
+               <w>w-</w>
+               <placeName>tywsm</placeName>  
+               <w>w-</w>
+               <placeName>ʾṯʾbn</placeName>
+                    <w>w-ywm</w>  
+               <w>ṣd</w>  
+               <w>ṣyd</w>  
+               <name type="theonym">krwm</name>  
+               <w>w-ywm</w>  
+               <w>hʿ</w>  
+               <w>mhyʿ</w>  
+               <placeName type="building">lqẓ</placeName>  
+               <rs type="complex">
+                  <name type="theonym">ʿṯtr</name>  
+                  <name type="epithet" subtype="divine">ḏ-fṣd</name>
+               </rs>
+                    <w>w-bny</w>  
+               <placeName type="building">ʿṯtr</placeName>  
+               <placeName type="building">wrqm</placeName>  
+               <w>w-ʿsy</w>  
+               <w>mfrśtn</w>  
+               <w>ʾl </w> 
+               <placeName>mḥ=
+                        <tei:lb n="8"/>myn</placeName>  
+               <w>ln</w>  
+               <w>wṯn</w>  
+               <placeName>ʿqbn</placeName>  
+               <w>ʿd</w>  
+               <placeName>ḏ-ʾnfn</placeName>  
+               <w>gwlm</w>  
+               <w>w-ʿsy</w>  
+               <w>kl</w>
+                    <w>qny</w>  
+               <persName type="gender" subtype="m">ḥḍrhmw</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ḫlʾmr</persName>  
+               <w>bkr</w>  
+               <orgName type="tribe">ḏ-mfʿlm</orgName>
+                    <w>kl</w>  
+               <w>ḏ-qny</w>  
+               <w>b-bḍʿ</w>  
+               <placeName>wnb</placeName>  
+               <w>w-kl</w>  
+               <w>bḍʿ</w>  
+               <placeName>ftrm</placeName>  
+               <w>w-</w>
+               <placeName>qnt</placeName>
+                    <w>w-kl</w>  
+               <w>ʾhgr-hw</w>  
+               <placeName>mfʿlm</placeName>  
+               <w>w-</w>
+               <placeName>ftrm</placeName>  
+               <w>w-</w>
+               <placeName>qnt</placeName>  
+               <w>w-</w>
+               <placeName>gw</placeName>
+                    <w>w-ʾʿr-hw</w>  
+               <w>w-ʾsrr-hw</w>  
+               <w>w-mrʿyt</w>  
+               <w>ʾhgr-hw</w>  
+               <w>gwlm</w>  
+               <w>w-wśf</w>  
+               <w>ḥw-hw</w>  
+               <placeName>fyšn</placeName>  
+               <w>ʾdm</w>  
+               <w>hšʾm-hw</w>
+                    <persName type="gender" subtype="m">ḥḍrhmw</persName>  
+               <orgName type="tribe">ḏ-mfʿlm</orgName>  
+               <w>b-ʾhgr-hw</w>  
+               <placeName>mfʿlm</placeName>  
+               <w>w-</w>
+               <placeName>ftrm</placeName>
+                    <w>w-</w>
+               <placeName>qnt</placeName>  
+               <w>w-</w>
+               <placeName>gw</placeName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>wtr  bn  ḏmrʿly  mkrb  sbʾ  
+<tei:lb n="2"/>sqy  ngy  gwlm  w-ʾfqn  gwlm  
+<tei:lb n="3"/>w-ʿsy  bn  ḥḍrhmw  ḏ-mfʿlm  
+<tei:lb n="4"/>krb  ḏ-ġrn  b-mḍyqt  gwlm  
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>ʾlt  ʾhgrm  w-ʾbḍʿm  gnʾ  w-hfṭn  krbʾl  wtr  bn  ḏmrʿly  mkrb  sbʾ  l-ʾlmqh  w-l  sbʾ  ywm   hm  t...  w-ktlm  w-yṯl  w-wnb  w-rdʿ  w-wqbm  w-ʾwwm  w-yʿrtm  w-ḥnḏfm  w-nʿwt  ḏt  fddm  w-ḥḍrʾb  w-tmsm  w-gnʾ  tlnn  w-ṣnwt  w-ṣ
+<tei:lb n="2"/>dm  w-gnʾ  rdʿ  w-myfʿ  b-ḫbʾm  w-gnʾ  mḥrṯm  w-ḏhby  hgry  ḏ-tmnʿ  w-gnʾ  wʿln  w-mwṯbtm  w-kdr  w-hṯb  wld  ʿm  ʿd  ʾhgr-hmw  b-ḏt  ʾḫww  ʾlmqh  w-krbʾl  w-sbʾ  w-ʿsy   bn  ʿmwqh  ḏ-ʾmrm  hgrn  ṭyb  gwlm  w-qny-hw  b-msqy  ngy  gwlm  w-ʾfqn  gwlm  w-ḥrtn  w-ʿr-h  w-sr-h  w-mrʿyt-h  gwlm  w-
+<tei:lb n="3"/>ʾsrr  yrdnn  bn  mrs  w-mrʿyt-hmw  gwlm  w-ʿsy  bn  ḥḍrhmw  ḏ-mfʿlm  šʿbm  w-ʾsrr-hw  w-mrʿyt-hw  ln  mśrr  ʿd  ʿtb    ʾbyt  ʿd  ʿtk  wrḫn  w-ḍʿf  w-kl  ḏ-qny  b-bqṯt   w-b  dnm  gwlm  w-ʿsy  ṣyḥw  gwlm  w-šʾm  ḫdnn  ʾdm  ḥḍrhmw  ḏ-mfʿlm  w-gbrm  ʾdm  yʿṯq  ḏ-ḫwln  ḏ-yrrt  w-
+<tei:lb n="4"/>yśf-mw  ḥw-hw  fyšn  w-ʿsy  bn  rʾbm  bn  ḫlʾmr  ḏ-wqbm  kl  ḏ-hṭbn  b-wqbm  w-ḏhb-h  w-sr-h  w-ʿr-h  w-mrʿyt-h  gwlm  w-ʿsy  yʿrtm  w-ḏhb-h  w-sr-h  w-ʿr-h  w-mrʿyt-h  gwlm  w-ʿsy  ʾwwm  w-ḏhb-h  gwlm  w-ʿsy  kl  ḏ-qny  ḫlkrb  ḏ-ġrn  b-mḍyqt  gwlm  w-ʿsy  ṯmdt w-ḏhb-h  w-ʿr-h  w-mrʿyt-h  gwlm
+<tei:lb n="5"/>w-ʿsy  kl  ḏ-hṭbn  b-mḍyqt  ln  gḏwty  ḥnḏfm  ʿd  hgrn  ṭyb  gwlm  w-ʿsy  kl  ḏ-hṭbn  b-msqy  ngy  gwlm  w-ʿsy  zwt  w--hmy  w-mrʿyt-hmy  gwlm  w-ʿsy  ʾkryy  w-ḏhb-h  gwlm  w-qny  nʿwt  bn  šdm  w-bn  ḫbʾm  l-ʾwṯn-h  w-bny  tfrʿ  byt-hw  slḥm  ln  ẓwrm  w-rymm  w-bny  b-ʾḏn=
+<tei:lb n="6"/>t  ʿsnn  tfš  w-mzf-h  mnḫy  ysrn  w-bny  mʿsn  ylṭ  w-mzf-hw  mnḫy  ʾbyn  w-bny  ẓrb  w-mlkn  l-ysrn  w-bny  w-hqm  ʾbny  ysrn  w-ʾbyn  b-wsṭ-hmy  w-bny  n  w-ʾln  nḫlm  ʿsy  b-ysrn  w-yśf-mw  qny-hw  ḏ-yqhmlk  w-ʾṯʾbn  w-mḏbn  w-mfrśm  w-ḏ-ʾnfn  w-qṭntn  w-sfwtm  w-
+<tei:lb n="7"/>slqn  w-ḏ  fdhm  w-ḏ  ʾwṯnm  w-dbsw  w-mfrśm  w-ḏ  ḥbbm  w-śmrw  w-mhgwm  w-ʾln  ʿsy  b-ṭrq  ʿn.yn  w-ḥḍrw  w-šśwn  ʿ  w-ʾln  wśf  ʿsy  b-ysrn  frʿtm  w-tywsm  w-ʾṯʾbn  w-ywm  ṣd  ṣyd  krwm  w-ywm  hʿ  mhyʿ  lqẓ  ʿṯtr  ḏ-fṣd  w-bny  ʿṯtr  wrqm  w-ʿsy  mfrśtn  ʾl  mḥ=
+<tei:lb n="8"/>myn  ln  wṯn  ʿqbn  ʿd  ḏ-ʾnfn  gwlm  w-ʿsy  kl  qny  ḥḍrhmw  bn  ḫlʾmr  bkr  ḏ-mfʿlm  kl  ḏ-qny  b-bḍʿ  wnb  w-kl  bḍʿ  ftrm  w-qnt  w-kl  ʾhgr-hw  mfʿlm  w-ftrm  w-qnt  w-gw  w-ʾʿr-hw  w-ʾsrr-hw  w-mrʿyt  ʾhgr-hw  gwlm  w-wśf ḥw-hw  fyšn  ʾdm  hšʾm-hw  ḥḍrhmw  ḏ-mfʿlm  b-ʾhgr-hw  mfʿlm  w-ftrm  w-qnt  w-gw</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.Watar bin Dhamarʿalī, ruler of Sabaʾ
+2.the irrigation network of Nagay, with full property rights
+3.And he acquired from Ḥaḍarhumū Dhū-Mafʿilim 
+4.[...]karib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. 
+
+
+Restored full text of the inscription:
+
+1.[These towns and territories has Karibʾīl] Watar bin Dhamarʿalī, ruler of Sabaʾ, [walled and taken possession of for ʾĪlmuquh and for Sabaʾ, when he … … … and Katilum and Yathill and Wanab and Rādiʿ and Wāqibum and ʾAwāwum and Yaʿīratum and Ḥandhifum and Naʿawt Dhāt-Fadādim and Ḥaḍarʾab and Tamisum. And he walled Talīnān and Ṣanawt and Ṣ… …]
+2.[... and he walled Rādiʿ and Mayfaʿ in Khabīʾum. And he walled Maḥrīthum and the two alluvial plains of the two towns of Timnaʿ. And he walled Waʿilān and Mawthabatum and Kadūr. And he gave back the Children of ʿAmm to their towns because they had made an alliance with ʾĪlmuquh and Karibʾīl and Sabaʾ. And he acquired from ʿAmmīwaqah Dhū-ʾAmīrim the town of Ṭayyib, with full property rights. And he gained possession of it with] the irrigation network of Nagay, with full property rights; [and ʾUfuqān, with full property rights; and Ḥāritān and its mountain and its valley and its grazing lands, with full property rights; and]
+3.[the valleys descending from Maris and their grazing lands, with full property rights.] And he acquired from Ḥaḍarhumū Dhū-Mafʿilim [Shaʿbum and its valleys and its grazing lands from Maśrīr to ʿAtīb … … the houses facing Warikhān and Ḍaʿīf and all of that which he held in possession in Baqithāt and in Danim, with full property rights. And he acquired Ṣayyāḥū, with full property rights. And he bought (the services of) Khadīnān, the vassals of Ḥaḍarhumū Dhū-Mafʿilim; and Gabbārum, the vassals of Yaʿithaq Dhū-Khawlān of Yarīrāt; and (in this manner)]
+4.[he increased his labor force of Fayshān. And he acquired from Rāʾibum bin Khālīʾamar Dhū-Wāqibim all that he had owned in Wāqibum and its alluvial plain and its valley and its mountain, with full property rights. And he acquired Yaʿīratum and its alluvial plain and its valley and its mountain and its grazing lands, with full property rights. And he acquired ʾAwāwum and its alluvial plain, with full property rights. And he acquired all that Khālī]karib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. [And he acquired Thamūdat and its alluvial plain and its mountain and its grazing land, with full property rights.]
+5.[And he acquired all that he (i.e. Khālīkarib Dhū-Ghirrān) had owned in Maḍayqat from the two hills of Ḥandhifum] to the town of Ṭayyib, with full property [rights. And he acquired all that he had owned with (respect to) the irrigation network of Nagay, with full property rights. And he acquired Zawit and … their … and their grazing lands, with full property rights. And he acquired ʾAkiryay and its alluvial plain, with full property rights. And he gained possession of Naʿawt from Shiddum and from Khabīʾum to its boundary-markers. And he built the upper portion of his palace of Salīḥum from bedrock upwards. And he built in ʾAdhana-]
+6.[t the water reservoir of Tafish and its canal in the direction of Yāsirān. And he built the water reservoir of Yaluṭ and its canal in the direction of ʾAbyan. And he built Ẓarīb and Milkān for Yāsirān. And he built and erected the buildings of Yāsirān and ʾAbyan within them. And he built … …. And these, the palm groves, he acquired in Yāsirān. And he increased his property (by acqiring) Dhū-Yaqahmalik and ʾAthʾabān and Madhābān and Mafriśum and Dhū-ʾUnfān and Qaṭīnatān and Safwatum and] 
+7.[Salqān and Dhū-Fadihim and Dhū-ʾAwthānim and Dabasū and Mafriśum and Dhū-Ḥabībim and Śamirū and Mahgwaum; and these (properties) which he acquired in Ṭaraq: ʿAn.yān and Ḥaḍarū and Shaśawān … …. And (by acquiring) these (properties) he increased his ownership in Yāsirān: Fāriʿatum and Tayawsum and ʾAthʾabān. And (these things he did) when he undertook a hunt for Karawum; and when he carried out the construction of Laqaẓ for ʿAthtar Dhū-Faṣad. And he built for ʿAthtar (the temple of) Waraqum. And he acquired the fields of Maḥ-]
+8.[miyyān from the boundary of ʿĀqibān up to Dhū-ʾUnfān, with full property rights. And he acquired the entire property of Ḥaḍarhumū from Khālīʾamar, the first-born of Dhū-Mafʿilim-all that he held in possession in the territory of Wanab, and all of the territory of Fatīrum and Qanat, and all of its (i.e. Wanab’s) towns: Mafʿilum and Fatīrum and Qanat and Gaww; and its mountains and its valleys and the grazing lands of its towns, with full property rights. And he increased his labor force of Fayshān with the vassals (whose services) Ḥaḍarhumū Dhū-Mafʿilim had sold him with his towns of Mafʿilim and Fatīrum and Qanat and Gaww.]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Watar bin Dhamarʿalī, ruler of Sabaʾ
+<tei:lb n="2"/>the irrigation network of Nagay, with full property rights
+<tei:lb n="3"/>And he acquired from Ḥaḍarhumū Dhū-Mafʿilim 
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">...</tei:supplied>karib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">These towns and territories has Karibʾīl</tei:supplied> Watar bin Dhamarʿalī, ruler of Sabaʾ, <tei:supplied reason="lost">walled and taken possession of for ʾĪlmuquh and for Sabaʾ, when he … … … and Katilum and Yathill and Wanab and Rādiʿ and Wāqibum and ʾAwāwum and Yaʿīratum and Ḥandhifum and Naʿawt Dhāt-Fadādim and Ḥaḍarʾab and Tamisum. And he walled Talīnān and Ṣanawt and Ṣ… …</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">... and he walled Rādiʿ and Mayfaʿ in Khabīʾum. And he walled Maḥrīthum and the two alluvial plains of the two towns of Timnaʿ. And he walled Waʿilān and Mawthabatum and Kadūr. And he gave back the Children of ʿAmm to their towns because they had made an alliance with ʾĪlmuquh and Karibʾīl and Sabaʾ. And he acquired from ʿAmmīwaqah Dhū-ʾAmīrim the town of Ṭayyib, with full property rights. And he gained possession of it with</tei:supplied> the irrigation network of Nagay, with full property rights; <tei:supplied reason="lost">and ʾUfuqān, with full property rights; and Ḥāritān and its mountain and its valley and its grazing lands, with full property rights; and</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">the valleys descending from Maris and their grazing lands, with full property rights.</tei:supplied> And he acquired from Ḥaḍarhumū Dhū-Mafʿilim <tei:supplied reason="lost">Shaʿbum and its valleys and its grazing lands from Maśrīr to ʿAtīb … … the houses facing Warikhān and Ḍaʿīf and all of that which he held in possession in Baqithāt and in Danim, with full property rights. And he acquired Ṣayyāḥū, with full property rights. And he bought <tei:unclear>the services of</tei:unclear> Khadīnān, the vassals of Ḥaḍarhumū Dhū-Mafʿilim; and Gabbārum, the vassals of Yaʿithaq Dhū-Khawlān of Yarīrāt; and <tei:unclear>in this manner</tei:unclear>
+                    </tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">he increased his labor force of Fayshān. And he acquired from Rāʾibum bin Khālīʾamar Dhū-Wāqibim all that he had owned in Wāqibum and its alluvial plain and its valley and its mountain, with full property rights. And he acquired Yaʿīratum and its alluvial plain and its valley and its mountain and its grazing lands, with full property rights. And he acquired ʾAwāwum and its alluvial plain, with full property rights. And he acquired all that Khālī</tei:supplied>karib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. <tei:supplied reason="lost">And he acquired Thamūdat and its alluvial plain and its mountain and its grazing land, with full property rights.</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">And he acquired all that he <tei:unclear>i.e. Khālīkarib Dhū-Ghirrān</tei:unclear> had owned in Maḍayqat from the two hills of Ḥandhifum</tei:supplied> to the town of Ṭayyib, with full property <tei:supplied reason="lost">rights. And he acquired all that he had owned with <tei:unclear>respect to</tei:unclear> the irrigation network of Nagay, with full property rights. And he acquired Zawit and … their … and their grazing lands, with full property rights. And he acquired ʾAkiryay and its alluvial plain, with full property rights. And he gained possession of Naʿawt from Shiddum and from Khabīʾum to its boundary-markers. And he built the upper portion of his palace of Salīḥum from bedrock upwards. And he built in ʾAdhana-</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">t the water reservoir of Tafish and its canal in the direction of Yāsirān. And he built the water reservoir of Yaluṭ and its canal in the direction of ʾAbyan. And he built Ẓarīb and Milkān for Yāsirān. And he built and erected the buildings of Yāsirān and ʾAbyan within them. And he built … …. And these, the palm groves, he acquired in Yāsirān. And he increased his property <tei:unclear>by acqiring</tei:unclear> Dhū-Yaqahmalik and ʾAthʾabān and Madhābān and Mafriśum and Dhū-ʾUnfān and Qaṭīnatān and Safwatum and</tei:supplied> 
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">Salqān and Dhū-Fadihim and Dhū-ʾAwthānim and Dabasū and Mafriśum and Dhū-Ḥabībim and Śamirū and Mahgwaum; and these <tei:unclear>properties</tei:unclear> which he acquired in Ṭaraq: ʿAn.yān and Ḥaḍarū and Shaśawān … …. And <tei:unclear>by acquiring</tei:unclear> these <tei:unclear>properties</tei:unclear> he increased his ownership in Yāsirān: Fāriʿatum and Tayawsum and ʾAthʾabān. And <tei:unclear>these things he did</tei:unclear> when he undertook a hunt for Karawum; and when he carried out the construction of Laqaẓ for ʿAthtar Dhū-Faṣad. And he built for ʿAthtar <tei:unclear>the temple of</tei:unclear> Waraqum. And he acquired the fields of Maḥ-</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">miyyān from the boundary of ʿĀqibān up to Dhū-ʾUnfān, with full property rights. And he acquired the entire property of Ḥaḍarhumū from Khālīʾamar, the first-born of Dhū-Mafʿilim-all that he held in possession in the territory of Wanab, and all of the territory of Fatīrum and Qanat, and all of its <tei:unclear>i.e. Wanab’s</tei:unclear> towns: Mafʿilum and Fatīrum and Qanat and Gaww; and its mountains and its valleys and the grazing lands of its towns, with full property rights. And he increased his labor force of Fayshān with the vassals <tei:unclear>whose services</tei:unclear> Ḥaḍarhumū Dhū-Mafʿilim had sold him with his towns of Mafʿilim and Fatīrum and Qanat and Gaww.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Watar bin Dhamarʿalī, ruler of Sabaʾ
+<tei:lb n="2"/>the irrigation network of Nagay, with full property rights
+<tei:lb n="3"/>And he acquired from Ḥaḍarhumū Dhū-Mafʿilim 
+<tei:lb n="4"/>...karib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>These towns and territories has Karibʾīl Watar bin Dhamarʿalī, ruler of Sabaʾ, walled and taken possession of for ʾĪlmuquh and for Sabaʾ, when he … … … and Katilum and Yathill and Wanab and Rādiʿ and Wāqibum and ʾAwāwum and Yaʿīratum and Ḥandhifum and Naʿawt Dhāt-Fadādim and Ḥaḍarʾab and Tamisum. And he walled Talīnān and Ṣanawt and Ṣ… …
+<tei:lb n="2"/>... and he walled Rādiʿ and Mayfaʿ in Khabīʾum. And he walled Maḥrīthum and the two alluvial plains of the two towns of Timnaʿ. And he walled Waʿilān and Mawthabatum and Kadūr. And he gave back the Children of ʿAmm to their towns because they had made an alliance with ʾĪlmuquh and Karibʾīl and Sabaʾ. And he acquired from ʿAmmīwaqah Dhū-ʾAmīrim the town of Ṭayyib, with full property rights. And he gained possession of it with the irrigation network of Nagay, with full property rights; and ʾUfuqān, with full property rights; and Ḥāritān and its mountain and its valley and its grazing lands, with full property rights; and
+<tei:lb n="3"/>the valleys descending from Maris and their grazing lands, with full property rights. And he acquired from Ḥaḍarhumū Dhū-Mafʿilim Shaʿbum and its valleys and its grazing lands from Maśrīr to ʿAtīb … … the houses facing Warikhān and Ḍaʿīf and all of that which he held in possession in Baqithāt and in Danim, with full property rights. And he acquired Ṣayyāḥū, with full property rights. And he bought the services of Khadīnān, the vassals of Ḥaḍarhumū Dhū-Mafʿilim; and Gabbārum, the vassals of Yaʿithaq Dhū-Khawlān of Yarīrāt; and in this manner
+<tei:lb n="4"/>he increased his labor force of Fayshān. And he acquired from Rāʾibum bin Khālīʾamar Dhū-Wāqibim all that he had owned in Wāqibum and its alluvial plain and its valley and its mountain, with full property rights. And he acquired Yaʿīratum and its alluvial plain and its valley and its mountain and its grazing lands, with full property rights. And he acquired ʾAwāwum and its alluvial plain, with full property rights. And he acquired all that Khālīkarib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. And he acquired Thamūdat and its alluvial plain and its mountain and its grazing land, with full property rights.
+<tei:lb n="5"/>And he acquired all that he i.e. Khālīkarib Dhū-Ghirrān had owned in Maḍayqat from the two hills of Ḥandhifum to the town of Ṭayyib, with full property rights. And he acquired all that he had owned with respect to the irrigation network of Nagay, with full property rights. And he acquired Zawit and … their … and their grazing lands, with full property rights. And he acquired ʾAkiryay and its alluvial plain, with full property rights. And he gained possession of Naʿawt from Shiddum and from Khabīʾum to its boundary-markers. And he built the upper portion of his palace of Salīḥum from bedrock upwards. And he built in ʾAdhana-
+<tei:lb n="6"/>t the water reservoir of Tafish and its canal in the direction of Yāsirān. And he built the water reservoir of Yaluṭ and its canal in the direction of ʾAbyan. And he built Ẓarīb and Milkān for Yāsirān. And he built and erected the buildings of Yāsirān and ʾAbyan within them. And he built … …. And these, the palm groves, he acquired in Yāsirān. And he increased his property by acqiring Dhū-Yaqahmalik and ʾAthʾabān and Madhābān and Mafriśum and Dhū-ʾUnfān and Qaṭīnatān and Safwatum and 
+<tei:lb n="7"/>Salqān and Dhū-Fadihim and Dhū-ʾAwthānim and Dabasū and Mafriśum and Dhū-Ḥabībim and Śamirū and Mahgwaum; and these properties which he acquired in Ṭaraq: ʿAn.yān and Ḥaḍarū and Shaśawān … …. And by acquiring these properties he increased his ownership in Yāsirān: Fāriʿatum and Tayawsum and ʾAthʾabān. And these things he did when he undertook a hunt for Karawum; and when he carried out the construction of Laqaẓ for ʿAthtar Dhū-Faṣad. And he built for ʿAthtar the temple of Waraqum. And he acquired the fields of Maḥ-
+<tei:lb n="8"/>miyyān from the boundary of ʿĀqibān up to Dhū-ʾUnfān, with full property rights. And he acquired the entire property of Ḥaḍarhumū from Khālīʾamar, the first-born of Dhū-Mafʿilim-all that he held in possession in the territory of Wanab, and all of the territory of Fatīrum and Qanat, and all of its i.e. Wanab’s towns: Mafʿilum and Fatīrum and Qanat and Gaww; and its mountains and its valleys and the grazing lands of its towns, with full property rights. And he increased his labor force of Fayshān with the vassals whose services Ḥaḍarhumū Dhū-Mafʿilim had sold him with his towns of Mafʿilim and Fatīrum and Qanat and Gaww.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Watar bin Dhamarʿalī, ruler of Sabaʾ
+<tei:lb n="2"/>the irrigation network of Nagay, with full property rights
+<tei:lb n="3"/>And he acquired from Ḥaḍarhumū Dhū-Mafʿilim 
+<tei:lb n="4"/>...karib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>These towns and territories has Karibʾīl Watar bin Dhamarʿalī, ruler of Sabaʾ, walled and taken possession of for ʾĪlmuquh and for Sabaʾ, when he … … … and Katilum and Yathill and Wanab and Rādiʿ and Wāqibum and ʾAwāwum and Yaʿīratum and Ḥandhifum and Naʿawt Dhāt-Fadādim and Ḥaḍarʾab and Tamisum. And he walled Talīnān and Ṣanawt and Ṣ… …
+<tei:lb n="2"/>... and he walled Rādiʿ and Mayfaʿ in Khabīʾum. And he walled Maḥrīthum and the two alluvial plains of the two towns of Timnaʿ. And he walled Waʿilān and Mawthabatum and Kadūr. And he gave back the Children of ʿAmm to their towns because they had made an alliance with ʾĪlmuquh and Karibʾīl and Sabaʾ. And he acquired from ʿAmmīwaqah Dhū-ʾAmīrim the town of Ṭayyib, with full property rights. And he gained possession of it with the irrigation network of Nagay, with full property rights; and ʾUfuqān, with full property rights; and Ḥāritān and its mountain and its valley and its grazing lands, with full property rights; and
+<tei:lb n="3"/>the valleys descending from Maris and their grazing lands, with full property rights. And he acquired from Ḥaḍarhumū Dhū-Mafʿilim Shaʿbum and its valleys and its grazing lands from Maśrīr to ʿAtīb … … the houses facing Warikhān and Ḍaʿīf and all of that which he held in possession in Baqithāt and in Danim, with full property rights. And he acquired Ṣayyāḥū, with full property rights. And he bought the services of Khadīnān, the vassals of Ḥaḍarhumū Dhū-Mafʿilim; and Gabbārum, the vassals of Yaʿithaq Dhū-Khawlān of Yarīrāt; and in this manner
+<tei:lb n="4"/>he increased his labor force of Fayshān. And he acquired from Rāʾibum bin Khālīʾamar Dhū-Wāqibim all that he had owned in Wāqibum and its alluvial plain and its valley and its mountain, with full property rights. And he acquired Yaʿīratum and its alluvial plain and its valley and its mountain and its grazing lands, with full property rights. And he acquired ʾAwāwum and its alluvial plain, with full property rights. And he acquired all that Khālīkarib Dhū-Ghirrān had held in possession in Maḍayqat, with full property rights. And he acquired Thamūdat and its alluvial plain and its mountain and its grazing land, with full property rights.
+<tei:lb n="5"/>And he acquired all that he i.e. Khālīkarib Dhū-Ghirrān had owned in Maḍayqat from the two hills of Ḥandhifum to the town of Ṭayyib, with full property rights. And he acquired all that he had owned with respect to the irrigation network of Nagay, with full property rights. And he acquired Zawit and … their … and their grazing lands, with full property rights. And he acquired ʾAkiryay and its alluvial plain, with full property rights. And he gained possession of Naʿawt from Shiddum and from Khabīʾum to its boundary-markers. And he built the upper portion of his palace of Salīḥum from bedrock upwards. And he built in ʾAdhana-
+<tei:lb n="6"/>t the water reservoir of Tafish and its canal in the direction of Yāsirān. And he built the water reservoir of Yaluṭ and its canal in the direction of ʾAbyan. And he built Ẓarīb and Milkān for Yāsirān. And he built and erected the buildings of Yāsirān and ʾAbyan within them. And he built … …. And these, the palm groves, he acquired in Yāsirān. And he increased his property by acqiring Dhū-Yaqahmalik and ʾAthʾabān and Madhābān and Mafriśum and Dhū-ʾUnfān and Qaṭīnatān and Safwatum and 
+<tei:lb n="7"/>Salqān and Dhū-Fadihim and Dhū-ʾAwthānim and Dabasū and Mafriśum and Dhū-Ḥabībim and Śamirū and Mahgwaum; and these properties which he acquired in Ṭaraq: ʿAn.yān and Ḥaḍarū and Shaśawān … …. And by acquiring these properties he increased his ownership in Yāsirān: Fāriʿatum and Tayawsum and ʾAthʾabān. And these things he did when he undertook a hunt for Karawum; and when he carried out the construction of Laqaẓ for ʿAthtar Dhū-Faṣad. And he built for ʿAthtar the temple of Waraqum. And he acquired the fields of Maḥ-
+<tei:lb n="8"/>miyyān from the boundary of ʿĀqibān up to Dhū-ʾUnfān, with full property rights. And he acquired the entire property of Ḥaḍarhumū from Khālīʾamar, the first-born of Dhū-Mafʿilim-all that he held in possession in the territory of Wanab, and all of the territory of Fatīrum and Qanat, and all of its i.e. Wanab’s towns: Mafʿilum and Fatīrum and Qanat and Gaww; and its mountains and its valleys and the grazing lands of its towns, with full property rights. And he increased his labor force of Fayshān with the vassals whose services Ḥaḍarhumū Dhū-Mafʿilim had sold him with his towns of Mafʿilim and Fatīrum and Qanat and Gaww.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B176a2</title>
+                <title type="alt">1110000294</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B176a2</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-B176a2</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000294PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.(ʿ)krb | ḏ-ḏrḥn | bn | šhr | qyn | ršw | ʿmm | w-(b-)ršw(t-s)
+2.ry-ʿm | bn | mrqdm | sṭd | ṭly | b-ṣryn | ʿm | w-ḥwkm y=
+3.wm | ṣry | ʿm | bn | nʿḍ | w-ḥwkm | bn | qly | w-ʿrb | b-ʿm | n=
+4.ḥl[.] | qlbn | w-ʿrb | mkntn | b-bnʾ | sqny | wrḫ | w-ḥrmn
+5.bḥt | blqn | b-ḏtm | tkrb-smy | rṯd | wrḫ | w-ḥrmn | nfs-(s)
+6.w-ʾḏn-s | w-bn-sww | ġḍrn | w-ʾnmrm | w-kl | wld-s | w-(q)[ny-s]
+7.b-ʿṯtr | w-b | ʿm | w-b | ʾnby | w-b | ḏt | ṣntm | w-b | (ḏ)
+8.w-b | ydʿʾb | ḏbyn | w-bn-hw | shrm | ml(k)
+
+
+Restored full text of the inscription:
+
+1.[fr](ʿ)krb | ḏ-ḏrḥn | bn | šhr | qyn | ršw | ʿmm | w-(b-)ršw(t-s)
+2.[ṣ]ry-ʿm | bn | mrqdm | sṭd | ṭly | b-ṣryn | ʿm | w-ḥwkm y=
+3.wm | ṣry | ʿm | bn | nʿḍ | w-ḥwkm | bn | qly | w-ʿrb | b-ʿm | n=
+4.ḥl[.] | qlbn | w-ʿrb | mkntn | b-bnʾ | sqny | wrḫ | w-ḥrmn
+5.bḥt | blqn | b-ḏtm | tkrb-smy | rṯd | wrḫ | w-ḥrmn | nfs-(s)
+6.w-ʾḏn-s | w-bn-sww | ġḍrn | w-ʾnmrm | w-kl | wld-s | w-(q)[ny-s]
+7.b-ʿṯtr | w-b | ʿm | w-b | ʾnby | w-b | ḏt | ṣntm | w-b | (ḏ)[...]
+8.w-b | ydʿʾb | ḏbyn | w-bn-hw | shrm | ml(k)[y | qtbn]</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:unclear>ʿ</tei:unclear>krb | ḏ-ḏrḥn | bn | šhr | qyn | ršw | ʿmm | w-<tei:unclear>b-</tei:unclear>ršw<tei:unclear>t-s</tei:unclear>
+               <tei:lb n="2"/>ry-ʿm | bn | mrqdm | sṭd | ṭly | b-ṣryn | ʿm | w-ḥwkm y=
+<tei:lb n="3"/>wm | ṣry | ʿm | bn | nʿḍ | w-ḥwkm | bn | qly | w-ʿrb | b-ʿm | n=
+<tei:lb n="4"/>ḥl<tei:supplied reason="lost">.</tei:supplied> | qlbn | w-ʿrb | mkntn | b-bnʾ | sqny | wrḫ | w-ḥrmn
+<tei:lb n="5"/>bḥt | blqn | b-ḏtm | tkrb-smy | rṯd | wrḫ | w-ḥrmn | nfs-<tei:unclear>s</tei:unclear>
+               <tei:lb n="6"/>w-ʾḏn-s | w-bn-sww | ġḍrn | w-ʾnmrm | w-kl | wld-s | w-<tei:unclear>q</tei:unclear>
+                    <tei:supplied reason="lost">ny-s</tei:supplied>
+               <tei:lb n="7"/>b-ʿṯtr | w-b | ʿm | w-b | ʾnby | w-b | ḏt | ṣntm | w-b | <tei:unclear>ḏ</tei:unclear>
+               <tei:lb n="8"/>w-b | ydʿʾb | ḏbyn | w-bn-hw | shrm | ml<tei:unclear>k</tei:unclear>
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">fr</tei:supplied>
+                    <tei:unclear>ʿ</tei:unclear>krb | ḏ-ḏrḥn | bn | šhr | qyn | ršw | ʿmm | w-<tei:unclear>b-</tei:unclear>ršw<tei:unclear>t-s</tei:unclear>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">ṣ</tei:supplied>ry-ʿm | bn | mrqdm | sṭd | ṭly | b-ṣryn | ʿm | w-ḥwkm y=
+<tei:lb n="3"/>wm | ṣry | ʿm | bn | nʿḍ | w-ḥwkm | bn | qly | w-ʿrb | b-ʿm | n=
+<tei:lb n="4"/>ḥl<tei:supplied reason="lost">.</tei:supplied> | qlbn | w-ʿrb | mkntn | b-bnʾ | sqny | wrḫ | w-ḥrmn
+<tei:lb n="5"/>bḥt | blqn | b-ḏtm | tkrb-smy | rṯd | wrḫ | w-ḥrmn | nfs-<tei:unclear>s</tei:unclear>
+               <tei:lb n="6"/>w-ʾḏn-s | w-bn-sww | ġḍrn | w-ʾnmrm | w-kl | wld-s | w-<tei:unclear>q</tei:unclear>
+                    <tei:supplied reason="lost">ny-s</tei:supplied>
+               <tei:lb n="7"/>b-ʿṯtr | w-b | ʿm | w-b | ʾnby | w-b | ḏt | ṣntm | w-b | <tei:unclear>ḏ</tei:unclear>
+                    <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="8"/>w-b | ydʿʾb | ḏbyn | w-bn-hw | shrm | ml<tei:unclear>k</tei:unclear>
+                    <tei:supplied reason="lost">y | qtbn</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>ʿkrb  <orgName type="group">ḏ-ḏrḥn</orgName>  
+               <w>bn</w>  
+               <persName type="patronymic">šhr</persName>  
+               <w>qyn</w>  
+               <w>ršw</w>  
+               <name type="theonym">ʿmm</name>  
+               <w>w-b-ršwt-s</w>
+                    <tei:lb n="2"/>ry-ʿm  <w>bn</w>  
+               <placeName type="sanctuary">mrqdm</placeName>  
+               <w>sṭd</w>  
+               <w>ṭly</w>  
+               <w>b-ṣryn</w>  
+               <name type="theonym">ʿm</name>  
+               <w>w-</w>
+               <name type="theonym">ḥwkm</name>  y=
+                    <tei:lb n="3"/>wm  <w>ṣry</w>  
+               <name type="theonym">ʿm</name>  
+               <w>bn</w>  
+               <placeName type="sanctuary">nʿḍ</placeName>  
+               <w>w-</w>
+               <name type="theonym">ḥwkm</name>  
+               <w>bn</w>  
+               <placeName type="sanctuary">qly</placeName>  
+               <w>w-ʿrb</w>  
+               <w>b-ʿm</w>  n=
+                    <tei:lb n="4"/>ḥl.  <placeName type="sanctuary">qlbn</placeName>  
+               <w>w-ʿrb</w>  
+               <w>mkntn</w>  
+               <w>b-</w>
+               <placeName type="sanctuary">bnʾ</placeName>  
+               <w>sqny</w>  
+               <name type="theonym">wrḫ</name>  
+               <w>w-</w>
+               <name type="theonym">ḥrmn</name>
+                    <tei:lb n="5"/>
+               <w>bḥt</w>  
+               <w>blqn</w>  
+               <w>b-ḏtm</w>  
+               <w>tkrb-smy</w>  
+               <w>rṯd</w>  
+               <name type="theonym">wrḫ</name>  
+               <w>w-</w>
+               <name type="theonym">ḥrmn</name>  
+               <w>nfs-s</w>
+                    <tei:lb n="6"/>
+               <w>w-ʾḏn-s</w>  
+               <w>w-bn-sww</w>  
+               <persName type="gender" subtype="m">ġḍrn</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">ʾnmrm</persName>  
+               <w>w-kl</w>  
+               <w>wld-s</w>  
+               <w>w-qny-s</w>
+                    <tei:lb n="7"/>
+               <w>b-</w>
+               <name type="theonym">ʿṯtr</name>  
+               <w>w-b</w>  
+               <name type="theonym">ʿm</name>  
+               <w>w-b</w>  
+               <name type="theonym">ʾnby</name>  
+               <w>w-b</w>  
+               <name type="theonym">ḏt  ṣntm</name>  
+               <w>w-b</w>  ḏ
+                    <tei:lb n="8"/>
+               <w>w-b</w>  
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">ydʿʾb</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">ḏbyn</persName>
+               </rs>  
+               <w>w-bn-hw</w>  
+               <persName type="royal" subtype="withTitle" role="king">shrm</persName>  mlk
+
+
+Restored full text of the inscription:
+
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">frʿkrb</persName>  
+               <orgName type="group">ḏ-ḏrḥn</orgName>  
+               <w>bn</w>  
+               <persName type="patronymic">šhr</persName>  
+               <w>qyn</w>  
+               <w>ršw</w>  
+               <name type="theonym">ʿmm</name>  
+               <w>w-b-ršwt-s</w>
+                    <tei:lb n="2"/>
+               <w>ṣry</w>-<name type="theonym">ʿm</name>  
+               <w>bn</w>  
+               <placeName type="sanctuary">mrqdm</placeName>  
+               <w>sṭd</w>  
+               <w>ṭly</w>  
+               <w>b-ṣryn</w>  
+               <name type="theonym">ʿm</name>  
+               <w>w-</w>
+               <name type="theonym">ḥwkm</name> 
+               <w>y=
+                        <tei:lb n="3"/>wm</w>  
+               <w>ṣry</w>  
+               <name type="theonym">ʿm</name>  
+               <w>bn</w>  
+               <placeName type="sanctuary">nʿḍ</placeName>  
+               <w>w-</w>
+               <name type="theonym">ḥwkm</name>  
+               <w>bn</w>  
+               <placeName type="sanctuary">qly</placeName>  
+               <w>w-ʿrb</w>  
+               <w>b-ʿm</w>  
+               <w>n=
+                            <tei:lb n="4"/>ḥl</w>.  <placeName type="sanctuary">qlbn</placeName>  
+               <w>w-ʿrb</w>  
+               <w>mkntn</w>  
+               <w>b-</w>
+               <placeName type="sanctuary">bnʾ</placeName>  
+               <w>sqny</w>  
+               <name type="theonym">wrḫ</name>  
+               <w>w-</w>
+               <name type="theonym">ḥrmn</name>
+                    <tei:lb n="5"/>
+               <w>bḥt</w>  
+               <w>blqn</w>  
+               <w>b-ḏtm</w>  
+               <w>tkrb-smy</w>  
+               <w>rṯd</w>  
+               <name type="theonym">wrḫ</name>  
+               <w>w-</w>
+               <name type="theonym">ḥrmn</name>  
+               <w>nfs-s</w>
+                    <tei:lb n="6"/>
+               <w>w-ʾḏn-s</w>  
+               <w>w-bn-sww</w>  
+               <persName type="gender" subtype="m">ġḍrn</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">ʾnmrm</persName>  
+               <w>w-kl</w>  
+               <w>wld-s</w>  
+               <w>w-qny-s</w>
+                    <tei:lb n="7"/>
+               <w>b-</w>
+               <name type="theonym">ʿṯtr</name>  
+               <w>w-b</w>  
+               <name type="theonym">ʿm</name>  
+               <w>w-b</w>  
+               <name type="theonym">ʾnby</name>  
+               <w>w-b</w>  
+               <name type="theonym">ḏt  ṣntm</name>  
+               <w>w-b</w>  ḏ...
+                    <tei:lb n="8"/>
+               <w>w-b</w>  
+               <rs type="complex">
+                  <persName type="royal" subtype="withTitle" role="king" n="1">ydʿʾb</persName>  
+                  <persName type="royal" subtype="withTitle" role="king" n="2">ḏbyn</persName>
+               </rs>  
+               <w>w-bn-hw</w>  
+               <persName type="royal" subtype="withTitle" role="king">shrm</persName>  
+               <w>mlky</w>  
+               <orgName type="state">qtbn</orgName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>ʿkrb  ḏ-ḏrḥn  bn  šhr  qyn  ršw  ʿmm  w-b-ršwt-s
+<tei:lb n="2"/>ry-ʿm  bn  mrqdm  sṭd  ṭly  b-ṣryn  ʿm  w-ḥwkm y=
+<tei:lb n="3"/>wm  ṣry  ʿm  bn  nʿḍ  w-ḥwkm  bn  qly  w-ʿrb  b-ʿm  n=
+<tei:lb n="4"/>ḥl.  qlbn  w-ʿrb  mkntn  b-bnʾ  sqny  wrḫ  w-ḥrmn
+<tei:lb n="5"/>bḥt  blqn  b-ḏtm  tkrb-smy  rṯd  wrḫ  w-ḥrmn  nfs-s
+<tei:lb n="6"/>w-ʾḏn-s  w-bn-sww  ġḍrn  w-ʾnmrm  w-kl  wld-s  w-qny-s
+<tei:lb n="7"/>b-ʿṯtr  w-b  ʿm  w-b  ʾnby  w-b  ḏt  ṣntm  w-b  ḏ
+<tei:lb n="8"/>w-b  ydʿʾb  ḏbyn  w-bn-hw  shrm  mlk
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>frʿkrb  ḏ-ḏrḥn  bn  šhr  qyn  ršw  ʿmm  w-b-ršwt-s
+<tei:lb n="2"/>ṣry-ʿm  bn  mrqdm  sṭd  ṭly  b-ṣryn  ʿm  w-ḥwkm y=
+<tei:lb n="3"/>wm  ṣry  ʿm  bn  nʿḍ  w-ḥwkm  bn  qly  w-ʿrb  b-ʿm  n=
+<tei:lb n="4"/>ḥl.  qlbn  w-ʿrb  mkntn  b-bnʾ  sqny  wrḫ  w-ḥrmn
+<tei:lb n="5"/>bḥt  blqn  b-ḏtm  tkrb-smy  rṯd  wrḫ  w-ḥrmn  nfs-s
+<tei:lb n="6"/>w-ʾḏn-s  w-bn-sww  ġḍrn  w-ʾnmrm  w-kl  wld-s  w-qny-s
+<tei:lb n="7"/>b-ʿṯtr  w-b  ʿm  w-b  ʾnby  w-b  ḏt  ṣntm  w-b  ḏ...
+<tei:lb n="8"/>w-b  ydʿʾb  ḏbyn  w-bn-hw  shrm  mlky  qtbn</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.[Fari]ʿkarib Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
+2.the interpreter of the oracles of ʿAmm from Marqadum, the collector of the (sacrificial) lambs, according to the oracles of ʿAmm and Ḥawkam, when
+3.he interpreted the oracles of ʿAmm from Naʿiḍ and Ḥawkam from Qalay, and the dedicant together with 
+4.the administrators(?) of Qalabān, and the dedicant of the shrine in Banaʾ--has dedicated to Warakh and Ḥaramān
+5.(this) limsteone slab, as he had vowed to them. He has committed to Warakh and Ḥaramān his person 
+6.and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his (other) children, and (his) possessions.
+7.By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh[...],
+8.and by Yadaʿʾab Dhubyān and his son Shahrum, the king[... ...].
+
+
+Restored full text of the inscription:
+
+1.[Fari]ʿkarib Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
+2.the interpreter of the oracles of ʿAmm from Marqadum, the collector of the (sacrificial) lambs, according to the oracles of ʿAmm and Ḥawkam, when
+3.he interpreted the oracles of ʿAmm from Naʿiḍ and Ḥawkam from Qalay, and the dedicant together with 
+4.the administrators(?) of Qalabān, and the dedicant of the shrine in Banaʾ--has dedicated to Warakh and Ḥaramān
+5.(this) limsteone slab, as he had vowed to them. He has committed to Warakh and Ḥaramān his person 
+6.and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his (other) children, and (his) possessions.
+7.By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh[...],
+8.and by Yadaʿʾab Dhubyān and his son Shahrum, the [two] kings of [Qatabān].</tei:ab>
+            <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Fari</tei:supplied>ʿkarib Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
+<tei:lb n="2"/>the interpreter of the oracles of ʿAmm from Marqadum, the collector of the <tei:unclear>sacrificial</tei:unclear> lambs, according to the oracles of ʿAmm and Ḥawkam, when
+<tei:lb n="3"/>he interpreted the oracles of ʿAmm from Naʿiḍ and Ḥawkam from Qalay, and the dedicant together with 
+<tei:lb n="4"/>the administrators<tei:unclear>?</tei:unclear> of Qalabān, and the dedicant of the shrine in Banaʾ--has dedicated to Warakh and Ḥaramān
+<tei:lb n="5"/>
+                    <tei:unclear>this</tei:unclear> limsteone slab, as he had vowed to them. He has committed to Warakh and Ḥaramān his person 
+<tei:lb n="6"/>and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his <tei:unclear>other</tei:unclear> children, and <tei:unclear>his</tei:unclear> possessions.
+<tei:lb n="7"/>By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh<tei:supplied reason="lost">...</tei:supplied>,
+<tei:lb n="8"/>and by Yadaʿʾab Dhubyān and his son Shahrum, the king<tei:supplied reason="lost">
+                        <tei:gap quantity="5" unit="chars" reason="lost"/>
+                    </tei:supplied>.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Fari</tei:supplied>ʿkarib Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
+<tei:lb n="2"/>the interpreter of the oracles of ʿAmm from Marqadum, the collector of the <tei:unclear>sacrificial</tei:unclear> lambs, according to the oracles of ʿAmm and Ḥawkam, when
+<tei:lb n="3"/>he interpreted the oracles of ʿAmm from Naʿiḍ and Ḥawkam from Qalay, and the dedicant together with 
+<tei:lb n="4"/>the administrators<tei:unclear>?</tei:unclear> of Qalabān, and the dedicant of the shrine in Banaʾ--has dedicated to Warakh and Ḥaramān
+<tei:lb n="5"/>
+                    <tei:unclear>this</tei:unclear> limsteone slab, as he had vowed to them. He has committed to Warakh and Ḥaramān his person 
+<tei:lb n="6"/>and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his <tei:unclear>other</tei:unclear> children, and <tei:unclear>his</tei:unclear> possessions.
+<tei:lb n="7"/>By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh<tei:supplied reason="lost">...</tei:supplied>,
+<tei:lb n="8"/>and by Yadaʿʾab Dhubyān and his son Shahrum, the <tei:supplied reason="lost">two</tei:supplied> kings of <tei:supplied reason="lost">Qatabān</tei:supplied>.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Fariʿkarib Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
+<tei:lb n="2"/>the interpreter of the oracles of ʿAmm from Marqadum, the collector of the sacrificial lambs, according to the oracles of ʿAmm and Ḥawkam, when
+<tei:lb n="3"/>he interpreted the oracles of ʿAmm from Naʿiḍ and Ḥawkam from Qalay, and the dedicant together with 
+<tei:lb n="4"/>the administrators? of Qalabān, and the dedicant of the shrine in Banaʾ--has dedicated to Warakh and Ḥaramān
+<tei:lb n="5"/>this limsteone slab, as he had vowed to them. He has committed to Warakh and Ḥaramān his person 
+<tei:lb n="6"/>and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his other children, and his possessions.
+<tei:lb n="7"/>By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh...,
+<tei:lb n="8"/>and by Yadaʿʾab Dhubyān and his son Shahrum, the king.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Fariʿkarib Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
+<tei:lb n="2"/>the interpreter of the oracles of ʿAmm from Marqadum, the collector of the sacrificial lambs, according to the oracles of ʿAmm and Ḥawkam, when
+<tei:lb n="3"/>he interpreted the oracles of ʿAmm from Naʿiḍ and Ḥawkam from Qalay, and the dedicant together with 
+<tei:lb n="4"/>the administrators? of Qalabān, and the dedicant of the shrine in Banaʾ--has dedicated to Warakh and Ḥaramān
+<tei:lb n="5"/>this limsteone slab, as he had vowed to them. He has committed to Warakh and Ḥaramān his person 
+<tei:lb n="6"/>and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his other children, and his possessions.
+<tei:lb n="7"/>By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh...,
+<tei:lb n="8"/>and by Yadaʿʾab Dhubyān and his son Shahrum, the two kings of Qatabān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>Fariʿkarib Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
+<tei:lb n="2"/>the interpreter of the oracles of ʿAmm from Marqadum, the collector of the sacrificial lambs, according to the oracles of ʿAmm and Ḥawkam, when
+<tei:lb n="3"/>he interpreted the oracles of ʿAmm from Naʿiḍ and Ḥawkam from Qalay, and the dedicant together with 
+<tei:lb n="4"/>the administrators? of Qalabān, and the dedicant of the shrine in Banaʾ--has dedicated to Warakh and Ḥaramān
+<tei:lb n="5"/>this limsteone slab, as he had vowed to them. He has committed to Warakh and Ḥaramān his person 
+<tei:lb n="6"/>and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his other children, and his possessions.
+<tei:lb n="7"/>By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh...,
+<tei:lb n="8"/>and by Yadaʿʾab Dhubyān and his son Shahrum, the king.
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Fariʿkarib Dhū-Dhariḥān bin Shahr--the official and priest, and during his period in office as priest,
+<tei:lb n="2"/>the interpreter of the oracles of ʿAmm from Marqadum, the collector of the sacrificial lambs, according to the oracles of ʿAmm and Ḥawkam, when
+<tei:lb n="3"/>he interpreted the oracles of ʿAmm from Naʿiḍ and Ḥawkam from Qalay, and the dedicant together with 
+<tei:lb n="4"/>the administrators? of Qalabān, and the dedicant of the shrine in Banaʾ--has dedicated to Warakh and Ḥaramān
+<tei:lb n="5"/>this limsteone slab, as he had vowed to them. He has committed to Warakh and Ḥaramān his person 
+<tei:lb n="6"/>and his faculties and his sons, Ghaḍirān and ʾAnmārum, and all of his other children, and his possessions.
+<tei:lb n="7"/>By ʿAthtar, and by ʿAmm, and by ʾAnbay, and by Dhāt-Ṣanatim, and by Dh...,
+<tei:lb n="8"/>and by Yadaʿʾab Dhubyān and his son Shahrum, the two kings of Qatabān.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>
