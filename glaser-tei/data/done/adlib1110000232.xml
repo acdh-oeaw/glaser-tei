@@ -1,0 +1,248 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1138</title>
+                <title type="alt">1110000232</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1138</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1138</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000232PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ...]dy[... ...]m | w-kwn | ṣΓq˥
+2.b-fnwtn | sdṯ | ʾmm /6/ | w-[l]-=
+3.y[bnyn] | yšhrmlk | ḥrtm | b-ḏt | fn=
+4.[wtn] | [w-l-]yṯtʿd | b-ḏt | ḥrtn |
+5.ʾw | fnwtn | ḏ-kwn | l-ḥmnm | [šl=
+6.t] mwnΓh˥n | w-l | šΓhr˥mlk | ṯty
+7.Γy˥dy | mwnhn | w-hʾ | yhwśʿn | ḥm=
+8.[n]m | stqym | w-k[w]n | l-yšhrml[k] |
+9.kl | mwnhn | w-ʾhΓn˥ | yΓʿ˥krn | yšΓh˥=
+10.rmlk | [w-l | yn]dʾ [|] mwm | l-f[nwt]=
+11.[n] | Γw-yṯʿkrb˥ | w-ʿmʿ[... ... ...]
+12.[... ...] | [f]nw[tn | ... ...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>dy<tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>m | w-kwn | ṣ<tei:unclear>q</tei:unclear>
+               <tei:lb n="2"/>b-fnwtn | sdṯ | ʾmm /<tei:lb n="6"/> | w-<tei:supplied reason="lost">l</tei:supplied>-=
+<tei:lb n="3"/>y<tei:supplied reason="lost">bnyn</tei:supplied> | yšhrmlk | ḥrtm | b-ḏt | fn=
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">wtn</tei:supplied> | <tei:supplied reason="lost">w-l-</tei:supplied>yṯtʿd | b-ḏt | ḥrtn |
+<tei:lb n="5"/>ʾw | fnwtn | ḏ-kwn | l-ḥmnm | <tei:supplied reason="lost">šl=
+<tei:lb n="6"/>t</tei:supplied> mwn<tei:unclear>h</tei:unclear>n | w-l | š<tei:unclear>hr</tei:unclear>mlk | ṯty
+<tei:lb n="7"/>
+                    <tei:unclear>y</tei:unclear>dy | mwnhn | w-hʾ | yhwśʿn | ḥm=
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">n</tei:supplied>m | stqym | w-k<tei:supplied reason="lost">w</tei:supplied>n | l-yšhrml<tei:supplied reason="lost">k</tei:supplied> |
+<tei:lb n="9"/>kl | mwnhn | w-ʾh<tei:unclear>n</tei:unclear> | y<tei:unclear>ʿ</tei:unclear>krn | yš<tei:unclear>h</tei:unclear>=
+<tei:lb n="10"/>rmlk | <tei:supplied reason="lost">w-l | yn</tei:supplied>dʾ <tei:supplied reason="lost">|</tei:supplied> mwm | l-f<tei:supplied reason="lost">nwt</tei:supplied>=
+<tei:lb n="11"/>
+                    <tei:supplied reason="lost">n</tei:supplied> | <tei:unclear>w-yṯʿkrb</tei:unclear> | w-ʿmʿ<tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>
+               <tei:lb n="12"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> | <tei:supplied reason="lost">f</tei:supplied>nw<tei:supplied reason="lost">tn | <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>dym  <w>w-kwn</w>  ṣΓq˥
+<tei:lb n="2"/>
+               <w>b-fnwtn</w>  
+               <w>sdṯ</w>  
+               <w>ʾmm</w> /<tei:lb n="6"/>  w-l-=
+                    <tei:lb n="3"/>
+               <w>ybnyn</w>  
+               <persName type="gender" subtype="m">yšhrmlk</persName>  
+               <w>ḥrtm</w>  
+               <w>b-ḏt</w>  
+               <w>fn=
+<tei:lb n="4"/>wtn</w>  
+               <w>w-l-yṯtʿd</w>  
+               <w>b-ḏt</w>  
+               <w>ḥrtn</w> 
+                    <tei:lb n="5"/>
+               <w>ʾw</w>  
+               <w>fnwtn</w>  
+               <w>ḏ-kwn</w>  
+               <w>l-</w>
+               <persName type="gender" subtype="m">ḥmnm</persName>  
+               <w>šl=
+                        <tei:lb n="6"/>t</w> 
+               <w>mwnΓh˥n</w>  
+               <w>w-l</w>  
+               <persName type="gender" subtype="m">šΓhr˥mlk</persName>  
+               <w>ṯty</w>
+                    <tei:lb n="7"/>
+               <w>Γy˥dy</w>  
+               <w>mwnhn</w>  
+               <w>w-hʾ</w>  
+               <w>yhwśʿn</w>  
+               <persName type="gender" subtype="m">ḥm=
+                        <tei:lb n="8"/>nm</persName>  
+               <w>stqym</w>  
+               <w>w-kwn</w>  
+               <w>l-</w>
+               <persName type="gender" subtype="m">yšhrmlk</persName> 
+                    <tei:lb n="9"/>
+               <w>kl</w>  
+               <w>mwnhn</w>  
+               <w>w-ʾhΓn˥</w>  
+               <w>yΓʿ˥krn</w>  
+               <persName type="gender" subtype="m">yšΓh˥=
+<tei:lb n="10"/>rmlk</persName>  
+               <w>w-l</w>  
+               <w>yndʾ</w>  
+               <w>mwm</w>  
+               <w>l-fnwt=
+    <tei:lb n="11"/>n</w>  
+               <w>Γw-</w>
+               <persName type="gender" subtype="m">yṯʿkrb˥</persName>  
+               <w>w-</w>ʿmʿ ...
+<tei:lb n="12"/>  
+               <w>fnwtn</w>  
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>dym  w-kwn  ṣΓq˥
+<tei:lb n="2"/>b-fnwtn  sdṯ  ʾmm /<tei:lb n="6"/>  w-l-=
+<tei:lb n="3"/>ybnyn  yšhrmlk  ḥrtm  b-ḏt  fn=
+<tei:lb n="4"/>wtn  w-l-yṯtʿd  b-ḏt  ḥrtn 
+<tei:lb n="5"/>ʾw  fnwtn  ḏ-kwn  l-ḥmnm  šl=
+<tei:lb n="6"/>t mwnΓh˥n  w-l  šΓhr˥mlk  ṯty
+<tei:lb n="7"/>Γy˥dy  mwnhn  w-hʾ  yhwśʿn  ḥm=
+<tei:lb n="8"/>nm  stqym  w-kwn  l-yšhrmlk 
+<tei:lb n="9"/>kl  mwnhn  w-ʾhΓn˥  yΓʿ˥krn  yšΓh˥=
+<tei:lb n="10"/>rmlk  w-l  yndʾ  mwm  l-fnwt=
+<tei:lb n="11"/>n  Γw-yṯʿkrb˥  w-ʿmʿ ...
+<tei:lb n="12"/>  fnwtn  </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[… … … … …] and [..] was [..]
+2.in the irrigation canal: 6 cubits. And may
+3.Yishhurmalik build a channel to this irrigation
+4.[canal. And may] he enable irrigation through this channel 
+5.or the irrigation canal, of which there belongs to Ḥammānum [one-]
+6.[third] of its two (areas of) water. And to Shahrmalik belong two
+7.portions of the two (areas of) water, and (may) he cede to Ḥammā-
+8.[nu]m water for irrigation. And to Yishhurmali[k] there belong 
+9.each of the two (areas of) water. And, should Yishhurmalik object (to this),
+10.let him release water to the irrigation canal.
+11.And Yithāʿkarib and ʿAmmīʿ[… … …]
+12.[… …] the irrigation cana[l … …]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">… … … … …</tei:supplied> and <tei:supplied reason="lost">..</tei:supplied> was <tei:supplied reason="lost">..</tei:supplied>
+               <tei:lb n="2"/>in the irrigation canal: <tei:lb n="6"/>cubits. And may
+<tei:lb n="3"/>Yishhurmalik build a channel to this irrigation
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">canal. And may</tei:supplied> he enable irrigation through this channel 
+<tei:lb n="5"/>or the irrigation canal, of which there belongs to Ḥammānum <tei:supplied reason="lost">one-</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">third</tei:supplied> of its two <tei:unclear>areas of</tei:unclear> water. And to Shahrmalik belong two
+<tei:lb n="7"/>portions of the two <tei:unclear>areas of</tei:unclear> water, and <tei:unclear>may</tei:unclear> he cede to Ḥammā-
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">nu</tei:supplied>m water for irrigation. And to Yishhurmali<tei:supplied reason="lost">k</tei:supplied> there belong 
+<tei:lb n="9"/>each of the two <tei:unclear>areas of</tei:unclear> water. And, should Yishhurmalik object <tei:unclear>to this</tei:unclear>,
+<tei:lb n="10"/>let him release water to the irrigation canal.
+<tei:lb n="11"/>And Yithāʿkarib and ʿAmmīʿ<tei:supplied reason="lost">… … …</tei:supplied>
+               <tei:lb n="12"/>
+                    <tei:supplied reason="lost">… …</tei:supplied> the irrigation cana<tei:supplied reason="lost">l … …</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>… … … … … and .. was ..
+<tei:lb n="2"/>in the irrigation canal: <tei:lb n="6"/>cubits. And may
+<tei:lb n="3"/>Yishhurmalik build a channel to this irrigation
+<tei:lb n="4"/>canal. And may he enable irrigation through this channel 
+<tei:lb n="5"/>or the irrigation canal, of which there belongs to Ḥammānum one-
+<tei:lb n="6"/>third of its two areas of water. And to Shahrmalik belong two
+<tei:lb n="7"/>portions of the two areas of water, and may he cede to Ḥammā-
+<tei:lb n="8"/>num water for irrigation. And to Yishhurmalik there belong 
+<tei:lb n="9"/>each of the two areas of water. And, should Yishhurmalik object to this,
+<tei:lb n="10"/>let him release water to the irrigation canal.
+<tei:lb n="11"/>And Yithāʿkarib and ʿAmmīʿ… … …
+<tei:lb n="12"/>… … the irrigation canal … …</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>… … … … … and .. was ..
+<tei:lb n="2"/>in the irrigation canal: <tei:lb n="6"/>cubits. And may
+<tei:lb n="3"/>Yishhurmalik build a channel to this irrigation
+<tei:lb n="4"/>canal. And may he enable irrigation through this channel 
+<tei:lb n="5"/>or the irrigation canal, of which there belongs to Ḥammānum one-
+<tei:lb n="6"/>third of its two areas of water. And to Shahrmalik belong two
+<tei:lb n="7"/>portions of the two areas of water, and may he cede to Ḥammā-
+<tei:lb n="8"/>num water for irrigation. And to Yishhurmalik there belong 
+<tei:lb n="9"/>each of the two areas of water. And, should Yishhurmalik object to this,
+<tei:lb n="10"/>let him release water to the irrigation canal.
+<tei:lb n="11"/>And Yithāʿkarib and ʿAmmīʿ… … …
+<tei:lb n="12"/>… … the irrigation canal … …</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

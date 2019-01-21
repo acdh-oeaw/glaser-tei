@@ -1,0 +1,332 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1548</title>
+                <title type="alt">1110000812</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1548</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1548</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000812PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[w-ʾl | b-ʿbr | w-b-ʿly | ... ...m | w-.r... ... | w-... ...mw | bnw | mʿ[hr] ...ḥwr | hgrnhn | qrnw | w-šʿbm | w-ʾl | &lt;b-ʿbr&gt; | w-b-ʿly | kl | ʾbyt-hmw | w-=]
+2.[ʾrḍ-hmw | w-ʾnḫl-hmw | w-ʾqny-hmw | w-ʾdymt-hmw | w-ʾmh-hmw | w-kl | ḏ-qnyw | w-yqnynn | bnw | ḏ-mʿhrm | ... ... | w-ʾwld-hmw | w-ʾl | b-ʿbr | w-b-ʿly | kl | ʾbwt-hmw | w-šʿb-hmw | mʿnm | bn-kl | ʾsṭr | w-šʾm=]
+3.[t | b-hmw | tʿlm | w-ytʿlmn | sʿdm | ḏ-mʿhrm | ʾḥt | šʾmtm | b-nḫlm | ..ʾmn | b-byt-hmw | ẓbyn | b-hgrn | šʿbm | kl | ms[.]ḥ | bynn | f-ʾw | ..tm.n | b-hyt | šʾmtn | ... ...mn | w-šʾmt | ḏ-bn | ḥwr | w-ʾdymt]
+4.[bny | ḏ-mʿhrm | w-šʾmt | w-..yt | ʾbyt-hmw | w-ḏ-qnyw | b-hgrn | qrnw | w-yṯl | w-šʿbm | w-ʾl | bn-kl | ʾsṭr | w-šʾmt | ...lmy | b-hmw | yhwkbn | k-tʿlm | w-ytʿlmn | w-stsʾln | sʿdm | ḏ-mʿhrm | kl-k=]
+5.[ḏy | l-yknnn | hmw | ʾsṭrn | w-šʾmtn | w-ʿlmnhn | w-sʾwltn | šṣṣn | w-sḫln | w-ḫdʿn | w-bḏln | w-ḥqqn | w-kl-k-ḏ | l-yhknnn | bn | w-ʿln | bny | ḏ-mʿhrm | w-ʾwld-hmw | w-ḏ-ʾʿḏr-hmw | w-ʾdy=]
+6.[mt-hmw | w-ʾmh-hmw | w-ʾbyt-hmw | w-bn | w-ʿln | kl | ʾbwt-hmw | w-šʿb-hmw | mʿnm | w-bn |  w-ʿln | kl | ḏ-qnyw | w-yqnynn | bnw | ḏ-mʿhrm | ʾhnn | ʿkrw | l-yrdnn | w-yfʿ | hmw | ʾsṭrn | w-šʾmtn]
+7.[w-ʿlmnhn | w-sʾwltn | ʿm-n | kl | ʾlʾltm | w-ʾmlkm | w-ʾmlktm | w-ʾšʿbm | w-sbʾ | w-fyšn | w-šʿb-hmw | m[...]m | w-kl | ʿḏrm | w-kl | ʾnsm | bhṯm | w-qṭnm | ḏ-rḥq | w-qrb | w-kwn | ḏn | w=]
+8.[tfn | b-wrḫ | ḏ-nswr | ʾḫrn | ḏ-ḫrf | ʾbkrb | bn | smhkrb | bn | ḏ-š.... | b-ʿm..n | w-kwn | ḏn | wtfn | wtfn | ḏ-b-hw  | tʿlm | hlkʾmr | bn | krbʾl | wtr | yhnʿm | mlk | sbʾ | w-ḏ-rydn]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">w-ʾl | b-ʿbr | w-b-ʿly | <tei:gap quantity="plus4" unit="chars"/>m | w-.r<tei:gap quantity="plus4" unit="chars"/> | w-<tei:gap quantity="plus4" unit="chars"/>mw | bnw | mʿ<tei:supplied reason="lost">hr</tei:supplied> ...ḥwr | hgrnhn | qrnw | w-šʿbm | w-ʾl | <tei:add>b-ʿbr</tei:add> | w-b-ʿly | kl | ʾbyt-hmw | w-=</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">ʾrḍ-hmw | w-ʾnḫl-hmw | w-ʾqny-hmw | w-ʾdymt-hmw | w-ʾmh-hmw | w-kl | ḏ-qnyw | w-yqnynn | bnw | ḏ-mʿhrm | <tei:gap quantity="plus4" unit="chars"/> | w-ʾwld-hmw | w-ʾl | b-ʿbr | w-b-ʿly | kl | ʾbwt-hmw | w-šʿb-hmw | mʿnm | bn-kl | ʾsṭr | w-šʾm=</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">t | b-hmw | tʿlm | w-ytʿlmn | sʿdm | ḏ-mʿhrm | ʾḥt | šʾmtm | b-nḫlm | ..ʾmn | b-byt-hmw | ẓbyn | b-hgrn | šʿbm | kl | ms<tei:supplied reason="lost">.</tei:supplied>ḥ | bynn | f-ʾw | ..tm.n | b-hyt | šʾmtn | <tei:gap quantity="plus4" unit="chars"/>mn | w-šʾmt | ḏ-bn | ḥwr | w-ʾdymt</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">bny | ḏ-mʿhrm | w-šʾmt | w-..yt | ʾbyt-hmw | w-ḏ-qnyw | b-hgrn | qrnw | w-yṯl | w-šʿbm | w-ʾl | bn-kl | ʾsṭr | w-šʾmt | ...lmy | b-hmw | yhwkbn | k-tʿlm | w-ytʿlmn | w-stsʾln | sʿdm | ḏ-mʿhrm | kl-k=</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">ḏy | l-yknnn | hmw | ʾsṭrn | w-šʾmtn | w-ʿlmnhn | w-sʾwltn | šṣṣn | w-sḫln | w-ḫdʿn | w-bḏln | w-ḥqqn | w-kl-k-ḏ | l-yhknnn | bn | w-ʿln | bny | ḏ-mʿhrm | w-ʾwld-hmw | w-ḏ-ʾʿḏr-hmw | w-ʾdy=</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">mt-hmw | w-ʾmh-hmw | w-ʾbyt-hmw | w-bn | w-ʿln | kl | ʾbwt-hmw | w-šʿb-hmw | mʿnm | w-bn |  w-ʿln | kl | ḏ-qnyw | w-yqnynn | bnw | ḏ-mʿhrm | ʾhnn | ʿkrw | l-yrdnn | w-yfʿ | hmw | ʾsṭrn | w-šʾmtn</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">w-ʿlmnhn | w-sʾwltn | ʿm-n | kl | ʾlʾltm | w-ʾmlkm | w-ʾmlktm | w-ʾšʿbm | w-sbʾ | w-fyšn | w-šʿb-hmw | m<tei:supplied reason="lost">...</tei:supplied>m | w-kl | ʿḏrm | w-kl | ʾnsm | bhṯm | w-qṭnm | ḏ-rḥq | w-qrb | w-kwn | ḏn | w=</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">tfn | b-wrḫ | ḏ-nswr | ʾḫrn | ḏ-ḫrf | ʾbkrb | bn | smhkrb | bn | ḏ-š.... | b-ʿm..n | w-kwn | ḏn | wtfn | wtfn | ḏ-b-hw  | tʿlm | hlkʾmr | bn | krbʾl | wtr | yhnʿm | mlk | sbʾ | w-ḏ-rydn</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <w>w-ʾl</w>  
+               <w>b-ʿbr</w>  
+               <w>w-b-ʿly</w>  m  w-.r  w-mw  bnw  mʿhr ...<w>ḥwr</w>  
+               <w>hgrnhn</w>  
+               <placeName>qrnw</placeName>  
+               <w>w-šʿbm</w>  
+               <w>w-ʾl</w>  
+               <w>b-ʿbr</w>  
+               <w>w-b-ʿly</w>  
+               <w>kl</w>  
+               <w>ʾbyt-hmw</w>  
+               <w>w-=
+                        <tei:lb n="2"/>ʾrḍ-hmw</w>  
+               <w>w-ʾnḫl-hmw</w>  
+               <w>w-ʾqny-hmw</w>  
+               <w>w-ʾdymt-hmw</w>  
+               <w>w-ʾmh-hmw</w>  
+               <w>w-kl</w>  
+               <w>ḏ-qnyw</w>  
+               <w>w-yqnynn</w>  
+               <w>bnw</w>  
+               <orgName type="group">ḏ-mʿhrm</orgName>    
+               <w>w-ʾwld-hmw</w>  
+               <w>w-ʾl</w>  
+               <w>b-ʿbr</w>  
+               <w>w-b-ʿly</w>  
+               <w>kl</w>  
+               <w>ʾbwt-hmw</w>  
+               <w>w-šʿb-hmw</w>  
+               <orgName type="tribe">mʿnm</orgName>  
+               <w>bn-kl</w>  
+               <w>ʾsṭr</w>  
+               <w>w-šʾm=
+                            <tei:lb n="3"/>t</w>  
+               <w>b-hmw</w>  
+               <w>tʿlm</w>  
+               <w>w-ytʿlmn</w>  
+               <persName type="gender" subtype="m">sʿdm</persName>  
+               <orgName type="group">ḏ-mʿhrm</orgName>  
+               <w>ʾḥt</w>  
+               <w>šʾmtm</w>  
+               <w>b-nḫlm</w>  ..ʾmn  <w>b-byt-hmw</w>  
+               <placeName type="building">ẓbyn</placeName>  
+               <w>b-hgrn</w>  
+               <placeName>šʿbm</placeName>  
+               <w>kl</w>  ms.ḥ  <w>bynn</w>  f-ʾw  ..tm.n  <w>b-hyt</w>  
+               <w>šʾmtn</w>  
+               <w>mn</w>  
+               <w>w-šʾmt</w>  
+               <w>ḏ-bn</w>  
+               <w>ḥwr</w>  
+               <w>w-ʾdymt</w>
+                    <tei:lb n="4"/>
+               <w>bny</w>  
+               <orgName type="group">ḏ-mʿhrm</orgName>  
+               <w>w-šʾmt</w>  w-..yt  <w>ʾbyt-hmw</w>  
+               <w>w-ḏ-qnyw</w>  
+               <w>b-hgrn</w>  
+               <placeName>qrnw</placeName>  
+               <w>w-</w>
+               <placeName>yṯl</placeName>  
+               <w>w-</w>
+               <placeName>šʿbm</placeName>  
+               <w>w-ʾl</w>  
+               <w>bn-kl</w>  
+               <w>ʾsṭr</w>  
+               <w>w-šʾmt</w>  ...lmy  <w>b-hmw</w>  
+               <w>yhwkbn</w>  
+               <w>k-tʿlm</w>  
+               <w>w-ytʿlmn</w>  
+               <w>w-stsʾln</w>  
+               <persName type="gender" subtype="m">sʿdm</persName>  
+               <orgName type="group">ḏ-mʿhrm</orgName>  
+               <w>kl-k=
+                        <tei:lb n="5"/>ḏy</w>  
+               <w>l-yknnn</w>  
+               <w>hmw</w>  
+               <w>ʾsṭrn</w>  
+               <w>w-šʾmtn</w>  
+               <w>w-ʿlmnhn</w>  
+               <w>w-sʾwltn</w>  
+               <w>šṣṣn</w>  
+               <w>w-sḫln</w>  
+               <w>w-ḫdʿn</w>  
+               <w>w-bḏln</w>  
+               <w>w-ḥqqn</w>  
+               <w>w-kl-k-ḏ</w>  
+               <w>l-yhknnn</w>  
+               <w>bn</w>  
+               <w>w-ʿln</w>  
+               <w>bny</w>  
+               <orgName type="group">ḏ-mʿhrm</orgName>  
+               <w>w-ʾwld-hmw</w>  
+               <w>w-ḏ-ʾʿḏr-hmw</w>  
+               <w>w-ʾdy=
+                            <tei:lb n="6"/>mt-hmw</w>  
+               <w>w-ʾmh-hmw</w>  
+               <w>w-ʾbyt-hmw</w>  
+               <w>w-bn</w>  
+               <w>w-ʿln</w>  
+               <w>kl</w>  
+               <w>ʾbwt-hmw</w>  
+               <w>w-šʿb-hmw</w>  
+               <orgName type="tribe">mʿnm</orgName>  
+               <w>w-bn</w>   
+               <w>w-ʿln</w>  
+               <w>kl</w>  
+               <w>ḏ-qnyw</w>  
+               <w>w-yqnynn</w>  
+               <w>bnw</w>  
+               <orgName type="group">ḏ-mʿhrm</orgName>  
+               <w>ʾhnn</w>  
+               <w>ʿkrw</w>  
+               <w>l-yrdnn</w>  
+               <w>w-yfʿ</w>  
+               <w>hmw</w>  
+               <w>ʾsṭrn</w>  
+               <w>w-šʾmtn</w>
+                    <tei:lb n="7"/>
+               <w>w-ʿlmnhn</w>  
+               <w>w-sʾwltn</w>  
+               <w>ʿm-n</w>  
+               <w>kl</w>  
+               <w>ʾlʾltm</w>  
+               <w>w-ʾmlkm</w>  
+               <w>w-ʾmlktm</w>  
+               <w>w-ʾšʿbm</w>  
+               <w>w-</w>
+               <orgName type="tribe">sbʾ</orgName>  
+               <w>w-</w>
+               <orgName type="tribe">fyšn</orgName>  
+               <w>w-šʿb-hmw</w>  m...m  <w>w-kl</w>  
+               <w>ʿḏrm</w>  
+               <w>w-kl</w>  
+               <w>ʾnsm</w>  
+               <w>bhṯm</w>  
+               <w>w-qṭnm</w>  
+               <w>ḏ-rḥq</w>  
+               <w>w-qrb</w>  
+               <w>w-kwn</w>  
+               <w>ḏn</w>  
+               <w>w=
+                        <tei:lb n="8"/>tfn</w>  
+               <w>b-wrḫ</w>   
+               <rs type="month">ḏ-nswr</rs>  
+               <w>ʾḫrn</w>  
+               <w>ḏ-ḫrf</w>  
+               <rs type="eponym">
+                  <persName type="gender" subtype="m">ʾbkrb</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic">smhkrb</persName>  
+               <w>bn</w>  ḏ-š....  b-ʿm..n  <w>w-kwn</w>  
+               <w>ḏn</w>  
+               <w>wtfn</w>  
+               <w>wtfn</w>  
+               <w>ḏ-b-hw</w>   
+               <w>tʿlm</w>  
+               <persName type="royal" subtype="withTitle" role="king">hlkʾmr</persName>  
+               <w>bn</w>  
+               <rs type="complex">
+                  <persName type="patronymic" subtype="royal" role="member" n="1">krbʾl</persName>  
+                  <persName type="patronymic" subtype="royal" role="member" n="2">wtr</persName>  
+                  <persName type="patronymic" subtype="royal" role="member" n="3">yhnʿm</persName>
+               </rs>  
+               <w>mlk</w>  
+               <orgName type="state"> sbʾ</orgName>  
+               <w>w-</w>
+               <orgName type="tribe">ḏ-rydn</orgName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>w-ʾl  b-ʿbr  w-b-ʿly  m  w-.r  w-mw  bnw  mʿhr ...ḥwr  hgrnhn  qrnw  w-šʿbm  w-ʾl  b-ʿbr  w-b-ʿly  kl  ʾbyt-hmw  w-=
+<tei:lb n="2"/>ʾrḍ-hmw  w-ʾnḫl-hmw  w-ʾqny-hmw  w-ʾdymt-hmw  w-ʾmh-hmw  w-kl  ḏ-qnyw  w-yqnynn  bnw  ḏ-mʿhrm    w-ʾwld-hmw  w-ʾl  b-ʿbr  w-b-ʿly  kl  ʾbwt-hmw  w-šʿb-hmw  mʿnm  bn-kl  ʾsṭr  w-šʾm=
+<tei:lb n="3"/>t  b-hmw  tʿlm  w-ytʿlmn  sʿdm  ḏ-mʿhrm  ʾḥt  šʾmtm  b-nḫlm  ..ʾmn  b-byt-hmw  ẓbyn  b-hgrn  šʿbm  kl  ms.ḥ  bynn  f-ʾw  ..tm.n  b-hyt  šʾmtn  mn  w-šʾmt  ḏ-bn  ḥwr  w-ʾdymt
+<tei:lb n="4"/>bny  ḏ-mʿhrm  w-šʾmt  w-..yt  ʾbyt-hmw  w-ḏ-qnyw  b-hgrn  qrnw  w-yṯl  w-šʿbm  w-ʾl  bn-kl  ʾsṭr  w-šʾmt  ...lmy  b-hmw  yhwkbn  k-tʿlm  w-ytʿlmn  w-stsʾln  sʿdm  ḏ-mʿhrm  kl-k=
+<tei:lb n="5"/>ḏy  l-yknnn  hmw  ʾsṭrn  w-šʾmtn  w-ʿlmnhn  w-sʾwltn  šṣṣn  w-sḫln  w-ḫdʿn  w-bḏln  w-ḥqqn  w-kl-k-ḏ  l-yhknnn  bn  w-ʿln  bny  ḏ-mʿhrm  w-ʾwld-hmw  w-ḏ-ʾʿḏr-hmw  w-ʾdy=
+<tei:lb n="6"/>mt-hmw  w-ʾmh-hmw  w-ʾbyt-hmw  w-bn  w-ʿln  kl  ʾbwt-hmw  w-šʿb-hmw  mʿnm  w-bn   w-ʿln  kl  ḏ-qnyw  w-yqnynn  bnw  ḏ-mʿhrm  ʾhnn  ʿkrw  l-yrdnn  w-yfʿ  hmw  ʾsṭrn  w-šʾmtn
+<tei:lb n="7"/>w-ʿlmnhn  w-sʾwltn  ʿm-n  kl  ʾlʾltm  w-ʾmlkm  w-ʾmlktm  w-ʾšʿbm  w-sbʾ  w-fyšn  w-šʿb-hmw  m...m  w-kl  ʿḏrm  w-kl  ʾnsm  bhṯm  w-qṭnm  ḏ-rḥq  w-qrb  w-kwn  ḏn  w=
+<tei:lb n="8"/>tfn  b-wrḫ  ḏ-nswr  ʾḫrn  ḏ-ḫrf  ʾbkrb  bn  smhkrb  bn  ḏ-š....  b-ʿm..n  w-kwn  ḏn  wtfn  wtfn  ḏ-b-hw   tʿlm  hlkʾmr  bn  krbʾl  wtr  yhnʿm  mlk  sbʾ  w-ḏ-rydn</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[Now it is not the responsibility of, nor incumbent upon, … … … and … … and … … of the lineage of Maʿā-[hirum] … … the inhabitants of the two towns of Qarnā and Shaʿbum. And it is not the responsibility of, nor incumbent upon, any of their households, nor]
+2.[their land, nor their palm groves, nor their properties, nor their (male) servants, nor their maidservants, nor anything which the lineage of Maʿāhirum possess or shall (in the future) possess, … …, nor their children. And it is not the responsibility of, nor incumbent upon, any of their agnates, nor their tribe of Maʿīnum, (what derives) from any of the documents and pur-]
+3.[chases which Saʿdum Dhū-Maʿāhiram has authenticated or shall (in the future) authenticate, (namely) one purchase of a palm grove … … in their house of Ẓabiyyān in the town of Shaʿbum, all … … the surrounding area, or … … in that purchase … … … and the purchase which is (made) by the inhabitants and the (male) servants] 
+4.[of the lineage of Maʿāhirum, and the purchase and … of their households and that which they possess in the town of Qarnā and (in) Yathill and Shaʿbum, nor from any documents and purchases … … through which they might discover that Saʿdum Dhū-Maʿāhiram has authenticated, or shall (in the future) authenticate and put forward a request. (All this is) in order] 
+5.[that those documents and purchases and authentications and claims be null and void and dissolved and discarded and (that this ruling be) binding; and in order that (this ruling) be implemented on behalf of, and with obligations upon, the lineage of Dhū-Maʿāhiram and their children and their descendants and] 
+6.[their (male) servants and their maidservants and their households; and on behalf of, and with obligations upon, all of their agnates and their tribe of Maʿīnum; on behalf of, and with obligations upon, all that the lineage of Dhū-Maʿāhiram possesses and shall (in the future) possess. If ever they are challenged, let these documents and purchases and authentications and claims be validated and proclaimed publicly]  
+7.[on the authority of all gods and kings and queens and tribes and the Sabaeans and (the confederation of) Fayshān and their tribe of M[…]m and every descendant and every man-big and small, far and near. And this concessionary]
+8.[document was (written up) in the month of Dhū-Niswar the Latter in the (eponymous) year of ʾAbīkarib bin Sumhūkarib of the lineage of Dhū-Sh… … … … And this concessionary document is the concessionary documents which Halakʾamar, son of Karibʾīl Watar Yuhanʿim, King of Sabaʾ and Dhū-Raydān, has authenticated.]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">Now it is not the responsibility of, nor incumbent upon, … … … and … … and … … of the lineage of Maʿā-<tei:supplied reason="lost">hirum</tei:supplied> … … the inhabitants of the two towns of Qarnā and Shaʿbum. And it is not the responsibility of, nor incumbent upon, any of their households, nor</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">their land, nor their palm groves, nor their properties, nor their <tei:unclear>male</tei:unclear> servants, nor their maidservants, nor anything which the lineage of Maʿāhirum possess or shall <tei:unclear>in the future</tei:unclear> possess, … …, nor their children. And it is not the responsibility of, nor incumbent upon, any of their agnates, nor their tribe of Maʿīnum, <tei:unclear>what derives</tei:unclear> from any of the documents and pur-</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">chases which Saʿdum Dhū-Maʿāhiram has authenticated or shall <tei:unclear>in the future</tei:unclear> authenticate, <tei:unclear>namely</tei:unclear> one purchase of a palm grove … … in their house of Ẓabiyyān in the town of Shaʿbum, all … … the surrounding area, or … … in that purchase … … … and the purchase which is <tei:unclear>made</tei:unclear> by the inhabitants and the <tei:unclear>male</tei:unclear> servants</tei:supplied> 
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">of the lineage of Maʿāhirum, and the purchase and … of their households and that which they possess in the town of Qarnā and <tei:unclear>in</tei:unclear> Yathill and Shaʿbum, nor from any documents and purchases … … through which they might discover that Saʿdum Dhū-Maʿāhiram has authenticated, or shall <tei:unclear>in the future</tei:unclear> authenticate and put forward a request. <tei:unclear>All this is</tei:unclear> in order</tei:supplied> 
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">that those documents and purchases and authentications and claims be null and void and dissolved and discarded and <tei:unclear>that this ruling be</tei:unclear> binding; and in order that <tei:unclear>this ruling</tei:unclear> be implemented on behalf of, and with obligations upon, the lineage of Dhū-Maʿāhiram and their children and their descendants and</tei:supplied> 
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">their <tei:unclear>male</tei:unclear> servants and their maidservants and their households; and on behalf of, and with obligations upon, all of their agnates and their tribe of Maʿīnum; on behalf of, and with obligations upon, all that the lineage of Dhū-Maʿāhiram possesses and shall <tei:unclear>in the future</tei:unclear> possess. If ever they are challenged, let these documents and purchases and authentications and claims be validated and proclaimed publicly</tei:supplied>  
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">on the authority of all gods and kings and queens and tribes and the Sabaeans and <tei:unclear>the confederation of</tei:unclear> Fayshān and their tribe of M<tei:supplied reason="lost">…</tei:supplied>m and every descendant and every man-big and small, far and near. And this concessionary</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">document was <tei:unclear>written up</tei:unclear> in the month of Dhū-Niswar the Latter in the <tei:unclear>eponymous</tei:unclear> year of ʾAbīkarib bin Sumhūkarib of the lineage of Dhū-Sh… … … … And this concessionary document is the concessionary documents which Halakʾamar, son of Karibʾīl Watar Yuhanʿim, King of Sabaʾ and Dhū-Raydān, has authenticated.</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Now it is not the responsibility of, nor incumbent upon, … … … and … … and … … of the lineage of Maʿā-hirum … … the inhabitants of the two towns of Qarnā and Shaʿbum. And it is not the responsibility of, nor incumbent upon, any of their households, nor
+<tei:lb n="2"/>their land, nor their palm groves, nor their properties, nor their male servants, nor their maidservants, nor anything which the lineage of Maʿāhirum possess or shall in the future possess, … …, nor their children. And it is not the responsibility of, nor incumbent upon, any of their agnates, nor their tribe of Maʿīnum, what derives from any of the documents and pur-
+<tei:lb n="3"/>chases which Saʿdum Dhū-Maʿāhiram has authenticated or shall in the future authenticate, namely one purchase of a palm grove … … in their house of Ẓabiyyān in the town of Shaʿbum, all … … the surrounding area, or … … in that purchase … … … and the purchase which is made by the inhabitants and the male servants 
+<tei:lb n="4"/>of the lineage of Maʿāhirum, and the purchase and … of their households and that which they possess in the town of Qarnā and in Yathill and Shaʿbum, nor from any documents and purchases … … through which they might discover that Saʿdum Dhū-Maʿāhiram has authenticated, or shall in the future authenticate and put forward a request. All this is in order 
+<tei:lb n="5"/>that those documents and purchases and authentications and claims be null and void and dissolved and discarded and that this ruling be binding; and in order that this ruling be implemented on behalf of, and with obligations upon, the lineage of Dhū-Maʿāhiram and their children and their descendants and 
+<tei:lb n="6"/>their male servants and their maidservants and their households; and on behalf of, and with obligations upon, all of their agnates and their tribe of Maʿīnum; on behalf of, and with obligations upon, all that the lineage of Dhū-Maʿāhiram possesses and shall in the future possess. If ever they are challenged, let these documents and purchases and authentications and claims be validated and proclaimed publicly  
+<tei:lb n="7"/>on the authority of all gods and kings and queens and tribes and the Sabaeans and the confederation of Fayshān and their tribe of M…m and every descendant and every man-big and small, far and near. And this concessionary
+<tei:lb n="8"/>document was written up in the month of Dhū-Niswar the Latter in the eponymous year of ʾAbīkarib bin Sumhūkarib of the lineage of Dhū-Sh… … … … And this concessionary document is the concessionary documents which Halakʾamar, son of Karibʾīl Watar Yuhanʿim, King of Sabaʾ and Dhū-Raydān, has authenticated.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Now it is not the responsibility of, nor incumbent upon, … … … and … … and … … of the lineage of Maʿā-hirum … … the inhabitants of the two towns of Qarnā and Shaʿbum. And it is not the responsibility of, nor incumbent upon, any of their households, nor
+<tei:lb n="2"/>their land, nor their palm groves, nor their properties, nor their male servants, nor their maidservants, nor anything which the lineage of Maʿāhirum possess or shall in the future possess, … …, nor their children. And it is not the responsibility of, nor incumbent upon, any of their agnates, nor their tribe of Maʿīnum, what derives from any of the documents and pur-
+<tei:lb n="3"/>chases which Saʿdum Dhū-Maʿāhiram has authenticated or shall in the future authenticate, namely one purchase of a palm grove … … in their house of Ẓabiyyān in the town of Shaʿbum, all … … the surrounding area, or … … in that purchase … … … and the purchase which is made by the inhabitants and the male servants 
+<tei:lb n="4"/>of the lineage of Maʿāhirum, and the purchase and … of their households and that which they possess in the town of Qarnā and in Yathill and Shaʿbum, nor from any documents and purchases … … through which they might discover that Saʿdum Dhū-Maʿāhiram has authenticated, or shall in the future authenticate and put forward a request. All this is in order 
+<tei:lb n="5"/>that those documents and purchases and authentications and claims be null and void and dissolved and discarded and that this ruling be binding; and in order that this ruling be implemented on behalf of, and with obligations upon, the lineage of Dhū-Maʿāhiram and their children and their descendants and 
+<tei:lb n="6"/>their male servants and their maidservants and their households; and on behalf of, and with obligations upon, all of their agnates and their tribe of Maʿīnum; on behalf of, and with obligations upon, all that the lineage of Dhū-Maʿāhiram possesses and shall in the future possess. If ever they are challenged, let these documents and purchases and authentications and claims be validated and proclaimed publicly  
+<tei:lb n="7"/>on the authority of all gods and kings and queens and tribes and the Sabaeans and the confederation of Fayshān and their tribe of M…m and every descendant and every man-big and small, far and near. And this concessionary
+<tei:lb n="8"/>document was written up in the month of Dhū-Niswar the Latter in the eponymous year of ʾAbīkarib bin Sumhūkarib of the lineage of Dhū-Sh… … … … And this concessionary document is the concessionary documents which Halakʾamar, son of Karibʾīl Watar Yuhanʿim, King of Sabaʾ and Dhū-Raydān, has authenticated.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

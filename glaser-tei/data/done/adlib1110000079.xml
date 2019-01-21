@@ -1,0 +1,131 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-M_4</title>
+                <title type="alt">1110000079</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-M_4</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-M_4</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000079PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.&lt;l&gt;ḥyᶜṯt | ʾ=
+2.ḫṭr | bn | wq
+3.hʾl | w-ʾḫ-=
+4.&lt;hw&gt; | rḥbn</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:add>l</tei:add>ḥyᶜṯt | ʾ=
+<tei:lb n="2"/>ḫṭr | bn | wq
+<tei:lb n="3"/>hʾl | w-ʾḫ-=
+<tei:lb n="4"/>
+                    <tei:add>hw</tei:add> | rḥbn</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <rs type="complex">
+                  <persName type="gender" subtype="m" n="1">lḥyᶜṯt</persName>  
+                  <persName type="gender" subtype="m" n="2">ʾ=
+                        <tei:lb n="2"/>ḫṭr</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic">wq
+<tei:lb n="3"/>hʾl </persName> 
+               <w>w-ʾḫ-=
+    <tei:lb n="4"/>hw</w>  
+               <persName type="gender" subtype="m">rḥbn</persName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>lḥyᶜṯt  ʾ=
+<tei:lb n="2"/>ḫṭr  bn  wq
+<tei:lb n="3"/>hʾl  w-ʾḫ-=
+<tei:lb n="4"/>hw  rḥbn</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.&lt;La&gt;ḥayʿathat ʾA-
+2.khṭar bin Waqa-
+3.hʾīl and his brother
+4.Raḥībān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:add>La</tei:add>ḥayʿathat ʾA-
+<tei:lb n="2"/>khṭar bin Waqa-
+<tei:lb n="3"/>hʾīl and his brother
+<tei:lb n="4"/>Raḥībān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Laḥayʿathat ʾA-
+<tei:lb n="2"/>khṭar bin Waqa-
+<tei:lb n="3"/>hʾīl and his brother
+<tei:lb n="4"/>Raḥībān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Laḥayʿathat ʾA-
+<tei:lb n="2"/>khṭar bin Waqa-
+<tei:lb n="3"/>hʾīl and his brother
+<tei:lb n="4"/>Raḥībān.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

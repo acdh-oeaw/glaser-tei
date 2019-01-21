@@ -1,0 +1,404 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1547a</title>
+                <title type="alt">1110000809</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1547a</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1547a</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000809PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.[... ... ... ...]
+2.[... ... ... ...]
+3.[... ... ... ...]
+4.[... ... ... ...]
+5.[... ... ... ...]
+6.[... ... ... ...]
+7.[... ... ... ...]
+8.[... ... ... ...]
+
+
+Restoration of what remains of the original text:
+
+1.[w-ʾl | b-ʿbr w-b-ʿly ... ... bn k=]
+2.[l | ʾsṭr | w-šʾmt | w-ʾṯwb | w-nḥlt | w-rdyt | w-ʾdbr | w-... ...]
+3.[mʾḏnm | w-ʾʿqbt-hmw | w-šʿbn | mʾḏnm | w-kl ʾnsm bhṯ=]
+4.[m | w-qṭnm | ln | nbt | yhyṯʿ | bn | by... ... | yhyṯʿ | ʾʾḏn | ... ...]
+5.[b-ʿly | ʾly | mʾḏnm | w-ʾwld-hmw | w-šʿb-hmw | mʾḏnm | w-ʾwld-hmw | w-... ... | šʿb-h=]
+6.[mw | mʾḏnm | bn | hmt | ʾsṭrn | w-šʾmtn | w-ʾṯwbn | w-nḥltn | w-m... ...]
+7.[m | yhyṯʿ | kbr-ḫll | ʾly | m&lt;ʾ&gt;ḏnm | w-ʿqbt-hmw | w-šʿbn | mʾḏnm | w-... ... | kl]
+8.[ʾnsm | bhṯm | w-qṭnm | w-bn-mlʾ | w-rbḥt | hmt | ʾsṭrn | ʾhn-m | ... ...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+
+
+Restoration of what remains of the original text:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">w-ʾl | b-ʿbr w-b-ʿly <tei:gap quantity="plus4" unit="chars"/> bn k=</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">l | ʾsṭr | w-šʾmt | w-ʾṯwb | w-nḥlt | w-rdyt | w-ʾdbr | w-<tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">mʾḏnm | w-ʾʿqbt-hmw | w-šʿbn | mʾḏnm | w-kl ʾnsm bhṯ=</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">m | w-qṭnm | ln | nbt | yhyṯʿ | bn | by<tei:gap quantity="plus4" unit="chars"/> | yhyṯʿ | ʾʾḏn | <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">b-ʿly | ʾly | mʾḏnm | w-ʾwld-hmw | w-šʿb-hmw | mʾḏnm | w-ʾwld-hmw | w-<tei:gap quantity="plus4" unit="chars"/> | šʿb-h=</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">mw | mʾḏnm | bn | hmt | ʾsṭrn | w-šʾmtn | w-ʾṯwbn | w-nḥltn | w-m<tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">m | yhyṯʿ | kbr-ḫll | ʾly | m<tei:add>ʾ</tei:add>ḏnm | w-ʿqbt-hmw | w-šʿbn | mʾḏnm | w-<tei:gap quantity="plus4" unit="chars"/> | kl</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">ʾnsm | bhṯm | w-qṭnm | w-bn-mlʾ | w-rbḥt | hmt | ʾsṭrn | ʾhn-m | <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/> 
+               <tei:lb n="2"/> 
+               <tei:lb n="3"/> 
+               <tei:lb n="4"/> 
+               <tei:lb n="5"/> 
+               <tei:lb n="6"/> 
+               <tei:lb n="7"/> 
+               <tei:lb n="8"/> 
+
+
+Restoration of what remains of the original text:
+
+<tei:lb n="1"/>
+               <w>w-ʾl</w>  
+               <w>b-ʿbr</w> 
+               <w>w-b-ʿly</w>  
+               <w>bn</w> 
+               <w>k=
+<tei:lb n="2"/>l</w>  
+               <w>ʾsṭr</w>  
+               <w>w-šʾmt</w>  
+               <w>w-ʾṯwb</w>  
+               <w>w-nḥlt</w>  
+               <w>w-rdyt</w>  
+               <w>w-ʾdbr</w>  
+               <w>w-</w>
+                    <tei:lb n="3"/>
+               <orgName type="tribe">mʾḏnm</orgName>  
+               <w>w-ʾʿqbt-hmw</w>  
+               <w>w-šʿbn</w>  
+               <orgName type="tribe">mʾḏnm</orgName>  
+               <w>w-kl</w> 
+               <w>ʾnsm</w> 
+               <w>bhṯ=
+                        <tei:lb n="4"/>m</w>  
+               <w>w-qṭnm</w>  
+               <w>ln</w>  
+               <w>nbt</w>  
+               <persName type="gender" subtype="m">yhyṯʿ</persName>  
+               <w>bn</w>  by  <persName type="gender" subtype="m">yhyṯʿ</persName>  
+               <w>ʾʾḏn</w>  
+                    <tei:lb n="5"/>
+               <w>b-ʿly</w>  
+               <w>ʾly</w>  
+               <orgName type="tribe">mʾḏnm</orgName>  
+               <w>w-ʾwld-hmw</w>  
+               <w>w-šʿb-hmw</w>  
+               <orgName type="tribe">mʾḏnm</orgName>  
+               <w>w-ʾwld-hmw</w>  w-  <w>šʿb-h=
+                        <tei:lb n="6"/>mw</w>  
+               <orgName type="tribe">mʾḏnm</orgName>  
+               <w>bn</w>  
+               <w>hmt</w>  
+               <w>ʾsṭrn</w>  
+               <w>w-šʾmtn</w>  
+               <w>w-ʾṯwbn</w>  
+               <w>w-nḥltn</w>  w-m
+                    <tei:lb n="7"/>m  <persName type="gender" subtype="m">yhyṯʿ</persName>  
+               <rs type="complex">
+                  <orgName type="group" n="1">kbr</orgName>-<orgName type="group" n="2">ḫll</orgName>
+               </rs>  
+               <w>ʾly</w>  
+               <orgName type="tribe">mʾḏnm</orgName>  
+               <w>w-ʿqbt-hmw</w>  
+               <w>w-šʿbn</w>  
+               <orgName type="tribe">mʾḏnm</orgName>  w-  kl
+<tei:lb n="8"/>
+               <w>ʾnsm</w>  
+               <w>bhṯm</w>  
+               <w>w-qṭnm</w>  
+               <w>w-bn-mlʾ</w>  
+               <w>w-rbḥt</w>  
+               <w>hmt</w>  
+               <w>ʾsṭrn</w>  
+               <w>ʾhn-m</w>  
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+               <tei:lb n="2"/> 
+               <tei:lb n="3"/> 
+               <tei:lb n="4"/> 
+               <tei:lb n="5"/> 
+               <tei:lb n="6"/> 
+               <tei:lb n="7"/> 
+               <tei:lb n="8"/> 
+
+
+Restoration of what remains of the original text:
+
+<tei:lb n="1"/>w-ʾl  b-ʿbr w-b-ʿly  bn k=
+<tei:lb n="2"/>l  ʾsṭr  w-šʾmt  w-ʾṯwb  w-nḥlt  w-rdyt  w-ʾdbr  w-
+<tei:lb n="3"/>mʾḏnm  w-ʾʿqbt-hmw  w-šʿbn  mʾḏnm  w-kl ʾnsm bhṯ=
+<tei:lb n="4"/>m  w-qṭnm  ln  nbt  yhyṯʿ  bn  by  yhyṯʿ  ʾʾḏn  
+<tei:lb n="5"/>b-ʿly  ʾly  mʾḏnm  w-ʾwld-hmw  w-šʿb-hmw  mʾḏnm  w-ʾwld-hmw  w-  šʿb-h=
+<tei:lb n="6"/>mw  mʾḏnm  bn  hmt  ʾsṭrn  w-šʾmtn  w-ʾṯwbn  w-nḥltn  w-m
+<tei:lb n="7"/>m  yhyṯʿ  kbr-ḫll  ʾly  mʾḏnm  w-ʿqbt-hmw  w-šʿbn  mʾḏnm  w-  kl
+<tei:lb n="8"/>ʾnsm  bhṯm  w-qṭnm  w-bn-mlʾ  w-rbḥt  hmt  ʾsṭrn  ʾhn-m  </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.[... ... ... ...]
+2.[... ... ... ...]
+3.[... ... ... ...]
+4.[... ... ... ...]
+5.[... ... ... ...]
+6.[... ... ... ...]
+7.[... ... ... ...]
+8.[... ... ... ...]
+
+
+Restoration of what remains of the original text:
+
+1.Now it is not binding on, nor incumbent upon [... ...] from all
+2.the documents and purchases and remunerations and gifts and … … and … … and [... ...]
+3.Miʾdhanum and their governors and the tribe of Miʾdhanum and any man, great
+4.or small, when Yahuyithaʿ bin of Bay[... ...] … … … [... ...]
+5.over those (members) of Miʾdhanum and their children and their tribe of Miʾdhanum and their children and [... ...] their tribe
+6.of Miʾdhanum from those documents and purchases and remunerations and gifts and [... ...]
+7.Yahuyithaʿ of Kabīr-Khalīl, they of Miʾdhanum and their governors and the tribe of Miʾdhanum and [… …] any
+8.man, great or small, and from the full amount and the proceeds (recorded in) those written documents whenever [... ...].</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+
+
+Restoration of what remains of the original text:
+
+<tei:lb n="1"/>Now it is not binding on, nor incumbent upon <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> from all
+<tei:lb n="2"/>the documents and purchases and remunerations and gifts and … … and … … and <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="3"/>Miʾdhanum and their governors and the tribe of Miʾdhanum and any man, great
+<tei:lb n="4"/>or small, when Yahuyithaʿ bin of Bay<tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> … … … <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="5"/>over those <tei:unclear>members</tei:unclear> of Miʾdhanum and their children and their tribe of Miʾdhanum and their children and <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> their tribe
+<tei:lb n="6"/>of Miʾdhanum from those documents and purchases and remunerations and gifts and <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="7"/>Yahuyithaʿ of Kabīr-Khalīl, they of Miʾdhanum and their governors and the tribe of Miʾdhanum and <tei:supplied reason="lost">… …</tei:supplied> any
+<tei:lb n="8"/>man, great or small, and from the full amount and the proceeds <tei:unclear>recorded in</tei:unclear> those written documents whenever <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/> 
+               <tei:lb n="2"/> 
+               <tei:lb n="3"/> 
+               <tei:lb n="4"/> 
+               <tei:lb n="5"/> 
+               <tei:lb n="6"/> 
+               <tei:lb n="7"/> 
+               <tei:lb n="8"/> 
+
+
+Restoration of what remains of the original text:
+
+<tei:lb n="1"/>Now it is not binding on, nor incumbent upon  from all
+<tei:lb n="2"/>the documents and purchases and remunerations and gifts and … … and … … and 
+<tei:lb n="3"/>Miʾdhanum and their governors and the tribe of Miʾdhanum and any man, great
+<tei:lb n="4"/>or small, when Yahuyithaʿ bin of Bay … … … 
+<tei:lb n="5"/>over those members of Miʾdhanum and their children and their tribe of Miʾdhanum and their children and  their tribe
+<tei:lb n="6"/>of Miʾdhanum from those documents and purchases and remunerations and gifts and 
+<tei:lb n="7"/>Yahuyithaʿ of Kabīr-Khalīl, they of Miʾdhanum and their governors and the tribe of Miʾdhanum and … … any
+<tei:lb n="8"/>man, great or small, and from the full amount and the proceeds recorded in those written documents whenever .</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/> 
+               <tei:lb n="2"/> 
+               <tei:lb n="3"/> 
+               <tei:lb n="4"/> 
+               <tei:lb n="5"/> 
+               <tei:lb n="6"/> 
+               <tei:lb n="7"/> 
+               <tei:lb n="8"/> 
+
+
+Restoration of what remains of the original text:
+
+<tei:lb n="1"/>Now it is not binding on, nor incumbent upon  from all
+<tei:lb n="2"/>the documents and purchases and remunerations and gifts and … … and … … and 
+<tei:lb n="3"/>Miʾdhanum and their governors and the tribe of Miʾdhanum and any man, great
+<tei:lb n="4"/>or small, when Yahuyithaʿ bin of Bay … … … 
+<tei:lb n="5"/>over those members of Miʾdhanum and their children and their tribe of Miʾdhanum and their children and  their tribe
+<tei:lb n="6"/>of Miʾdhanum from those documents and purchases and remunerations and gifts and 
+<tei:lb n="7"/>Yahuyithaʿ of Kabīr-Khalīl, they of Miʾdhanum and their governors and the tribe of Miʾdhanum and … … any
+<tei:lb n="8"/>man, great or small, and from the full amount and the proceeds recorded in those written documents whenever .</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

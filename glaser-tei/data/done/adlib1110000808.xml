@@ -1,0 +1,212 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1546c</title>
+                <title type="alt">1110000808</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1546c</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1546c</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000808PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.ʿbd(mrʾh)w [| ʿb]d | ḏ-m=
+2.rn | hqny | ʾlmqh | ṯh=
+3.wn | w-ṯwr | bʿlm | bʿl | ḥrw=
+4.nm | ṣlmn | ḏ-šft-hw | l-wfy
+5.bn-hw | sʿdʾwm | w-l wzʾ | ʾ=
+6.lmqh | hwfyn | ʿbd-hw | ʿbdm=
+7.rʾhw | b-kl | ʾʾrḫ | ystydʿ=
+8.n-hw | w-l | sʿd-hmw | nʿmtm | w-[m]=
+9.ngt | ṣdqm | w-l | ḫryn-hmw [| bn]
+10.bʾstm | b-ʿṯtr | w-ʾlmq[h]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>ʿbd<tei:unclear>mrʾh</tei:unclear>w <tei:supplied reason="lost">| ʿb</tei:supplied>d | ḏ-m=
+<tei:lb n="2"/>rn | hqny | ʾlmqh | ṯh=
+<tei:lb n="3"/>wn | w-ṯwr | bʿlm | bʿl | ḥrw=
+<tei:lb n="4"/>nm | ṣlmn | ḏ-šft-hw | l-wfy
+<tei:lb n="5"/>bn-hw | sʿdʾwm | w-l wzʾ | ʾ=
+<tei:lb n="6"/>lmqh | hwfyn | ʿbd-hw | ʿbdm=
+<tei:lb n="7"/>rʾhw | b-kl | ʾʾrḫ | ystydʿ=
+<tei:lb n="8"/>n-hw | w-l | sʿd-hmw | nʿmtm | w-<tei:supplied reason="lost">m</tei:supplied>=
+<tei:lb n="9"/>ngt | ṣdqm | w-l | ḫryn-hmw <tei:supplied reason="lost">| bn</tei:supplied>
+               <tei:lb n="10"/>bʾstm | b-ʿṯtr | w-ʾlmq<tei:supplied reason="lost">h</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">ʿbdmrʾhw</persName>  
+               <w>ʿbd</w>  
+               <orgName type="group">ḏ-m=
+                        <tei:lb n="2"/>rn</orgName>  
+               <w>hqny</w>  
+               <rs type="complex">
+                  <name type="theonym">ʾlmqh</name>  
+                  <name type="epithet" subtype="divine">ṯh=
+                            <tei:lb n="3"/>wn</name>
+               </rs>  
+               <w>w-</w>
+               <rs type="complex">
+                  <name type="theonym">ṯwr</name>  
+                  <name type="epithet" subtype="divine">bʿlm</name>
+               </rs>  
+               <w>bʿl</w>  
+               <placeName type="sanctuary">ḥrw=
+                                <tei:lb n="4"/>nm</placeName>  
+               <w>ṣlmn</w>  
+               <w>ḏ-šft-hw</w>  
+               <w>l-wfy</w>
+                    <tei:lb n="5"/>
+               <w>bn-hw</w>  
+               <persName type="gender" subtype="m">sʿdʾwm</persName>  
+               <w>w-l</w> 
+               <w>wzʾ</w>  
+               <name type="theonym">ʾ=
+                        <tei:lb n="6"/>lmqh</name>  
+               <w>hwfyn</w>  
+               <w>ʿbd-hw</w>  
+               <persName type="gender" subtype="m">ʿbdm=
+                            <tei:lb n="7"/>rʾhw</persName>  
+               <w>b-kl</w>  
+               <w>ʾʾrḫ</w>  
+               <w>ystydʿ=
+                                <tei:lb n="8"/>n-hw</w>  
+               <w>w-l</w>  
+               <w>sʿd-hmw</w>  
+               <w>nʿmtm</w>  
+               <w>w-m=
+                                    <tei:lb n="9"/>ngt</w>  
+               <w>ṣdqm</w>  
+               <w>w-l</w>  
+               <w>ḫryn-hmw</w>  
+               <w>bn</w>
+                    <tei:lb n="10"/>
+               <w>bʾstm</w>  
+               <w>b-</w>
+               <name type="theonym">ʿṯtr</name>  
+               <w>w-</w>
+               <name type="theonym">ʾlmqh</name>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>ʿbdmrʾhw  ʿbd  ḏ-m=
+<tei:lb n="2"/>rn  hqny  ʾlmqh  ṯh=
+<tei:lb n="3"/>wn  w-ṯwr  bʿlm  bʿl  ḥrw=
+<tei:lb n="4"/>nm  ṣlmn  ḏ-šft-hw  l-wfy
+<tei:lb n="5"/>bn-hw  sʿdʾwm  w-l wzʾ  ʾ=
+<tei:lb n="6"/>lmqh  hwfyn  ʿbd-hw  ʿbdm=
+<tei:lb n="7"/>rʾhw  b-kl  ʾʾrḫ  ystydʿ=
+<tei:lb n="8"/>n-hw  w-l  sʿd-hmw  nʿmtm  w-m=
+<tei:lb n="9"/>ngt  ṣdqm  w-l  ḫryn-hmw  bn
+<tei:lb n="10"/>bʾstm  b-ʿṯtr  w-ʾlmqh</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.ʿAbdmaraʾhū, the [cl]ient of Dhū-Mi=
+2.rrān, has dedicated to ʾĪlmuquh Thah=
+3.wān and Thawr Baʿlum, lord of Ḥarwā=
+4.num (this) statue which he had promised him for the well-being
+5.of his son Saʿdʾawwām. And may
+6.ʾĪlmuquh continue to grant his servant ʿAbdma=
+7.raʾhū all the things which he might seek
+8.of him. And may he grant him prosperity and
+9.[g]ood fortune. And may he keep them safe [from] 
+10.any harm. By ʿAthtar and by ʾĪlmuqu[h].</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>ʿAbdmaraʾhū, the <tei:supplied reason="lost">cl</tei:supplied>ient of Dhū-Mi=
+<tei:lb n="2"/>rrān, has dedicated to ʾĪlmuquh Thah=
+<tei:lb n="3"/>wān and Thawr Baʿlum, lord of Ḥarwā=
+<tei:lb n="4"/>num <tei:unclear>this</tei:unclear> statue which he had promised him for the well-being
+<tei:lb n="5"/>of his son Saʿdʾawwām. And may
+<tei:lb n="6"/>ʾĪlmuquh continue to grant his servant ʿAbdma=
+<tei:lb n="7"/>raʾhū all the things which he might seek
+<tei:lb n="8"/>of him. And may he grant him prosperity and
+<tei:lb n="9"/>
+                    <tei:supplied reason="lost">g</tei:supplied>ood fortune. And may he keep them safe <tei:supplied reason="lost">from</tei:supplied> 
+               <tei:lb n="10"/>any harm. By ʿAthtar and by ʾĪlmuqu<tei:supplied reason="lost">h</tei:supplied>.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>ʿAbdmaraʾhū, the client of Dhū-Mi=
+<tei:lb n="2"/>rrān, has dedicated to ʾĪlmuquh Thah=
+<tei:lb n="3"/>wān and Thawr Baʿlum, lord of Ḥarwā=
+<tei:lb n="4"/>num this statue which he had promised him for the well-being
+<tei:lb n="5"/>of his son Saʿdʾawwām. And may
+<tei:lb n="6"/>ʾĪlmuquh continue to grant his servant ʿAbdma=
+<tei:lb n="7"/>raʾhū all the things which he might seek
+<tei:lb n="8"/>of him. And may he grant him prosperity and
+<tei:lb n="9"/>good fortune. And may he keep them safe from 
+<tei:lb n="10"/>any harm. By ʿAthtar and by ʾĪlmuquh.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>ʿAbdmaraʾhū, the client of Dhū-Mi=
+<tei:lb n="2"/>rrān, has dedicated to ʾĪlmuquh Thah=
+<tei:lb n="3"/>wān and Thawr Baʿlum, lord of Ḥarwā=
+<tei:lb n="4"/>num this statue which he had promised him for the well-being
+<tei:lb n="5"/>of his son Saʿdʾawwām. And may
+<tei:lb n="6"/>ʾĪlmuquh continue to grant his servant ʿAbdma=
+<tei:lb n="7"/>raʾhū all the things which he might seek
+<tei:lb n="8"/>of him. And may he grant him prosperity and
+<tei:lb n="9"/>good fortune. And may he keep them safe from 
+<tei:lb n="10"/>any harm. By ʿAthtar and by ʾĪlmuquh.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

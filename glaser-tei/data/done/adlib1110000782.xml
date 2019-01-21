@@ -1,0 +1,355 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B61</title>
+                <title type="alt">1110000782</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B61</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-B61</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000782PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[h]ʿn | yʾzm | w-bny-h(w | y)ḥmd | &lt;w-&gt;yġbr | bnw | smyʿm
+2.[ʾ]dm | bn | btʿ | hqnyw | šym-hmw | tʾlb | ry=
+3.mm | bʿl | qdmn | ḏ-dmhn | ṯwr(n) | ḏ-ḏhbn | w-mṯkḥ=
+4.n | l-wfy-hmw | w-l-ḫmr-hmw | ʾfqlm | nʾdm | [ʿ]dy
+5.ḥblt-hmw | w-ʿ(b)rt-hmw | w-l-ḏt | mtʿ | tʾlb-r=
+6.ymm | ʿbd-hw | yḥmd | bn | ʾmrḍ | mrḍ | bn | (s)hrt=
+7.n | w-ʾrḍ-hwzn | w-ḥmdw | ḫyl | w-mqm | tʾlb r=
+8.ymm | l-sʿd-hmw | rḍw | ʾmrʾ-hmw | w-šʿb-hmw
+9.w-ḫryn-hmw | bn | nḍʿ | w-šṣy | šnʾm | (ḏ)-rḥq | (w-ʿ[.]
+10.[.]b | w-ḥmdw | tʾlb | b-kl | ʾmlʾ | ṣdq-hmw | b-(m=)
+11.sʾl-hw | w-ḥmdw | tʾlb | b-ḏt | kbr | ʾm(w)rtn
+12.mšmt-hmw | w-ʿbrt-hmw | w-kwn | ḏn | ʾqnytn | b-wrḫ
+13.dṯʾ | ḏ-(ḫ)[rf] | sʿdʿṯtr | bn | h(w)fʿṯt | ṣwʿm | w-b-ḏ(t)
+14.(hw)f(y-h)mw | bn | ʾrḍ | ḥmyrm | w-ʿrbn | w-bn | (k)l-sb(ʾ=)
+15.t | sbʾw | [w]-b-ḏt | hwšʿ | ʿbd-hw | yḥmd | b-ṯny | ʾ=
+16.sn | ḏ-hrg | w-stbln | b-ʿṯrb | w-mʿlln | w-b-ḏt | hfy-(hw)
+17.bn | mwṭnn | ṭmḥn | ʿdy | ḫyl | b-tʾlb-rymm</tei:ab>
+                <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="error">
+                    <tei:message>Caught error exerr:EXXQDY0002: Error parsing XML. Document is not valid.
+Fatal (17,58) : The element type "unclear" must be terminated by the matching end-tag "&lt;/unclear&gt;".
+Validated in -1 millisec.
+ in document 1110000782.xml</tei:message>
+                    <tei:text>&lt;ab type="formal-markup"&gt;&lt;lb n="1"/&gt;&lt;supplied reason="lost"&gt;h&lt;/supplied&gt;ʿn | yʾzm | w-bny-h&lt;unclear&gt;w | y&lt;/unclear&gt;ḥmd | &lt;add&gt;w-&lt;/add&gt;yġbr | bnw | smyʿm
+&lt;lb n="2"/&gt;&lt;supplied reason="lost"&gt;ʾ&lt;/supplied&gt;dm | bn | btʿ | hqnyw | šym-hmw | tʾlb | ry=
+&lt;lb n="3"/&gt;mm | bʿl | qdmn | ḏ-dmhn | ṯwr&lt;unclear&gt;n&lt;/unclear&gt; | ḏ-ḏhbn | w-mṯkḥ=
+&lt;lb n="4"/&gt;n | l-wfy-hmw | w-l-ḫmr-hmw | ʾfqlm | nʾdm | &lt;supplied reason="lost"&gt;ʿ&lt;/supplied&gt;dy
+&lt;lb n="5"/&gt;ḥblt-hmw | w-ʿ&lt;unclear&gt;b&lt;/unclear&gt;rt-hmw | w-l-ḏt | mtʿ | tʾlb-r=
+&lt;lb n="6"/&gt;ymm | ʿbd-hw | yḥmd | bn | ʾmrḍ | mrḍ | bn | &lt;unclear&gt;s&lt;/unclear&gt;hrt=
+&lt;lb n="7"/&gt;n | w-ʾrḍ-hwzn | w-ḥmdw | ḫyl | w-mqm | tʾlb r=
+&lt;lb n="8"/&gt;ymm | l-sʿd-hmw | rḍw | ʾmrʾ-hmw | w-šʿb-hmw
+&lt;lb n="9"/&gt;w-ḫryn-hmw | bn | nḍʿ | w-šṣy | šnʾm | &lt;unclear&gt;ḏ&lt;/unclear&gt;-rḥq | &lt;unclear&gt;w-ʿ&lt;supplied reason="lost"&gt;.&lt;/supplied&gt;
+&lt;lb n="10"/&gt;&lt;supplied reason="lost"&gt;.&lt;/supplied&gt;b | w-ḥmdw | tʾlb | b-kl | ʾmlʾ | ṣdq-hmw | b-&lt;unclear&gt;m=&lt;/unclear&gt;
+&lt;lb n="11"/&gt;sʾl-hw | w-ḥmdw | tʾlb | b-ḏt | kbr | ʾm&lt;unclear&gt;w&lt;/unclear&gt;rtn
+&lt;lb n="12"/&gt;mšmt-hmw | w-ʿbrt-hmw | w-kwn | ḏn | ʾqnytn | b-wrḫ
+&lt;lb n="13"/&gt;dṯʾ | ḏ-&lt;unclear&gt;ḫ&lt;/unclear&gt;&lt;supplied reason="lost"&gt;rf&lt;/supplied&gt; | sʿdʿṯtr | bn | h&lt;unclear&gt;w&lt;/unclear&gt;fʿṯt | ṣwʿm | w-b-ḏ&lt;unclear&gt;t&lt;/unclear&gt;
+&lt;lb n="14"/&gt;&lt;unclear&gt;hw&lt;/unclear&gt;f&lt;unclear&gt;y-h&lt;/unclear&gt;mw | bn | ʾrḍ | ḥmyrm | w-ʿrbn | w-bn | &lt;unclear&gt;k&lt;/unclear&gt;l-sb&lt;unclear&gt;ʾ=&lt;/unclear&gt;
+&lt;lb n="15"/&gt;t | sbʾw | &lt;supplied reason="lost"&gt;w&lt;/supplied&gt;-b-ḏt | hwšʿ | ʿbd-hw | yḥmd | b-ṯny | ʾ=
+&lt;lb n="16"/&gt;sn | ḏ-hrg | w-stbln | b-ʿṯrb | w-mʿlln | w-b-ḏt | hfy-&lt;unclear&gt;hw&lt;/unclear&gt;
+&lt;lb n="17"/&gt;bn | mwṭnn | ṭmḥn | ʿdy | ḫyl | b-tʾlb-rymm&lt;/ab&gt;</tei:text>
+                </tei:div>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <rs type="complex">
+                  <persName type="gender" subtype="m" n="1">hʿn</persName>  
+                  <persName type="gender" subtype="m" n="2">yʾzm</persName>
+               </rs>  
+               <w>w-bny-hw</w>  
+               <persName type="gender" subtype="m">yḥmd</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">yġbr</persName>  
+               <w>bnw</w>  
+               <orgName type="group">smyʿm</orgName>
+                    <tei:lb n="2"/>
+               <w>ʾdm</w>  
+               <w>bn</w>  
+               <orgName type="group">btʿ</orgName>  
+               <w>hqnyw</w>  
+               <w>šym-hmw</w>  
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>  
+                  <name type="epithet" subtype="divine">ry=
+                        <tei:lb n="3"/>mm</name>
+               </rs>  
+               <w>bʿl</w>  
+               <placeName type="sanctuary">qdmn</placeName>  
+               <w>ḏ-</w>
+               <placeName>dmhn</placeName>  
+               <w>ṯwrn</w>  
+               <w>ḏ-ḏhbn</w>  
+               <w>w-mṯkḥ=
+<tei:lb n="4"/>n</w>  
+               <w>l-wfy-hmw</w>  
+               <w>w-l-ḫmr-hmw</w>  
+               <w>ʾfqlm</w>  
+               <w>nʾdm</w>  
+               <w>ʿdy</w>
+                    <tei:lb n="5"/>
+               <w>ḥblt-hmw</w>  
+               <w>w-ʿbrt-hmw</w>  
+               <w>w-l-ḏt</w>  
+               <w>mtʿ</w>  
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>-<name type="epithet" subtype="divine">r=
+                        <tei:lb n="6"/>ymm</name>
+               </rs>  
+               <w>ʿbd-hw</w>  
+               <persName type="gender" subtype="m">yḥmd</persName>  
+               <w>bn</w>  
+               <w>ʾmrḍ</w>  
+               <w>mrḍ</w>  
+               <w>bn</w>  
+               <placeName>shrt=
+                            <tei:lb n="7"/>n</placeName>  
+               <w>w-ʾrḍ-</w>
+               <placeName>hwzn</placeName>  
+               <w>w-ḥmdw</w>  
+               <w>ḫyl</w>  
+               <w>w-mqm</w>  
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name> 
+                  <name type="epithet" subtype="divine">r=
+<tei:lb n="8"/>ymm</name>
+               </rs>  
+               <w>l-sʿd-hmw</w>  
+               <w>rḍw</w>  
+               <w>ʾmrʾ-hmw</w>  
+               <w>w-šʿb-hmw</w>
+               <tei:lb n="9"/>
+               <w>w-ḫryn-hmw</w>  
+               <w>bn</w>  
+               <w>nḍʿ</w>  
+               <w>w-šṣy</w>  
+               <w>šnʾm</w>  
+               <w>ḏ-rḥq</w>  w-ʿ.
+                    <tei:lb n="10"/>.b  <w>w-ḥmdw</w>  
+               <name type="theonym">tʾlb</name>  
+               <w>b-kl</w>  
+               <w>ʾmlʾ</w>  
+               <w>ṣdq-hmw</w>  
+               <w>b-m=
+                        <tei:lb n="11"/>sʾl-hw</w>  
+               <w>w-ḥmdw</w>  
+               <name type="theonym">tʾlb</name>  
+               <w>b-ḏt</w>  
+               <w>kbr</w>  
+               <w>ʾmwrtn</w>
+               <tei:lb n="12"/>
+               <w>mšmt-hmw</w>  
+               <w>w-ʿbrt-hmw</w>  
+               <w>w-kwn</w>  
+               <w>ḏn</w>  
+               <w>ʾqnytn</w>  
+               <w>b-wrḫ</w>
+                    <tei:lb n="13"/>
+               <rs type="month">dṯʾ</rs>  
+               <w>ḏ-ḫrf</w>  
+               <rs type="eponym">
+                  <persName type="gender" subtype="m">sʿdʿṯtr</persName>
+               </rs>  
+               <w>bn</w>  
+               <persName type="patronymic">hwfʿṯt</persName>  
+               <w>ṣwʿm</w>  
+               <w>w-b-ḏt</w>
+                    <tei:lb n="14"/>
+               <w>hwfy-hmw</w>  
+               <w>bn</w>  
+               <w>ʾrḍ</w>  
+               <orgName type="tribe">ḥmyrm</orgName>  
+               <w>w-</w>
+               <orgName type="tribe">ʿrbn</orgName>  
+               <w>w-bn</w>  
+               <w>kl-sbʾ=
+                        <tei:lb n="15"/>t</w>  
+               <w>sbʾw</w>  
+               <w>w-b-ḏt</w>  
+               <w>hwšʿ</w>  
+               <w>ʿbd-hw</w>  
+               <persName type="gender" subtype="m">yḥmd</persName>  
+               <w>b-ṯny</w>  
+               <w>ʾ=
+<tei:lb n="16"/>sn</w>  
+               <w>ḏ-hrg</w>  
+               <w>w-stbln</w>  
+               <w>b-</w>
+               <placeName>ʿṯrb</placeName>  
+               <w>w-</w>
+               <placeName>mʿlln</placeName>  
+               <w>w-b-ḏt</w>  
+               <w>hfy-hw</w>
+                    <tei:lb n="17"/>
+               <w>bn</w>  
+               <w>mwṭnn</w>  
+               <placeName>ṭmḥn</placeName>  
+               <w>ʿdy</w>  
+               <placeName>ḫyl</placeName>  
+               <w>b-</w>
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>-<name type="epithet" subtype="divine">rymm</name>
+               </rs>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>hʿn  yʾzm  w-bny-hw  yḥmd  w-yġbr  bnw  smyʿm
+<tei:lb n="2"/>ʾdm  bn  btʿ  hqnyw  šym-hmw  tʾlb  ry=
+<tei:lb n="3"/>mm  bʿl  qdmn  ḏ-dmhn  ṯwrn  ḏ-ḏhbn  w-mṯkḥ=
+<tei:lb n="4"/>n  l-wfy-hmw  w-l-ḫmr-hmw  ʾfqlm  nʾdm  ʿdy
+<tei:lb n="5"/>ḥblt-hmw  w-ʿbrt-hmw  w-l-ḏt  mtʿ  tʾlb-r=
+<tei:lb n="6"/>ymm  ʿbd-hw  yḥmd  bn  ʾmrḍ  mrḍ  bn  shrt=
+<tei:lb n="7"/>n  w-ʾrḍ-hwzn  w-ḥmdw  ḫyl  w-mqm  tʾlb r=
+<tei:lb n="8"/>ymm  l-sʿd-hmw  rḍw  ʾmrʾ-hmw  w-šʿb-hmw
+<tei:lb n="9"/>w-ḫryn-hmw  bn  nḍʿ  w-šṣy  šnʾm  ḏ-rḥq  w-ʿ.
+<tei:lb n="10"/>.b  w-ḥmdw  tʾlb  b-kl  ʾmlʾ  ṣdq-hmw  b-m=
+<tei:lb n="11"/>sʾl-hw  w-ḥmdw  tʾlb  b-ḏt  kbr  ʾmwrtn
+<tei:lb n="12"/>mšmt-hmw  w-ʿbrt-hmw  w-kwn  ḏn  ʾqnytn  b-wrḫ
+<tei:lb n="13"/>dṯʾ  ḏ-ḫrf  sʿdʿṯtr  bn  hwfʿṯt  ṣwʿm  w-b-ḏt
+<tei:lb n="14"/>hwfy-hmw  bn  ʾrḍ  ḥmyrm  w-ʿrbn  w-bn  kl-sbʾ=
+<tei:lb n="15"/>t  sbʾw  w-b-ḏt  hwšʿ  ʿbd-hw  yḥmd  b-ṯny  ʾ=
+<tei:lb n="16"/>sn  ḏ-hrg  w-stbln  b-ʿṯrb  w-mʿlln  w-b-ḏt  hfy-hw
+<tei:lb n="17"/>bn  mwṭnn  ṭmḥn  ʿdy  ḫyl  b-tʾlb-rymm</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[Ha]ʿān Yaʾzim and his sons Yaḥmad and Yaghbar, of the lineage of Samīʿum,
+2.clients of Banū Bataʿ, have dedicated to their patron-god Taʾlab Riyāmum,
+3.lord of Qādimān Dhū-Damhān (this) bull of bronze and (this) stone stele
+4.in order that he (i.e. Taʾlab) might protect them and grant them luxuriant crops in
+5.their terraced fields and their wādī-side plots; and (they have also dedicated) because Taʾlab Riyāmum saved
+6.his servant Yaḥmad from the maladies from which he suffered (when he returned) from Sahrat=
+7.ān and the land of Hawzān. And they praised the power and might of Taʾlab Ri=
+8.yāmum, in order that he might grant them the good pleasure of their lords and their tribe,
+9.and that he might protect them from the harm and enmity of any enemy far or [ne=
+10.[ar]. And they praised Taʾlab on account of all the oracular responses which he rendered to them through his oracle.
+11.And they praised Taʾlab because he enriched the yield 
+12.of their fields and their wādī-side plots. Now this dedication took place in the month of
+13.Dathaʾ of the year of Saʿdʿathtar bin Ḥawfāʿathat, at the end of his term in eponymous office. And (they dedicated) because
+14.he (i.e. Taʾlab) saved them from the land of Ḥimyar and the Arabs and from every military campaign
+15.which they undertook, [and] because he granted his servant Yaḥmad two military
+16.leaders whom he killed and stripped of possessions at ʿAthrib and Maʿlūlān, and because he saved him
+17.from the battlefield of Ṭamḥān in Khayl. By Taʾlab Riyāmum.</tei:ab>
+                <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="error">
+                    <tei:message>Caught error exerr:EXXQDY0002: Error parsing XML. Document is not valid.
+Fatal (17,74) : The element type "supplied" must be terminated by the matching end-tag "&lt;/supplied&gt;".
+Validated in -1 millisec.
+ in document 1110000782.xml</tei:message>
+                    <tei:text>&lt;ab type="formal-markup"&gt;&lt;lb n="1"/&gt;&lt;supplied reason="lost"&gt;Ha&lt;/supplied&gt;ʿān Yaʾzim and his sons Yaḥmad and Yaghbar, of the lineage of Samīʿum,
+&lt;lb n="2"/&gt;clients of Banū Bataʿ, have dedicated to their patron-god Taʾlab Riyāmum,
+&lt;lb n="3"/&gt;lord of Qādimān Dhū-Damhān &lt;unclear&gt;this&lt;/unclear&gt; bull of bronze and &lt;unclear&gt;this&lt;/unclear&gt; stone stele
+&lt;lb n="4"/&gt;in order that he &lt;unclear&gt;i.e. Taʾlab&lt;/unclear&gt; might protect them and grant them luxuriant crops in
+&lt;lb n="5"/&gt;their terraced fields and their wādī-side plots; and &lt;unclear&gt;they have also dedicated&lt;/unclear&gt; because Taʾlab Riyāmum saved
+&lt;lb n="6"/&gt;his servant Yaḥmad from the maladies from which he suffered &lt;unclear&gt;when he returned&lt;/unclear&gt; from Sahrat=
+&lt;lb n="7"/&gt;ān and the land of Hawzān. And they praised the power and might of Taʾlab Ri=
+&lt;lb n="8"/&gt;yāmum, in order that he might grant them the good pleasure of their lords and their tribe,
+&lt;lb n="9"/&gt;and that he might protect them from the harm and enmity of any enemy far or &lt;supplied reason="lost"&gt;ne=
+&lt;lb n="10"/&gt;&lt;supplied reason="lost"&gt;ar&lt;/supplied&gt;. And they praised Taʾlab on account of all the oracular responses which he rendered to them through his oracle.
+&lt;lb n="11"/&gt;And they praised Taʾlab because he enriched the yield 
+&lt;lb n="12"/&gt;of their fields and their wādī-side plots. Now this dedication took place in the month of
+&lt;lb n="13"/&gt;Dathaʾ of the year of Saʿdʿathtar bin Ḥawfāʿathat, at the end of his term in eponymous office. And &lt;unclear&gt;they dedicated&lt;/unclear&gt; because
+&lt;lb n="14"/&gt;he &lt;unclear&gt;i.e. Taʾlab&lt;/unclear&gt; saved them from the land of Ḥimyar and the Arabs and from every military campaign
+&lt;lb n="15"/&gt;which they undertook, &lt;supplied reason="lost"&gt;and&lt;/supplied&gt; because he granted his servant Yaḥmad two military
+&lt;lb n="16"/&gt;leaders whom he killed and stripped of possessions at ʿAthrib and Maʿlūlān, and because he saved him
+&lt;lb n="17"/&gt;from the battlefield of Ṭamḥān in Khayl. By Taʾlab Riyāmum.&lt;/ab&gt;</tei:text>
+                </tei:div>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Haʿān Yaʾzim and his sons Yaḥmad and Yaghbar, of the lineage of Samīʿum,
+<tei:lb n="2"/>clients of Banū Bataʿ, have dedicated to their patron-god Taʾlab Riyāmum,
+<tei:lb n="3"/>lord of Qādimān Dhū-Damhān this bull of bronze and this stone stele
+<tei:lb n="4"/>in order that he i.e. Taʾlab might protect them and grant them luxuriant crops in
+<tei:lb n="5"/>their terraced fields and their wādī-side plots; and they have also dedicated because Taʾlab Riyāmum saved
+<tei:lb n="6"/>his servant Yaḥmad from the maladies from which he suffered when he returned from Sahrat=
+<tei:lb n="7"/>ān and the land of Hawzān. And they praised the power and might of Taʾlab Ri=
+<tei:lb n="8"/>yāmum, in order that he might grant them the good pleasure of their lords and their tribe,
+<tei:lb n="9"/>and that he might protect them from the harm and enmity of any enemy far or ne=
+<tei:lb n="10"/>ar. And they praised Taʾlab on account of all the oracular responses which he rendered to them through his oracle.
+<tei:lb n="11"/>And they praised Taʾlab because he enriched the yield 
+<tei:lb n="12"/>of their fields and their wādī-side plots. Now this dedication took place in the month of
+<tei:lb n="13"/>Dathaʾ of the year of Saʿdʿathtar bin Ḥawfāʿathat, at the end of his term in eponymous office. And they dedicated because
+<tei:lb n="14"/>he i.e. Taʾlab saved them from the land of Ḥimyar and the Arabs and from every military campaign
+<tei:lb n="15"/>which they undertook, and because he granted his servant Yaḥmad two military
+<tei:lb n="16"/>leaders whom he killed and stripped of possessions at ʿAthrib and Maʿlūlān, and because he saved him
+<tei:lb n="17"/>from the battlefield of Ṭamḥān in Khayl. By Taʾlab Riyāmum.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Haʿān Yaʾzim and his sons Yaḥmad and Yaghbar, of the lineage of Samīʿum,
+<tei:lb n="2"/>clients of Banū Bataʿ, have dedicated to their patron-god Taʾlab Riyāmum,
+<tei:lb n="3"/>lord of Qādimān Dhū-Damhān this bull of bronze and this stone stele
+<tei:lb n="4"/>in order that he i.e. Taʾlab might protect them and grant them luxuriant crops in
+<tei:lb n="5"/>their terraced fields and their wādī-side plots; and they have also dedicated because Taʾlab Riyāmum saved
+<tei:lb n="6"/>his servant Yaḥmad from the maladies from which he suffered when he returned from Sahrat=
+<tei:lb n="7"/>ān and the land of Hawzān. And they praised the power and might of Taʾlab Ri=
+<tei:lb n="8"/>yāmum, in order that he might grant them the good pleasure of their lords and their tribe,
+<tei:lb n="9"/>and that he might protect them from the harm and enmity of any enemy far or ne=
+<tei:lb n="10"/>ar. And they praised Taʾlab on account of all the oracular responses which he rendered to them through his oracle.
+<tei:lb n="11"/>And they praised Taʾlab because he enriched the yield 
+<tei:lb n="12"/>of their fields and their wādī-side plots. Now this dedication took place in the month of
+<tei:lb n="13"/>Dathaʾ of the year of Saʿdʿathtar bin Ḥawfāʿathat, at the end of his term in eponymous office. And they dedicated because
+<tei:lb n="14"/>he i.e. Taʾlab saved them from the land of Ḥimyar and the Arabs and from every military campaign
+<tei:lb n="15"/>which they undertook, and because he granted his servant Yaḥmad two military
+<tei:lb n="16"/>leaders whom he killed and stripped of possessions at ʿAthrib and Maʿlūlān, and because he saved him
+<tei:lb n="17"/>from the battlefield of Ṭamḥān in Khayl. By Taʾlab Riyāmum.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

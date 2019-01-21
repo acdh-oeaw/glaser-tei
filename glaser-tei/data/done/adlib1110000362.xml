@@ -1,0 +1,303 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1213_01</title>
+                <title type="alt">1110000362</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1213_01</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1213_01</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000362PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.[…]mn | [… …]-hmw | tʾl(b)
+2.sʿd-hw | brw-hw | ʾsʾr | w-b-ḏt | y[.]
+3.ʾw(l)d(m) | ʾḏkrm | hn(ʾ)m | w-l | sʿd-hm[w]
+4.[r]ḍw | ʾmrʾ-hmw | bny | hmdn w-l | sʿd
+5.[…] (|) [ʿ]dy | ʾrḍ-hmy | w-mšymt-=
+6.[hmw | … … … š](ṣy) | šnʾm | w-b-mqm | [...]
+
+
+Restored text:
+
+1.[b | rymm | ʿdy | trʿt | b…mn | … …]-hmw | tʾl(b)
+2.[ʾl-hw | ḥmdm | b-ḏt |] sʿd-hw | brw-hw | ʾsʾr | w-b-ḏt | y[.]
+3.[| tʾlb | sʿd-hmw |] ʾw(l)dm | ʾḏkrm | hn(ʾ)m | w-l | sʿd-hm[w]
+4.[nʿmtm | w-wfym | w-r]ḍw | ʾmrʾ-hmw | bny | hmdn w-l | sʿd
+5.[ʾym… … … … …] (|) [ʿ]dy | ʾrḍ-hmy | w-mšymt-=
+6.[… … … …-hmw | … … … š](ṣy) | šnʾm | w-b-mqm | [...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">…</tei:supplied>mn | <tei:supplied reason="lost">… …</tei:supplied>-hmw | tʾl<tei:unclear>b</tei:unclear>
+               <tei:lb n="2"/>sʿd-hw | brw-hw | ʾsʾr | w-b-ḏt | y<tei:supplied reason="lost">.</tei:supplied>
+               <tei:lb n="3"/>ʾw<tei:unclear>l</tei:unclear>d<tei:unclear>m</tei:unclear> | ʾḏkrm | hn<tei:unclear>ʾ</tei:unclear>m | w-l | sʿd-hm<tei:supplied reason="lost">w</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">r</tei:supplied>ḍw | ʾmrʾ-hmw | bny | hmdn w-l | sʿd
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">…</tei:supplied> 
+               <tei:unclear>|</tei:unclear> 
+               <tei:supplied reason="lost">ʿ</tei:supplied>dy | ʾrḍ-hmy | w-mšymt-=
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">hmw | … … … š</tei:supplied>
+                    <tei:unclear>ṣy</tei:unclear> | šnʾm | w-b-mqm | <tei:supplied reason="lost">...</tei:supplied>
+
+
+Restored text:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">b | rymm | ʿdy | trʿt | b…mn | … …</tei:supplied>-hmw | tʾl<tei:unclear>b</tei:unclear>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">ʾl-hw | ḥmdm | b-ḏt |</tei:supplied> sʿd-hw | brw-hw | ʾsʾr | w-b-ḏt | y<tei:supplied reason="lost">.</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">| tʾlb | sʿd-hmw |</tei:supplied> ʾw<tei:unclear>l</tei:unclear>dm | ʾḏkrm | hn<tei:unclear>ʾ</tei:unclear>m | w-l | sʿd-hm<tei:supplied reason="lost">w</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">nʿmtm | w-wfym | w-r</tei:supplied>ḍw | ʾmrʾ-hmw | bny | hmdn w-l | sʿd
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">ʾym… … … … …</tei:supplied> 
+               <tei:unclear>|</tei:unclear> 
+               <tei:supplied reason="lost">ʿ</tei:supplied>dy | ʾrḍ-hmy | w-mšymt-=
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">… … … …-hmw | … … … š</tei:supplied>
+                    <tei:unclear>ṣy</tei:unclear> | šnʾm | w-b-mqm | <tei:supplied reason="lost">...</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+                    <tei:lb n="1"/>…mn  … …-hmw  <name type="theonym">tʾlb</name>
+                    <tei:lb n="2"/>
+               <w>sʿd-hw</w>  
+               <w>brw-hw</w>  
+               <persName type="gender" subtype="m">ʾsʾr</persName>  
+               <w>w-b-ḏt</w>  y.
+                    <tei:lb n="3"/>
+               <w>ʾwldm</w>  
+               <w>ʾḏkrm</w>  
+               <w>hnʾm</w>  
+               <w>w-l</w>  
+               <w>sʿd-hmw</w>
+                    <tei:lb n="4"/>rḍw  <w>ʾmrʾ-hmw</w>  
+               <w>bny</w>  
+               <orgName type="group">hmdn</orgName> 
+               <w>w-l</w>  
+               <w>sʿd</w>
+                    <tei:lb n="5"/>…  <w>ʿdy</w>  
+               <w>ʾrḍ-hmy</w>  
+               <w>w-mšymt</w>-=
+                    <tei:lb n="6"/>hmw  … … … <w>šṣy</w>  
+               <w>šnʾm</w>  
+               <w>w-b-mqm</w>  ...
+
+
+Restored text:
+
+                    <tei:lb n="1"/>b  rymm  <w>ʿdy</w>  
+               <placeName type="sanctuary">trʿt</placeName>  b…mn  … …-hmw  <name type="theonym">tʾlb</name>
+                    <tei:lb n="2"/>
+               <w>ʾl-hw</w>  
+               <w>ḥmdm</w>  
+               <w>b-ḏt</w>  
+               <w>sʿd-hw</w>  
+               <w>brw-hw</w>  
+               <persName type="gender" subtype="m">ʾsʾr</persName>  
+               <w>w-b-ḏt</w>  y.
+                    <tei:lb n="3"/> 
+               <name type="theonym">tʾlb</name>  
+               <w>sʿd-hmw</w>  
+               <w>ʾwldm</w>  
+               <w>ʾḏkrm</w>  
+               <w>hnʾm</w>  
+               <w>w-l</w>  
+               <w>sʿd-hmw</w>
+                    <tei:lb n="4"/>
+               <w>nʿmtm</w>  
+               <w>w-wfym</w>  
+               <w>w-rḍw</w>  
+               <w>ʾmrʾ-hmw</w>  
+               <w>bny</w>  
+               <orgName type="group">hmdn</orgName> 
+               <w>w-l</w>  
+               <w>sʿd</w>
+               <tei:lb n="5"/>ʾym… … … … …  <w>ʿdy</w>  
+               <w>ʾrḍ-hmy</w>  
+               <w>w-mšymt</w>-=
+<tei:lb n="6"/>… … … …-hmw  … … … <w>šṣy</w>  
+               <w>šnʾm</w>  
+               <w>w-b-mqm</w>  ...</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>…mn  … …-hmw  tʾlb
+<tei:lb n="2"/>sʿd-hw  brw-hw  ʾsʾr  w-b-ḏt  y.
+<tei:lb n="3"/>ʾwldm  ʾḏkrm  hnʾm  w-l  sʿd-hmw
+<tei:lb n="4"/>rḍw  ʾmrʾ-hmw  bny  hmdn w-l  sʿd
+<tei:lb n="5"/>…  ʿdy  ʾrḍ-hmy  w-mšymt-=
+<tei:lb n="6"/>hmw  … … … šṣy  šnʾm  w-b-mqm  ...
+
+
+Restored text:
+
+<tei:lb n="1"/>b  rymm  ʿdy  trʿt  b…mn  … …-hmw  tʾlb
+<tei:lb n="2"/>ʾl-hw  ḥmdm  b-ḏt  sʿd-hw  brw-hw  ʾsʾr  w-b-ḏt  y.
+<tei:lb n="3"/> tʾlb  sʿd-hmw  ʾwldm  ʾḏkrm  hnʾm  w-l  sʿd-hmw
+<tei:lb n="4"/>nʿmtm  w-wfym  w-rḍw  ʾmrʾ-hmw  bny  hmdn w-l  sʿd
+<tei:lb n="5"/>ʾym… … … … …  ʿdy  ʾrḍ-hmy  w-mšymt-=
+<tei:lb n="6"/>… … … …-hmw  … … … šṣy  šnʾm  w-b-mqm  ...</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.[... ... ... ...] their/them [...] Taʾlab
+2.granted him his offspring, ʾAsʾar; and because he [...]
+3.healthy male children. And may he grant them 
+4.the [go]od pleasure of their lords, the lineage of Hamdān. And may he grant
+5.[...] in their land and [their] fields
+6.[... ... ... ... ... the en]mity of any enemy. And by the power [...]
+
+
+Restored text:
+
+1.[Taʾlab Riyāmum in Turʿat in … … … …] their/them [...] Taʾlab
+2.[his …, with praise because] he granted him his offspring, ʾAsʾar; and because he [...]
+3.[May Taʾlab continue] to grant them healthy male children. And may he grant them 
+4.[prosperity and well-being and the go]od pleasure of their lords, the lineage of Hamdān. And may he grant
+5.[... … … … …] in their land and [their] fields
+6.[... ... ... ... ... … … … the en]mity of any enemy. And by the power [...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> their/them <tei:supplied reason="lost">...</tei:supplied> Taʾlab
+<tei:lb n="2"/>granted him his offspring, ʾAsʾar; and because he <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="3"/>healthy male children. And may he grant them 
+<tei:lb n="4"/>the <tei:supplied reason="lost">go</tei:supplied>od pleasure of their lords, the lineage of Hamdān. And may he grant
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">...</tei:supplied> in their land and <tei:supplied reason="lost">their</tei:supplied> fields
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/> ... the en</tei:supplied>mity of any enemy. And by the power <tei:supplied reason="lost">...</tei:supplied>
+
+
+Restored text:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Taʾlab Riyāmum in Turʿat in … … … …</tei:supplied> their/them <tei:supplied reason="lost">...</tei:supplied> Taʾlab
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">his …, with praise because</tei:supplied> he granted him his offspring, ʾAsʾar; and because he <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">May Taʾlab continue</tei:supplied> to grant them healthy male children. And may he grant them 
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">prosperity and well-being and the go</tei:supplied>od pleasure of their lords, the lineage of Hamdān. And may he grant
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">... … … … …</tei:supplied> in their land and <tei:supplied reason="lost">their</tei:supplied> fields
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/> ... … … … the en</tei:supplied>mity of any enemy. And by the power <tei:supplied reason="lost">...</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>  their/them ... Taʾlab
+<tei:lb n="2"/>granted him his offspring, ʾAsʾar; and because he ...
+<tei:lb n="3"/>healthy male children. And may he grant them 
+<tei:lb n="4"/>the good pleasure of their lords, the lineage of Hamdān. And may he grant
+<tei:lb n="5"/>... in their land and their fields
+<tei:lb n="6"/>  ... the enmity of any enemy. And by the power ...
+
+
+Restored text:
+
+<tei:lb n="1"/>Taʾlab Riyāmum in Turʿat in … … … … their/them ... Taʾlab
+<tei:lb n="2"/>his …, with praise because he granted him his offspring, ʾAsʾar; and because he ...
+<tei:lb n="3"/>May Taʾlab continue to grant them healthy male children. And may he grant them 
+<tei:lb n="4"/>prosperity and well-being and the good pleasure of their lords, the lineage of Hamdān. And may he grant
+<tei:lb n="5"/>... … … … … in their land and their fields
+<tei:lb n="6"/>  ... … … … the enmity of any enemy. And by the power ...</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>  their/them ... Taʾlab
+<tei:lb n="2"/>granted him his offspring, ʾAsʾar; and because he ...
+<tei:lb n="3"/>healthy male children. And may he grant them 
+<tei:lb n="4"/>the good pleasure of their lords, the lineage of Hamdān. And may he grant
+<tei:lb n="5"/>... in their land and their fields
+<tei:lb n="6"/>  ... the enmity of any enemy. And by the power ...
+
+
+Restored text:
+
+<tei:lb n="1"/>Taʾlab Riyāmum in Turʿat in … … … … their/them ... Taʾlab
+<tei:lb n="2"/>his …, with praise because he granted him his offspring, ʾAsʾar; and because he ...
+<tei:lb n="3"/>May Taʾlab continue to grant them healthy male children. And may he grant them 
+<tei:lb n="4"/>prosperity and well-being and the good pleasure of their lords, the lineage of Hamdān. And may he grant
+<tei:lb n="5"/>... … … … … in their land and their fields
+<tei:lb n="6"/>  ... … … … the enmity of any enemy. And by the power ...</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

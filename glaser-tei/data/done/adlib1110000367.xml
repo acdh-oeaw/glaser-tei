@@ -1,0 +1,228 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1217</title>
+                <title type="alt">1110000367</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1217</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1217</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000367PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.(kḫb)r | w-(y)frʿ | yr[... | w-fʿ=]
+2.rn | hqnyw | šym-hmw [| tʾlb]
+3.rymm | bʿl | trʿt | ṣl[mn | ḥg-n]
+4.wqh-hmw | b-msʾl-hw [| ḥmdm | b-]
+5.ḏt | mtʿ | ʾ(dm)-hw | k(ḫ)[br | w-....=]
+6.dn | bn | nflt | (n)fl-hmw [....]
+7.hw | w-l | sʿd | ʾdm-hw | k[ḫbr]
+8.w-fʿrn | nʿmtm | w-wfym [| w-rḍw]
+9.ʾmrʾ-hmw | bny | hmdn [| w-šʿb-]
+10.hmw | ḥšdm | w-l | wḍʿ | ḍr-[h=]
+11.[mw | w-šnʾ-h]mw | b-tʾlb | r[ymm]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:unclear>kḫb</tei:unclear>r | w-<tei:unclear>y</tei:unclear>frʿ | yr<tei:supplied reason="lost">... | w-fʿ=</tei:supplied>
+               <tei:lb n="2"/>rn | hqnyw | šym-hmw <tei:supplied reason="lost">| tʾlb</tei:supplied>
+               <tei:lb n="3"/>rymm | bʿl | trʿt | ṣl<tei:supplied reason="lost">mn | ḥg-n</tei:supplied>
+               <tei:lb n="4"/>wqh-hmw | b-msʾl-hw <tei:supplied reason="lost">| ḥmdm | b-</tei:supplied>
+               <tei:lb n="5"/>ḏt | mtʿ | ʾ<tei:unclear>dm</tei:unclear>-hw | k<tei:unclear>ḫ</tei:unclear>
+                    <tei:supplied reason="lost">br | w-....=</tei:supplied>
+               <tei:lb n="6"/>dn | bn | nflt | <tei:unclear>n</tei:unclear>fl-hmw <tei:supplied reason="lost">....</tei:supplied>
+               <tei:lb n="7"/>hw | w-l | sʿd | ʾdm-hw | k<tei:supplied reason="lost">ḫbr</tei:supplied>
+               <tei:lb n="8"/>w-fʿrn | nʿmtm | w-wfym <tei:supplied reason="lost">| w-rḍw</tei:supplied>
+               <tei:lb n="9"/>ʾmrʾ-hmw | bny | hmdn <tei:supplied reason="lost">| w-šʿb-</tei:supplied>
+               <tei:lb n="10"/>hmw | ḥšdm | w-l | wḍʿ | ḍr-<tei:supplied reason="lost">h=</tei:supplied>
+               <tei:lb n="11"/>
+                    <tei:supplied reason="lost">mw | w-šnʾ-h</tei:supplied>mw | b-tʾlb | r<tei:supplied reason="lost">ymm</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">kḫbr</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">yfrʿ</persName>  yr...  <w>w-</w>
+               <persName type="gender" subtype="m">fʿ=
+                        <tei:lb n="2"/>rn</persName>  
+               <w>hqnyw</w>  
+               <w>šym-hmw</w>  
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>
+                            <tei:lb n="3"/>
+                  <name type="epithet" subtype="divine">rymm</name>
+               </rs>  
+               <w>bʿl</w>  
+               <placeName type="sanctuary">trʿt</placeName>  
+               <w>ṣlmn</w>  
+               <w>ḥg-n</w>
+               <tei:lb n="4"/>
+               <w>wqh-hmw</w>  
+               <w>b-msʾl-hw</w>  
+               <w>ḥmdm</w>  
+               <w>b-
+    <tei:lb n="5"/>ḏt</w>  
+               <w>mtʿ</w>  
+               <w>ʾdm-hw</w>  
+               <persName type="gender" subtype="m">kḫbr</persName>  w-....=
+<tei:lb n="6"/>dn  <w>bn</w>  
+               <w>nflt</w>  
+               <w>nfl-hmw</w> ....
+                    <tei:lb n="7"/>hw  <w>w-l</w>  
+               <w>sʿd</w>  
+               <w>ʾdm-hw</w>  
+               <persName type="gender" subtype="m">kḫbr</persName>
+                    <tei:lb n="8"/>
+               <w>w-</w>
+               <persName type="gender" subtype="m">fʿrn</persName>  
+               <w>nʿmtm</w>  
+               <w>w-wfym</w>  
+               <w>w-rḍw</w>
+                    <tei:lb n="9"/>
+               <w>ʾmrʾ-hmw</w>  
+               <w>bny</w>  
+               <orgName type="group">hmdn</orgName>  
+               <w>w-šʿb-
+                        <tei:lb n="10"/>hmw</w>  
+               <orgName type="tribe">ḥšdm</orgName>  
+               <w>w-l</w>  
+               <w>wḍʿ</w>  
+               <w>ḍr-h=
+                            <tei:lb n="11"/>mw</w>  
+               <w>w-šnʾ-hmw</w>  
+               <w>b-</w>
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>  
+                  <name type="epithet" subtype="divine">rymm</name>
+               </rs>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>kḫbr  w-yfrʿ  yr...  w-fʿ=
+<tei:lb n="2"/>rn  hqnyw  šym-hmw  tʾlb
+<tei:lb n="3"/>rymm  bʿl  trʿt  ṣlmn  ḥg-n
+<tei:lb n="4"/>wqh-hmw  b-msʾl-hw  ḥmdm  b-
+<tei:lb n="5"/>ḏt  mtʿ  ʾdm-hw  kḫbr  w-....=
+<tei:lb n="6"/>dn  bn  nflt  nfl-hmw ....
+<tei:lb n="7"/>hw  w-l  sʿd  ʾdm-hw  kḫbr
+<tei:lb n="8"/>w-fʿrn  nʿmtm  w-wfym  w-rḍw
+<tei:lb n="9"/>ʾmrʾ-hmw  bny  hmdn  w-šʿb-
+<tei:lb n="10"/>hmw  ḥšdm  w-l  wḍʿ  ḍr-h=
+<tei:lb n="11"/>mw  w-šnʾ-hmw  b-tʾlb  rymm</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Kakhabīr and Yufraʿ Yar[... and Faʿ=]
+2.rān have dedicated to their patron-god [Taʾlab]
+3.Riyāmum, lord of Turʿat, (this) statue [as]
+4.he had commanded them, [out of gratitude be-=] 
+5.cause he had saved his servants Kakha[bīr and …=]
+6.[..] from the catastrophe that befell them [….]
+7.his […]/him. And may he grant his servants Ka[khabīr]
+8.and Faʿrān prosperity and well-being [and the good pleasure of]
+9.their lords of the lineage of Hamdān [and their tribe]
+10.of Ḥāshidum. And may he humiliate [their] foe(s)
+11.[and t]heir [enemie(s)]. By Taʾlab Ri[yāmum].</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>Kakhabīr and Yufraʿ Yar<tei:supplied reason="lost">... and Faʿ=</tei:supplied>
+               <tei:lb n="2"/>rān have dedicated to their patron-god <tei:supplied reason="lost">Taʾlab</tei:supplied>
+               <tei:lb n="3"/>Riyāmum, lord of Turʿat, <tei:unclear>this</tei:unclear> statue <tei:supplied reason="lost">as</tei:supplied>
+               <tei:lb n="4"/>he had commanded them, <tei:supplied reason="lost">out of gratitude be-=</tei:supplied> 
+               <tei:lb n="5"/>cause he had saved his servants Kakha<tei:supplied reason="lost">bīr and …=</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">..</tei:supplied> from the catastrophe that befell them <tei:supplied reason="lost">….</tei:supplied>
+               <tei:lb n="7"/>his <tei:supplied reason="lost">…</tei:supplied>/him. And may he grant his servants Ka<tei:supplied reason="lost">khabīr</tei:supplied>
+               <tei:lb n="8"/>and Faʿrān prosperity and well-being <tei:supplied reason="lost">and the good pleasure of</tei:supplied>
+               <tei:lb n="9"/>their lords of the lineage of Hamdān <tei:supplied reason="lost">and their tribe</tei:supplied>
+               <tei:lb n="10"/>of Ḥāshidum. And may he humiliate <tei:supplied reason="lost">their</tei:supplied> foe<tei:unclear>s</tei:unclear>
+               <tei:lb n="11"/>
+                    <tei:supplied reason="lost">and t</tei:supplied>heir <tei:supplied reason="lost">enemie<tei:unclear>s</tei:unclear>
+                    </tei:supplied>. By Taʾlab Ri<tei:supplied reason="lost">yāmum</tei:supplied>.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Kakhabīr and Yufraʿ Yar... and Faʿ=
+<tei:lb n="2"/>rān have dedicated to their patron-god Taʾlab
+<tei:lb n="3"/>Riyāmum, lord of Turʿat, this statue as
+<tei:lb n="4"/>he had commanded them, out of gratitude be-= 
+<tei:lb n="5"/>cause he had saved his servants Kakhabīr and …=
+<tei:lb n="6"/>.. from the catastrophe that befell them ….
+<tei:lb n="7"/>his …/him. And may he grant his servants Kakhabīr
+<tei:lb n="8"/>and Faʿrān prosperity and well-being and the good pleasure of
+<tei:lb n="9"/>their lords of the lineage of Hamdān and their tribe
+<tei:lb n="10"/>of Ḥāshidum. And may he humiliate their foes
+<tei:lb n="11"/>and their enemies. By Taʾlab Riyāmum.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Kakhabīr and Yufraʿ Yar... and Faʿ=
+<tei:lb n="2"/>rān have dedicated to their patron-god Taʾlab
+<tei:lb n="3"/>Riyāmum, lord of Turʿat, this statue as
+<tei:lb n="4"/>he had commanded them, out of gratitude be-= 
+<tei:lb n="5"/>cause he had saved his servants Kakhabīr and …=
+<tei:lb n="6"/>.. from the catastrophe that befell them ….
+<tei:lb n="7"/>his …/him. And may he grant his servants Kakhabīr
+<tei:lb n="8"/>and Faʿrān prosperity and well-being and the good pleasure of
+<tei:lb n="9"/>their lords of the lineage of Hamdān and their tribe
+<tei:lb n="10"/>of Ḥāshidum. And may he humiliate their foes
+<tei:lb n="11"/>and their enemies. By Taʾlab Riyāmum.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,349 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1556</title>
+                <title type="alt">1110000836</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1556</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1556</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000836PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.w-nb(ṭ)
+2.m | bny 
+3.ʿʾl | [...]
+4.{m} | lḥy
+5.ywm | šy
+6.w-b-ʿly 
+7.ḏt | ḥmym
+
+
+Restored full text of the inscription:
+
+1.nbṭkrb | w-nbṭyfʿ | bn |
+2.[qwmm | w-ḏʿb]m | bny [| ʿšrm |]
+3.[ʿbd | yd]ʿʾl | [w-yṯʿʾmr | h=]
+4.[qny | ḏt | ḥmym]{m} | lḥy[ʿṯt | w-ʿ=]
+5.[mʾmr |] ywm | šy[m-hw | ydʿʾb]
+6.[b-ʿly | ktlm |] w-b-ʿly [| mbny]
+7.[byt |] ḏt | ḥmym [| b-ʿṯtr | w-b | ʾ=]
+8.[lmqh | w-b | ḏt | ḥmym | w-b | ḏt | b=]
+9.[ʿdn | w-b | smʿ | w-b | ydʿʾl | w-b]
+10.[yṯʿʾmr | w-b | ydʿʾb | w-b | kt=]
+11.[lm]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>w-nb<tei:unclear>ṭ</tei:unclear>
+               <tei:lb n="2"/>m | bny 
+<tei:lb n="3"/>ʿʾl | <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:del>m</tei:del> | lḥy
+<tei:lb n="5"/>ywm | šy
+<tei:lb n="6"/>w-b-ʿly 
+<tei:lb n="7"/>ḏt | ḥmym
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>nbṭkrb | w-nbṭyfʿ | bn |
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">qwmm | w-ḏʿb</tei:supplied>m | bny <tei:supplied reason="lost">| ʿšrm |</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">ʿbd | yd</tei:supplied>ʿʾl | <tei:supplied reason="lost">w-yṯʿʾmr | h=</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">qny | ḏt | ḥmym</tei:supplied>
+                    <tei:del>m</tei:del> | lḥy<tei:supplied reason="lost">ʿṯt | w-ʿ=</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">mʾmr |</tei:supplied> ywm | šy<tei:supplied reason="lost">m-hw | ydʿʾb</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">b-ʿly | ktlm |</tei:supplied> w-b-ʿly <tei:supplied reason="lost">| mbny</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">byt |</tei:supplied> ḏt | ḥmym <tei:supplied reason="lost">| b-ʿṯtr | w-b | ʾ=</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">lmqh | w-b | ḏt | ḥmym | w-b | ḏt | b=</tei:supplied>
+               <tei:lb n="9"/>
+                    <tei:supplied reason="lost">ʿdn | w-b | smʿ | w-b | ydʿʾl | w-b</tei:supplied>
+               <tei:lb n="10"/>
+                    <tei:supplied reason="lost">yṯʿʾmr | w-b | ydʿʾb | w-b | kt=</tei:supplied>
+               <tei:lb n="11"/>
+                    <tei:supplied reason="lost">lm</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>w-nbṭ
+<tei:lb n="2"/>m  <w>bny</w> 
+               <tei:lb n="3"/>ʿʾl  ...
+<tei:lb n="4"/>m  lḥy
+<tei:lb n="5"/>
+               <w>ywm</w>  šy
+<tei:lb n="6"/>
+               <w>w-b-ʿly</w> 
+                    <tei:lb n="7"/>
+               <name type="theonym">ḏt  ḥmym</name>
+
+
+Restored full text of the inscription:
+
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">nbṭkrb</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">nbṭyfʿ</persName>  
+               <w>bn</w> 
+                    <tei:lb n="2"/>
+               <persName type="patronymic">qwmm</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">ḏʿbm</persName>  
+               <w>bny</w>  
+               <orgName type="group">ʿšrm</orgName> 
+                    <tei:lb n="3"/>
+               <w>ʿbd</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">ydʿʾl</persName>  
+               <w>w-</w>
+               <persName type="royal" subtype="withoutTitle" role="king">yṯʿʾmr</persName>  
+               <w>h=
+                        <tei:lb n="4"/>qny</w>  
+               <name type="theonym">ḏt  ḥmymm</name>  
+               <persName type="gender" subtype="u">lḥyʿṯt</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="u">ʿ=
+                            <tei:lb n="5"/>mʾmr</persName>  
+               <w>ywm</w>  
+               <w>šym-hw</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">ydʿʾb</persName>
+               <tei:lb n="6"/>
+               <w>b-ʿly</w>  
+               <placeName>ktlm</placeName>  
+               <w>w-b-ʿly</w>  
+               <w>mbny</w>
+                    <tei:lb n="7"/>
+               <w>byt</w>  
+               <name type="theonym">ḏt  ḥmym</name>  
+               <w>b-</w>
+               <name type="theonym">ʿṯtr</name>  
+               <w>w-b</w>  
+               <name type="theonym">ʾ=
+                        <tei:lb n="8"/>lmqh</name>  
+               <w>w-b</w>  
+               <name type="theonym">ḏt  ḥmym</name>  
+               <w>w-b</w>  
+               <name type="theonym">ḏt  b=
+                            <tei:lb n="9"/>ʿdn</name>  
+               <w>w-b</w>  
+               <name type="theonym">smʿ</name>  
+               <w>w-b</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">ydʿʾl</persName>  
+               <w>w-b</w>
+                    <tei:lb n="10"/>
+               <persName type="royal" subtype="withoutTitle" role="king">yṯʿʾmr</persName>  
+               <w>w-b</w>  
+               <persName type="royal" subtype="withoutTitle" role="king">ydʿʾb</persName>  
+               <w>w-b</w>  
+               <placeName>kt=
+<tei:lb n="11"/>lm</placeName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>w-nbṭ
+<tei:lb n="2"/>m  bny 
+<tei:lb n="3"/>ʿʾl  ...
+<tei:lb n="4"/>m  lḥy
+<tei:lb n="5"/>ywm  šy
+<tei:lb n="6"/>w-b-ʿly 
+<tei:lb n="7"/>ḏt  ḥmym
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>nbṭkrb  w-nbṭyfʿ  bn 
+<tei:lb n="2"/>qwmm  w-ḏʿbm  bny  ʿšrm 
+<tei:lb n="3"/>ʿbd  ydʿʾl  w-yṯʿʾmr  h=
+<tei:lb n="4"/>qny  ḏt  ḥmymm  lḥyʿṯt  w-ʿ=
+<tei:lb n="5"/>mʾmr  ywm  šym-hw  ydʿʾb
+<tei:lb n="6"/>b-ʿly  ktlm  w-b-ʿly  mbny
+<tei:lb n="7"/>byt  ḏt  ḥmym  b-ʿṯtr  w-b  ʾ=
+<tei:lb n="8"/>lmqh  w-b  ḏt  ḥmym  w-b  ḏt  b=
+<tei:lb n="9"/>ʿdn  w-b  smʿ  w-b  ydʿʾl  w-b
+<tei:lb n="10"/>yṯʿʾmr  w-b  ydʿʾb  w-b  kt=
+<tei:lb n="11"/>lm</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">Text preserved in this squeeze:
+
+1.and Nabaṭ
+2.m, of the lineage
+3.ʿʾīl [...]
+4.{m} Laḥay
+5.when [... ... ...]
+6.and over
+7.Dhāt-Ḥimāyim. 
+
+
+Restored full text of the inscription:
+
+1.[Nabaṭkarib] and Nabaṭ[yafaʿ bin]
+2.[Qawāmum and Dhaʿib]um, of the lineage [of ʿAshīrum,]
+3.[the client of Yad]aʿʾīl [and Yithaʿʾamar, has dedi-]
+4.[cated to Dhāt-Ḥimāyimu]{m} Laḥay[ʿathat and ʿA]
+5.[mmīʾamar,] when [Yadaʿʾab] appoin[ted him]
+6.[over Kutālum] and over [the construction of]
+7.[the temple of] Dhāt-Ḥimāyim. [By ʿAthtar and by ʾĪ]
+8.[lmuquh and by Dhāt-Ḥimāyim and by Dhāt-Ba]
+9.[ʿdān and by Sāmiʿ and by Yadaʿʾīl and by]
+10.[Yithaʿʾamar and by Yadaʿʾab and by Kutā=]
+11.[lum].</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>and Nabaṭ
+<tei:lb n="2"/>m, of the lineage
+<tei:lb n="3"/>ʿʾīl <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:del>m</tei:del> Laḥay
+<tei:lb n="5"/>when <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>
+               <tei:lb n="6"/>and over
+<tei:lb n="7"/>Dhāt-Ḥimāyim. 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>
+                    <tei:supplied reason="lost">Nabaṭkarib</tei:supplied> and Nabaṭ<tei:supplied reason="lost">yafaʿ bin</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">Qawāmum and Dhaʿib</tei:supplied>um, of the lineage <tei:supplied reason="lost">of ʿAshīrum,</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">the client of Yad</tei:supplied>aʿʾīl <tei:supplied reason="lost">and Yithaʿʾamar, has dedi-</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">cated to Dhāt-Ḥimāyimu</tei:supplied>
+                    <tei:del>m</tei:del> Laḥay<tei:supplied reason="lost">ʿathat and ʿA</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">mmīʾamar,</tei:supplied> when <tei:supplied reason="lost">Yadaʿʾab</tei:supplied> appoin<tei:supplied reason="lost">ted him</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">over Kutālum</tei:supplied> and over <tei:supplied reason="lost">the construction of</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">the temple of</tei:supplied> Dhāt-Ḥimāyim. <tei:supplied reason="lost">By ʿAthtar and by ʾĪ</tei:supplied>
+               <tei:lb n="8"/>
+                    <tei:supplied reason="lost">lmuquh and by Dhāt-Ḥimāyim and by Dhāt-Ba</tei:supplied>
+               <tei:lb n="9"/>
+                    <tei:supplied reason="lost">ʿdān and by Sāmiʿ and by Yadaʿʾīl and by</tei:supplied>
+               <tei:lb n="10"/>
+                    <tei:supplied reason="lost">Yithaʿʾamar and by Yadaʿʾab and by Kutā=</tei:supplied>
+               <tei:lb n="11"/>
+                    <tei:supplied reason="lost">lum</tei:supplied>.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>and Nabaṭ
+<tei:lb n="2"/>m, of the lineage
+<tei:lb n="3"/>ʿʾīl ...
+<tei:lb n="4"/>m Laḥay
+<tei:lb n="5"/>when  ...
+<tei:lb n="6"/>and over
+<tei:lb n="7"/>Dhāt-Ḥimāyim. 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Nabaṭkarib and Nabaṭyafaʿ bin
+<tei:lb n="2"/>Qawāmum and Dhaʿibum, of the lineage of ʿAshīrum,
+<tei:lb n="3"/>the client of Yadaʿʾīl and Yithaʿʾamar, has dedi-
+<tei:lb n="4"/>cated to Dhāt-Ḥimāyimum Laḥayʿathat and ʿA
+<tei:lb n="5"/>mmīʾamar, when Yadaʿʾab appointed him
+<tei:lb n="6"/>over Kutālum and over the construction of
+<tei:lb n="7"/>the temple of Dhāt-Ḥimāyim. By ʿAthtar and by ʾĪ
+<tei:lb n="8"/>lmuquh and by Dhāt-Ḥimāyim and by Dhāt-Ba
+<tei:lb n="9"/>ʿdān and by Sāmiʿ and by Yadaʿʾīl and by
+<tei:lb n="10"/>Yithaʿʾamar and by Yadaʿʾab and by Kutā=
+<tei:lb n="11"/>lum.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">Text preserved in this squeeze:
+
+<tei:lb n="1"/>and Nabaṭ
+<tei:lb n="2"/>m, of the lineage
+<tei:lb n="3"/>ʿʾīl ...
+<tei:lb n="4"/>m Laḥay
+<tei:lb n="5"/>when  ...
+<tei:lb n="6"/>and over
+<tei:lb n="7"/>Dhāt-Ḥimāyim. 
+
+
+Restored full text of the inscription:
+
+<tei:lb n="1"/>Nabaṭkarib and Nabaṭyafaʿ bin
+<tei:lb n="2"/>Qawāmum and Dhaʿibum, of the lineage of ʿAshīrum,
+<tei:lb n="3"/>the client of Yadaʿʾīl and Yithaʿʾamar, has dedi-
+<tei:lb n="4"/>cated to Dhāt-Ḥimāyimum Laḥayʿathat and ʿA
+<tei:lb n="5"/>mmīʾamar, when Yadaʿʾab appointed him
+<tei:lb n="6"/>over Kutālum and over the construction of
+<tei:lb n="7"/>the temple of Dhāt-Ḥimāyim. By ʿAthtar and by ʾĪ
+<tei:lb n="8"/>lmuquh and by Dhāt-Ḥimāyim and by Dhāt-Ba
+<tei:lb n="9"/>ʿdān and by Sāmiʿ and by Yadaʿʾīl and by
+<tei:lb n="10"/>Yithaʿʾamar and by Yadaʿʾab and by Kutā=
+<tei:lb n="11"/>lum.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

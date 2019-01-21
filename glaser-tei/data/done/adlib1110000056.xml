@@ -1,0 +1,126 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL953</title>
+                <title type="alt">1110000056</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL953</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL953</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000056PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">3.[zyd | bn | msk | ḏ-... ... | ḏ-ʾhl]
+4.&lt;g&gt;bʾn | &lt;skrb&gt; | w-&lt;wḫśr&gt; [...]
+5.[..] b[n] | Γy˥ṯr[b |]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="3"/>
+                    <tei:supplied reason="lost">zyd | bn | msk | ḏ-<tei:gap quantity="plus4" unit="chars"/> | ḏ-ʾhl</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:add>g</tei:add>bʾn | <tei:add>skrb</tei:add> | w-<tei:add>wḫśr</tei:add> 
+               <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">..</tei:supplied> b<tei:supplied reason="lost">n</tei:supplied> | <tei:unclear>y</tei:unclear>ṯr<tei:supplied reason="lost">b |</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="3"/>
+               <persName type="gender" subtype="m">zyd</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">msk</persName>  ḏ-  <w>ḏ-ʾhl</w>
+                    <tei:lb n="4"/>
+               <orgName type="tribe">gbʾn</orgName>  
+               <w>skrb</w>  
+               <w>w-wḫśr</w> ...
+<tei:lb n="5"/>.. <w>bn</w>  
+               <placeName>Γy˥ṯrb</placeName> 
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="3"/>zyd  bn  msk  ḏ-  ḏ-ʾhl
+<tei:lb n="4"/>gbʾn  skrb  w-wḫśr ...
+<tei:lb n="5"/>.. bn  Γy˥ṯrb </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">3.Zayd bin Māsik of [... ...] of the tribe of 
+4.Gabʾān has married and paid the bride price for [...] 
+5.from Yathrib.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="3"/>Zayd bin Māsik of <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> of the tribe of 
+<tei:lb n="4"/>Gabʾān has married and paid the bride price for <tei:supplied reason="lost">...</tei:supplied> 
+               <tei:lb n="5"/>from Yathrib.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="3"/>Zayd bin Māsik of  of the tribe of 
+<tei:lb n="4"/>Gabʾān has married and paid the bride price for ... 
+<tei:lb n="5"/>from Yathrib.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="3"/>Zayd bin Māsik of  of the tribe of 
+<tei:lb n="4"/>Gabʾān has married and paid the bride price for ... 
+<tei:lb n="5"/>from Yathrib.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

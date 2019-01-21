@@ -1,0 +1,150 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1018</title>
+                <title type="alt">1110000063</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1018</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1018</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000063PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[...]ym | bn | ysmʿʾl | ḏ-=
+2.[...]b | ḏ-ʾhl | ḥṭṭ | skrb
+3.[ḫśr] | &lt;ʾ&gt;nṯt[-s] | ṣhbn | bnt
+4.[...] | bnt | tdd [ḥr]t | bn | ḏ-=
+5.[... ... ...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">...</tei:supplied>ym | bn | ysmʿʾl | ḏ-=
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">...</tei:supplied>b | ḏ-ʾhl | ḥṭṭ | skrb
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">ḫśr</tei:supplied> | <tei:add>ʾ</tei:add>nṯt<tei:supplied reason="lost">-s</tei:supplied> | ṣhbn | bnt
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">...</tei:supplied> | bnt | tdd <tei:supplied reason="lost">ḥr</tei:supplied>t | bn | ḏ-=
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>...ym  <w>bn</w>  
+               <persName type="patronymic">ysmʿʾl</persName> ḏ-=
+                    <tei:lb n="2"/>...b  <w>ḏ-ʾhl</w>  
+               <orgName type="tribe">ḥṭṭ</orgName>  
+               <w>skrb</w>
+                    <tei:lb n="3"/>
+               <w>ḫśr</w>  
+               <w>ʾnṯt-s</w>  
+               <persName type="gender" subtype="f">ṣhbn</persName>  
+               <w>bnt</w>
+                    <tei:lb n="4"/>...  <w>bnt</w>  
+               <persName type="patronymic">tdd</persName> 
+               <w>ḥrt</w>  
+               <w>bn</w>  ḏ-=
+<tei:lb n="5"/> ...</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>...ym  bn  ysmʿʾl  ḏ-=
+<tei:lb n="2"/>...b  ḏ-ʾhl  ḥṭṭ  skrb
+<tei:lb n="3"/>ḫśr  ʾnṯt-s  ṣhbn  bnt
+<tei:lb n="4"/>...  bnt  tdd ḥrt  bn  ḏ-=
+<tei:lb n="5"/> ...</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[….]aym bin Yismaʿʾīl of 
+2.[….] of the tribe of Ḥaṭaṭ has married 
+3.[and paid the bride price for] his wife Ṣahbān bint 
+4.[….] bint Tadud, a freewoman from Dhū- 
+5.[… … ...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">….</tei:supplied>aym bin Yismaʿʾīl of 
+<tei:lb n="2"/>
+                    <tei:supplied reason="lost">….</tei:supplied> of the tribe of Ḥaṭaṭ has married 
+<tei:lb n="3"/>
+                    <tei:supplied reason="lost">and paid the bride price for</tei:supplied> his wife Ṣahbān bint 
+<tei:lb n="4"/>
+                    <tei:supplied reason="lost">….</tei:supplied> bint Tadud, a freewoman from Dhū- 
+<tei:lb n="5"/>
+                    <tei:supplied reason="lost">… … ...</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>….aym bin Yismaʿʾīl of 
+<tei:lb n="2"/>…. of the tribe of Ḥaṭaṭ has married 
+<tei:lb n="3"/>and paid the bride price for his wife Ṣahbān bint 
+<tei:lb n="4"/>…. bint Tadud, a freewoman from Dhū- 
+<tei:lb n="5"/>… … ...</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>….aym bin Yismaʿʾīl of 
+<tei:lb n="2"/>…. of the tribe of Ḥaṭaṭ has married 
+<tei:lb n="3"/>and paid the bride price for his wife Ṣahbān bint 
+<tei:lb n="4"/>…. bint Tadud, a freewoman from Dhū- 
+<tei:lb n="5"/>… … ...</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

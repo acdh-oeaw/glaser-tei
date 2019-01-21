@@ -1,0 +1,197 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1126</title>
+                <title type="alt">1110000337</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1126</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1126</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000337PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.slmn | b[n | ... ... |] ḏ-=
+2.sḥr | hqny | ʾlmqh | b[ʿl]
+3.ʾwm | wṯnn | ḥmdm | l-ḏt [| hw]fy
+4.ʾlmqh | grb | ʿbd-h[w | slm]n
+5.w-ʾwld-hw | w-bʿr-hw [| b-msb]ʾ
+6.sbʾ | w-l | wzʾ | ʾlmqh [| hwf]yn
+7.ʿbd-hw | slmn | w-ʾ[wl]d-hw
+8.w-bʿr-hw | b-kl [| ʾbr]ṯm
+9.b-ʿṯtr | w-ʾl[mqh]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>slmn | b<tei:supplied reason="lost">n | <tei:gap quantity="plus4" unit="chars"/> |</tei:supplied> ḏ-=
+<tei:lb n="2"/>sḥr | hqny | ʾlmqh | b<tei:supplied reason="lost">ʿl</tei:supplied>
+               <tei:lb n="3"/>ʾwm | wṯnn | ḥmdm | l-ḏt <tei:supplied reason="lost">| hw</tei:supplied>fy
+<tei:lb n="4"/>ʾlmqh | grb | ʿbd-h<tei:supplied reason="lost">w | slm</tei:supplied>n
+<tei:lb n="5"/>w-ʾwld-hw | w-bʿr-hw <tei:supplied reason="lost">| b-msb</tei:supplied>ʾ
+<tei:lb n="6"/>sbʾ | w-l | wzʾ | ʾlmqh <tei:supplied reason="lost">| hwf</tei:supplied>yn
+<tei:lb n="7"/>ʿbd-hw | slmn | w-ʾ<tei:supplied reason="lost">wl</tei:supplied>d-hw
+<tei:lb n="8"/>w-bʿr-hw | b-kl <tei:supplied reason="lost">| ʾbr</tei:supplied>ṯm
+<tei:lb n="9"/>b-ʿṯtr | w-ʾl<tei:supplied reason="lost">mqh</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">slmn</persName>  
+               <w>bn</w>    
+               <orgName type="group">ḏ-=
+                        <tei:lb n="2"/>sḥr</orgName>  
+               <w>hqny</w>  
+               <name type="theonym">ʾlmqh</name>  
+               <w>bʿl</w>
+                    <tei:lb n="3"/>
+               <placeName type="sanctuary">ʾwm</placeName>  
+               <w>wṯnn</w>  
+               <w>ḥmdm</w>  
+               <w>l-ḏt</w>  
+               <w>hwfy</w>
+                    <tei:lb n="4"/>
+               <name type="theonym">ʾlmqh</name>  
+               <w>grb</w>  
+               <w>ʿbd-hw</w>  
+               <persName type="gender" subtype="m">slmn</persName>
+               <tei:lb n="5"/>
+               <w>w-ʾwld-hw</w>  
+               <w>w-bʿr-hw</w>  
+               <w>b-msbʾ</w>
+                    <tei:lb n="6"/>
+               <orgName type="state">sbʾ</orgName>  
+               <w>w-l</w>  
+               <w>wzʾ</w>  
+               <name type="theonym">ʾlmqh</name>  
+               <w>hwfyn</w>
+                    <tei:lb n="7"/>
+               <w>ʿbd-hw</w>  
+               <persName type="gender" subtype="m">slmn</persName>  
+               <w>w-ʾwld-hw</w>
+               <tei:lb n="8"/>
+               <w>w-bʿr-hw</w>  
+               <w>b-kl</w>  
+               <w>ʾbrṯm</w>
+                    <tei:lb n="9"/>
+               <w>b-</w>
+               <name type="theonym">ʿṯtr</name>  
+               <w>w-</w>
+               <name type="theonym">ʾlmqh</name>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>slmn  bn    ḏ-=
+<tei:lb n="2"/>sḥr  hqny  ʾlmqh  bʿl
+<tei:lb n="3"/>ʾwm  wṯnn  ḥmdm  l-ḏt  hwfy
+<tei:lb n="4"/>ʾlmqh  grb  ʿbd-hw  slmn
+<tei:lb n="5"/>w-ʾwld-hw  w-bʿr-hw  b-msbʾ
+<tei:lb n="6"/>sbʾ  w-l  wzʾ  ʾlmqh  hwfyn
+<tei:lb n="7"/>ʿbd-hw  slmn  w-ʾwld-hw
+<tei:lb n="8"/>w-bʿr-hw  b-kl  ʾbrṯm
+<tei:lb n="9"/>b-ʿṯtr  w-ʾlmqh</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Salmān bi[n ... ...] Dhū-
+2.Saḥar has offered to ʾĪlmuquh, Lo[rd of]
+3.(ʾA)wwām (this) stele, in gratitude because (ʾĪlmuquh) [sa]ved 
+4.the life of h[is] servant [Salmā]n
+5.and his sons and his cattle [in the campai]gn which
+6.he undertook. And may ʾĪlmuquh continue [to sa]ve 
+7.his servant Salmān and his s[on]s
+8.and his cattle in all [pla]ces.
+9.By ʿAthtar and by ʾĪlmuquh.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>Salmān bi<tei:supplied reason="lost">n <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> Dhū-
+<tei:lb n="2"/>Saḥar has offered to ʾĪlmuquh, Lo<tei:supplied reason="lost">rd of</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:unclear>ʾA</tei:unclear>wwām <tei:unclear>this</tei:unclear> stele, in gratitude because <tei:unclear>ʾĪlmuquh</tei:unclear> 
+               <tei:supplied reason="lost">sa</tei:supplied>ved 
+<tei:lb n="4"/>the life of h<tei:supplied reason="lost">is</tei:supplied> servant <tei:supplied reason="lost">Salmā</tei:supplied>n
+<tei:lb n="5"/>and his sons and his cattle <tei:supplied reason="lost">in the campai</tei:supplied>gn which
+<tei:lb n="6"/>he undertook. And may ʾĪlmuquh continue <tei:supplied reason="lost">to sa</tei:supplied>ve 
+<tei:lb n="7"/>his servant Salmān and his s<tei:supplied reason="lost">on</tei:supplied>s
+<tei:lb n="8"/>and his cattle in all <tei:supplied reason="lost">pla</tei:supplied>ces.
+<tei:lb n="9"/>By ʿAthtar and by ʾĪlmuquh.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Salmān bin  Dhū-
+<tei:lb n="2"/>Saḥar has offered to ʾĪlmuquh, Lord of
+<tei:lb n="3"/>ʾAwwām this stele, in gratitude because ʾĪlmuquh saved 
+<tei:lb n="4"/>the life of his servant Salmān
+<tei:lb n="5"/>and his sons and his cattle in the campaign which
+<tei:lb n="6"/>he undertook. And may ʾĪlmuquh continue to save 
+<tei:lb n="7"/>his servant Salmān and his sons
+<tei:lb n="8"/>and his cattle in all places.
+<tei:lb n="9"/>By ʿAthtar and by ʾĪlmuquh.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Salmān bin  Dhū-
+<tei:lb n="2"/>Saḥar has offered to ʾĪlmuquh, Lord of
+<tei:lb n="3"/>ʾAwwām this stele, in gratitude because ʾĪlmuquh saved 
+<tei:lb n="4"/>the life of his servant Salmān
+<tei:lb n="5"/>and his sons and his cattle in the campaign which
+<tei:lb n="6"/>he undertook. And may ʾĪlmuquh continue to save 
+<tei:lb n="7"/>his servant Salmān and his sons
+<tei:lb n="8"/>and his cattle in all places.
+<tei:lb n="9"/>By ʿAthtar and by ʾĪlmuquh.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

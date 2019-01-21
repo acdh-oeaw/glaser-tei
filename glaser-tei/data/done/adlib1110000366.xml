@@ -1,0 +1,167 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1216</title>
+                <title type="alt">1110000366</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1216</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1216</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000366PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.(šrḥʾl) | [… … … … …]
+2.mm | hqny | šym-hmw | tʾ=
+3.lb | rymm | ʿdy | trʿt | ṣ=
+4.lmn | l-wfy-hmw | w-l | s=
+5.ʿd-hw | tʾlb | nʿmtm 
+6.(w-)wfym | w-bry | ʾḏn(m)
+7.w-mqmm | b-tʾlb</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:unclear>šrḥʾl</tei:unclear> | <tei:supplied reason="lost">… … … … …</tei:supplied>
+               <tei:lb n="2"/>mm | hqny | šym-hmw | tʾ=
+<tei:lb n="3"/>lb | rymm | ʿdy | trʿt | ṣ=
+<tei:lb n="4"/>lmn | l-wfy-hmw | w-l | s=
+<tei:lb n="5"/>ʿd-hw | tʾlb | nʿmtm 
+<tei:lb n="6"/>
+                    <tei:unclear>w-</tei:unclear>wfym | w-bry | ʾḏn<tei:unclear>m</tei:unclear>
+               <tei:lb n="7"/>w-mqmm | b-tʾlb</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">šrḥʾl </persName> … … … … …
+                    <tei:lb n="2"/>mm  <w>hqny</w>  
+               <w>šym-hmw</w>  
+               <rs type="complex">
+                  <name type="theonym">tʾ=
+                        <tei:lb n="3"/>lb</name>  
+                  <name type="epithet" subtype="divine">rymm</name>
+               </rs>  
+               <w>ʿdy</w>  
+               <placeName type="sanctuary">trʿt</placeName>  
+               <w>ṣ=
+<tei:lb n="4"/>lmn</w>  
+               <w>l-wfy-hmw</w>  
+               <w>w-l</w>  
+               <w>s=
+    <tei:lb n="5"/>ʿd-hw</w>  
+               <name type="theonym">tʾlb</name>  
+               <w>nʿmtm</w> 
+               <tei:lb n="6"/>
+               <w>w-wfym</w>  
+               <w>w-bry</w>  
+               <w>ʾḏnm</w>
+                    <tei:lb n="7"/>
+               <w>w-mqmm</w>  
+               <w>b-</w>
+               <name type="theonym">tʾlb</name>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>šrḥʾl  … … … … …
+<tei:lb n="2"/>mm  hqny  šym-hmw  tʾ=
+<tei:lb n="3"/>lb  rymm  ʿdy  trʿt  ṣ=
+<tei:lb n="4"/>lmn  l-wfy-hmw  w-l  s=
+<tei:lb n="5"/>ʿd-hw  tʾlb  nʿmtm 
+<tei:lb n="6"/>w-wfym  w-bry  ʾḏnm
+<tei:lb n="7"/>w-mqmm  b-tʾlb</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Sharaḥʾīl [… … … … …]
+2.[..] has dedicated to their patron-god Taʾ-
+3.lab Riyāmum in Turʿat (this)
+4.statue for their well-being. And may 
+5.Taʾlab grant him prosperity 
+6.and well-being and soundness of mind 
+7.and power. By Taʾlab.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>Sharaḥʾīl <tei:supplied reason="lost">… … … … …</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">..</tei:supplied> has dedicated to their patron-god Taʾ-
+<tei:lb n="3"/>lab Riyāmum in Turʿat <tei:unclear>this</tei:unclear>
+               <tei:lb n="4"/>statue for their well-being. And may 
+<tei:lb n="5"/>Taʾlab grant him prosperity 
+<tei:lb n="6"/>and well-being and soundness of mind 
+<tei:lb n="7"/>and power. By Taʾlab.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Sharaḥʾīl … … … … …
+<tei:lb n="2"/>.. has dedicated to their patron-god Taʾ-
+<tei:lb n="3"/>lab Riyāmum in Turʿat this
+<tei:lb n="4"/>statue for their well-being. And may 
+<tei:lb n="5"/>Taʾlab grant him prosperity 
+<tei:lb n="6"/>and well-being and soundness of mind 
+<tei:lb n="7"/>and power. By Taʾlab.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Sharaḥʾīl … … … … …
+<tei:lb n="2"/>.. has dedicated to their patron-god Taʾ-
+<tei:lb n="3"/>lab Riyāmum in Turʿat this
+<tei:lb n="4"/>statue for their well-being. And may 
+<tei:lb n="5"/>Taʾlab grant him prosperity 
+<tei:lb n="6"/>and well-being and soundness of mind 
+<tei:lb n="7"/>and power. By Taʾlab.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

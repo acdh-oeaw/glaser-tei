@@ -1,0 +1,161 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1137_03</title>
+                <title type="alt">1110000206</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1137_03</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1137_03</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000206PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[tqṣ]w | [ʿbr-m]
+2.wṯnn | w-m&lt;n | ʿbr&gt;
+3.&lt;ybʾ-hw | w-l | yʾ&gt;=
+4.&lt;ḫḏ |&gt; [w-]&lt;hm&gt; | ʾl | t=
+5.&lt;ʾḫḏ |&gt; f-ḥlt | nf=
+6.&lt;s-h&gt;[w | l-ḏ-yhr]&lt;gn-hw&gt;</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">tqṣ</tei:supplied>w | <tei:supplied reason="lost">ʿbr-m</tei:supplied>
+               <tei:lb n="2"/>wṯnn | w-m<tei:add>n | ʿbr</tei:add>
+               <tei:lb n="3"/>
+                    <tei:add>ybʾ-hw | w-l | yʾ</tei:add>=
+<tei:lb n="4"/>
+                    <tei:add>ḫḏ |</tei:add> 
+               <tei:supplied reason="lost">w-</tei:supplied>
+                    <tei:add>hm</tei:add> | ʾl | t=
+<tei:lb n="5"/>
+                    <tei:add>ʾḫḏ |</tei:add> f-ḥlt | nf=
+<tei:lb n="6"/>
+                    <tei:add>s-h</tei:add>
+                    <tei:supplied reason="lost">w | l-ḏ-yhr</tei:supplied>
+                    <tei:add>gn-hw</tei:add>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <w>tqṣw</w>  
+               <w>ʿbr-m</w>
+                    <tei:lb n="2"/>
+               <w>wṯnn</w>  
+               <w>w-mn</w>  
+               <w>ʿbr</w>
+                    <tei:lb n="3"/>
+               <w>ybʾ-hw</w>  
+               <w>w-l</w>  
+               <w>yʾ=
+                        <tei:lb n="4"/>ḫḏ</w>  
+               <w>w-hm</w>  
+               <w>ʾl</w>  
+               <w>t=
+                            <tei:lb n="5"/>ʾḫḏ</w>  
+               <w>f-ḥlt</w>  
+               <w>nf=
+                                <tei:lb n="6"/>s-hw</w>  
+               <w>l-ḏ-yhrgn-hw</w>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>tqṣw  ʿbr-m
+<tei:lb n="2"/>wṯnn  w-mn  ʿbr
+<tei:lb n="3"/>ybʾ-hw  w-l  yʾ=
+<tei:lb n="4"/>ḫḏ  w-hm  ʾl  t=
+<tei:lb n="5"/>ʾḫḏ  f-ḥlt  nf=
+<tei:lb n="6"/>s-hw  l-ḏ-yhrgn-hw</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Abstain from crossing 
+2.(this) boundary. And whoever should cross over,
+3.entering therein, let him be appre-
+4.hended. And if he is not ap-
+5.prehended, his life is at the mercy
+6.of the one who might kill him.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>Abstain from crossing 
+<tei:lb n="2"/>
+                    <tei:unclear>this</tei:unclear> boundary. And whoever should cross over,
+<tei:lb n="3"/>entering therein, let him be appre-
+<tei:lb n="4"/>hended. And if he is not ap-
+<tei:lb n="5"/>prehended, his life is at the mercy
+<tei:lb n="6"/>of the one who might kill him.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Abstain from crossing 
+<tei:lb n="2"/>this boundary. And whoever should cross over,
+<tei:lb n="3"/>entering therein, let him be appre-
+<tei:lb n="4"/>hended. And if he is not ap-
+<tei:lb n="5"/>prehended, his life is at the mercy
+<tei:lb n="6"/>of the one who might kill him.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Abstain from crossing 
+<tei:lb n="2"/>this boundary. And whoever should cross over,
+<tei:lb n="3"/>entering therein, let him be appre-
+<tei:lb n="4"/>hended. And if he is not ap-
+<tei:lb n="5"/>prehended, his life is at the mercy
+<tei:lb n="6"/>of the one who might kill him.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

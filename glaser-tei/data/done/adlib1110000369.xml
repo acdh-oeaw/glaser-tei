@@ -1,0 +1,264 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1219</title>
+                <title type="alt">1110000369</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1219</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1219</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000369PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ...](m)rṯdm | yʿrr | [hqnyw | šym-hmw | tʾlb | rymm | bʿl]
+2.rḥ[bn | ṣlmn | b-ḏt | ʾtww | ʾdm]-hw | bnw | ḏ-rg[z |] (b)n | m[... ...]
+3.(š)ddm [| ... ... |] (w-yḥṯ)t | ʾrśl | (w-g)rmʿṯ[t | ... ...tq=]
+4.dm | ḍrm | b-ʿ(m) [| ʾmrʾ-hm]w | ʾmlk | sbʾ | w-b-[ḏt] | ṣdq [| w-hwfyn | tʾlb | rymm | ʾdm-h=]
+5.w | bny | ḏ-rgz | b-kl | ʾmlʾ | stmlʾ[n | b]-ʿm-h[w | ʾdm-hw | bnw | ḏ-rgz | w-b-kl]
+6.ʾmlʾ | yzʾnn | stmlʾn | b-ʿm-h&lt;w&gt; | ʾdm-hw | bn(w) [| ḏ-rgz | w-l | sʿd | tʾlb | ʾd=]
+7.(m)-hw | bny | ḏ-rgz | nʿmtm | w-wfym | w-b(r)y | ʾʾ[ḏnm | w-ʾwldm | ʾḏkrm | h=]
+8.nʾm | w-ʾṯmr | ṣdqm | bn | ʾrḍ-hmw [| w]-m[šym-hmw | w-rḍw | ʾmrʾ-hmw | bny | hmdn]
+9.w-(š)ʿb-hmw | ḥšdm | b-tʾlb | rymm</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+                    <tei:unclear>m</tei:unclear>rṯdm | yʿrr | <tei:supplied reason="lost">hqnyw | šym-hmw | tʾlb | rymm | bʿl</tei:supplied>
+               <tei:lb n="2"/>rḥ<tei:supplied reason="lost">bn | ṣlmn | b-ḏt | ʾtww | ʾdm</tei:supplied>-hw | bnw | ḏ-rg<tei:supplied reason="lost">z |</tei:supplied> 
+               <tei:unclear>b</tei:unclear>n | m<tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:unclear>š</tei:unclear>ddm <tei:supplied reason="lost">| <tei:gap quantity="plus4" unit="chars"/> |</tei:supplied> 
+               <tei:unclear>w-yḥṯ</tei:unclear>t | ʾrśl | <tei:unclear>w-g</tei:unclear>rmʿṯ<tei:supplied reason="lost">t | <tei:gap quantity="plus4" unit="chars"/>tq=</tei:supplied>
+               <tei:lb n="4"/>dm | ḍrm | b-ʿ<tei:unclear>m</tei:unclear> 
+               <tei:supplied reason="lost">| ʾmrʾ-hm</tei:supplied>w | ʾmlk | sbʾ | w-b-<tei:supplied reason="lost">ḏt</tei:supplied> | ṣdq <tei:supplied reason="lost">| w-hwfyn | tʾlb | rymm | ʾdm-h=</tei:supplied>
+               <tei:lb n="5"/>w | bny | ḏ-rgz | b-kl | ʾmlʾ | stmlʾ<tei:supplied reason="lost">n | b</tei:supplied>-ʿm-h<tei:supplied reason="lost">w | ʾdm-hw | bnw | ḏ-rgz | w-b-kl</tei:supplied>
+               <tei:lb n="6"/>ʾmlʾ | yzʾnn | stmlʾn | b-ʿm-h<tei:add>w</tei:add> | ʾdm-hw | bn<tei:unclear>w</tei:unclear> 
+               <tei:supplied reason="lost">| ḏ-rgz | w-l | sʿd | tʾlb | ʾd=</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:unclear>m</tei:unclear>-hw | bny | ḏ-rgz | nʿmtm | w-wfym | w-b<tei:unclear>r</tei:unclear>y | ʾʾ<tei:supplied reason="lost">ḏnm | w-ʾwldm | ʾḏkrm | h=</tei:supplied>
+               <tei:lb n="8"/>nʾm | w-ʾṯmr | ṣdqm | bn | ʾrḍ-hmw <tei:supplied reason="lost">| w</tei:supplied>-m<tei:supplied reason="lost">šym-hmw | w-rḍw | ʾmrʾ-hmw | bny | hmdn</tei:supplied>
+               <tei:lb n="9"/>w-<tei:unclear>š</tei:unclear>ʿb-hmw | ḥšdm | b-tʾlb | rymm</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <rs type="complex">
+                  <persName type="gender" subtype="m" n="1">mrṯdm</persName>  
+                  <persName type="gender" subtype="m" n="2">yʿrr</persName>
+               </rs>  
+               <w>hqnyw</w>  
+               <w>šym-hmw</w>  
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>  
+                  <name type="epithet" subtype="divine">rymm</name>
+               </rs>  
+               <w>bʿl</w>
+                    <tei:lb n="2"/>
+               <placeName type="sanctuary">rḥbn</placeName>  
+               <w>ṣlmn</w>  
+               <w>b-ḏt</w>  
+               <w>ʾtww</w>  
+               <w>ʾdm-hw</w>  
+               <w>bnw</w>  
+               <orgName type="group">ḏ-rgz</orgName>  
+               <w>bn</w>  m
+                    <tei:lb n="3"/>
+               <persName type="gender" subtype="m">šddm</persName>    
+               <w>w-</w>
+               <rs type="complex">
+                  <persName type="gender" subtype="m" n="1">yḥṯt</persName>  
+                  <persName type="gender" subtype="m" n="2">ʾrśl</persName>
+               </rs>  
+               <w>w-</w>
+               <persName type="gender" subtype="m">grmʿṯt</persName>  
+               <w>tq=
+                        <tei:lb n="4"/>dm</w>  
+               <w>ḍrm</w>  
+               <w>b-ʿm</w>  
+               <w>ʾmrʾ-hmw</w>  
+               <w>ʾmlk</w>  
+               <orgName type="state">sbʾ</orgName>  
+               <w>w-b-ḏt</w>  
+               <w>ṣdq</w>  
+               <w>w-hwfyn</w>  
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>   
+                  <name type="epithet" subtype="divine">rymm</name>
+               </rs>  
+               <w>ʾdm-h=
+                            <tei:lb n="5"/>w</w>  
+               <w>bny</w>  
+               <orgName type="group">ḏ-rgz</orgName>  
+               <w>b-kl</w>  
+               <w>ʾmlʾ</w>  
+               <w>stmlʾn</w>  
+               <w>b-ʿm-hw</w>  
+               <w>ʾdm-hw</w>  
+               <w>bnw</w>  
+               <orgName type="group">ḏ-rgz</orgName>  
+               <w>w-b-kl</w>
+                    <tei:lb n="6"/>
+               <w>ʾmlʾ</w>  
+               <w>yzʾnn</w>  
+               <w>stmlʾn</w>  
+               <w>b-ʿm-hw</w>  
+               <w>ʾdm-hw</w>  
+               <w>bnw</w>  
+               <orgName type="group">ḏ-rgz</orgName>  
+               <w>w-l</w>  
+               <w>sʿd</w>  
+               <name type="theonym">tʾlb</name>  
+               <w>ʾd=
+                        <tei:lb n="7"/>m-hw</w>  
+               <w>bny</w>  
+               <orgName type="group">ḏ-rgz</orgName>  
+               <w>nʿmtm</w>  
+               <w>w-wfym</w>  
+               <w>w-bry</w>  
+               <w>ʾʾḏnm</w>  
+               <w>w-ʾwldm</w>  
+               <w>ʾḏkrm</w>  
+               <w>h=
+                            <tei:lb n="8"/>nʾm</w>  
+               <w>w-ʾṯmr</w>  
+               <w>ṣdqm</w>  
+               <w>bn</w>  
+               <w>ʾrḍ-hmw</w>  
+               <w>w-mšym-hmw</w>  
+               <w>w-rḍw</w>  
+               <w>ʾmrʾ-hmw</w>  
+               <w>bny</w>  
+               <orgName type="group">hmdn</orgName>
+                        <tei:lb n="9"/>
+               <w>w-šʿb-hmw</w>  
+               <orgName type="tribe">ḥšdm</orgName>  
+               <w>b-</w>
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>  
+                  <name type="epithet" subtype="divine">rymm</name>
+               </rs>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>mrṯdm  yʿrr  hqnyw  šym-hmw  tʾlb  rymm  bʿl
+<tei:lb n="2"/>rḥbn  ṣlmn  b-ḏt  ʾtww  ʾdm-hw  bnw  ḏ-rgz  bn  m
+<tei:lb n="3"/>šddm    w-yḥṯt  ʾrśl  w-grmʿṯt  tq=
+<tei:lb n="4"/>dm  ḍrm  b-ʿm  ʾmrʾ-hmw  ʾmlk  sbʾ  w-b-ḏt  ṣdq  w-hwfyn  tʾlb  rymm  ʾdm-h=
+<tei:lb n="5"/>w  bny  ḏ-rgz  b-kl  ʾmlʾ  stmlʾn  b-ʿm-hw  ʾdm-hw  bnw  ḏ-rgz  w-b-kl
+<tei:lb n="6"/>ʾmlʾ  yzʾnn  stmlʾn  b-ʿm-hw  ʾdm-hw  bnw  ḏ-rgz  w-l  sʿd  tʾlb  ʾd=
+<tei:lb n="7"/>m-hw  bny  ḏ-rgz  nʿmtm  w-wfym  w-bry  ʾʾḏnm  w-ʾwldm  ʾḏkrm  h=
+<tei:lb n="8"/>nʾm  w-ʾṯmr  ṣdqm  bn  ʾrḍ-hmw  w-mšym-hmw  w-rḍw  ʾmrʾ-hmw  bny  hmdn
+<tei:lb n="9"/>w-šʿb-hmw  ḥšdm  b-tʾlb  rymm</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ...] Marthadum Yaʿrir [have dedicated to their patron-god Taʾlab Riyāmum, lord of]
+2.Raḥī[bān (this) statue because] his [servants] of the lineage of Dhū-Ragaz [returned] from [... ...]
+3.Shaddādum [... ...] and Yaḥthat ʾArśal  and Garamʿatha[t | ... ... engag-=]
+4.ed in warfare alongside [their lords,] the kings of Sabaʾ; and be[cause Taʾlab Riyāmum] maintained [and protected his servants]
+5.of the lineage of Dhū-Ragaz by means of all the favorable oracles which [his servants of the lineage of Dhū-Ragaz had sought [f]rom h[im, and by means of all]
+6.the favorable oracles that his servants of the lineage of [Dhū-Ragaz] might in future seek from him. [And may Taʾlab grant his ser-=]
+7. of the lineage of Dhū-Ragaz prosperity, and well-being, and soundness of [mind, and healthy male children,]
+8.and good crops from their land [and their fields, and the good pleasure of their lords of the lineage of Hamdān]
+9.and their tribe of Ḥāshidum. By Taʾlab Riyāmum. </tei:ab>
+                <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="error">
+                    <tei:message>Caught error exerr:EXXQDY0002: Error parsing XML. Document is not valid.
+Fatal (9,62) : The element type "supplied" must be terminated by the matching end-tag "&lt;/supplied&gt;".
+Validated in -1 millisec.
+ in document 1110000369.xml</tei:message>
+                    <tei:text>&lt;ab type="formal-markup"&gt;&lt;lb n="1"/&gt;&lt;supplied reason="lost"&gt;&lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt;&lt;/supplied&gt; Marthadum Yaʿrir &lt;supplied reason="lost"&gt;have dedicated to their patron-god Taʾlab Riyāmum, lord of&lt;/supplied&gt;
+&lt;lb n="2"/&gt;Raḥī&lt;supplied reason="lost"&gt;bān &lt;unclear&gt;this&lt;/unclear&gt; statue because&lt;/supplied&gt; his &lt;supplied reason="lost"&gt;servants&lt;/supplied&gt; of the lineage of Dhū-Ragaz &lt;supplied reason="lost"&gt;returned&lt;/supplied&gt; from &lt;supplied reason="lost"&gt;&lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt;&lt;/supplied&gt;
+&lt;lb n="3"/&gt;Shaddādum &lt;supplied reason="lost"&gt;&lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt;&lt;/supplied&gt; and Yaḥthat ʾArśal  and Garamʿatha&lt;supplied reason="lost"&gt;t | &lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt; engag-=&lt;/supplied&gt;
+&lt;lb n="4"/&gt;ed in warfare alongside &lt;supplied reason="lost"&gt;their lords,&lt;/supplied&gt; the kings of Sabaʾ; and be&lt;supplied reason="lost"&gt;cause Taʾlab Riyāmum&lt;/supplied&gt; maintained &lt;supplied reason="lost"&gt;and protected his servants&lt;/supplied&gt;
+&lt;lb n="5"/&gt;of the lineage of Dhū-Ragaz by means of all the favorable oracles which &lt;supplied reason="lost"&gt;his servants of the lineage of Dhū-Ragaz had sought &lt;supplied reason="lost"&gt;f&lt;/supplied&gt;rom h&lt;supplied reason="lost"&gt;im, and by means of all&lt;/supplied&gt;
+&lt;lb n="6"/&gt;the favorable oracles that his servants of the lineage of &lt;supplied reason="lost"&gt;Dhū-Ragaz&lt;/supplied&gt; might in future seek from him. &lt;supplied reason="lost"&gt;And may Taʾlab grant his ser-=&lt;/supplied&gt;
+&lt;lb n="7"/&gt; of the lineage of Dhū-Ragaz prosperity, and well-being, and soundness of &lt;supplied reason="lost"&gt;mind, and healthy male children,&lt;/supplied&gt;
+&lt;lb n="8"/&gt;and good crops from their land &lt;supplied reason="lost"&gt;and their fields, and the good pleasure of their lords of the lineage of Hamdān&lt;/supplied&gt;
+&lt;lb n="9"/&gt;and their tribe of Ḥāshidum. By Taʾlab Riyāmum. &lt;/ab&gt;</tei:text>
+                </tei:div>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/> Marthadum Yaʿrir have dedicated to their patron-god Taʾlab Riyāmum, lord of
+<tei:lb n="2"/>Raḥībān this statue because his servants of the lineage of Dhū-Ragaz returned from 
+<tei:lb n="3"/>Shaddādum  and Yaḥthat ʾArśal  and Garamʿathat   engag-=
+<tei:lb n="4"/>ed in warfare alongside their lords, the kings of Sabaʾ; and because Taʾlab Riyāmum maintained and protected his servants
+<tei:lb n="5"/>of the lineage of Dhū-Ragaz by means of all the favorable oracles which his servants of the lineage of Dhū-Ragaz had sought from him, and by means of all
+<tei:lb n="6"/>the favorable oracles that his servants of the lineage of Dhū-Ragaz might in future seek from him. And may Taʾlab grant his ser-=
+<tei:lb n="7"/> of the lineage of Dhū-Ragaz prosperity, and well-being, and soundness of mind, and healthy male children,
+<tei:lb n="8"/>and good crops from their land and their fields, and the good pleasure of their lords of the lineage of Hamdān
+<tei:lb n="9"/>and their tribe of Ḥāshidum. By Taʾlab Riyāmum. </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/> Marthadum Yaʿrir have dedicated to their patron-god Taʾlab Riyāmum, lord of
+<tei:lb n="2"/>Raḥībān this statue because his servants of the lineage of Dhū-Ragaz returned from 
+<tei:lb n="3"/>Shaddādum  and Yaḥthat ʾArśal  and Garamʿathat   engag-=
+<tei:lb n="4"/>ed in warfare alongside their lords, the kings of Sabaʾ; and because Taʾlab Riyāmum maintained and protected his servants
+<tei:lb n="5"/>of the lineage of Dhū-Ragaz by means of all the favorable oracles which his servants of the lineage of Dhū-Ragaz had sought from him, and by means of all
+<tei:lb n="6"/>the favorable oracles that his servants of the lineage of Dhū-Ragaz might in future seek from him. And may Taʾlab grant his ser-=
+<tei:lb n="7"/> of the lineage of Dhū-Ragaz prosperity, and well-being, and soundness of mind, and healthy male children,
+<tei:lb n="8"/>and good crops from their land and their fields, and the good pleasure of their lords of the lineage of Hamdān
+<tei:lb n="9"/>and their tribe of Ḥāshidum. By Taʾlab Riyāmum. </tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

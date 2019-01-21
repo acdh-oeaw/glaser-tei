@@ -1,0 +1,123 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1007</title>
+                <title type="alt">1110000321</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1007</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1007</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000321PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">39.zydʾl | bn | ʿbd | ḏ-ẓy=
+40.rn | ḏ-ʾhl | mwqh | skrb 
+41.w-ḫśr | bdr | bn | mṣr</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="39"/>zydʾl | bn | ʿbd | ḏ-ẓy=
+<tei:lb n="40"/>rn | ḏ-ʾhl | mwqh | skrb 
+<tei:lb n="41"/>w-ḫśr | bdr | bn | mṣr</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="39"/>
+               <persName type="gender" subtype="m">zydʾl</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ʿbd</persName>  
+               <orgName type="group">ḏ-ẓy=
+                        <tei:lb n="40"/>rn</orgName>  
+               <w>ḏ-ʾhl</w>  
+               <orgName type="tribe">mwqh</orgName>  
+               <w>skrb</w> 
+                    <tei:lb n="41"/>
+               <w>w-ḫśr</w>  
+               <persName type="gender" subtype="f">bdr</persName>  
+               <w>bn</w>  
+               <placeName>mṣr</placeName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="39"/>zydʾl  bn  ʿbd  ḏ-ẓy=
+<tei:lb n="40"/>rn  ḏ-ʾhl  mwqh  skrb 
+<tei:lb n="41"/>w-ḫśr  bdr  bn  mṣr</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">39.Zaydʾīl bin ʿAbd of Ẓay-
+40.rān of the tribe of Mawqah has married 
+41.and paid the bride price for Badr from Egypt.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="39"/>Zaydʾīl bin ʿAbd of Ẓay-
+<tei:lb n="40"/>rān of the tribe of Mawqah has married 
+<tei:lb n="41"/>and paid the bride price for Badr from Egypt.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="39"/>Zaydʾīl bin ʿAbd of Ẓay-
+<tei:lb n="40"/>rān of the tribe of Mawqah has married 
+<tei:lb n="41"/>and paid the bride price for Badr from Egypt.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="39"/>Zaydʾīl bin ʿAbd of Ẓay-
+<tei:lb n="40"/>rān of the tribe of Mawqah has married 
+<tei:lb n="41"/>and paid the bride price for Badr from Egypt.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

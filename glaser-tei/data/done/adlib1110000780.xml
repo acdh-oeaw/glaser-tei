@@ -1,0 +1,270 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B55</title>
+                <title type="alt">1110000780</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B55</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-B55</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000780PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[.](rn | yhḥmd |) w-[... ...=]
+2.rn | w-nšʾkrb | w-ʾ(nm)[r... ...]
+3.w-krbʿṯt | yrḥb | w-bn-h(m)w [| ...=]
+4.(d)n | w-ḫlbn | w-whbʾwm | w-yh[.=]
+5.m | bnw | ddn | hqnyw | šym-hm(w)
+6.tʾlb | rymm | bʿl | ḫḍʿtn | ḏ-(h)[g=]
+7.rn | ʾknṭ | ṣlmn | ḥg-n | stwkl-(h=)
+8.w | l-wfy-hmw | w-wfy | bny-hmw | (w)-[l | w=]
+9.zʾ | sʿd-hmw | ʾwldm | hnʾm | w-(n)[ʿm=]
+10.(t)m | w-bry | ʾʾḏnm | w-mqymt[m | w-=]
+11.(ʾ)ṯmrm | w-ʾfqlm | hnʾm | ʿd(y |) [ʾ=]
+12.rḍ-hmw | w-mšymt-hmw | w-l | wḍʿ
+13.(ḍ)r-hmw | w-šnʾ-hmw | w-l-ṣd(q-h)[m=]
+14.(w) | tʾlb | ʾmlʾ | stml[ʾw | b-ʿm-hw]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">.</tei:supplied>
+                    <tei:unclear>rn | yhḥmd |</tei:unclear> w-<tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>=</tei:supplied>
+               <tei:lb n="2"/>rn | w-nšʾkrb | w-ʾ<tei:unclear>nm</tei:unclear>
+                    <tei:supplied reason="lost">r<tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="3"/>w-krbʿṯt | yrḥb | w-bn-h<tei:unclear>m</tei:unclear>w <tei:supplied reason="lost">| ...=</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:unclear>d</tei:unclear>n | w-ḫlbn | w-whbʾwm | w-yh<tei:supplied reason="lost">.=</tei:supplied>
+               <tei:lb n="5"/>m | bnw | ddn | hqnyw | šym-hm<tei:unclear>w</tei:unclear>
+               <tei:lb n="6"/>tʾlb | rymm | bʿl | ḫḍʿtn | ḏ-<tei:unclear>h</tei:unclear>
+                    <tei:supplied reason="lost">g=</tei:supplied>
+               <tei:lb n="7"/>rn | ʾknṭ | ṣlmn | ḥg-n | stwkl-<tei:unclear>h=</tei:unclear>
+               <tei:lb n="8"/>w | l-wfy-hmw | w-wfy | bny-hmw | <tei:unclear>w</tei:unclear>-<tei:supplied reason="lost">l | w=</tei:supplied>
+               <tei:lb n="9"/>zʾ | sʿd-hmw | ʾwldm | hnʾm | w-<tei:unclear>n</tei:unclear>
+                    <tei:supplied reason="lost">ʿm=</tei:supplied>
+               <tei:lb n="10"/>
+                    <tei:unclear>t</tei:unclear>m | w-bry | ʾʾḏnm | w-mqymt<tei:supplied reason="lost">m | w-=</tei:supplied>
+               <tei:lb n="11"/>
+                    <tei:unclear>ʾ</tei:unclear>ṯmrm | w-ʾfqlm | hnʾm | ʿd<tei:unclear>y |</tei:unclear> 
+               <tei:supplied reason="lost">ʾ=</tei:supplied>
+               <tei:lb n="12"/>rḍ-hmw | w-mšymt-hmw | w-l | wḍʿ
+<tei:lb n="13"/>
+                    <tei:unclear>ḍ</tei:unclear>r-hmw | w-šnʾ-hmw | w-l-ṣd<tei:unclear>q-h</tei:unclear>
+                    <tei:supplied reason="lost">m=</tei:supplied>
+               <tei:lb n="14"/>
+                    <tei:unclear>w</tei:unclear> | tʾlb | ʾmlʾ | stml<tei:supplied reason="lost">ʾw | b-ʿm-hw</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>.rn  yhḥmd  w-=
+                    <tei:lb n="2"/>rn  <w>w-</w>
+               <persName type="gender" subtype="u">nšʾkrb</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="u">ʾnmr</persName>
+                    <tei:lb n="3"/>
+               <w>w-</w>
+               <rs type="complex">
+                  <persName type="gender" subtype="u" n="1">krbʿṯt</persName> 
+                  <persName type="gender" subtype="u" n="2">yrḥb</persName>
+               </rs>  
+               <w>w-bn-hmw</w>  ...=
+                    <tei:lb n="4"/>dn  <w>w-</w>
+               <persName type="gender" subtype="u">ḫlbn</persName>  
+               <w>w-</w>
+               <persName type="gender" subtype="u">whbʾwm</persName>  w-yh.=
+                    <tei:lb n="5"/>m  <w>bnw</w>  
+               <orgName type="group">ddn</orgName>  
+               <w>hqnyw</w>  
+               <w>šym-hmw</w>
+                    <tei:lb n="6"/>
+               <rs type="complex">
+                  <name type="theonym">tʾlb</name>  
+                  <name type="epithet" subtype="divine">rymm</name>
+               </rs>  
+               <w>bʿl</w>  
+               <placeName type="sanctuary">ḫḍʿtn</placeName>  
+               <w>ḏ-hg=
+<tei:lb n="7"/>rn</w>  
+               <placeName>ʾknṭ</placeName>  
+               <w>ṣlmn</w>  
+               <w>ḥg-n</w>  
+               <w>stwkl-h=
+<tei:lb n="8"/>w</w>  
+               <w>l-wfy-hmw</w>  
+               <w>w-wfy</w>  
+               <w>bny-hmw</w>  
+               <w>w-l</w>  
+               <w>w=
+<tei:lb n="9"/>zʾ</w>  
+               <w>sʿd-hmw</w>  
+               <w>ʾwldm</w>  
+               <w>hnʾm</w>  
+               <w>w-nʿm=
+<tei:lb n="10"/>tm</w>  
+               <w>w-bry</w>  
+               <w>ʾʾḏnm</w>  
+               <w>w-mqymtm</w>  
+               <w>w-=
+<tei:lb n="11"/>ʾṯmrm</w>  
+               <w>w-ʾfqlm</w>  
+               <w>hnʾm</w>  
+               <w>ʿdy</w>  
+               <w>ʾ=
+<tei:lb n="12"/>rḍ-hmw</w>  
+               <w>w-mšymt-hmw</w>  
+               <w>w-l</w>  
+               <w>wḍʿ</w>
+               <tei:lb n="13"/>
+               <w>ḍr-hmw</w>  
+               <w>w-šnʾ-hmw</w>  
+               <w>w-l-ṣdq-hm=
+    <tei:lb n="14"/>w</w>  
+               <name type="theonym">tʾlb</name>  
+               <w>ʾmlʾ</w>  
+               <w>stmlʾw</w>  
+               <w>b-ʿm-hw</w>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>.rn  yhḥmd  w-=
+                    <tei:lb n="2"/>rn  w-nšʾkrb  w-ʾnmr
+                    <tei:lb n="3"/>w-krbʿṯt  yrḥb  w-bn-hmw  ...=
+<tei:lb n="4"/>dn  w-ḫlbn  w-whbʾwm  w-yh.=
+<tei:lb n="5"/>m  bnw  ddn  hqnyw  šym-hmw
+<tei:lb n="6"/>tʾlb  rymm  bʿl  ḫḍʿtn  ḏ-hg=
+<tei:lb n="7"/>rn  ʾknṭ  ṣlmn  ḥg-n  stwkl-h=
+<tei:lb n="8"/>w  l-wfy-hmw  w-wfy  bny-hmw  w-l  w=
+<tei:lb n="9"/>zʾ  sʿd-hmw  ʾwldm  hnʾm  w-nʿm=
+<tei:lb n="10"/>tm  w-bry  ʾʾḏnm  w-mqymtm  w-=
+<tei:lb n="11"/>ʾṯmrm  w-ʾfqlm  hnʾm  ʿdy  ʾ=
+<tei:lb n="12"/>rḍ-hmw  w-mšymt-hmw  w-l  wḍʿ
+<tei:lb n="13"/>ḍr-hmw  w-šnʾ-hmw  w-l-ṣdq-hm=
+<tei:lb n="14"/>w  tʾlb  ʾmlʾ  stmlʾw  b-ʿm-hw</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[.]rān Yuhaḥamid and [… …=]
+2.rān and Nashaʾkarib and ʾAnma[r … …]
+3.and Karibʿathat Yarḥab and their sons […=]
+4.dān and Khalbān and Wahabʾawwām and Yuha(?)[.=]
+5.m, of the lineage of Dadān, have dedicated to their patron-god
+6.Taʾlab Riyāmum, lord of Khaḍīʿatān of the town
+7.of ʾAkinaṭ, (this) statue, as he had sought a favor from him 
+8.for their well-being and the well-being of their children. And [may he con-]
+9.tinue to grand them healthy children and prospe[rity]
+10.and soundness of mind and (material) resources [and]
+11.healthy crops and harvests in
+12.their land and their fields. And may he humiliate
+13.their enemy and their foe. And may Taʾlab bestow upon them
+14.the oracles which [they] sought [from him].</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">.</tei:supplied>rān Yuhaḥamid and <tei:supplied reason="lost">… …=</tei:supplied>
+               <tei:lb n="2"/>rān and Nashaʾkarib and ʾAnma<tei:supplied reason="lost">r … …</tei:supplied>
+               <tei:lb n="3"/>and Karibʿathat Yarḥab and their sons <tei:supplied reason="lost">…=</tei:supplied>
+               <tei:lb n="4"/>dān and Khalbān and Wahabʾawwām and Yuha<tei:unclear>?</tei:unclear>
+                    <tei:supplied reason="lost">.=</tei:supplied>
+               <tei:lb n="5"/>m, of the lineage of Dadān, have dedicated to their patron-god
+<tei:lb n="6"/>Taʾlab Riyāmum, lord of Khaḍīʿatān of the town
+<tei:lb n="7"/>of ʾAkinaṭ, <tei:unclear>this</tei:unclear> statue, as he had sought a favor from him 
+<tei:lb n="8"/>for their well-being and the well-being of their children. And <tei:supplied reason="lost">may he con-</tei:supplied>
+               <tei:lb n="9"/>tinue to grand them healthy children and prospe<tei:supplied reason="lost">rity</tei:supplied>
+               <tei:lb n="10"/>and soundness of mind and <tei:unclear>material</tei:unclear> resources <tei:supplied reason="lost">and</tei:supplied>
+               <tei:lb n="11"/>healthy crops and harvests in
+<tei:lb n="12"/>their land and their fields. And may he humiliate
+<tei:lb n="13"/>their enemy and their foe. And may Taʾlab bestow upon them
+<tei:lb n="14"/>the oracles which <tei:supplied reason="lost">they</tei:supplied> sought <tei:supplied reason="lost">from him</tei:supplied>.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>.rān Yuhaḥamid and … …=
+<tei:lb n="2"/>rān and Nashaʾkarib and ʾAnmar … …
+<tei:lb n="3"/>and Karibʿathat Yarḥab and their sons …=
+<tei:lb n="4"/>dān and Khalbān and Wahabʾawwām and Yuha?.=
+<tei:lb n="5"/>m, of the lineage of Dadān, have dedicated to their patron-god
+<tei:lb n="6"/>Taʾlab Riyāmum, lord of Khaḍīʿatān of the town
+<tei:lb n="7"/>of ʾAkinaṭ, this statue, as he had sought a favor from him 
+<tei:lb n="8"/>for their well-being and the well-being of their children. And may he con-
+<tei:lb n="9"/>tinue to grand them healthy children and prosperity
+<tei:lb n="10"/>and soundness of mind and material resources and
+<tei:lb n="11"/>healthy crops and harvests in
+<tei:lb n="12"/>their land and their fields. And may he humiliate
+<tei:lb n="13"/>their enemy and their foe. And may Taʾlab bestow upon them
+<tei:lb n="14"/>the oracles which they sought from him.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>.rān Yuhaḥamid and … …=
+<tei:lb n="2"/>rān and Nashaʾkarib and ʾAnmar … …
+<tei:lb n="3"/>and Karibʿathat Yarḥab and their sons …=
+<tei:lb n="4"/>dān and Khalbān and Wahabʾawwām and Yuha?.=
+<tei:lb n="5"/>m, of the lineage of Dadān, have dedicated to their patron-god
+<tei:lb n="6"/>Taʾlab Riyāmum, lord of Khaḍīʿatān of the town
+<tei:lb n="7"/>of ʾAkinaṭ, this statue, as he had sought a favor from him 
+<tei:lb n="8"/>for their well-being and the well-being of their children. And may he con-
+<tei:lb n="9"/>tinue to grand them healthy children and prosperity
+<tei:lb n="10"/>and soundness of mind and material resources and
+<tei:lb n="11"/>healthy crops and harvests in
+<tei:lb n="12"/>their land and their fields. And may he humiliate
+<tei:lb n="13"/>their enemy and their foe. And may Taʾlab bestow upon them
+<tei:lb n="14"/>the oracles which they sought from him.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

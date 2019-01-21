@@ -1,0 +1,154 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1598</title>
+                <title type="alt">1110000894</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1598</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1598</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000894PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.t | … … | w-(bny-h)w | […]
+2.[… … … |] mṯwbm | yfʿw (|) [..]
+3.[… … …]ʾn | ḏt | th[..]
+4.[… … … …]
+5.[… … … …]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>t | … … | w-<tei:unclear>bny-h</tei:unclear>w | <tei:supplied reason="lost">…</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">… … … |</tei:supplied> mṯwbm | yfʿw <tei:unclear>|</tei:unclear> 
+               <tei:supplied reason="lost">..</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">… … …</tei:supplied>ʾn | ḏt | th<tei:supplied reason="lost">..</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">… … … …</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">… … … …</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>t  … …  <w>w-bny-hw</w>  …
+                    <tei:lb n="2"/>… … …  <persName type="gender" subtype="u">mṯwbm</persName>  
+               <w>yfʿw</w>  ..
+                    <tei:lb n="3"/>… … …ʾn  <w>ḏt</w>  th..
+                    <tei:lb n="4"/>… … … …
+                    <tei:lb n="5"/>… … … …</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>t  … …  w-bny-hw  …
+                    <tei:lb n="2"/>… … …  mṯwbm  yfʿw  ..
+                    <tei:lb n="3"/>… … …ʾn  ḏt  th..
+                    <tei:lb n="4"/>… … … …
+                    <tei:lb n="5"/>… … … …</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ... ...] and his son(s) [...]
+2.[... ... ...] Mathwabum arrived [...]
+3.[... ... ... ...] that which/she of [...]
+4.[... ... ... ...]
+5.[... ... ... ...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied> and his son<tei:unclear>s</tei:unclear> 
+               <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied> Mathwabum arrived <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> that which/she of <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/> ... and his sons ...
+<tei:lb n="2"/> ... Mathwabum arrived ...
+<tei:lb n="3"/>  that which/she of ...
+<tei:lb n="4"/> 
+               <tei:lb n="5"/> 
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/> ... and his sons ...
+<tei:lb n="2"/> ... Mathwabum arrived ...
+<tei:lb n="3"/>  that which/she of ...
+<tei:lb n="4"/> 
+               <tei:lb n="5"/> 
+            </tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

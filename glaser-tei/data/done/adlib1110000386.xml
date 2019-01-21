@@ -1,0 +1,191 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL1361</title>
+                <title type="alt">1110000386</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL1361</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL1361</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000386PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ...] | (l-h)ḥḍrn | tʾlb | b-šhr[n | ...]
+2.[...]b | fqḥm | w-ṯlṯ | blṭm | ḏ-rḍym | w-l | [...]
+3.[...]w | y(ḥ)mln | wrqn | mfrʿn | w-st[...]
+4.[... | ](b)qr-hmw | b-wrḫ | Ṣydm | f-l | yḏ[bḥn]
+5.[...] | ʾmsḥn | f-l | yʾtyn | l-ḥṣmn [| ...]
+6.[...]l | ylfynn | b-ḍrn | f-l | ysbʾ(n)n (|) [...]
+7.[...](k)rm | l-ḏ-ʾl | y[.]m[... ...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> | <tei:unclear>l-h</tei:unclear>ḥḍrn | tʾlb | b-šhr<tei:supplied reason="lost">n | ...</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">...</tei:supplied>b | fqḥm | w-ṯlṯ | blṭm | ḏ-rḍym | w-l | <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">...</tei:supplied>w | y<tei:unclear>ḥ</tei:unclear>mln | wrqn | mfrʿn | w-st<tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">... | </tei:supplied>
+                    <tei:unclear>b</tei:unclear>qr-hmw | b-wrḫ | Ṣydm | f-l | yḏ<tei:supplied reason="lost">bḥn</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">...</tei:supplied> | ʾmsḥn | f-l | yʾtyn | l-ḥṣmn <tei:supplied reason="lost">| ...</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">...</tei:supplied>l | ylfynn | b-ḍrn | f-l | ysbʾ<tei:unclear>n</tei:unclear>n <tei:unclear>|</tei:unclear> 
+               <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">...</tei:supplied>
+                    <tei:unclear>k</tei:unclear>rm | l-ḏ-ʾl | y<tei:supplied reason="lost">.</tei:supplied>m<tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>  
+               <w>l-hḥḍrn</w>  
+               <name type="theonym">tʾlb</name>  
+               <w>b-</w>
+               <placeName>šhrn</placeName>  ...
+<tei:lb n="2"/>...b  <w>fqḥm</w>  
+               <w>w-ṯlṯ</w>  
+               <w>blṭm</w>  
+               <w>ḏ-rḍym</w>  
+               <w>w-l</w>  ...
+<tei:lb n="3"/>...w  <w>yḥmln</w>  
+               <w>wrqn</w>  
+               <w>mfrʿn</w>  w-st...
+                    <tei:lb n="4"/>...  <w>bqr-hmw</w>  
+               <w>b-wrḫ</w>   
+               <rs type="month">Ṣydm</rs>  
+               <w>f-l</w> 
+               <w>yḏbḥn</w>
+               <tei:lb n="5"/>...  <w>ʾmsḥn</w>  
+               <w>f-l</w>  
+               <w>yʾtyn</w>  
+               <w>l-ḥṣmn</w>  ...
+<tei:lb n="6"/>...l  <w>ylfynn</w>  
+               <w>b-ḍrn</w>  
+               <w>f-l</w>  
+               <w>ysbʾnn</w>  ...
+<tei:lb n="7"/>...krm  <w>l-ḏ-ʾl</w>  y.m</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>  l-hḥḍrn  tʾlb  b-šhrn  ...
+<tei:lb n="2"/>...b  fqḥm  w-ṯlṯ  blṭm  ḏ-rḍym  w-l  ...
+<tei:lb n="3"/>...w  yḥmln  wrqn  mfrʿn  w-st...
+<tei:lb n="4"/>...  bqr-hmw  b-wrḫ  Ṣydm  f-l  yḏbḥn
+<tei:lb n="5"/>...  ʾmsḥn  f-l  yʾtyn  l-ḥṣmn  ...
+<tei:lb n="6"/>...l  ylfynn  b-ḍrn  f-l  ysbʾnn  ...
+<tei:lb n="7"/>...krm  l-ḏ-ʾl  y.m</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[... ...] in order to perform a pilgrimage on behalf of Taʾlab in Shahrā[n ...]
+2.[...] half, and three valid blṭ-coins. And may [...]
+3.[...] that it might yield rich crops and [...]
+4.[...] their cattle in the month of Ṣaydum, let them slau[ghter] 
+5.[... …] let him pay a tax(?) [...]
+6.[...] may they seize spoils in the war and may they undertake a military campaign [...]
+7.[... …] that it might not [... ...]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> in order to perform a pilgrimage on behalf of Taʾlab in Shahrā<tei:supplied reason="lost">n ...</tei:supplied>
+               <tei:lb n="2"/>
+                    <tei:supplied reason="lost">...</tei:supplied> half, and three valid blṭ-coins. And may <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">...</tei:supplied> that it might yield rich crops and <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">...</tei:supplied> their cattle in the month of Ṣaydum, let them slau<tei:supplied reason="lost">ghter</tei:supplied> 
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">... …</tei:supplied> let him pay a tax<tei:unclear>?</tei:unclear> 
+               <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">...</tei:supplied> may they seize spoils in the war and may they undertake a military campaign <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="7"/>
+                    <tei:supplied reason="lost">... …</tei:supplied> that it might not <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/> in order to perform a pilgrimage on behalf of Taʾlab in Shahrān ...
+<tei:lb n="2"/>... half, and three valid blṭ-coins. And may ...
+<tei:lb n="3"/>... that it might yield rich crops and ...
+<tei:lb n="4"/>... their cattle in the month of Ṣaydum, let them slaughter 
+<tei:lb n="5"/>... … let him pay a tax? ...
+<tei:lb n="6"/>... may they seize spoils in the war and may they undertake a military campaign ...
+<tei:lb n="7"/>... … that it might not </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/> in order to perform a pilgrimage on behalf of Taʾlab in Shahrān ...
+<tei:lb n="2"/>... half, and three valid blṭ-coins. And may ...
+<tei:lb n="3"/>... that it might yield rich crops and ...
+<tei:lb n="4"/>... their cattle in the month of Ṣaydum, let them slaughter 
+<tei:lb n="5"/>... … let him pay a tax? ...
+<tei:lb n="6"/>... may they seize spoils in the war and may they undertake a military campaign ...
+<tei:lb n="7"/>... … that it might not </tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

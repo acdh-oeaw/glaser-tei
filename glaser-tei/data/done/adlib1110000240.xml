@@ -1,0 +1,164 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-B121</title>
+                <title type="alt">1110000240</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-B121</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-B121</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000240PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.nhmm | w-bn-hw [| ... ... ...]
+2.hmw | rḥbn | b-hgr-(h)[mw | ... ... ... | b-ʿṯ=]
+3.tr | w-hbs | w-b | ʾl(m)[qh | ... ... ... | w-b | šms-=]
+4.hmw | bʿlt | hrn | (w-)[b | ... ... ... | bn | yd=]
+5.ʿʾl | wtr | w-b | bn-(h)[w | ... ... ... | ʿṯ=]
+6.tr | šrqn |</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>nhmm | w-bn-hw <tei:supplied reason="lost">| <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>
+               <tei:lb n="2"/>hmw | rḥbn | b-hgr-<tei:unclear>h</tei:unclear>
+                    <tei:supplied reason="lost">mw | <tei:gap quantity="plus4" unit="chars"/> ... | b-ʿṯ=</tei:supplied>
+               <tei:lb n="3"/>tr | w-hbs | w-b | ʾl<tei:unclear>m</tei:unclear>
+                    <tei:supplied reason="lost">qh | <tei:gap quantity="plus4" unit="chars"/> ... | w-b | šms-=</tei:supplied>
+               <tei:lb n="4"/>hmw | bʿlt | hrn | <tei:unclear>w-</tei:unclear>
+                    <tei:supplied reason="lost">b | <tei:gap quantity="plus4" unit="chars"/> ... | bn | yd=</tei:supplied>
+               <tei:lb n="5"/>ʿʾl | wtr | w-b | bn-<tei:unclear>h</tei:unclear>
+                    <tei:supplied reason="lost">w | <tei:gap quantity="plus4" unit="chars"/> ... | ʿṯ=</tei:supplied>
+               <tei:lb n="6"/>tr | šrqn |</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>
+               <persName type="gender" subtype="m">nhmm</persName>  
+               <w>w-bn-hw</w>   ...
+                    <tei:lb n="2"/>hmw  <placeName type="building">rḥbn</placeName>  
+               <w>b-hgr-hmw</w>   ...  <w>b-</w>
+               <name type="theonym">ʿṯ=
+                        <tei:lb n="3"/>tr</name>  
+               <w>w-</w>
+               <name type="theonym">hbs</name>  
+               <w>w-b</w>  
+               <name type="theonym">ʾlmqh</name>   ...  <w>w-b</w>  
+               <w>šms-=
+                            <tei:lb n="4"/>hmw</w>  
+               <w>bʿlt</w>  
+               <placeName type="sanctuary">hrn</placeName>  
+               <w>w-b</w>   ...  <w>bn</w>  
+               <rs type="complex">
+                  <persName type="patronymic" subtype="royal" role="member" n="1">yd=
+                                <tei:lb n="5"/>ʿʾl</persName>  
+                  <persName type="patronymic" subtype="royal" role="member" n="2">wtr</persName>
+               </rs>  
+               <w>w-b</w>  
+               <w>bn-hw</w>   ...  <rs type="complex">
+                  <name type="theonym">ʿṯ=
+                                    <tei:lb n="6"/>tr</name>  
+                  <name type="epithet" subtype="divine">šrqn</name>
+               </rs> 
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>nhmm  w-bn-hw   ...
+<tei:lb n="2"/>hmw  rḥbn  b-hgr-hmw   ...  b-ʿṯ=
+<tei:lb n="3"/>tr  w-hbs  w-b  ʾlmqh   ...  w-b  šms-=
+<tei:lb n="4"/>hmw  bʿlt  hrn  w-b   ...  bn  yd=
+<tei:lb n="5"/>ʿʾl  wtr  w-b  bn-hw   ...  ʿṯ=
+<tei:lb n="6"/>tr  šrqn </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.Nihmum and his son [... ... ...]
+2.their [...] of Raḥībān in their city [... ... ... by ʿAth=]
+3.tar and Hōbas and by ʾĪlmu[quh ... ... ... and by] their [sun-goddess,]
+4.the mistress of Hirrān and [by ... ... ... bin Yada=]
+5.ʿʾīl Watar and by his son [... ... ... ʿAth=]
+6.tar Shāriqān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>Nihmum and his son <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>
+               <tei:lb n="2"/>their <tei:supplied reason="lost">...</tei:supplied> of Raḥībān in their city <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ... by ʿAth=</tei:supplied>
+               <tei:lb n="3"/>tar and Hōbas and by ʾĪlmu<tei:supplied reason="lost">quh <tei:gap quantity="plus4" unit="chars"/> ... and by</tei:supplied> their <tei:supplied reason="lost">sun-goddess,</tei:supplied>
+               <tei:lb n="4"/>the mistress of Hirrān and <tei:supplied reason="lost">by <tei:gap quantity="plus4" unit="chars"/> ... bin Yada=</tei:supplied>
+               <tei:lb n="5"/>ʿʾīl Watar and by his son <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ... ʿAth=</tei:supplied>
+               <tei:lb n="6"/>tar Shāriqān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>Nihmum and his son  ...
+<tei:lb n="2"/>their ... of Raḥībān in their city  ... by ʿAth=
+<tei:lb n="3"/>tar and Hōbas and by ʾĪlmuquh  ... and by their sun-goddess,
+<tei:lb n="4"/>the mistress of Hirrān and by  ... bin Yada=
+<tei:lb n="5"/>ʿʾīl Watar and by his son  ... ʿAth=
+<tei:lb n="6"/>tar Shāriqān.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>Nihmum and his son  ...
+<tei:lb n="2"/>their ... of Raḥībān in their city  ... by ʿAth=
+<tei:lb n="3"/>tar and Hōbas and by ʾĪlmuquh  ... and by their sun-goddess,
+<tei:lb n="4"/>the mistress of Hirrān and by  ... bin Yada=
+<tei:lb n="5"/>ʿʾīl Watar and by his son  ... ʿAth=
+<tei:lb n="6"/>tar Shāriqān.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

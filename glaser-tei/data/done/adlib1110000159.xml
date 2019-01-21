@@ -1,0 +1,160 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL938</title>
+                <title type="alt">1110000159</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL938</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL938</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000159PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[.]Γʾ˥m[... ...]
+2.sḥr | hqny | ʾlmqh [| bʿl | ʾ=
+3.wm | wṯnn | ḥmdm | l-ḏ[t | hw=
+4.Γf˥y| ʾlmqh | grb | ʿbd-h[w | ... ...]
+5.n | w-ʾwld-hw | w-bʿr-hw [| ... ...]
+6.ʾ | sbʾ | w-l | wzʾ | ʾlm[qh | ... ...]</tei:ab>
+                <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="error">
+                    <tei:message>Caught error exerr:EXXQDY0002: Error parsing XML. Document is not valid.
+Fatal (6,120) : The element type "supplied" must be terminated by the matching end-tag "&lt;/supplied&gt;".
+Validated in -1 millisec.
+ in document 1110000159.xml</tei:message>
+                    <tei:text>&lt;ab type="formal-markup"&gt;&lt;lb n="1"/&gt;&lt;supplied reason="lost"&gt;.&lt;/supplied&gt;&lt;unclear&gt;ʾ&lt;/unclear&gt;m&lt;supplied reason="lost"&gt;&lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt;&lt;/supplied&gt;
+&lt;lb n="2"/&gt;sḥr | hqny | ʾlmqh &lt;supplied reason="lost"&gt;| bʿl | ʾ=
+&lt;lb n="3"/&gt;wm | wṯnn | ḥmdm | l-ḏ&lt;supplied reason="lost"&gt;t | hw=
+&lt;lb n="4"/&gt;&lt;unclear&gt;f&lt;/unclear&gt;y| ʾlmqh | grb | ʿbd-h&lt;supplied reason="lost"&gt;w | &lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt;&lt;/supplied&gt;
+&lt;lb n="5"/&gt;n | w-ʾwld-hw | w-bʿr-hw &lt;supplied reason="lost"&gt;| &lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt;&lt;/supplied&gt;
+&lt;lb n="6"/&gt;ʾ | sbʾ | w-l | wzʾ | ʾlm&lt;supplied reason="lost"&gt;qh | &lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt;&lt;/supplied&gt;&lt;/ab&gt;</tei:text>
+                </tei:div>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>.Γʾ˥m
+                    <tei:lb n="2"/>sḥr  <w>hqny</w>  
+               <rs type="complex">
+                  <name type="theonym">ʾlmqh</name>  
+                  <name type="epithet" subtype="divine">bʿl  ʾ=
+<tei:lb n="3"/>wm</name>
+               </rs>  
+               <w>wṯnn</w>  
+               <w>ḥmdm</w>  
+               <w>l-ḏt</w>  
+               <w>hw=
+    <tei:lb n="4"/>Γf˥y</w> 
+               <name type="theonym">ʾlmqh</name>  
+               <w>grb</w>  
+               <w>ʿbd-hw</w>  
+               <tei:lb n="5"/>n  <w>w-ʾwld-hw</w>  
+               <w>w-bʿr-hw</w>  
+                    <tei:lb n="6"/>ʾ  <orgName type="state">sbʾ</orgName>  
+               <w>w-l</w>  
+               <w>wzʾ</w>  
+               <name type="theonym">ʾlmqh</name>  
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>.Γʾ˥m
+<tei:lb n="2"/>sḥr  hqny  ʾlmqh  bʿl  ʾ=
+<tei:lb n="3"/>wm  wṯnn  ḥmdm  l-ḏt  hw=
+<tei:lb n="4"/>Γf˥y ʾlmqh  grb  ʿbd-hw  
+<tei:lb n="5"/>n  w-ʾwld-hw  w-bʿr-hw  
+<tei:lb n="6"/>ʾ  sbʾ  w-l  wzʾ  ʾlmqh  </tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[… … … -]
+2.sḥar has dedicated to ʾĪlmuquh [Lord of ʾA-]
+3.wwām (this) altar in praise becau[se]
+4.ʾĪlmuquh had protected the body of his servant [… …]
+5.[.] and his children and his cattle [… …]
+6.[.] Sabaʾ. And may ʾĪlmu[quh] continue to [… …]</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">… … … -</tei:supplied>
+               <tei:lb n="2"/>sḥar has dedicated to ʾĪlmuquh <tei:supplied reason="lost">Lord of ʾA-</tei:supplied>
+               <tei:lb n="3"/>wwām <tei:unclear>this</tei:unclear> altar in praise becau<tei:supplied reason="lost">se</tei:supplied>
+               <tei:lb n="4"/>ʾĪlmuquh had protected the body of his servant <tei:supplied reason="lost">… …</tei:supplied>
+               <tei:lb n="5"/>
+                    <tei:supplied reason="lost">.</tei:supplied> and his children and his cattle <tei:supplied reason="lost">… …</tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">.</tei:supplied> Sabaʾ. And may ʾĪlmu<tei:supplied reason="lost">quh</tei:supplied> continue to <tei:supplied reason="lost">… …</tei:supplied>
+                </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>… … … -
+<tei:lb n="2"/>sḥar has dedicated to ʾĪlmuquh Lord of ʾA-
+<tei:lb n="3"/>wwām this altar in praise because
+<tei:lb n="4"/>ʾĪlmuquh had protected the body of his servant … …
+<tei:lb n="5"/>. and his children and his cattle … …
+<tei:lb n="6"/>. Sabaʾ. And may ʾĪlmuquh continue to … …</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>… … … -
+<tei:lb n="2"/>sḥar has dedicated to ʾĪlmuquh Lord of ʾA-
+<tei:lb n="3"/>wwām this altar in praise because
+<tei:lb n="4"/>ʾĪlmuquh had protected the body of his servant … …
+<tei:lb n="5"/>. and his children and his cattle … …
+<tei:lb n="6"/>. Sabaʾ. And may ʾĪlmuquh continue to … …</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

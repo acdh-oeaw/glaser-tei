@@ -1,0 +1,284 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL314</title>
+                <title type="alt">1110000107</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL314</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL314</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000107PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">19.[g]dn | [bn | Γḥ˥[fd | ḏ-ẓlwm=
+20.n] ḏ-ʾhl | gbʾn | Γs˥&lt;k&gt;r&lt;b&gt;
+21.&lt;w-&gt;ḫśr | ʾbbᶜ | b&lt;n&gt; | ġzt
+22.[lḥyn | bn | sʿdʾl ḏ-yh=
+23.r] | ḏ-ʾhl | mwqh | skrb | w-ḫś=
+24.r | m[rʾ]t | [bn | ʿynʾl |
+25.ysmᶜ&lt;ʾl&gt; | [bn | ḏ[ʾ]b | [ḏ-qwm]
+26.[ḏ-ʾhl] | yl[qẓ] | skr&lt;b&gt; | &lt;wḫ=&gt;
+27.&lt;śr&gt; | [tḥyw ] | b[n | mṣr |
+28.z]ydʾl | bn | [gbnn | ḏ-
+29.[b]wsn | [ḏ-ʾ]h[l] [g]bʾ[n] | Γs=˥
+30.[kr]b | w-[ḫśr | lḥyʾb | b=
+31.n] ġzt |
+32.[ʿbd bn | rʾb | ḏ-ṣmʿ]
+33.[ḏ-]&lt;ʾ&gt;hl | [gbʾn | skrb 
+(34.w-ḫśr | ʾmt | šms | bn 
+35.mṣr])</tei:ab>
+                <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="error">
+                    <tei:message>Caught error exerr:EXXQDY0002: Error parsing XML. Document is not valid.
+Fatal (17,18) : The element type "unclear" must be terminated by the matching end-tag "&lt;/unclear&gt;".
+Validated in -1 millisec.
+ in document 1110000107.xml</tei:message>
+                    <tei:text>&lt;ab type="formal-markup"&gt;&lt;lb n="19"/&gt;&lt;supplied reason="lost"&gt;g&lt;/supplied&gt;dn | &lt;supplied reason="lost"&gt;bn | &lt;unclear&gt;ḥ&lt;/unclear&gt;&lt;supplied reason="lost"&gt;fd | ḏ-ẓlwm=
+&lt;lb n="20"/&gt;n&lt;/supplied&gt; ḏ-ʾhl | gbʾn | &lt;unclear&gt;s&lt;/unclear&gt;&lt;add&gt;k&lt;/add&gt;r&lt;add&gt;b&lt;/add&gt;
+&lt;lb n="21"/&gt;&lt;add&gt;w-&lt;/add&gt;ḫśr | ʾbbᶜ | b&lt;add&gt;n&lt;/add&gt; | ġzt
+&lt;lb n="22"/&gt;&lt;supplied reason="lost"&gt;lḥyn | bn | sʿdʾl ḏ-yh=
+&lt;lb n="23"/&gt;r&lt;/supplied&gt; | ḏ-ʾhl | mwqh | skrb | w-ḫś=
+&lt;lb n="24"/&gt;r | m&lt;supplied reason="lost"&gt;rʾ&lt;/supplied&gt;t | &lt;supplied reason="lost"&gt;bn | ʿynʾl |
+&lt;lb n="25"/&gt;ysmᶜ&lt;add&gt;ʾl&lt;/add&gt; | &lt;supplied reason="lost"&gt;bn | ḏ&lt;supplied reason="lost"&gt;ʾ&lt;/supplied&gt;b | &lt;supplied reason="lost"&gt;ḏ-qwm&lt;/supplied&gt;
+&lt;lb n="26"/&gt;&lt;supplied reason="lost"&gt;ḏ-ʾhl&lt;/supplied&gt; | yl&lt;supplied reason="lost"&gt;qẓ&lt;/supplied&gt; | skr&lt;add&gt;b&lt;/add&gt; | &lt;add&gt;wḫ=&lt;/add&gt;
+&lt;lb n="27"/&gt;&lt;add&gt;śr&lt;/add&gt; | &lt;supplied reason="lost"&gt;tḥyw &lt;/supplied&gt; | b&lt;supplied reason="lost"&gt;n | mṣr |
+&lt;lb n="28"/&gt;z&lt;/supplied&gt;ydʾl | bn | &lt;supplied reason="lost"&gt;gbnn | ḏ-
+&lt;lb n="29"/&gt;&lt;supplied reason="lost"&gt;b&lt;/supplied&gt;wsn | &lt;supplied reason="lost"&gt;ḏ-ʾ&lt;/supplied&gt;h&lt;supplied reason="lost"&gt;l&lt;/supplied&gt; &lt;supplied reason="lost"&gt;g&lt;/supplied&gt;bʾ&lt;supplied reason="lost"&gt;n&lt;/supplied&gt; | &lt;unclear&gt;s=&lt;/unclear&gt;
+&lt;lb n="30"/&gt;&lt;supplied reason="lost"&gt;kr&lt;/supplied&gt;b | w-&lt;supplied reason="lost"&gt;ḫśr | lḥyʾb | b=
+&lt;lb n="31"/&gt;n&lt;/supplied&gt; ġzt |
+&lt;lb n="32"/&gt;&lt;supplied reason="lost"&gt;ʿbd bn | rʾb | ḏ-ṣmʿ&lt;/supplied&gt;
+&lt;lb n="33"/&gt;&lt;supplied reason="lost"&gt;ḏ-&lt;/supplied&gt;&lt;add&gt;ʾ&lt;/add&gt;hl | &lt;supplied reason="lost"&gt;gbʾn | skrb 
+&lt;unclear&gt;&lt;lb n="34"/&gt;w-ḫśr | ʾmt | šms | bn 
+&lt;lb n="35"/&gt;mṣr&lt;/supplied&gt;&lt;/unclear&gt;&lt;/ab&gt;</tei:text>
+                </tei:div>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="19"/>
+               <persName type="gender" subtype="m">gdn</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">Γḥ˥fd</persName>  
+               <orgName type="group">ḏ-ẓlwm=
+                        <tei:lb n="20"/>n</orgName> 
+               <w>ḏ-ʾhl</w>  
+               <orgName type="tribe">gbʾn</orgName>  
+               <w>Γs˥krb</w>
+                    <tei:lb n="21"/>
+               <w>w-ḫśr</w>  
+               <persName type="gender" subtype="f">ʾbbᶜ</persName>  
+               <w>bn</w>  
+               <placeName>ġzt</placeName>
+                    <tei:lb n="22"/>
+               <persName type="gender" subtype="m">lḥyn</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">sʿdʾl</persName> 
+               <orgName type="group">ḏ-yh=
+                        <tei:lb n="23"/>r</orgName>  
+               <w>ḏ-ʾhl</w>  
+               <orgName type="tribe">mwqh</orgName>  
+               <w>skrb</w>  
+               <w>w-ḫś=
+                            <tei:lb n="24"/>r </w> 
+               <persName type="gender" subtype="f">mrʾt</persName>  
+               <w>bn</w>  
+               <placeName>ʿynʾl</placeName> 
+                    <tei:lb n="25"/>
+               <persName type="gender" subtype="m">ysmᶜʾl</persName>  
+               <w>bn</w>  
+               <persName type="patronymic">ḏʾb</persName>  
+               <orgName type="group">ḏ-qwm</orgName>
+                    <tei:lb n="26"/>
+               <w>ḏ-ʾhl</w>  
+               <orgName type="tribe">ylqẓ</orgName>  
+               <w>skrb</w>  
+               <w>wḫ=
+                        <tei:lb n="27"/>śr</w>  
+               <persName type="gender" subtype="f">tḥyw</persName>   
+               <w>bn</w>  
+               <placeName>mṣr</placeName> 
+                    <tei:lb n="28"/>
+               <persName type="gender" subtype="m">zydʾl</persName> 
+               <w>bn</w>  
+               <persName type="patronymic">gbnn</persName>  
+               <orgName type="group">ḏ-
+                        <tei:lb n="29"/>bwsn</orgName>  
+               <w>ḏ-ʾhl</w> 
+               <orgName type="tribe">gbʾn</orgName>  
+               <w>Γs=˥
+                    <tei:lb n="30"/>krb</w>  
+               <w>w-ḫśr</w>  
+               <persName type="gender" subtype="f">lḥyʾb</persName>  
+               <w>b=
+                        <tei:lb n="31"/>n</w> 
+               <placeName>ġzt</placeName> 
+                    <tei:lb n="32"/>
+               <persName type="gender" subtype="m">ʿbd</persName> 
+               <w>bn</w>  
+               <persName type="patronymic">rʾb</persName>  
+               <orgName type="group">ḏ-ṣmʿ</orgName>
+                    <tei:lb n="33"/>
+               <w>ḏ-ʾhl</w>  
+               <orgName type="tribe">gbʾn</orgName>  
+               <w>skrb</w> 
+                    <tei:lb n="34"/>
+               <w>w-ḫśr</w>  
+               <persName type="gender" subtype="f">ʾmt  šms</persName>  
+               <w>bn</w> 
+                    <tei:lb n="35"/>
+               <placeName>mṣr</placeName>
+            </tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="19"/>gdn  bn  Γḥ˥fd  ḏ-ẓlwm=
+<tei:lb n="20"/>n ḏ-ʾhl  gbʾn  Γs˥krb
+<tei:lb n="21"/>w-ḫśr  ʾbbᶜ  bn  ġzt
+<tei:lb n="22"/>lḥyn  bn  sʿdʾl ḏ-yh=
+<tei:lb n="23"/>r  ḏ-ʾhl  mwqh  skrb  w-ḫś=
+<tei:lb n="24"/>r  mrʾt  bn  ʿynʾl 
+<tei:lb n="25"/>ysmᶜʾl  bn  ḏʾb  ḏ-qwm
+<tei:lb n="26"/>ḏ-ʾhl  ylqẓ  skrb  wḫ=
+<tei:lb n="27"/>śr  tḥyw   bn  mṣr 
+<tei:lb n="28"/>zydʾl  bn  gbnn  ḏ-
+<tei:lb n="29"/>bwsn  ḏ-ʾhl gbʾn  Γs=˥
+<tei:lb n="30"/>krb  w-ḫśr  lḥyʾb  b=
+<tei:lb n="31"/>n ġzt 
+<tei:lb n="32"/>ʿbd bn  rʾb  ḏ-ṣmʿ
+<tei:lb n="33"/>ḏ-ʾhl  gbʾn  skrb 
+<tei:lb n="34"/>w-ḫśr  ʾmt  šms  bn 
+<tei:lb n="35"/>mṣr</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">19.Gadan bin Ḥafīd of Ẓalawm-
+20.ān of the tribe of Gabʾān has married 
+21.and paid the bride price for ʾAbībaʿ from Gaza. 
+22.Laḥayān bin Saʿdʾīl of Yah-
+23.irr of the tribe of Mawqah has married and paid 
+24.the bride price for Marʾat from ʿAynʾīl. 
+25.Yismaʿʾīl bin Dhuʾāb of Qawm 
+26.of the tribe of Yalqaẓ has married and paid the bride
+27.price for Taḥyaw from Egypt. 
+28.Zaydʾīl bin Gabanān of 
+29.Bawsān of the tribe of Gabʾān has ma-
+30.rried and paid the bride price for Laḥayʾab fr-
+31.om Gaza. 
+32.ʿAbd bin Riʾāb of Ṣamaʿ 
+33.of the tribe of Gabʾān has married 
+34.and paid the bride price for ʾAmat Shamas from 
+35.Egypt.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="19"/>Gadan bin Ḥafīd of Ẓalawm-
+<tei:lb n="20"/>ān of the tribe of Gabʾān has married 
+<tei:lb n="21"/>and paid the bride price for ʾAbībaʿ from Gaza. 
+<tei:lb n="22"/>Laḥayān bin Saʿdʾīl of Yah-
+<tei:lb n="23"/>irr of the tribe of Mawqah has married and paid 
+<tei:lb n="24"/>the bride price for Marʾat from ʿAynʾīl. 
+<tei:lb n="25"/>Yismaʿʾīl bin Dhuʾāb of Qawm 
+<tei:lb n="26"/>of the tribe of Yalqaẓ has married and paid the bride
+<tei:lb n="27"/>price for Taḥyaw from Egypt. 
+<tei:lb n="28"/>Zaydʾīl bin Gabanān of 
+<tei:lb n="29"/>Bawsān of the tribe of Gabʾān has ma-
+<tei:lb n="30"/>rried and paid the bride price for Laḥayʾab fr-
+<tei:lb n="31"/>om Gaza. 
+<tei:lb n="32"/>ʿAbd bin Riʾāb of Ṣamaʿ 
+<tei:lb n="33"/>of the tribe of Gabʾān has married 
+<tei:lb n="34"/>and paid the bride price for ʾAmat Shamas from 
+<tei:lb n="35"/>Egypt.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="19"/>Gadan bin Ḥafīd of Ẓalawm-
+<tei:lb n="20"/>ān of the tribe of Gabʾān has married 
+<tei:lb n="21"/>and paid the bride price for ʾAbībaʿ from Gaza. 
+<tei:lb n="22"/>Laḥayān bin Saʿdʾīl of Yah-
+<tei:lb n="23"/>irr of the tribe of Mawqah has married and paid 
+<tei:lb n="24"/>the bride price for Marʾat from ʿAynʾīl. 
+<tei:lb n="25"/>Yismaʿʾīl bin Dhuʾāb of Qawm 
+<tei:lb n="26"/>of the tribe of Yalqaẓ has married and paid the bride
+<tei:lb n="27"/>price for Taḥyaw from Egypt. 
+<tei:lb n="28"/>Zaydʾīl bin Gabanān of 
+<tei:lb n="29"/>Bawsān of the tribe of Gabʾān has ma-
+<tei:lb n="30"/>rried and paid the bride price for Laḥayʾab fr-
+<tei:lb n="31"/>om Gaza. 
+<tei:lb n="32"/>ʿAbd bin Riʾāb of Ṣamaʿ 
+<tei:lb n="33"/>of the tribe of Gabʾān has married 
+<tei:lb n="34"/>and paid the bride price for ʾAmat Shamas from 
+<tei:lb n="35"/>Egypt.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="19"/>Gadan bin Ḥafīd of Ẓalawm-
+<tei:lb n="20"/>ān of the tribe of Gabʾān has married 
+<tei:lb n="21"/>and paid the bride price for ʾAbībaʿ from Gaza. 
+<tei:lb n="22"/>Laḥayān bin Saʿdʾīl of Yah-
+<tei:lb n="23"/>irr of the tribe of Mawqah has married and paid 
+<tei:lb n="24"/>the bride price for Marʾat from ʿAynʾīl. 
+<tei:lb n="25"/>Yismaʿʾīl bin Dhuʾāb of Qawm 
+<tei:lb n="26"/>of the tribe of Yalqaẓ has married and paid the bride
+<tei:lb n="27"/>price for Taḥyaw from Egypt. 
+<tei:lb n="28"/>Zaydʾīl bin Gabanān of 
+<tei:lb n="29"/>Bawsān of the tribe of Gabʾān has ma-
+<tei:lb n="30"/>rried and paid the bride price for Laḥayʾab fr-
+<tei:lb n="31"/>om Gaza. 
+<tei:lb n="32"/>ʿAbd bin Riʾāb of Ṣamaʿ 
+<tei:lb n="33"/>of the tribe of Gabʾān has married 
+<tei:lb n="34"/>and paid the bride price for ʾAmat Shamas from 
+<tei:lb n="35"/>Egypt.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>

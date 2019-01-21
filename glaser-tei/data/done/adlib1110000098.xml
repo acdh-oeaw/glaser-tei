@@ -1,0 +1,242 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Glaser Abklatsch ID: AT-OeAW-BA-3-27-A-GL571</title>
+                <title type="alt">1110000098</title>
+                <title type="alt">AT-OeAW-BA-3-27-A-GL571</title>
+                <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/rruzicka">
+                  <forename>Ronald</forename>
+                  <surname>Ruzicka</surname>
+               </persName>
+               <resp>Curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/168348279">
+                  <forename>George</forename>
+                  <surname>Hatke</surname>
+               </persName>
+               <resp>Translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://id.acdh.oeaw.ac.at/akungl">
+                  <forename>Anton</forename>
+                  <surname>Kungl</surname>
+               </persName>
+               <resp>Encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+               <resp>Transformation to Epidoc</resp>
+            </respStmt>
+            </titleStmt>
+            <publicationStmt>
+            <authority>
+               <orgName ref="http://viaf.org/viaf/262822701">ÖAW BASIS</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</licence>
+            </availability>
+            <idno type="idRecord">AT-OeAW-BA-3-27-A-GL1003</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+               <msIdentifier>
+                  <settlement>
+                     <placeName ref="http://www.geonames.org/2761367/wien.html">Wien</placeName>
+                  </settlement>
+                  <institution ref="http://viaf.org/viaf/262822701">ÖAW BASIS</institution>
+                  <repository>ÖAW Basis</repository>
+                  <collection>Glaser Collection</collection>
+                  <idno type="invNo">AT-OeAW-BA-3-27-A-GL571</idno>
+               </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>The original encoding was done in plain text files following the encoding quidelines of the <orgName>Morgenländische Gesellschaft</orgName>. With a dedicated <rs ref="https://doi.org/10.5281/zenodo.1063930">web application</rs> these plain text files were transformed into XML documents validating (partially) against the Epidoc-Schema and those XML-Documents have been further sematically annotaded.</p>
+         <p>In order to avoid well known xml-issues especially in regards of overlapping elements the actual edited/annotated text was multiplied in several anonymos blocks, each block providing specific markup.</p>
+      </encodingDesc>
+        
+    </teiHeader>
+    <facsimile>
+      <graphic url="https://id.acdh.oeaw.ac.at/1110000098PNG">
+         <desc type="copyright">CC-BY-4.0</desc>
+      </graphic>
+   </facsimile>
+    <text>
+        <body>
+            <div xml:lang="inm-Latn-x-cntmin" type="edition">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[.]ʿnb | […]
+2.hw | w-šʿb-hmw | [..]
+3.[.] | b-wfym | ʿ&lt;ṯ&gt;t&lt;r | [..]
+4.[..] | ʾʿ[..] | wh[..]
+5.hmw | ʾbl [...] šʿbn
+6.[...]rʿn | bnw
+7.k[..] | b-kl | ʾrḍn |[..]
+8.[.] | ṣd [| ...]n
+9.[... ... ...]
+10.[... ... ...]
+11.ʿn | bn | [...]n[..]
+12.&lt;m&gt;lk | sbʾ | w-ḏ-ry&lt;d&gt;n | w-l-sʿ&lt;d&gt;[...]
+13.[...]nm | nʿmtm | w-wfy [| ...]
+14.wʾ[.]q | bn | ʾrḍt-hmw
+15.[.] | w-hbs | w-b-ʾlm&lt;q&gt;h | &lt;w-b&gt;| ḏt | [ḥmym | ...]</tei:ab>
+                <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="error">
+                    <tei:message>Caught error exerr:EXXQDY0002: Error parsing XML. Document is not valid.
+Fatal (15,151) : The element type "add" must be terminated by the matching end-tag "&lt;/add&gt;".
+Validated in -1 millisec.
+ in document 1110000098.xml</tei:message>
+                    <tei:text>&lt;ab type="formal-markup"&gt;&lt;lb n="1"/&gt;&lt;supplied reason="lost"&gt;.&lt;/supplied&gt;ʿnb | &lt;supplied reason="lost"&gt;…&lt;/supplied&gt;
+&lt;lb n="2"/&gt;hw | w-šʿb-hmw | &lt;supplied reason="lost"&gt;..&lt;/supplied&gt;
+&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;.&lt;/supplied&gt; | b-wfym | ʿ&lt;add&gt;ṯ&lt;/add&gt;t&lt;add&gt;r | &lt;supplied reason="lost"&gt;..&lt;/supplied&gt;
+&lt;lb n="4"/&gt;&lt;supplied reason="lost"&gt;..&lt;/supplied&gt; | ʾʿ&lt;supplied reason="lost"&gt;..&lt;/supplied&gt; | wh&lt;supplied reason="lost"&gt;..&lt;/supplied&gt;
+&lt;lb n="5"/&gt;hmw | ʾbl &lt;supplied reason="lost"&gt;...&lt;/supplied&gt; šʿbn
+&lt;lb n="6"/&gt;&lt;supplied reason="lost"&gt;...&lt;/supplied&gt;rʿn | bnw
+&lt;lb n="7"/&gt;k&lt;supplied reason="lost"&gt;..&lt;/supplied&gt; | b-kl | ʾrḍn |&lt;supplied reason="lost"&gt;..&lt;/supplied&gt;
+&lt;lb n="8"/&gt;&lt;supplied reason="lost"&gt;.&lt;/supplied&gt; | ṣd &lt;supplied reason="lost"&gt;| ...&lt;/supplied&gt;n
+&lt;lb n="9"/&gt;&lt;supplied reason="lost"&gt;&lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt; ...&lt;/supplied&gt;
+&lt;lb n="10"/&gt;&lt;supplied reason="lost"&gt;&lt;gap quantity="plus4" unit="chars"&gt;&lt;/gap&gt; ...&lt;/supplied&gt;
+&lt;lb n="11"/&gt;ʿn | bn | &lt;supplied reason="lost"&gt;...&lt;/supplied&gt;n&lt;supplied reason="lost"&gt;..&lt;/supplied&gt;
+&lt;lb n="12"/&gt;&lt;add&gt;m&lt;/add&gt;lk | sbʾ | w-ḏ-ry&lt;add&gt;d&lt;/add&gt;n | w-l-sʿ&lt;add&gt;d&lt;/add&gt;&lt;supplied reason="lost"&gt;...&lt;/supplied&gt;
+&lt;lb n="13"/&gt;&lt;supplied reason="lost"&gt;...&lt;/supplied&gt;nm | nʿmtm | w-wfy &lt;supplied reason="lost"&gt;| ...&lt;/supplied&gt;
+&lt;lb n="14"/&gt;wʾ&lt;supplied reason="lost"&gt;.&lt;/supplied&gt;q | bn | ʾrḍt-hmw
+&lt;lb n="15"/&gt;&lt;supplied reason="lost"&gt;.&lt;/supplied&gt; | w-hbs | w-b-ʾlm&lt;add&gt;q&lt;/add&gt;h | &lt;add&gt;w-b&lt;/add&gt;| ḏt | &lt;supplied reason="lost"&gt;ḥmym | ...&lt;/supplied&gt;&lt;/ab&gt;</tei:text>
+                </tei:div>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>.<w>ʿnb</w>  …
+<tei:lb n="2"/>hw  <w>w-šʿb-hmw</w>  ..
+                    <tei:lb n="3"/>.  <w>b-wfym</w>  
+               <name type="theonym">ʿṯtr</name>  ..
+<tei:lb n="4"/>..  ʾʿ..  wh..
+<tei:lb n="5"/>hmw  <w>ʾbl</w> ... <w>šʿbn</w>
+               <tei:lb n="6"/>...rʿn  <w>bnw</w>
+               <tei:lb n="7"/>k..  <w>b-kl</w>  
+               <w>ʾrḍn</w> ..
+<tei:lb n="8"/>.  ṣd  ...n
+<tei:lb n="9"/> ...
+<tei:lb n="10"/> ...
+<tei:lb n="11"/>ʿn  <w>bn</w>  ...n..
+<tei:lb n="12"/>
+               <w>mlk</w>  sbʾ  w-ḏ-rydn  w-l-sʿd...
+<tei:lb n="13"/>...nm  nʿmtm  w-wfy  ...
+<tei:lb n="14"/>wʾ.q  bn  ʾrḍt-hmw
+<tei:lb n="15"/>.  w-hbs  w-b-ʾlmqh  w-b ḏt  ḥmym  ...</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>.ʿnb  …
+<tei:lb n="2"/>hw  w-šʿb-hmw  ..
+<tei:lb n="3"/>.  b-wfym  ʿṯtr  ..
+<tei:lb n="4"/>..  ʾʿ..  wh..
+<tei:lb n="5"/>hmw  ʾbl ... šʿbn
+<tei:lb n="6"/>...rʿn  bnw
+<tei:lb n="7"/>k..  b-kl  ʾrḍn ..
+<tei:lb n="8"/>.  ṣd  ...n
+<tei:lb n="9"/> ...
+<tei:lb n="10"/> ...
+<tei:lb n="11"/>ʿn  bn  ...n..
+<tei:lb n="12"/>mlk  sbʾ  w-ḏ-rydn  w-l-sʿd...
+<tei:lb n="13"/>...nm  nʿmtm  w-wfy  ...
+<tei:lb n="14"/>wʾ.q  bn  ʾrḍt-hmw
+<tei:lb n="15"/>.  w-hbs  w-b-ʾlmqh  w-b ḏt  ḥmym  ...</tei:ab>
+            </div>
+            <div xml:lang="en" type="translation">
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="adlib-orig">1.[.] vineyard(s)
+2.his/its [...] and their tribe [..]
+3.[.] ʿAthtar [... ...] in safety [...]
+4.[... ... ... ... ...]
+5.their [...] camel [... ...]
+6.[... ...] the lineage of
+6.[...] throughout the entire land
+8.[.] he hunted [...]
+9.[... ... ...]
+10.[... ... ...]
+11.[...] son of/from [... ...]
+12.King of Sabaʾ and Dhū-Raydān. And may [...] grant [...]
+13.[... ...] prosperity and well-being [...]
+14.[... ...] from their land
+15.and Hōbas and by ʾĪlmuquh and by Dhāt-Ḥimāyim.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="formal-markup">
+                    <tei:lb n="1"/>
+                    <tei:supplied reason="lost">.</tei:supplied> vineyard<tei:unclear>s</tei:unclear>
+               <tei:lb n="2"/>his/its <tei:supplied reason="lost">...</tei:supplied> and their tribe <tei:supplied reason="lost">..</tei:supplied>
+               <tei:lb n="3"/>
+                    <tei:supplied reason="lost">.</tei:supplied> ʿAthtar <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> in safety <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="4"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> 
+                  <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>
+               <tei:lb n="5"/>their <tei:supplied reason="lost">...</tei:supplied> camel <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="6"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> the lineage of
+<tei:lb n="6"/>
+                    <tei:supplied reason="lost">...</tei:supplied> throughout the entire land
+<tei:lb n="8"/>
+                    <tei:supplied reason="lost">.</tei:supplied> he hunted <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="9"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>
+               <tei:lb n="10"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/> ...</tei:supplied>
+               <tei:lb n="11"/>
+                    <tei:supplied reason="lost">...</tei:supplied> son of/from <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied>
+               <tei:lb n="12"/>King of Sabaʾ and Dhū-Raydān. And may <tei:supplied reason="lost">...</tei:supplied> grant <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="13"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> prosperity and well-being <tei:supplied reason="lost">...</tei:supplied>
+               <tei:lb n="14"/>
+                    <tei:supplied reason="lost">
+                        <tei:gap quantity="plus4" unit="chars"/>
+                    </tei:supplied> from their land
+<tei:lb n="15"/>and Hōbas and by ʾĪlmuquh and by Dhāt-Ḥimāyim.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="semantic-markup">
+                    <tei:lb n="1"/>. vineyards
+<tei:lb n="2"/>his/its ... and their tribe ..
+<tei:lb n="3"/>. ʿAthtar  in safety ...
+<tei:lb n="4"/>  ...
+<tei:lb n="5"/>their ... camel 
+<tei:lb n="6"/> the lineage of
+<tei:lb n="6"/>... throughout the entire land
+<tei:lb n="8"/>. he hunted ...
+<tei:lb n="9"/> ...
+<tei:lb n="10"/> ...
+<tei:lb n="11"/>... son of/from 
+<tei:lb n="12"/>King of Sabaʾ and Dhū-Raydān. And may ... grant ...
+<tei:lb n="13"/> prosperity and well-being ...
+<tei:lb n="14"/> from their land
+<tei:lb n="15"/>and Hōbas and by ʾĪlmuquh and by Dhāt-Ḥimāyim.</tei:ab>
+                <tei:ab xmlns:tei="http://www.tei-c.org/ns/1.0" type="syntactic-markup">
+                    <tei:lb n="1"/>. vineyards
+<tei:lb n="2"/>his/its ... and their tribe ..
+<tei:lb n="3"/>. ʿAthtar  in safety ...
+<tei:lb n="4"/>  ...
+<tei:lb n="5"/>their ... camel 
+<tei:lb n="6"/> the lineage of
+<tei:lb n="6"/>... throughout the entire land
+<tei:lb n="8"/>. he hunted ...
+<tei:lb n="9"/> ...
+<tei:lb n="10"/> ...
+<tei:lb n="11"/>... son of/from 
+<tei:lb n="12"/>King of Sabaʾ and Dhū-Raydān. And may ... grant ...
+<tei:lb n="13"/> prosperity and well-being ...
+<tei:lb n="14"/> from their land
+<tei:lb n="15"/>and Hōbas and by ʾĪlmuquh and by Dhāt-Ḥimāyim.</tei:ab>
+            </div>
+            
+            
+        </body>
+    </text>
+</TEI>
