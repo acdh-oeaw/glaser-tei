@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta xmlns="http://exist-db.org/xquery/repo">
-    <description>A web service to serve epidoc encoded glaser squeezes</description>
+    <description>The collection of the Austrian scholar and explorer Eduard Glaser (1855-1908) was acquired in 1910 by the Academy of Sciences in Vienna. The epigrapher and specialist in the South-Arabian language brought back a huge amount of medieval Arabic manuscripts, and stone inscriptions, nowadays spread over Europe, as well as squeezes of the non-transportable ones, photographs, glass-negatives, diaries, and notes of historical importance. The Academy owns the latter precious documents of the 1880s and 1890s and within this project they are going to be digitally preserved and partly scientifically analyzed. Moreover, the international scholarly community – most of the researchers in this field are abroad – could participate and benefit from the digital items, either to download in high quality or to contribute their results of research. One part of the project is dedicated to provide the transcriptions/transliterations of squeezes as EPIDOC encoded XML documents. Those XML files are served by the 'glaser-tei' web service</description>
     <author ref="http://d-nb.info/gnd/129199176">Peter Andorfer</author>
     <website/>
     <status>alpha</status>
@@ -10,7 +10,7 @@
     <target>glaser-tei</target>
     <prepare>pre-install.xql</prepare>
     <finish>post-install.xql</finish>
-    <permissions xmlns:repo="http://exist-db.org/xquery/repo" user="admin" group="dba" mode="rw-rw-r--"/>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="" user="admin" group="dba" mode="rw-rw-r--"/>
 
-<deployed>2018-09-28T08:30:58.074+02:00</deployed>
+
 </meta>
