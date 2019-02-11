@@ -9,6 +9,7 @@
         <create qname="@ref" type="xs:string"/>
         <lucene>
             <text qname="tei:p"/>
+            <text qname="tei:ab"/>
         </lucene>
     </index>
     <triggers>
