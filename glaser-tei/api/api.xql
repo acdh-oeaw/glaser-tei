@@ -6,8 +6,10 @@ xquery version "3.1";
 :)
 
 module namespace api="http://www.digital-archiv.at/ns/glaser-tei/api";
+
 declare namespace rest = "http://exquery.org/ns/restxq";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
 import module namespace functx = "http://www.functx.com";
 import module namespace config="http://www.digital-archiv.at/ns/glaser-tei/config" at "../modules/config.xqm";
 import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
@@ -447,23 +449,45 @@ function api:api-show-ent-type-doc($id as xs:string) {
 
 
 (:~
- : API-Endpoint to list all documents stored in the passed in collection
+ : API-Endpoint to perform a fulltext search over passed in collection
  :
- : @param $collection The name of the collection which documents should be listed
- : @return A JSON-API list
+ : @param $collection The name of the collection which documents should be searched
+ : @param $q The search string.
+ : @return A JSON with key amount holding the number of hits (documents) and an array of 'hit' objects.
 :)
 declare 
     %rest:GET
     %rest:path("/glaser-tei/api/kwic/collections/{$collection}")
-    %rest:query-param("page[number]", "{$pageNumber}", 1)
-    %rest:query-param("page[size]", "{$pageSize}", 20)
-    %rest:query-param("format", "{$format}", 'json')
     %rest:query-param("q", "{$q}", '')
-function api:api-kwic($collection as xs:string, $format as xs:string*, $pageNumber as xs:integer*, $pageSize as xs:integer*, $q as xs:string*) { 
-    let $result:= api:utils-list-collection-content($collection, $pageNumber, $pageSize)
-    let $serialization := switch($format)
-        case('xml') return $api:XML
-        default return $api:JSON
-            return 
-                ($serialization, $result)
- };
+function api:api-kwic($collection as xs:string, $q as xs:string*) {
+    if ($q != "") then
+        let $matches := collection($config:app-root||'/data/'||$collection||'/')//*[.//tei:ab[@type="syntactic-markup" and ft:query(.,$q)]]
+        let $numMatches := count($matches)
+        let $kwics := 
+         for $hit in $matches
+            let $score as xs:float := ft:score($hit)
+            order by $score descending
+            return
+            <hits>
+                <score>{$score}</score>
+                <hl>{kwic:summarize($hit, <config width="40"/>)}</hl>
+                <id>{util:document-name($hit)}</id>
+                <collection>{$collection}</collection>
+            </hits>
+        let $result := 
+            <result>
+                <amount>{$numMatches}</amount>
+                {$kwics}
+            </result>
+        
+        return ($api:JSON, $result)
+    
+    else
+        let $result := <hits>
+                <score>0</score>
+                <hl></hl>
+                <id></id>
+            </hits>
+        return
+            ($api:JSON, $result)
+};
