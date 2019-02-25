@@ -10,7 +10,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare option exist:serialize "method=json media-type=text/javascript content-type=application/json";
 
-let $entType := request:get-parameter('entType', 'name')
+let $entType := request:get-parameter('entType', 'ame')
 let $mentions := collection($app:done)//tei:ab//*[ends-with(name(), $entType)]
 let $amount := count($mentions)
 let $data := 
