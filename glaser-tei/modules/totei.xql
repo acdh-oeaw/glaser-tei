@@ -21,7 +21,7 @@ return
  : Returns a list of adlib ID. 
 :)
 declare function totei:getIDs(){
-let $uri := "http://opacbasis.w07adlib1.arz.oeaw.ac.at/wwwopac.ashx?database=archive&amp;command=getpointerfile&amp;number=15"
+let $uri := "http://opacbasis.w07adlib1.arz.oeaw.ac.at/wwwopac.ashx?database=archive&amp;command=getpointerfile&amp;number=35"
 let $xml := doc($uri)
 let $ids := $xml//hit/text() 
 let $countIds := count($ids)
