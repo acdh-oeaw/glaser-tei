@@ -3,6 +3,7 @@ import module namespace app="http://www.digital-archiv.at/ns/glaser-tei/template
 import module namespace config="http://www.digital-archiv.at/ns/glaser-tei/config" at "modules/config.xqm";
 
 import module namespace util="http://exist-db.org/xquery/util";
+import module namespace response="http://exist-db.org/xquery/response";
 
 declare namespace expath="http://expath.org/ns/pkg";
 declare namespace repo="http://exist-db.org/xquery/repo";
@@ -63,9 +64,13 @@ let $data :=
     }
 
 </data>
-
-return
+let $headers := response:set-header('Access-Control-Allow-Origin', '*')
+let $result := 
     <result>
         <hits>{$amount}</hits>
         {$data}
     </result>
+
+
+return 
+    $result
